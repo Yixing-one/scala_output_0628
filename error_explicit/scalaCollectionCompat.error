@@ -1,0 +1,717 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/jdk/CollectionConvertersTest.scala:27:32 
+[error] 27 |    val it = "a b c".split(" ").iterator
+[error]    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value iterator is not a member of Array[String | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T]("a b c".split(" "))
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:312:28 
+[error] 312 |    assertEquals(suppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:313:27 
+[error] 313 |    val closingError     = suppressed(0)
+[error]     |                           ^^^^^^^^^^
+[error]     |                           value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:314:27 
+[error] 314 |    val closingException = suppressed(1)
+[error]     |                           ^^^^^^^^^^
+[error]     |                           value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:328:38 
+[error] 328 |    assertEquals(firstLevelSuppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:329:27 
+[error] 329 |    val usingException   = firstLevelSuppressed(0)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:330:27 
+[error] 330 |    val closingException = firstLevelSuppressed(1)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:351:38 
+[error] 351 |    assertEquals(firstLevelSuppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:352:28 
+[error] 352 |    val closingLinkage    = firstLevelSuppressed(0)
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:353:28 
+[error] 353 |    val closingException1 = firstLevelSuppressed(1)
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:722:44 
+[error] 722 |    val npe = catchThrowable(Using.resource(null: AutoCloseable)(_ => "test"))
+[error]     |                                            ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:728:20 
+[error] 728 |    val npe = Using(null: AutoCloseable)(_ => "test").failed.get
+[error]     |                    ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:736:10 
+[error] 736 |        m(null: AutoCloseable)
+[error]     |          ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:815:31 
+[error] 815 |    assertEquals(1, suppressed.length)
+[error]     |                    ^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:816:28 
+[error] 816 |    assertThrowableClass[T](suppressed(0))
+[error]     |                            ^^^^^^^^^^
+[error]     |                            value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:820:36 
+[error] 820 |    assertEquals(0, t.getSuppressed.length)
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/control/compat/ControlThrowableTest.scala:22:27 
+[error] 22 |    assert(t.getSuppressed.isEmpty)
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value isEmpty is not a member of Array[Throwable | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T](t.getSuppressed())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/control/compat/ControlThrowableTest.scala:27:49 
+[error] 27 |    assert(new ControlThrowable {}.getStackTrace.isEmpty)
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value isEmpty is not a member of Array[StackTraceElement | Null] | Null.
+[error]    |An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |    refArrayOps[T](
+[error]    |      {
+[error]    |        final class $anon() extends scala.util.control.compat.ControlThrowable() {}
+[error]    |        (new $anon():util.control.ControlThrowable)
+[error]    |      }.getStackTrace()
+[error]    |    )
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListLazinessTest.scala:1052:32 
+[error] 1052 |      for (i <- 0 until 8) { sb.append(s"state($i): ${states.array(i)}, ") }
+[error]      |                             ^^^^^^^^^
+[error]      |  value append is not a member of StringBuilder | Null.
+[error]      |  Since explicit-nulls is enabled, the selection is rejected because
+[error]      |  StringBuilder | Null could be null at runtime.
+[error]      |  If you want to select append without checking for a null value,
+[error]      |  insert a .nn before .append or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListLazinessTest.scala:1053:9 
+[error] 1053 |      sb.append("...)")
+[error]      |      ^^^^^^^^^
+[error]      |  value append is not a member of StringBuilder | Null.
+[error]      |  Since explicit-nulls is enabled, the selection is rejected because
+[error]      |  StringBuilder | Null could be null at runtime.
+[error]      |  If you want to select append without checking for a null value,
+[error]      |  insert a .nn before .append or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListTest.scala:382:68 
+[error] 382 |      } catch { case e: RuntimeException => assertTrue(e.getMessage.contains("self-referential")) }
+[error]     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+[error]     |   value contains is not a member of String | Null.
+[error]     |   Since explicit-nulls is enabled, the selection is rejected because
+[error]     |   String | Null could be null at runtime.
+[error]     |   If you want to select contains without checking for a null value,
+[error]     |   insert a .nn before .contains or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/MinMaxOptionTest.scala:38:38 
+[error] 38 |    assertThrown[T](t => checkMessage(t.getMessage))(body)
+[error]    |                                      ^^^^^^^^^^^^
+[error]    |                                      Found:    String | Null
+[error]    |                                      Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] 22 errors found
+[error] (compat30 / Test / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:24:01 AM
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/jdk/CollectionConvertersTest.scala:27:32 
+[error] 27 |    val it = "a b c".split(" ").iterator
+[error]    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value iterator is not a member of Array[String | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T]("a b c".split(" "))
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:312:28 
+[error] 312 |    assertEquals(suppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:313:27 
+[error] 313 |    val closingError     = suppressed(0)
+[error]     |                           ^^^^^^^^^^
+[error]     |                           value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:314:27 
+[error] 314 |    val closingException = suppressed(1)
+[error]     |                           ^^^^^^^^^^
+[error]     |                           value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:328:38 
+[error] 328 |    assertEquals(firstLevelSuppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:329:27 
+[error] 329 |    val usingException   = firstLevelSuppressed(0)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:330:27 
+[error] 330 |    val closingException = firstLevelSuppressed(1)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:351:38 
+[error] 351 |    assertEquals(firstLevelSuppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:352:28 
+[error] 352 |    val closingLinkage    = firstLevelSuppressed(0)
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:353:28 
+[error] 353 |    val closingException1 = firstLevelSuppressed(1)
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:722:44 
+[error] 722 |    val npe = catchThrowable(Using.resource(null: AutoCloseable)(_ => "test"))
+[error]     |                                            ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:728:20 
+[error] 728 |    val npe = Using(null: AutoCloseable)(_ => "test").failed.get
+[error]     |                    ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:736:10 
+[error] 736 |        m(null: AutoCloseable)
+[error]     |          ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:815:31 
+[error] 815 |    assertEquals(1, suppressed.length)
+[error]     |                    ^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:816:28 
+[error] 816 |    assertThrowableClass[T](suppressed(0))
+[error]     |                            ^^^^^^^^^^
+[error]     |                            value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:820:36 
+[error] 820 |    assertEquals(0, t.getSuppressed.length)
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/control/compat/ControlThrowableTest.scala:22:27 
+[error] 22 |    assert(t.getSuppressed.isEmpty)
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value isEmpty is not a member of Array[Throwable | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T](t.getSuppressed())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/control/compat/ControlThrowableTest.scala:27:49 
+[error] 27 |    assert(new ControlThrowable {}.getStackTrace.isEmpty)
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value isEmpty is not a member of Array[StackTraceElement | Null] | Null.
+[error]    |An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |    refArrayOps[T](
+[error]    |      {
+[error]    |        final class $anon() extends scala.util.control.compat.ControlThrowable() {}
+[error]    |        (new $anon():util.control.ControlThrowable)
+[error]    |      }.getStackTrace()
+[error]    |    )
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListLazinessTest.scala:1052:32 
+[error] 1052 |      for (i <- 0 until 8) { sb.append(s"state($i): ${states.array(i)}, ") }
+[error]      |                             ^^^^^^^^^
+[error]      |  value append is not a member of StringBuilder | Null.
+[error]      |  Since explicit-nulls is enabled, the selection is rejected because
+[error]      |  StringBuilder | Null could be null at runtime.
+[error]      |  If you want to select append without checking for a null value,
+[error]      |  insert a .nn before .append or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListLazinessTest.scala:1053:9 
+[error] 1053 |      sb.append("...)")
+[error]      |      ^^^^^^^^^
+[error]      |  value append is not a member of StringBuilder | Null.
+[error]      |  Since explicit-nulls is enabled, the selection is rejected because
+[error]      |  StringBuilder | Null could be null at runtime.
+[error]      |  If you want to select append without checking for a null value,
+[error]      |  insert a .nn before .append or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListTest.scala:382:68 
+[error] 382 |      } catch { case e: RuntimeException => assertTrue(e.getMessage.contains("self-referential")) }
+[error]     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+[error]     |   value contains is not a member of String | Null.
+[error]     |   Since explicit-nulls is enabled, the selection is rejected because
+[error]     |   String | Null could be null at runtime.
+[error]     |   If you want to select contains without checking for a null value,
+[error]     |   insert a .nn before .contains or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/MinMaxOptionTest.scala:38:38 
+[error] 38 |    assertThrown[T](t => checkMessage(t.getMessage))(body)
+[error]    |                                      ^^^^^^^^^^^^
+[error]    |                                      Found:    String | Null
+[error]    |                                      Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] 22 errors found
+[error] (compat30 / Test / compileIncremental) Compilation failed
+[error] Total time: 9 s, completed Jun 22, 2023, 12:24:28 AM
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/jdk/CollectionConvertersTest.scala:27:32 
+[error] 27 |    val it = "a b c".split(" ").iterator
+[error]    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value iterator is not a member of Array[String | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T]("a b c".split(" "))
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:312:28 
+[error] 312 |    assertEquals(suppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:313:27 
+[error] 313 |    val closingError     = suppressed(0)
+[error]     |                           ^^^^^^^^^^
+[error]     |                           value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:314:27 
+[error] 314 |    val closingException = suppressed(1)
+[error]     |                           ^^^^^^^^^^
+[error]     |                           value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:328:38 
+[error] 328 |    assertEquals(firstLevelSuppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:329:27 
+[error] 329 |    val usingException   = firstLevelSuppressed(0)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:330:27 
+[error] 330 |    val closingException = firstLevelSuppressed(1)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:351:38 
+[error] 351 |    assertEquals(firstLevelSuppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:352:28 
+[error] 352 |    val closingLinkage    = firstLevelSuppressed(0)
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:353:28 
+[error] 353 |    val closingException1 = firstLevelSuppressed(1)
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:722:44 
+[error] 722 |    val npe = catchThrowable(Using.resource(null: AutoCloseable)(_ => "test"))
+[error]     |                                            ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:728:20 
+[error] 728 |    val npe = Using(null: AutoCloseable)(_ => "test").failed.get
+[error]     |                    ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:736:10 
+[error] 736 |        m(null: AutoCloseable)
+[error]     |          ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:815:31 
+[error] 815 |    assertEquals(1, suppressed.length)
+[error]     |                    ^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:816:28 
+[error] 816 |    assertThrowableClass[T](suppressed(0))
+[error]     |                            ^^^^^^^^^^
+[error]     |                            value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:820:36 
+[error] 820 |    assertEquals(0, t.getSuppressed.length)
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/control/compat/ControlThrowableTest.scala:22:27 
+[error] 22 |    assert(t.getSuppressed.isEmpty)
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value isEmpty is not a member of Array[Throwable | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T](t.getSuppressed())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/control/compat/ControlThrowableTest.scala:27:49 
+[error] 27 |    assert(new ControlThrowable {}.getStackTrace.isEmpty)
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value isEmpty is not a member of Array[StackTraceElement | Null] | Null.
+[error]    |An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |    refArrayOps[T](
+[error]    |      {
+[error]    |        final class $anon() extends scala.util.control.compat.ControlThrowable() {}
+[error]    |        (new $anon():util.control.ControlThrowable)
+[error]    |      }.getStackTrace()
+[error]    |    )
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListLazinessTest.scala:1052:32 
+[error] 1052 |      for (i <- 0 until 8) { sb.append(s"state($i): ${states.array(i)}, ") }
+[error]      |                             ^^^^^^^^^
+[error]      |  value append is not a member of StringBuilder | Null.
+[error]      |  Since explicit-nulls is enabled, the selection is rejected because
+[error]      |  StringBuilder | Null could be null at runtime.
+[error]      |  If you want to select append without checking for a null value,
+[error]      |  insert a .nn before .append or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListLazinessTest.scala:1053:9 
+[error] 1053 |      sb.append("...)")
+[error]      |      ^^^^^^^^^
+[error]      |  value append is not a member of StringBuilder | Null.
+[error]      |  Since explicit-nulls is enabled, the selection is rejected because
+[error]      |  StringBuilder | Null could be null at runtime.
+[error]      |  If you want to select append without checking for a null value,
+[error]      |  insert a .nn before .append or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListTest.scala:382:68 
+[error] 382 |      } catch { case e: RuntimeException => assertTrue(e.getMessage.contains("self-referential")) }
+[error]     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+[error]     |   value contains is not a member of String | Null.
+[error]     |   Since explicit-nulls is enabled, the selection is rejected because
+[error]     |   String | Null could be null at runtime.
+[error]     |   If you want to select contains without checking for a null value,
+[error]     |   insert a .nn before .contains or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/MinMaxOptionTest.scala:38:38 
+[error] 38 |    assertThrown[T](t => checkMessage(t.getMessage))(body)
+[error]    |                                      ^^^^^^^^^^^^
+[error]    |                                      Found:    String | Null
+[error]    |                                      Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] 22 errors found
+[error] (compat30 / Test / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:24:56 AM
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/jdk/CollectionConvertersTest.scala:27:32 
+[error] 27 |    val it = "a b c".split(" ").iterator
+[error]    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value iterator is not a member of Array[String | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T]("a b c".split(" "))
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:312:28 
+[error] 312 |    assertEquals(suppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:313:27 
+[error] 313 |    val closingError     = suppressed(0)
+[error]     |                           ^^^^^^^^^^
+[error]     |                           value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:314:27 
+[error] 314 |    val closingException = suppressed(1)
+[error]     |                           ^^^^^^^^^^
+[error]     |                           value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:328:38 
+[error] 328 |    assertEquals(firstLevelSuppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:329:27 
+[error] 329 |    val usingException   = firstLevelSuppressed(0)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:330:27 
+[error] 330 |    val closingException = firstLevelSuppressed(1)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:351:38 
+[error] 351 |    assertEquals(firstLevelSuppressed.length, 2)
+[error]     |                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:352:28 
+[error] 352 |    val closingLinkage    = firstLevelSuppressed(0)
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:353:28 
+[error] 353 |    val closingException1 = firstLevelSuppressed(1)
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^
+[error]     |                   value firstLevelSuppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:722:44 
+[error] 722 |    val npe = catchThrowable(Using.resource(null: AutoCloseable)(_ => "test"))
+[error]     |                                            ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:728:20 
+[error] 728 |    val npe = Using(null: AutoCloseable)(_ => "test").failed.get
+[error]     |                    ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:736:10 
+[error] 736 |        m(null: AutoCloseable)
+[error]     |          ^^^^
+[error]     |Found:    Null
+[error]     |Required: AutoCloseable
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than AutoCloseable
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:815:31 
+[error] 815 |    assertEquals(1, suppressed.length)
+[error]     |                    ^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:816:28 
+[error] 816 |    assertThrowableClass[T](suppressed(0))
+[error]     |                            ^^^^^^^^^^
+[error]     |                            value suppressed does not take parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/UsingTest.scala:820:36 
+[error] 820 |    assertEquals(0, t.getSuppressed.length)
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value length is not a member of Array[Throwable | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Throwable | Null] | Null could be null at runtime.
+[error]     |    If you want to select length without checking for a null value,
+[error]     |    insert a .nn before .length or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/control/compat/ControlThrowableTest.scala:22:27 
+[error] 22 |    assert(t.getSuppressed.isEmpty)
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value isEmpty is not a member of Array[Throwable | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T](t.getSuppressed())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/scala/util/control/compat/ControlThrowableTest.scala:27:49 
+[error] 27 |    assert(new ControlThrowable {}.getStackTrace.isEmpty)
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value isEmpty is not a member of Array[StackTraceElement | Null] | Null.
+[error]    |An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |    refArrayOps[T](
+[error]    |      {
+[error]    |        final class $anon() extends scala.util.control.compat.ControlThrowable() {}
+[error]    |        (new $anon():util.control.ControlThrowable)
+[error]    |      }.getStackTrace()
+[error]    |    )
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListLazinessTest.scala:1052:32 
+[error] 1052 |      for (i <- 0 until 8) { sb.append(s"state($i): ${states.array(i)}, ") }
+[error]      |                             ^^^^^^^^^
+[error]      |  value append is not a member of StringBuilder | Null.
+[error]      |  Since explicit-nulls is enabled, the selection is rejected because
+[error]      |  StringBuilder | Null could be null at runtime.
+[error]      |  If you want to select append without checking for a null value,
+[error]      |  insert a .nn before .append or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListLazinessTest.scala:1053:9 
+[error] 1053 |      sb.append("...)")
+[error]      |      ^^^^^^^^^
+[error]      |  value append is not a member of StringBuilder | Null.
+[error]      |  Since explicit-nulls is enabled, the selection is rejected because
+[error]      |  StringBuilder | Null could be null at runtime.
+[error]      |  If you want to select append without checking for a null value,
+[error]      |  insert a .nn before .append or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/LazyListTest.scala:382:68 
+[error] 382 |      } catch { case e: RuntimeException => assertTrue(e.getMessage.contains("self-referential")) }
+[error]     |                                                       ^^^^^^^^^^^^^^^^^^^^^
+[error]     |   value contains is not a member of String | Null.
+[error]     |   Since explicit-nulls is enabled, the selection is rejected because
+[error]     |   String | Null could be null at runtime.
+[error]     |   If you want to select contains without checking for a null value,
+[error]     |   insert a .nn before .contains or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-collection-compat/compat/src/test/scala/test/scala/collection/MinMaxOptionTest.scala:38:38 
+[error] 38 |    assertThrown[T](t => checkMessage(t.getMessage))(body)
+[error]    |                                      ^^^^^^^^^^^^
+[error]    |                                      Found:    String | Null
+[error]    |                                      Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] 22 errors found
+[error] (compat30 / Test / compileIncremental) Compilation failed
+[error] Total time: 9 s, completed Jun 22, 2023, 12:25:23 AM
+[error] Test dotty.communitybuild.CommunityBuildTestC.scalaCollectionCompat failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/scala-collection-compat
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; compat30/test"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 112.49 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.scalaCollectionCompat(CommunityBuildTest.scala:84)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 141 s (02:21), completed Jun 22, 2023, 12:25:23 AM

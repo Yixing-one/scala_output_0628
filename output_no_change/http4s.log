@@ -1,0 +1,1183 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project dotty-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/project/project
+[info] loading settings for project dotty-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 21 15:13:12 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:13:12 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:13:14 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:13:18 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_no_change/dotty/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_no_change/dotty/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:13:18 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:13:18 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Flag -author set repeatedly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[warn] Flag -groups set repeatedly
+[warn] Flag -default-template set repeatedly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:13:20 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      No DRI found for query: MalformedNumber
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error]    |       ^
+[error] 13 |object IArray:
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |       ^
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[warn] 28 warnings found
+[warn] 14 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:13:34 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:13:34 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test dotty.communitybuild.CommunityBuildTestB.http4s started
+[32m[STARTING http4s][0m
+[32mPublishing scalacheck[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scalacheck-build from plugin.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:13:46 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 64 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 21 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by bench / scalacOptions, coreJS / scalacOptions and 5 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps does not exist
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck/)
+[success] Total time: 19 s, completed Jun 21, 2023, 3:14:07 PM
+[success] Total time: 10 s, completed Jun 21, 2023, 3:14:17 PM
+[32mPublishing discipline[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros");++3.3.1-RC1-bin-SNAPSHOT!; set every credentials := Nil;coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project discipline-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline/project
+[info] loading settings for project root from build.sbt ...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:14:26 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 53 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by coreJS / dependencyTreeIgnoreMissingUpdate / updateOptions, coreJS / ivyConfiguration and 18 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by coreJS / scalacOptions, coreJVM / scalacOptions and 4 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline/)
+[info] Defining Global / credentials, coreJS / credentials and 5 others.
+[info] The new values will be used by allCredentials, coreJS / allCredentials and 39 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline/)
+[success] Total time: 6 s, completed Jun 21, 2023, 3:14:36 PM
+[success] Total time: 2 s, completed Jun 21, 2023, 3:14:38 PM
+[32mPublishing munit[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; munitJVM/publishLocal; munitJS/publishLocal; munitScalacheckJVM/publishLocal; munitScalacheckJS/publishLocal; junit/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project munit-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/project
+[info] loading settings for project munit from build.sbt ...
+[info] resolving key references (14023 settings) ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:14:49 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 101 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by dependencyTreeIgnoreMissingUpdate / updateOptions, docs / dependencyTreeIgnoreMissingUpdate / updateOptions and 36 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by Compile / scalacOptions, Scalafix / scalacOptions and 12 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/)
+[success] Total time: 14 s, completed Jun 21, 2023, 3:15:06 PM
+[success] Total time: 6 s, completed Jun 21, 2023, 3:15:12 PM
+[success] Total time: 2 s, completed Jun 21, 2023, 3:15:13 PM
+[success] Total time: 2 s, completed Jun 21, 2023, 3:15:15 PM
+[success] Total time: 1 s, completed Jun 21, 2023, 3:15:16 PM
+[32mPublishing discipline-munit[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project discipline-munit-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-munit/project
+[info] loading settings for project root from build.sbt ...
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-munit/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:15:26 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 53 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-munit/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by coreJS / dependencyTreeIgnoreMissingUpdate / updateOptions, coreJS / ivyConfiguration and 18 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-munit/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by coreJS / scalacOptions, coreJVM / scalacOptions and 4 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-munit/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-munit/)
+[success] Total time: 6 s, completed Jun 21, 2023, 3:15:34 PM
+[success] Total time: 2 s, completed Jun 21, 2023, 3:15:36 PM
+[32mPublishing simulacrum-scalafix[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; annotation/publishLocal;annotationJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project simulacrum-scalafix-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/simulacrum-scalafix/project
+[info] loading settings for project root from build.sbt,version.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/simulacrum-scalafix/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:15:46 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 53 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/simulacrum-scalafix/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by annotation / dependencyTreeIgnoreMissingUpdate / updateOptions, annotation / ivyConfiguration and 18 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/simulacrum-scalafix/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by annotation / scalacOptions, annotationJS / scalacOptions and 4 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/simulacrum-scalafix/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/simulacrum-scalafix/)
+[success] Total time: 5 s, completed Jun 21, 2023, 3:15:53 PM
+[success] Total time: 2 s, completed Jun 21, 2023, 3:15:55 PM
+[32mPublishing cats[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros");++3.3.1-RC1-bin-SNAPSHOT!; rootJVM/publishLocal;rootJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project cats-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats/project
+[info] loading settings for project root from build.sbt,mima.sbt ...
+[info] resolving key references (44288 settings) ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * ThisBuild / tlFatalWarningsInCi
+[warn]   +- /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats/build.sbt:27
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[success] Total time: 3 s, completed Jun 21, 2023, 3:16:14 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 352 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by algebraJS / dependencyTreeIgnoreMissingUpdate / updateOptions, algebraJS / ivyConfiguration and 129 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by algebraJS / scalacOptions, algebraJVM / scalacOptions and 41 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats/)
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class <root>)),object cats),NonEmptyParallel),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.NonEmptyParallelLaws[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val P: cats.NonEmptyParallel.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class <root>)),object cats),Parallel),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.ParallelLaws[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val P: cats.Parallel.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class cats)),object laws),NonEmptyParallelLaws),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.discipline.NonEmptyParallelTests[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val laws: cats.laws.NonEmptyParallelLaws.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class cats)),object laws),ParallelLaws),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.discipline.ParallelTests[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val laws: cats.laws.ParallelLaws.Aux[M, F0]
+}
+[success] Total time: 102 s (01:42), completed Jun 21, 2023, 3:18:06 PM
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class <root>)),object cats),NonEmptyParallel),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.NonEmptyParallelLaws[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val P: cats.NonEmptyParallel.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class <root>)),object cats),Parallel),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.ParallelLaws[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val P: cats.Parallel.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class cats)),object laws),NonEmptyParallelLaws),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.discipline.NonEmptyParallelTests[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val laws: cats.laws.NonEmptyParallelLaws.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class cats)),object laws),ParallelLaws),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.discipline.ParallelTests[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val laws: cats.laws.ParallelLaws.Aux[M, F0]
+}
+[success] Total time: 64 s (01:04), completed Jun 21, 2023, 3:19:10 PM
+[32mPublishing cats-mtl[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal;lawsJVM/publishLocal;lawsJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project cats-mtl-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-mtl/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-mtl/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:19:22 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 61 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-mtl/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by coreJS / dependencyTreeIgnoreMissingUpdate / updateOptions, coreJS / ivyConfiguration and 21 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-mtl/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by coreJS / scalacOptions, coreJVM / scalacOptions and 5 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-mtl/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-mtl/)
+[success] Total time: 12 s, completed Jun 21, 2023, 3:19:37 PM
+[success] Total time: 5 s, completed Jun 21, 2023, 3:19:42 PM
+[success] Total time: 3 s, completed Jun 21, 2023, 3:19:45 PM
+[success] Total time: 3 s, completed Jun 21, 2023, 3:19:48 PM
+[32mPublishing coop[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project coop-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/coop/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/coop/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:19:56 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 21 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/coop/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by coreJS / dependencyTreeIgnoreMissingUpdate / updateOptions, coreJS / ivyConfiguration and 6 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/coop/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by coreJS / scalacOptions, coreJVM / scalacOptions, scalacOptions
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/coop/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/coop/)
+[success] Total time: 11 s, completed Jun 21, 2023, 3:20:09 PM
+[success] Total time: 5 s, completed Jun 21, 2023, 3:20:15 PM
+[32mPublishing discipline-specs2[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project discipline-specs2-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-specs2/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-specs2/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:20:25 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 53 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-specs2/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by coreJS / dependencyTreeIgnoreMissingUpdate / updateOptions, coreJS / ivyConfiguration and 18 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-specs2/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by coreJS / scalacOptions, coreJVM / scalacOptions and 4 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-specs2/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/discipline-specs2/)
+[success] Total time: 5 s, completed Jun 21, 2023, 3:20:33 PM
+[success] Total time: 1 s, completed Jun 21, 2023, 3:20:34 PM
+[32mPublishing cats-effect-3[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project cats-effect-3-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-effect-3/project
+[info] loading settings for project root from build.sbt ...
+[info] resolving key references (26234 settings) ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-effect-3/)
+[success] Total time: 1 s, completed Jun 21, 2023, 3:20:49 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 168 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-effect-3/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by benchmarks / dependencyTreeIgnoreMissingUpdate / updateOptions, benchmarks / ivyConfiguration and 60 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-effect-3/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by benchmarks / scalacOptions, coreJS / scalacOptions and 18 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-effect-3/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/cats-effect-3/)
+[success] Total time: 45 s, completed Jun 21, 2023, 3:21:40 PM
+[32mPublishing munit-cats-effect[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; ce3JVM/publishLocal; ce3JS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project munit-cats-effect-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit-cats-effect/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set scmInfo to https://github.com/dotty-staging/munit-cats-effect
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit-cats-effect/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:21:53 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 69 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/munit-cats-effect
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit-cats-effect/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by ce2JS / dependencyTreeIgnoreMissingUpdate / updateOptions, ce2JS / ivyConfiguration and 24 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/munit-cats-effect
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit-cats-effect/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by ce2JS / scalacOptions, ce2JVM / scalacOptions and 6 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/munit-cats-effect
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit-cats-effect/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/munit-cats-effect
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit-cats-effect/)
+[success] Total time: 11 s, completed Jun 21, 2023, 3:22:07 PM
+[success] Total time: 4 s, completed Jun 21, 2023, 3:22:11 PM
+[32mPublishing scalacheck-effect[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scalacheck-effect-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck-effect/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck-effect/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:22:21 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 37 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck-effect/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by coreJS / dependencyTreeIgnoreMissingUpdate / updateOptions, coreJS / ivyConfiguration and 12 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck-effect/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by coreJS / scalacOptions, coreJVM / scalacOptions and 2 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck-effect/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scalacheck-effect/)
+Default dialect is deprecated; use explicit: [Scala211,scala212,Scala212Source3,scala213,Scala213Source3,Sbt0137,Sbt1,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+[success] Total time: 18 s, completed Jun 21, 2023, 3:22:42 PM
+[32mPublishing scodec-bits[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scodec-bits-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scodec-bits/project
+[info] loading settings for project root from build.sbt ...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scodec-bits/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:22:52 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 56 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scodec-bits/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by benchmark / dependencyTreeIgnoreMissingUpdate / updateOptions, benchmark / ivyConfiguration and 18 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scodec-bits/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by benchmark / scalacOptions, coreJS / scalacOptions and 4 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scodec-bits/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scodec-bits/)
+Problem parsing core/shared/src/main/scala/scodec/bits/BitVector.scala:[1576..1591..79383], documentation may not be generated.
+Problem parsing core/shared/src/main/scala/scodec/bits/BitwiseOperations.scala:[1576..1591..6342], documentation may not be generated.
+Problem parsing core/shared/src/main/scala/scodec/bits/ByteVector.scala:[1576..1591..78139], documentation may not be generated.
+[success] Total time: 12 s, completed Jun 21, 2023, 3:23:06 PM
+Problem parsing core/shared/src/main/scala/scodec/bits/BitVector.scala:[1576..1591..79383], documentation may not be generated.
+Problem parsing core/shared/src/main/scala/scodec/bits/BitwiseOperations.scala:[1576..1591..6342], documentation may not be generated.
+Problem parsing core/shared/src/main/scala/scodec/bits/ByteVector.scala:[1576..1591..78139], documentation may not be generated.
+[success] Total time: 5 s, completed Jun 21, 2023, 3:23:11 PM
+[32mPublishing fs2[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal; coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project fs2-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/fs2/project
+[info] loading settings for project root from build.sbt ...
+[info] resolving key references (17026 settings) ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set scmInfo to https://github.com/dotty-staging/fs2
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/fs2/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:23:25 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 134 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/fs2
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/fs2/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by benchmark / dependencyTreeIgnoreMissingUpdate / updateOptions, benchmark / ivyConfiguration and 45 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/fs2
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/fs2/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by benchmark / scalacOptions, coreJS / scalacOptions and 13 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/fs2
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/fs2/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/fs2
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/fs2/)
+[success] Total time: 25 s, completed Jun 21, 2023, 3:23:56 PM
+[success] Total time: 14 s, completed Jun 21, 2023, 3:24:10 PM
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING http4s][0m
+[32mBuilding http4s with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros");++3.3.1-RC1-bin-SNAPSHOT!; set ThisBuild / tlFatalWarnings := false; rootJVM/test[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project http4s-build from build.sbt,plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/http4s/project
+[info] compiling 4 Scala sources to /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/http4s/project/target/scala-2.12/sbt-1.0/classes ...
+[warn] one feature warning; re-run with -feature for details
+[warn] one warning found
+[info] done compiling
+[info] loading settings for project root from build.sbt ...
+[info] resolving key references (47659 settings) ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set scmInfo to https://github.com/dotty-staging/http4s
+[info] set current project to http4s (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/http4s/)
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 117 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/http4s
+[info] set current project to http4s (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/http4s/)
+[success] Total time: 0 s, completed Jun 21, 2023, 3:24:46 PM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 312 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/http4s
+[info] set current project to http4s (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/http4s/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 114 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/http4s
+[info] set current project to http4s (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/http4s/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by bench / scalacOptions, circe / scalacOptions and 36 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/http4s
+[info] set current project to http4s (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/http4s/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/http4s
+[info] set current project to http4s (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/http4s/)
+[info] Defining ThisBuild / tlFatalWarnings
+[info] The new value will be used by bench / javacOptions, bench / scalacOptions and 73 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/http4s
+[info] set current project to http4s (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/http4s/)
+15:25:55.065 [io-compute-12] ERROR o.h.c.m.j.service-errors - Error servicing request: GET / from <unknown>
+java.lang.Throwable: Boo!
+	at org.http4s.circe.middleware.JsonDebugErrorHandlerSpec.$anonfun$1(JsonDebugErrorHandlerSpec.scala:30)
+	at org.http4s.circe.middleware.JsonDebugErrorHandler$.apply$$anonfun$1(JsonDebugErrorHandler.scala:46)
+	at org.http4s.circe.middleware.JsonDebugErrorHandlerSpec.$init$$$anonfun$1$$anonfun$1(JsonDebugErrorHandlerSpec.scala:35)
+	at org.http4s.testing.ErrorReporting$.silenceOutputStreams(ErrorReporting.scala:53)
+	at org.http4s.circe.middleware.JsonDebugErrorHandlerSpec.$init$$$anonfun$1(JsonDebugErrorHandlerSpec.scala:39)
+	at munit.internal.console.StackTraces$.dropOutside(StackTraces.scala:12)
+	at munit.ValueTransforms.$anonfun$3(ValueTransforms.scala:37)
+	at scala.util.Try$.apply(Try.scala:210)
+	at munit.ValueTransforms.munitValueTransform(ValueTransforms.scala:37)
+	at munit.ValueTransforms.munitValueTransform$(ValueTransforms.scala:8)
+	at munit.FunSuite.munitValueTransform(FunSuite.scala:11)
+	at munit.FunSuite.test$$anonfun$1(FunSuite.scala:37)
+	at munit.GenericTest.withBodyMap$$anonfun$1(GenericTest.scala:33)
+	at munit.MUnitRunner.$anonfun$10(MUnitRunner.scala:296)
+	at munit.internal.console.StackTraces$.dropOutside(StackTraces.scala:12)
+	at munit.MUnitRunner.runTestBody(MUnitRunner.scala:303)
+	at munit.MUnitRunner.runTest(MUnitRunner.scala:264)
+	at munit.MUnitRunner.loop$1(MUnitRunner.scala:131)
+	at munit.MUnitRunner.runAsyncTestsSynchronously(MUnitRunner.scala:140)
+	at munit.MUnitRunner.runAll(MUnitRunner.scala:154)
+	at munit.MUnitRunner.runAsync(MUnitRunner.scala:113)
+	at munit.MUnitRunner.run(MUnitRunner.scala:107)
+	at munit.internal.junitinterface.JUnitRunnerWrapper.run(JUnitRunnerWrapper.java:24)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at munit.internal.junitinterface.JUnitTask.execute(JUnitTask.java:76)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:147)
+	at sbt.TestRunner.run(TestFramework.scala:162)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:330)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:290)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:330)
+	at sbt.TestFramework$$anon$3$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:330)
+	at sbt.TestFunction.apply(TestFramework.scala:342)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:435)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(Transform.scala:46)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+	at handleErrorWith$extension @ org.http4s.circe.middleware.JsonDebugErrorHandler$.apply$$anonfun$1(JsonDebugErrorHandler.scala:71)
+	at map @ org.http4s.circe.middleware.JsonDebugErrorHandlerSpec.$init$$$anonfun$1$$anonfun$1(JsonDebugErrorHandlerSpec.scala:37)
+	at flatMap @ munit.CatsEffectAssertions.assertIO(CatsEffectAssertions.scala:52)
+	at flatMap @ munit.internal.NestingChecks$.checkNestingIO(internal.scala:55)
+15:25:57.965 [io-compute-8] DEBUG io.netty.util.internal.logging.InternalLoggerFactory - Using SLF4J as the default logging framework
+15:25:57.975 [io-compute-8] DEBUG io.netty.channel.MultithreadEventLoopGroup - -Dio.netty.eventLoopThreads: 24
+15:25:58.191 [io-compute-8] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+15:25:58.191 [io-compute-8] DEBUG io.netty.util.internal.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+15:25:58.266 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+15:25:58.267 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - Java version: 9
+15:25:58.268 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+15:25:58.269 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+15:25:58.270 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - sun.misc.Unsafe.storeFence: available
+15:25:58.270 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+15:25:58.272 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - direct buffer constructor: unavailable: Reflective setAccessible(true) disabled
+15:25:58.273 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+15:25:58.276 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable: class io.netty.util.internal.PlatformDependent0$7 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @1a529027
+15:25:58.276 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): unavailable
+15:25:58.276 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent - sun.misc.Unsafe: available
+15:25:58.277 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent - maxDirectMemory: 6442450944 bytes (maybe)
+15:25:58.278 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.tmpdir: /var/folders/b9/8fpqrd_x0_ngh00y99lwj8qdd51ttz/T (java.io.tmpdir)
+15:25:58.278 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+15:25:58.278 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent - Platform: MacOS
+15:25:58.280 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: -1 bytes
+15:25:58.280 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+15:25:58.283 [io-compute-8] DEBUG io.netty.util.internal.CleanerJava9 - java.nio.ByteBuffer.cleaner(): available
+15:25:58.284 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent - -Dio.netty.noPreferDirect: false
+15:25:58.287 [io-compute-8] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.noKeySetOptimization: false
+15:25:58.287 [io-compute-8] DEBUG io.netty.channel.nio.NioEventLoop - -Dio.netty.selectorAutoRebuildThreshold: 512
+15:25:58.305 [io-compute-8] DEBUG io.netty.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+15:25:58.434 [io-compute-8] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.processId: 44188 (auto-detected)
+15:25:58.449 [io-compute-8] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+15:25:58.449 [io-compute-8] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+15:25:58.456 [io-compute-8] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo0 (lo0, 0:0:0:0:0:0:0:1%lo0)
+15:25:58.469 [io-compute-8] DEBUG io.netty.util.NetUtil - Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
+15:25:58.473 [io-compute-8] DEBUG io.netty.channel.DefaultChannelId - -Dio.netty.machineId: ac:de:48:ff:fe:00:11:22 (auto-detected)
+15:25:58.523 [io-compute-8] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.level: simple
+15:25:58.523 [io-compute-8] DEBUG io.netty.util.ResourceLeakDetector - -Dio.netty.leakDetection.targetRecords: 4
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numHeapArenas: 24
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.numDirectArenas: 24
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.pageSize: 8192
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxOrder: 9
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.chunkSize: 4194304
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.smallCacheSize: 256
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.normalCacheSize: 64
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimInterval: 8192
+15:25:58.614 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+15:25:58.615 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.useCacheForAllThreads: false
+15:25:58.615 [io-compute-8] DEBUG io.netty.buffer.PooledByteBufAllocator - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+15:25:58.649 [io-compute-8] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+15:25:58.649 [io-compute-8] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+15:25:58.649 [io-compute-8] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+15:25:58.681 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5] REGISTERED
+15:25:58.684 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5] BIND: localhost/127.0.0.1:0
+15:25:58.691 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] ACTIVE
+15:25:58.904 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0x4bbd820b, L:/127.0.0.1:52462 - R:/127.0.0.1:52463]
+15:25:58.907 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0x68294eb3, L:/127.0.0.1:52462 - R:/127.0.0.1:52464]
+15:25:58.908 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0xa359285d, L:/127.0.0.1:52462 - R:/127.0.0.1:52465]
+15:25:58.909 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0x6f386d17, L:/127.0.0.1:52462 - R:/127.0.0.1:52466]
+15:25:58.910 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0x6a3cc9ab, L:/127.0.0.1:52462 - R:/127.0.0.1:52467]
+15:25:58.912 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0x9d52f2d7, L:/127.0.0.1:52462 - R:/127.0.0.1:52468]
+15:25:58.914 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0x1b381075, L:/127.0.0.1:52462 - R:/127.0.0.1:52469]
+15:25:58.919 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0x31a8f30d, L:/127.0.0.1:52462 - R:/127.0.0.1:52470]
+15:25:58.921 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0x9b81df5a, L:/127.0.0.1:52462 - R:/127.0.0.1:52471]
+15:25:58.924 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ: [id: 0x81610868, L:/127.0.0.1:52462 - R:/127.0.0.1:52472]
+15:25:58.926 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] READ COMPLETE
+15:25:58.981 [nioEventLoopGroup-3-6] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkAccessible: true
+15:25:58.982 [nioEventLoopGroup-3-6] DEBUG io.netty.buffer.AbstractByteBuf - -Dio.netty.buffer.checkBounds: true
+15:25:58.984 [nioEventLoopGroup-3-6] DEBUG io.netty.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@15c3fe3c
+15:25:59.049 [nioEventLoopGroup-3-7] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.maxCapacityPerThread: 4096
+15:25:59.049 [nioEventLoopGroup-3-7] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.ratio: 8
+15:25:59.049 [nioEventLoopGroup-3-7] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.chunkSize: 32
+15:25:59.049 [nioEventLoopGroup-3-7] DEBUG io.netty.util.Recycler - -Dio.netty.recycler.blocking: false
+GET / HTTP/1.1
+Host: example.com%0D%0AEvil:true%0D%0A
+
+
+15:26:02.752 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] CLOSE
+15:26:02.753 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] INACTIVE
+15:26:02.753 [nioEventLoopGroup-2-1] INFO io.netty.handler.logging.LoggingHandler - [id: 0x46e5e1e5, L:/127.0.0.1:52462] UNREGISTERED
+15:26:02.762 [nioEventLoopGroup-3-4] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-3-4
+15:26:02.762 [nioEventLoopGroup-3-2] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-3-2
+15:26:02.762 [nioEventLoopGroup-3-8] DEBUG io.netty.buffer.PoolThreadCache - Freed 12 thread-local buffer(s) from thread: nioEventLoopGroup-3-8
+15:26:02.762 [nioEventLoopGroup-3-10] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-3-10
+15:26:02.762 [nioEventLoopGroup-3-6] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-3-6
+15:26:02.762 [nioEventLoopGroup-3-9] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-3-9
+15:26:02.762 [nioEventLoopGroup-3-1] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-3-1
+15:26:02.762 [nioEventLoopGroup-3-3] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-3-3
+15:26:02.764 [nioEventLoopGroup-3-5] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-3-5
+15:26:02.764 [nioEventLoopGroup-3-7] DEBUG io.netty.buffer.PoolThreadCache - Freed 2 thread-local buffer(s) from thread: nioEventLoopGroup-3-7
+GET / HTTP/1.1
+
+
+GET / HTTP/1.1
+X-Carrier:   Evil:true  
+
+
+HTTP/1.1 200 OK
+
+15:26:27.885 [pool-14-thread-12] WARN  org.http4s.server.middleware.CORS - Insecure CORS config detected: `anyOrigin=true` and `allowCredentials=true` are mutually exclusive. `Access-Control-Allow-Credentials` header will not be sent. Change either flag to false to remove this warning.
+15:26:28.372 [io-compute-16] WARN  org.http4s.server.middleware.CORS - Insecure CORS config detected: `anyOrigin=true` and `allowCredentials=true` are mutually exclusive. `Access-Control-Allow-Credentials` header will not be sent. Change either flag to false to remove this warning.
+15:26:28.375 [io-compute-16] WARN  org.http4s.server.middleware.CORS - Insecure CORS config detected: `anyOrigin=true` and `allowCredentials=true` are mutually exclusive. `Access-Control-Allow-Credentials` header will not be sent. Change either flag to false to remove this warning.
+15:26:28.382 [io-compute-17] WARN  org.http4s.server.middleware.CORS - Insecure CORS config detected: `anyOrigin=true` and `allowCredentials=true` are mutually exclusive. `Access-Control-Allow-Credentials` header will not be sent. Change either flag to false to remove this warning.
+15:26:28.399 [io-compute-3] WARN  org.http4s.server.middleware.CORS - Insecure CORS config detected: `anyOrigin=true` and `allowCredentials=true` are mutually exclusive. `Access-Control-Allow-Credentials` header will not be sent. Change either flag to false to remove this warning.
+15:26:28.399 [io-compute-5] WARN  org.http4s.server.middleware.CORS - Insecure CORS config detected: `anyOrigin=true` and `allowCredentials=true` are mutually exclusive. `Access-Control-Allow-Credentials` header will not be sent. Change either flag to false to remove this warning.
+15:26:28.400 [io-compute-13] WARN  org.http4s.server.middleware.CORS - Insecure CORS config detected: `anyOrigin=true` and `allowCredentials=true` are mutually exclusive. `Access-Control-Allow-Credentials` header will not be sent. Change either flag to false to remove this warning.
+15:26:28.404 [io-compute-4] WARN  org.http4s.server.middleware.CORS - Insecure CORS config detected: `anyOrigin=true` and `allowCredentials=true` are mutually exclusive. `Access-Control-Allow-Credentials` header will not be sent. Change either flag to false to remove this warning.
+15:26:28.769 [io-compute-4] ERROR o.h.server.staticcontent.FileService - Could not find root path from FileService config: systemPath = ./does-not-exist, pathPrefix = . All requests will return none.
+15:26:28.841 [io-compute-4] WARN  o.h.server.middleware.CORSPolicy - CORS disabled due to insecure config prohibited by spec. Call withCredentials(false) to avoid sharing credential-tainted responses with arbitrary origins, or call withAllowOrigin* method to be explicit who you trust with credential-tainted responses.
+15:26:28.847 [io-compute-21] WARN  o.h.server.middleware.CORSPolicy - CORS disabled due to insecure config prohibited by spec. Call withCredentials(false) to avoid sharing credential-tainted responses with arbitrary origins, or call withAllowOrigin* method to be explicit who you trust with credential-tainted responses.
+[warn] In the last 10 seconds, 5.009 (51.7%) were spent in GC. [Heap: 3.67GB free of 6.00GB, max 6.00GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.
+15:26:57.518 [io-compute-8] ERROR o.h.e.s.EmberServerBuilderCompanionPlatform - Request handler failed with exception
+javax.net.ssl.SSLHandshakeException: null cert chain
+	at java.base/sun.security.ssl.Handshaker.checkThrown(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.checkTaskThrown(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.readNetRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at fs2.io.net.tls.TLSEngine$$anon$1.unwrapHandshake$$anonfun$1(TLSEngine.scala:250)
+	at fs2.io.net.tls.InputOutputBuffer$.fs2$io$net$tls$InputOutputBuffer$$anon$1$$_$perform$$anonfun$1$$anonfun$1$$anonfun$1(InputOutputBuffer.scala:92)
+	at delay @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform(InputOutputBuffer.scala:96)
+	at flatTap @ fs2.Stream$NestedStreamOps$.runInner$2$$anonfun$1(Stream.scala:4057)
+	at flatMap @ fs2.io.net.tls.TLSEngine$$anon$1.unwrapHandshake(TLSEngine.scala:262)
+	at blocking @ fs2.io.net.tls.TLSContextCompanionPlatform$BuilderCompanionPlatform$AsyncBuilder.fromKeyStoreResource(TLSContextPlatform.scala:283)
+	at >>$extension @ org.typelevel.keypool.KeyPool$Builder.keepRunning$2(KeyPool.scala:337)
+	at delay @ org.typelevel.log4cats.slf4j.internal.Slf4jLoggerInternal$Slf4jLogger.isTraceEnabled(Slf4jLoggerInternal.scala:64)
+	at ifM$extension @ org.typelevel.log4cats.slf4j.internal.Slf4jLoggerInternal$Slf4jLogger.info(Slf4jLoggerInternal.scala:91)
+	at delay @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+Caused by: javax.net.ssl.SSLHandshakeException: null cert chain
+	at java.base/sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.fatal(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.fatal(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at java.base/sun.security.ssl.ServerHandshaker.clientCertificate(Unknown Source)
+	at java.base/sun.security.ssl.ServerHandshaker.processMessage(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker$1.run(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/sun.security.ssl.Handshaker$DelegatedTask.run(Unknown Source)
+	at fs2.io.net.tls.SSLEngineTaskRunner$$anon$1.runDelegatedTasks$$anonfun$1(SSLEngineTaskRunner.scala:44)
+	at fs2.io.net.tls.SSLEngineTaskRunner$$anon$1.runDelegatedTasks$$anonfun$adapted$1(SSLEngineTaskRunner.scala:47)
+	at cats.effect.IOFiber.$anonfun$8(IOFiber.scala:950)
+	at cats.effect.unsafe.WorkerThread.blockOn(WorkerThread.scala:622)
+	at scala.concurrent.package$.blocking(package.scala:124)
+	at cats.effect.IOFiber.runLoop(IOFiber.scala:950)
+	at cats.effect.IOFiber.asyncContinueSuccessfulR(IOFiber.scala:1316)
+	at cats.effect.IOFiber.run(IOFiber.scala:124)
+	at cats.effect.unsafe.WorkerThread.run(WorkerThread.scala:519)
+15:26:57.602 [io-compute-10] ERROR o.h.e.s.EmberServerBuilderCompanionPlatform - Request handler failed with exception
+javax.net.ssl.SSLHandshakeException: null cert chain
+	at java.base/sun.security.ssl.Handshaker.checkThrown(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.checkTaskThrown(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.readNetRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at fs2.io.net.tls.TLSEngine$$anon$1.unwrapHandshake$$anonfun$1(TLSEngine.scala:250)
+	at fs2.io.net.tls.InputOutputBuffer$.fs2$io$net$tls$InputOutputBuffer$$anon$1$$_$perform$$anonfun$1$$anonfun$1$$anonfun$1(InputOutputBuffer.scala:92)
+	at delay @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform(InputOutputBuffer.scala:96)
+	at flatTap @ fs2.Stream$NestedStreamOps$.runInner$2$$anonfun$1(Stream.scala:4057)
+	at flatMap @ fs2.io.net.tls.TLSEngine$$anon$1.unwrapHandshake(TLSEngine.scala:262)
+	at blocking @ fs2.io.net.tls.TLSContextCompanionPlatform$BuilderCompanionPlatform$AsyncBuilder.fromKeyStoreResource(TLSContextPlatform.scala:283)
+	at >>$extension @ org.typelevel.keypool.KeyPool$Builder.keepRunning$2(KeyPool.scala:337)
+	at delay @ org.typelevel.log4cats.slf4j.internal.Slf4jLoggerInternal$Slf4jLogger.isTraceEnabled(Slf4jLoggerInternal.scala:64)
+	at ifM$extension @ org.typelevel.log4cats.slf4j.internal.Slf4jLoggerInternal$Slf4jLogger.info(Slf4jLoggerInternal.scala:91)
+	at delay @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+Caused by: javax.net.ssl.SSLHandshakeException: null cert chain
+	at java.base/sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.fatal(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.fatal(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at java.base/sun.security.ssl.ServerHandshaker.clientCertificate(Unknown Source)
+	at java.base/sun.security.ssl.ServerHandshaker.processMessage(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker$1.run(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/sun.security.ssl.Handshaker$DelegatedTask.run(Unknown Source)
+	at fs2.io.net.tls.SSLEngineTaskRunner$$anon$1.runDelegatedTasks$$anonfun$1(SSLEngineTaskRunner.scala:44)
+	at fs2.io.net.tls.SSLEngineTaskRunner$$anon$1.runDelegatedTasks$$anonfun$adapted$1(SSLEngineTaskRunner.scala:47)
+	at cats.effect.IOFiber.$anonfun$8(IOFiber.scala:950)
+	at cats.effect.unsafe.WorkerThread.blockOn(WorkerThread.scala:622)
+	at scala.concurrent.package$.blocking(package.scala:124)
+	at cats.effect.IOFiber.runLoop(IOFiber.scala:950)
+	at cats.effect.IOFiber.asyncContinueSuccessfulR(IOFiber.scala:1316)
+	at cats.effect.IOFiber.run(IOFiber.scala:124)
+	at cats.effect.unsafe.WorkerThread.run(WorkerThread.scala:519)
+15:26:57.650 [io-compute-4] ERROR o.h.e.s.EmberServerBuilderCompanionPlatform - Request handler failed with exception
+javax.net.ssl.SSLHandshakeException: null cert chain
+	at java.base/sun.security.ssl.Handshaker.checkThrown(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.checkTaskThrown(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.readNetRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.unwrap(Unknown Source)
+	at java.base/javax.net.ssl.SSLEngine.unwrap(Unknown Source)
+	at fs2.io.net.tls.TLSEngine$$anon$1.unwrapHandshake$$anonfun$1(TLSEngine.scala:250)
+	at fs2.io.net.tls.InputOutputBuffer$.fs2$io$net$tls$InputOutputBuffer$$anon$1$$_$perform$$anonfun$1$$anonfun$1$$anonfun$1(InputOutputBuffer.scala:92)
+	at delay @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform(InputOutputBuffer.scala:96)
+	at flatTap @ fs2.Stream$NestedStreamOps$.runInner$2$$anonfun$1(Stream.scala:4057)
+	at flatMap @ fs2.io.net.tls.TLSEngine$$anon$1.unwrapHandshake(TLSEngine.scala:262)
+	at blocking @ fs2.io.net.tls.TLSContextCompanionPlatform$BuilderCompanionPlatform$AsyncBuilder.fromKeyStoreResource(TLSContextPlatform.scala:283)
+	at >>$extension @ org.typelevel.keypool.KeyPool$Builder.keepRunning$2(KeyPool.scala:337)
+	at delay @ org.typelevel.log4cats.slf4j.internal.Slf4jLoggerInternal$Slf4jLogger.isTraceEnabled(Slf4jLoggerInternal.scala:64)
+	at ifM$extension @ org.typelevel.log4cats.slf4j.internal.Slf4jLoggerInternal$Slf4jLogger.info(Slf4jLoggerInternal.scala:91)
+	at delay @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.io.net.tls.InputOutputBuffer$$anon$1.perform$$anonfun$1(InputOutputBuffer.scala:95)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+Caused by: javax.net.ssl.SSLHandshakeException: null cert chain
+	at java.base/sun.security.ssl.Alerts.getSSLException(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.fatal(Unknown Source)
+	at java.base/sun.security.ssl.SSLEngineImpl.fatal(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker.fatalSE(Unknown Source)
+	at java.base/sun.security.ssl.ServerHandshaker.clientCertificate(Unknown Source)
+	at java.base/sun.security.ssl.ServerHandshaker.processMessage(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker.processLoop(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker$1.run(Unknown Source)
+	at java.base/sun.security.ssl.Handshaker$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/sun.security.ssl.Handshaker$DelegatedTask.run(Unknown Source)
+	at fs2.io.net.tls.SSLEngineTaskRunner$$anon$1.runDelegatedTasks$$anonfun$1(SSLEngineTaskRunner.scala:44)
+	at fs2.io.net.tls.SSLEngineTaskRunner$$anon$1.runDelegatedTasks$$anonfun$adapted$1(SSLEngineTaskRunner.scala:47)
+	at cats.effect.IOFiber.$anonfun$8(IOFiber.scala:950)
+	at cats.effect.unsafe.WorkerThread.blockOn(WorkerThread.scala:622)
+	at scala.concurrent.package$.blocking(package.scala:124)
+	at cats.effect.IOFiber.runLoop(IOFiber.scala:950)
+	at cats.effect.IOFiber.asyncContinueSuccessfulR(IOFiber.scala:1316)
+	at cats.effect.IOFiber.run(IOFiber.scala:124)
+	at cats.effect.unsafe.WorkerThread.run(WorkerThread.scala:519)
+15:27:00.059 [io-compute-2] ERROR o.h.e.s.EmberServerBuilderCompanionPlatform - WebSocket connection terminated with exception
+org.http4s.ember.server.internal.WebSocketHelpers$EndOfStreamError: Reached End Of Stream
+	at org.http4s.ember.server.internal.WebSocketHelpers$EndOfStreamError$.apply(WebSocketHelpers.scala:277)
+	at org.http4s.ember.server.internal.WebSocketHelpers$.go$1$$anonfun$1(WebSocketHelpers.scala:210)
+	at fs2.Pull$$anon$1.cont(Pull.scala:149)
+	at fs2.Pull$.fs2$Pull$$$bindBindAux(Pull.scala:714)
+	at fs2.Pull$BindBind.cont(Pull.scala:701)
+	at fs2.Pull$ContP.apply(Pull.scala:649)
+	at fs2.Pull$ContP.apply$(Pull.scala:648)
+	at fs2.Pull$Bind.apply(Pull.scala:657)
+	at fs2.Pull$Bind.apply(Pull.scala:657)
+	at fs2.Pull$StepRunR$1.done$$anonfun$2(Pull.scala:981)
+	at fs2.Pull$.interruptGuard$1$$anonfun$1(Pull.scala:930)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+	at flatMap @ fs2.Compiler$Target.flatMap(Compiler.scala:163)
+	at flatMap @ fs2.Pull$.goCloseScope$1$$anonfun$1$$anonfun$3(Pull.scala:1184)
+	at update @ org.http4s.ember.server.internal.Shutdown$$anon$1.<init>(Shutdown.scala:78)
+	at flatMap @ fs2.Compiler$Target.flatMap(Compiler.scala:163)
+	at flatMap @ fs2.Compiler$Target.flatMap(Compiler.scala:163)
+	at flatMap @ fs2.Compiler$Target.flatMap(Compiler.scala:163)
+	at flatMap @ fs2.Compiler$Target.flatMap(Compiler.scala:163)
+	at flatMap @ fs2.Compiler$Target.flatMap(Compiler.scala:163)
+	at flatMap @ fs2.Compiler$Target.flatMap(Compiler.scala:163)
+	at modify @ org.http4s.ember.server.internal.Shutdown$$anon$1.<init>(Shutdown.scala:90)
+	at flatMap @ fs2.Compiler$Target.flatMap(Compiler.scala:163)
+	at flatMap @ fs2.Pull$.goCloseScope$1$$anonfun$1(Pull.scala:1185)
+	at handleErrorWith @ fs2.Compiler$Target.handleErrorWith(Compiler.scala:161)
+	at flatMap @ fs2.Pull$.goCloseScope$1(Pull.scala:1192)
+	at get @ fs2.internal.Scope.openScope(Scope.scala:281)
+15:27:00.095 [io-compute-7] ERROR o.h.e.s.EmberServerBuilderCompanionPlatform - WebSocket connection terminated with exception
+java.io.IOException: Connection reset by peer
+	at java.base/sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at java.base/sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at java.base/sun.nio.ch.IOUtil.read(Unknown Source)
+	at java.base/sun.nio.ch.UnixAsynchronousSocketChannelImpl.finishRead(Unknown Source)
+	at java.base/sun.nio.ch.UnixAsynchronousSocketChannelImpl.finish(Unknown Source)
+	at java.base/sun.nio.ch.UnixAsynchronousSocketChannelImpl.onEvent(Unknown Source)
+	at java.base/sun.nio.ch.KQueuePort$EventHandlerTask.run(Unknown Source)
+	at java.base/sun.nio.ch.AsynchronousChannelGroupImpl$1.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+	at delay @ fs2.io.net.SocketCompanionPlatform$AsyncSocket.readChunk$$anonfun$1(SocketPlatform.scala:126)
+	at async @ fs2.io.net.SocketCompanionPlatform$AsyncSocket.readChunk(SocketPlatform.scala:126)
+	at flatMap @ fs2.io.net.SocketCompanionPlatform$BufferedReads.read$$anonfun$1(SocketPlatform.scala:87)
+	at delay @ fs2.io.net.SocketCompanionPlatform$BufferedReads.withReadBuffer$$anonfun$1(SocketPlatform.scala:60)
+	at flatten$extension @ org.http4s.ember.server.internal.Shutdown$$anon$1.<init>(Shutdown.scala:71)
+	at flatTap @ munit.CatsEffectFunFixtures$ResourceFixture$.apply$$anonfun$3$$anonfun$1(CatsEffectFunFixtures.scala:53)
+	at modify @ org.http4s.ember.server.internal.Shutdown$$anon$1.<init>(Shutdown.scala:90)
+	at flatten$extension @ org.http4s.ember.server.internal.Shutdown$$anon$1.<init>(Shutdown.scala:71)
+	at apply @ org.http4s.ember.server.EmberServerBuilder.build$$anonfun$2(EmberServerBuilder.scala:174)
+[success] Total time: 147 s (02:27), completed Jun 21, 2023, 3:27:27 PM
+[32m[SUCCESS http4s][0m
+[32m[http4s DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 1 total, 832.697s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 860 s (14:20), completed Jun 21, 2023, 3:27:31 PM

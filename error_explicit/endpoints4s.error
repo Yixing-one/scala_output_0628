@@ -1,0 +1,321 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/Codec.scala:86:42 
+[error] 86 |    parseStringCatchingExceptions("UUID", UUID.fromString)
+[error]    |                                          ^^^^^^^^^^^^^^^
+[error]    |                                         Found:    java.util.UUID | Null
+[error]    |                                         Required: java.util.UUID
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/Validated.scala:110:29 
+[error] 110 |      case Failure(error) => Invalid(error.getMessage)
+[error]     |                             ^^^^^^^
+[error]     |None of the overloaded alternatives of method apply in object Invalid with types
+[error]     | (error: String): endpoints4s.Invalid
+[error]     | (errors: Seq[String]): endpoints4s.Invalid
+[error]     |match arguments (String | Null)
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:714:22 
+[error] 704 |    stringJsonSchema(format = Some("uuid"))
+[error] 705 |      .xmapPartial { str =>
+[error] 706 |        Validated.fromEither(
+[error] 707 |          Exception.nonFatalCatch
+[error] 708 |            .either(UUID.fromString(str))
+[error] 709 |            .left
+[error] 710 |            .map(_ => s"Invalid UUID value: '$str'" :: Nil)
+[error] 711 |        )
+[error] 712 |      }(_.toString)
+[error] 713 |      .withExample(UUID.fromString("5f27b818-027a-4008-b410-de01e1dd3a93"))
+[error] 714 |      .withDescription("Universally unique identifier (RFC 4122)")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.util.UUID | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.util.UUID]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:823:22 
+[error] 818 |    stringJsonSchema(format = Some("date-time"))
+[error] 819 |      .xmapPartial { instantString =>
+[error] 820 |        Validated.fromTry(Try(Instant.parse(instantString)))
+[error] 821 |      }(instant => instant.toString)
+[error] 822 |      .withExample(Instant.now())
+[error] 823 |      .withDescription("ISO 8601 Date and time in UTC")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.time.Instant | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.time.Instant]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:836:22 
+[error] 831 |    stringJsonSchema(format = Some("date-time"))
+[error] 832 |      .xmapPartial { dateTimeString =>
+[error] 833 |        Validated.fromTry(Try(OffsetDateTime.parse(dateTimeString)))
+[error] 834 |      }(dateTime => dateTime.toString)
+[error] 835 |      .withExample(OffsetDateTime.now())
+[error] 836 |      .withDescription("ISO 8601 Date and time")
+[error]     |    ^
+[error]     |Found:    JsonSchemas.this.JsonSchema[java.time.OffsetDateTime | Null]
+[error]     |Required: JsonSchemas.this.JsonSchema[java.time.OffsetDateTime]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:849:22 
+[error] 844 |    stringJsonSchema(format = Some("duration"))
+[error] 845 |      .xmapPartial { durationString =>
+[error] 846 |        Validated.fromTry(Try(Duration.parse(durationString)))
+[error] 847 |      }(duration => duration.toString)
+[error] 848 |      .withExample(Duration.ofDays(7))
+[error] 849 |      .withDescription("ISO 8601 Duration")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.time.Duration | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.time.Duration]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 6 errors found
+[error] (json-schemaJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:00:32 AM
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/Codec.scala:86:42 
+[error] 86 |    parseStringCatchingExceptions("UUID", UUID.fromString)
+[error]    |                                          ^^^^^^^^^^^^^^^
+[error]    |                                         Found:    java.util.UUID | Null
+[error]    |                                         Required: java.util.UUID
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/Validated.scala:110:29 
+[error] 110 |      case Failure(error) => Invalid(error.getMessage)
+[error]     |                             ^^^^^^^
+[error]     |None of the overloaded alternatives of method apply in object Invalid with types
+[error]     | (error: String): endpoints4s.Invalid
+[error]     | (errors: Seq[String]): endpoints4s.Invalid
+[error]     |match arguments (String | Null)
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:714:22 
+[error] 704 |    stringJsonSchema(format = Some("uuid"))
+[error] 705 |      .xmapPartial { str =>
+[error] 706 |        Validated.fromEither(
+[error] 707 |          Exception.nonFatalCatch
+[error] 708 |            .either(UUID.fromString(str))
+[error] 709 |            .left
+[error] 710 |            .map(_ => s"Invalid UUID value: '$str'" :: Nil)
+[error] 711 |        )
+[error] 712 |      }(_.toString)
+[error] 713 |      .withExample(UUID.fromString("5f27b818-027a-4008-b410-de01e1dd3a93"))
+[error] 714 |      .withDescription("Universally unique identifier (RFC 4122)")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.util.UUID | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.util.UUID]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:823:22 
+[error] 818 |    stringJsonSchema(format = Some("date-time"))
+[error] 819 |      .xmapPartial { instantString =>
+[error] 820 |        Validated.fromTry(Try(Instant.parse(instantString)))
+[error] 821 |      }(instant => instant.toString)
+[error] 822 |      .withExample(Instant.now())
+[error] 823 |      .withDescription("ISO 8601 Date and time in UTC")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.time.Instant | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.time.Instant]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:836:22 
+[error] 831 |    stringJsonSchema(format = Some("date-time"))
+[error] 832 |      .xmapPartial { dateTimeString =>
+[error] 833 |        Validated.fromTry(Try(OffsetDateTime.parse(dateTimeString)))
+[error] 834 |      }(dateTime => dateTime.toString)
+[error] 835 |      .withExample(OffsetDateTime.now())
+[error] 836 |      .withDescription("ISO 8601 Date and time")
+[error]     |    ^
+[error]     |Found:    JsonSchemas.this.JsonSchema[java.time.OffsetDateTime | Null]
+[error]     |Required: JsonSchemas.this.JsonSchema[java.time.OffsetDateTime]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:849:22 
+[error] 844 |    stringJsonSchema(format = Some("duration"))
+[error] 845 |      .xmapPartial { durationString =>
+[error] 846 |        Validated.fromTry(Try(Duration.parse(durationString)))
+[error] 847 |      }(duration => duration.toString)
+[error] 848 |      .withExample(Duration.ofDays(7))
+[error] 849 |      .withDescription("ISO 8601 Duration")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.time.Duration | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.time.Duration]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 6 errors found
+[error] (json-schemaJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 12 s, completed Jun 22, 2023, 12:01:26 AM
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/Codec.scala:86:42 
+[error] 86 |    parseStringCatchingExceptions("UUID", UUID.fromString)
+[error]    |                                          ^^^^^^^^^^^^^^^
+[error]    |                                         Found:    java.util.UUID | Null
+[error]    |                                         Required: java.util.UUID
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/Validated.scala:110:29 
+[error] 110 |      case Failure(error) => Invalid(error.getMessage)
+[error]     |                             ^^^^^^^
+[error]     |None of the overloaded alternatives of method apply in object Invalid with types
+[error]     | (error: String): endpoints4s.Invalid
+[error]     | (errors: Seq[String]): endpoints4s.Invalid
+[error]     |match arguments (String | Null)
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:714:22 
+[error] 704 |    stringJsonSchema(format = Some("uuid"))
+[error] 705 |      .xmapPartial { str =>
+[error] 706 |        Validated.fromEither(
+[error] 707 |          Exception.nonFatalCatch
+[error] 708 |            .either(UUID.fromString(str))
+[error] 709 |            .left
+[error] 710 |            .map(_ => s"Invalid UUID value: '$str'" :: Nil)
+[error] 711 |        )
+[error] 712 |      }(_.toString)
+[error] 713 |      .withExample(UUID.fromString("5f27b818-027a-4008-b410-de01e1dd3a93"))
+[error] 714 |      .withDescription("Universally unique identifier (RFC 4122)")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.util.UUID | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.util.UUID]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:823:22 
+[error] 818 |    stringJsonSchema(format = Some("date-time"))
+[error] 819 |      .xmapPartial { instantString =>
+[error] 820 |        Validated.fromTry(Try(Instant.parse(instantString)))
+[error] 821 |      }(instant => instant.toString)
+[error] 822 |      .withExample(Instant.now())
+[error] 823 |      .withDescription("ISO 8601 Date and time in UTC")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.time.Instant | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.time.Instant]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:836:22 
+[error] 831 |    stringJsonSchema(format = Some("date-time"))
+[error] 832 |      .xmapPartial { dateTimeString =>
+[error] 833 |        Validated.fromTry(Try(OffsetDateTime.parse(dateTimeString)))
+[error] 834 |      }(dateTime => dateTime.toString)
+[error] 835 |      .withExample(OffsetDateTime.now())
+[error] 836 |      .withDescription("ISO 8601 Date and time")
+[error]     |    ^
+[error]     |Found:    JsonSchemas.this.JsonSchema[java.time.OffsetDateTime | Null]
+[error]     |Required: JsonSchemas.this.JsonSchema[java.time.OffsetDateTime]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:849:22 
+[error] 844 |    stringJsonSchema(format = Some("duration"))
+[error] 845 |      .xmapPartial { durationString =>
+[error] 846 |        Validated.fromTry(Try(Duration.parse(durationString)))
+[error] 847 |      }(duration => duration.toString)
+[error] 848 |      .withExample(Duration.ofDays(7))
+[error] 849 |      .withDescription("ISO 8601 Duration")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.time.Duration | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.time.Duration]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 6 errors found
+[error] (json-schemaJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 11 s, completed Jun 22, 2023, 12:02:33 AM
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/Codec.scala:86:42 
+[error] 86 |    parseStringCatchingExceptions("UUID", UUID.fromString)
+[error]    |                                          ^^^^^^^^^^^^^^^
+[error]    |                                         Found:    java.util.UUID | Null
+[error]    |                                         Required: java.util.UUID
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/Validated.scala:110:29 
+[error] 110 |      case Failure(error) => Invalid(error.getMessage)
+[error]     |                             ^^^^^^^
+[error]     |None of the overloaded alternatives of method apply in object Invalid with types
+[error]     | (error: String): endpoints4s.Invalid
+[error]     | (errors: Seq[String]): endpoints4s.Invalid
+[error]     |match arguments (String | Null)
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:714:22 
+[error] 704 |    stringJsonSchema(format = Some("uuid"))
+[error] 705 |      .xmapPartial { str =>
+[error] 706 |        Validated.fromEither(
+[error] 707 |          Exception.nonFatalCatch
+[error] 708 |            .either(UUID.fromString(str))
+[error] 709 |            .left
+[error] 710 |            .map(_ => s"Invalid UUID value: '$str'" :: Nil)
+[error] 711 |        )
+[error] 712 |      }(_.toString)
+[error] 713 |      .withExample(UUID.fromString("5f27b818-027a-4008-b410-de01e1dd3a93"))
+[error] 714 |      .withDescription("Universally unique identifier (RFC 4122)")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.util.UUID | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.util.UUID]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:823:22 
+[error] 818 |    stringJsonSchema(format = Some("date-time"))
+[error] 819 |      .xmapPartial { instantString =>
+[error] 820 |        Validated.fromTry(Try(Instant.parse(instantString)))
+[error] 821 |      }(instant => instant.toString)
+[error] 822 |      .withExample(Instant.now())
+[error] 823 |      .withDescription("ISO 8601 Date and time in UTC")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.time.Instant | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.time.Instant]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:836:22 
+[error] 831 |    stringJsonSchema(format = Some("date-time"))
+[error] 832 |      .xmapPartial { dateTimeString =>
+[error] 833 |        Validated.fromTry(Try(OffsetDateTime.parse(dateTimeString)))
+[error] 834 |      }(dateTime => dateTime.toString)
+[error] 835 |      .withExample(OffsetDateTime.now())
+[error] 836 |      .withDescription("ISO 8601 Date and time")
+[error]     |    ^
+[error]     |Found:    JsonSchemas.this.JsonSchema[java.time.OffsetDateTime | Null]
+[error]     |Required: JsonSchemas.this.JsonSchema[java.time.OffsetDateTime]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/endpoints4s/json-schema/json-schema/src/main/scala/endpoints4s/algebra/JsonSchemas.scala:849:22 
+[error] 844 |    stringJsonSchema(format = Some("duration"))
+[error] 845 |      .xmapPartial { durationString =>
+[error] 846 |        Validated.fromTry(Try(Duration.parse(durationString)))
+[error] 847 |      }(duration => duration.toString)
+[error] 848 |      .withExample(Duration.ofDays(7))
+[error] 849 |      .withDescription("ISO 8601 Duration")
+[error]     |    ^
+[error]     |    Found:    JsonSchemas.this.JsonSchema[java.time.Duration | Null]
+[error]     |    Required: JsonSchemas.this.JsonSchema[java.time.Duration]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 6 errors found
+[error] (json-schemaJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 12 s, completed Jun 22, 2023, 12:03:50 AM
+[error] Test dotty.communitybuild.CommunityBuildTestC.endpoints4s failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/endpoints4s
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; json-schemaJVM/compile;algebraJVM/compile;openapiJVM/compile;http4s-server/compile;http4s-client/compile;play-server/compile;play-client/compile;akka-http-server/compile;akka-http-client/compile"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 269.966 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.endpoints4s(CommunityBuildTest.scala:67)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 301 s (05:01), completed Jun 22, 2023, 12:03:51 AM

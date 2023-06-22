@@ -1,0 +1,458 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project dotty-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/project/project
+[info] loading settings for project dotty-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 21 15:59:00 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:59:00 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:59:02 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:59:06 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_no_change/dotty/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_no_change/dotty/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:59:06 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:59:06 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Flag -author set repeatedly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -groups set repeatedly
+[warn] Flag -default-template set repeatedly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] Flag -author set repeatedly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Flag -groups set repeatedly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:59:07 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |       ^
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[warn] 14 warnings found
+[warn] 28 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:59:23 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 15:59:23 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.001s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.oslib started
+[32m[STARTING os-lib][0m
+[32mPublishing utest[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/58] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[7/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.CrossScalaModule.sources 
+[1A[2K[9999D[8/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[41/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches 'eae17c7a4d0d63bab1406ca75791d3cb6394233d'
+[1A[2K[9999D[42/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[58/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,utest_3,v0.6.8-204-eae17c) to ivy repo /Users/y3536zha/.ivy2/local
+[32mPublishing sourcecode[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/64] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[7/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.CrossScalaModule.sources 
+[1A[2K[9999D[8/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[41/64] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches '28b4f6c21fddeb33d694dc210f51b0535a2ada68'
+[1A[2K[9999D[42/64] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[51/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].docResources 
+[1A[2K[9999D[52/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].docSources 
+[1A[2K[9999D[64/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,sourcecode_3,v0.1.5-141-28b4f6) to ivy repo /Users/y3536zha/.ivy2/local
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING os-lib][0m
+[32mBuilding os-lib with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT os.jvm[3.3.1-RC1-bin-SNAPSHOT].test[0m
+Compiling /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/build.sc
+[5/70] os.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resources 
+[1A[2K[9999D[9/70] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[11/70] os.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[16/70] os.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[38/70] os.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources 
+[1A[2K[9999D[66/70] os.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
+[1A[2K[9999D[67/70] os.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
+[1A[2K[9999D[68/70] os.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkEnv 
+[1A[2K[9999D[70/70] os.jvm[3.3.1-RC1-bin-SNAPSHOT].test.test 
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.os.FilesystemPermissionsTests.perms.0 [2m43ms[0m  
+[32m+[39m test.os.FilesystemPermissionsTests.owner.0 [2m7ms[0m  
+[32m+[39m test.os.FilesystemPermissionsTests.group.0 [2m7ms[0m  
+-------------------------------- Running Tests --------------------------------
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/File.txt
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/misc
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/misc/echo
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/misc/file-symlink
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/misc/broken-abs-symlink
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/misc/binary.png
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/misc/folder-symlink
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/misc/broken-symlink
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/misc/echo_with_wd
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/Multi Line.txt
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/folder2
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/folder2/nestedA
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/folder2/nestedA/a.txt
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/folder2/nestedB
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/folder2/nestedB/b.txt
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/os
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/os/folder
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/os/folder/file.txt
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/folder1
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/os/test/resources/test/folder1/one.txt
+[32m+[39m test.os.OpTestsJvmOnly.lsR [2m40ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.lsRecPermissions [2m4ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.readResource.positive.absolute [2m12ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.readResource.positive.relative [2m1ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.readResource.negative.0 [2m11ms[0m  [34mos.ResourceNotFoundException: mill.api.ClassLoader$$anon$1@be64738/folder/file.txt[39m
+[32m+[39m test.os.OpTestsJvmOnly.readResource.negative.1 [2m1ms[0m  [34mos.ResourceNotFoundException: mill.api.ClassLoader$$anon$1@be64738:test.os.Testing/test/os/folder/file.txt[39m
+[32m+[39m test.os.OpTestsJvmOnly.readResource.negative.2 [2m0ms[0m  [34mos.ResourceNotFoundException: mill.api.ClassLoader$$anon$1@be64738:test.os.OpTestsJvmOnly$/test/os/folder/file.txt[39m
+[32m+[39m test.os.OpTestsJvmOnly.readResource.negative.3 [2m0ms[0m  [34mos.ResourceNotFoundException: mill.api.ClassLoader$$anon$1@be64738/folder/file.txt[39m
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.cp.basic [2m30ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.cp.deep [2m3ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.cp.merging [2m5ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.mv.basic [2m8ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.mv.shallow.partialMoves [2m15ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.mv.shallow.fullMoves [2m4ms[0m  [34mscala.MatchError: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/test/moving2/py.A (of class os.Path)[39m
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.mv.deep.partialMoves [2m8ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.mv.deep.fullMoves [2m6ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.mkdirRm.singleFolder [2m2ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.mkdirRm.nestedFolders [2m2ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.readWrite.simple [2m2ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.readWrite.autoMkdir [2m1ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.readWrite.binary [2m3ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.readWrite.concatenating [2m7ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.readWrite.writeAppend [2m3ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.readWrite.writeOver [2m2ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.readWrite.charset [2m3ms[0m  
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.Failures.nonexistant.0 [2m1ms[0m  [34mjava.nio.file.NoSuchFileException: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/test/failures/nonexistent[39m
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.Failures.nonexistant.1 [2m0ms[0m  [34mjava.nio.file.NoSuchFileException: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/test/failures/nonexistent[39m
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.Failures.nonexistant.2 [2m0ms[0m  [34mjava.nio.file.NoSuchFileException: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/test/failures/nonexistent[39m
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.Failures.nonexistant.3 [2m0ms[0m  [34mjava.nio.file.NoSuchFileException: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/test/failures/nonexistent[39m
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.Failures.collisions.0 [2m1ms[0m  [34mjava.nio.file.FileAlreadyExistsException: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/test/failures/folder[39m
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.Failures.collisions.1 [2m1ms[0m  [34mjava.nio.file.FileAlreadyExistsException: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/test/failures/folder[39m
+[32m+[39m test.os.OpTestsJvmOnly.Mutating.Failures.collisions.2 [2m1ms[0m  [34mjava.nio.file.FileAlreadyExistsException: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/test/failures/file[39m
+-------------------------------- Running Tests --------------------------------
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 53814  100 53814    0     0   148k      0 --:--:-- --:--:-- --:--:--  148k
+[32m+[39m test.os.ExampleTests.splash [2m425ms[0m  
+[32m+[39m test.os.ExampleTests.concatTxt [2m14ms[0m  
+[32m+[39m test.os.ExampleTests.subprocessConcat [2m28ms[0m  
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 53814  100 53814    0     0   263k      0 --:--:-- --:--:-- --:--:--  263k
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 53814  100 53814    0     0   274k      0 --:--:-- --:--:-- --:--:-- 5839k
+[32m+[39m test.os.ExampleTests.curlToTempFile [2m422ms[0m  
+[32m+[39m test.os.ExampleTests.lineCount [2m8ms[0m  
+[32m+[39m test.os.ExampleTests.largestThree [2m15ms[0m  
+[32m+[39m test.os.ExampleTests.moveOut [2m7ms[0m  [34mArraySeq((), (), (), (), (), (), ())[39m
+[32m+[39m test.os.ExampleTests.frequency [2m9ms[0m  [34mList((I,4), (Contents,3), (of,3), (nested,2), (am,2), (cow,2), (as,2), (barbecue,1), (weigh,1), (good,1), (look,1), (B,1), (much,1), (Hear,1), (moo,1), (the,1), (A,1), (And,1), (twice,1), (you,1), (contents,1), (folder,1), (on,1), (me,1), (file,1), (lols,1), (one,1))[39m
+out/scratch/folder/thing/file
+[32m+[39m test.os.ExampleTests.comparison [2m3ms[0m  
+[32m+[39m test.os.ExampleTests.constructingPaths [2m0ms[0m  [34m/Users/y3536zha/Desktop/scala_no_change/dotty/community-build[39m
+[32m+[39m test.os.ExampleTests.newPath [2m0ms[0m  
+[32m+[39m test.os.ExampleTests.relPaths [2m0ms[0m  [34mfolder/file[39m
+[32m+[39m test.os.ExampleTests.subPaths [2m0ms[0m  [34mjava.lang.IllegalArgumentException: requirement failed[39m
+[32m+[39m test.os.ExampleTests.relSubPathEquality [2m0ms[0m  
+[32m+[39m test.os.ExampleTests.relPathCombine [2m0ms[0m  
+[32m+[39m test.os.ExampleTests.subPathCombine [2m1ms[0m  
+[32m+[39m test.os.ExampleTests.pathUp [2m0ms[0m  
+[32m+[39m test.os.ExampleTests.relPathUp [2m0ms[0m  
+[32m+[39m test.os.ExampleTests.relPathUp [2m0ms[0m  
+[32m+[39m test.os.ExampleTests.canonical [2m0ms[0m  
+[32m+[39m test.os.ExampleTests.findWc [2m2ms[0m  
+[32m+[39m test.os.ExampleTests.Source code line length does not exceed 100 [2m40ms[0m  
+[32m+[39m test.os.ExampleTests.rename [2m0ms[0m  
+[32m+[39m test.os.ExampleTests.allSubpathsResolveCorrectly [2m113ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.os.ReadingWritingTests.read.0 [2m6ms[0m  
+[32m+[39m test.os.ReadingWritingTests.read.inputStream.0 [2m7ms[0m  
+[32m+[39m test.os.ReadingWritingTests.read.bytes.0 [2m5ms[0m  
+[32m+[39m test.os.ReadingWritingTests.read.chunks.0 [2m6ms[0m  
+[32m+[39m test.os.ReadingWritingTests.read.lines.0 [2m4ms[0m  
+I am cow
+Hear me moo
+I weigh twice as much as you
+And I look good on the barbecue
+[32m+[39m test.os.ReadingWritingTests.read.lines.stream.0 [2m6ms[0m  
+[32m+[39m test.os.ReadingWritingTests.write.0 [2m6ms[0m  
+[32m+[39m test.os.ReadingWritingTests.write.append.0 [2m10ms[0m  
+[32m+[39m test.os.ReadingWritingTests.write.over.0 [2m9ms[0m  
+[32m+[39m test.os.ReadingWritingTests.write.inputStream.0 [2m6ms[0m  
+[32m+[39m test.os.ReadingWritingTests.truncate.0 [2m7ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.os.OpTests.ls [2m1ms[0m  
+[32m+[39m test.os.OpTests.rm [2m0ms[0m  [34mjava.nio.file.NoSuchFileException: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/nonexistent[39m
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.os.ListingWalkingTests.list.0 [2m7ms[0m  
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/ListingWalkingTests/tests/list/stream/0/folder2/nestedA
+/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/os-lib/out/scratch/ListingWalkingTests/tests/list/stream/0/folder2/nestedB
+[32m+[39m test.os.ListingWalkingTests.list.stream.0 [2m8ms[0m  
+[32m+[39m test.os.ListingWalkingTests.walk.0 [2m11ms[0m  
+[32m+[39m test.os.ListingWalkingTests.walk.attrs.0 [2m7ms[0m  
+[32m+[39m test.os.ListingWalkingTests.walk.stream.0 [2m7ms[0m  
+[32m+[39m test.os.ListingWalkingTests.walk.stream.attrs.0 [2m9ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.os.ManipulatingFilesFoldersTests.exists.0 [2m8ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.move.0 [2m10ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.move.matching.0 [2m8ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.move.into.0 [2m5ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.move.over.0 [2m6ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.copy.0 [2m8ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.copy.into.0 [2m6ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.copy.over.0 [2m10ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.copy.symlinks [2m8ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.makeDir.0 [2m5ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.makeDir.all.0 [2m5ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.remove.0 [2m6ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.remove.link.0 [2m7ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.remove.all.0 [2m8ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.remove.all.link.0 [2m8ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.hardlink.0 [2m7ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.symlink.0 [2m8ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.followLink.0 [2m9ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.readLink.0 [2m8ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.temp.0 [2m10ms[0m  
+[32m+[39m test.os.ManipulatingFilesFoldersTests.temp.dir.0 [2m8ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.os.PathTestsJvmOnly.construction.symlinks.nestedSymlinks [2m3ms[0m  
+[32m+[39m test.os.PathTestsJvmOnly.construction.symlinks.danglingSymlink [2m3ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.os.PathTests.Basic.Transformers [2m2ms[0m  
+[32m+[39m test.os.PathTests.Basic.BasePath.baseName [2m1ms[0m  
+[32m+[39m test.os.PathTests.Basic.BasePath.ext [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.BasePath.emptyExt [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.BasePath.emptyLast [2m2ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Constructors.Symbol [2m1ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Constructors.String [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Constructors.Combos.ArrayString [2m3ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Constructors.Combos.ArraySymbol [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Constructors.Combos.SeqString [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Constructors.Combos.SeqSymbol [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Constructors.Combos.SeqSeqSeqSymbol [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Relativize.0 [2m1ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Relativize.1 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Relativize.2 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Relativize.3 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Relativize.4 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.RelPath.Relativize.5 [2m1ms[0m  [34mos.PathError$NoRelativePath: Can't relativize relative paths omg/bbq from ../omg/bbq[39m
+[32m+[39m test.os.PathTests.Basic.SubPath.Constructors.Symbol [2m1ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Constructors.String [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Constructors.Combos.ArrayString [2m2ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Constructors.Combos.ArraySymbol [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Constructors.Combos.SeqString [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Constructors.Combos.SeqSymbol [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Constructors.Combos.SeqSeqSeqSymbol [2m1ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Relativize.0 [2m1ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Relativize.1 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Relativize.2 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.SubPath.Relativize.3 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.AbsPath.Constructor [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.AbsPath.Relativize.0 [2m1ms[0m  
+[32m+[39m test.os.PathTests.Basic.AbsPath.Relativize.1 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.AbsPath.Relativize.2 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.AbsPath.Relativize.3 [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.AbsPath.Relativize.4 [2m0ms[0m  [34mos.PathError$NoRelativePath: Can't relativize relative paths omg/bbq from ../omg/bbq[39m
+[32m+[39m test.os.PathTests.Basic.Ups.RelativeUps [2m1ms[0m  
+[32m+[39m test.os.PathTests.Basic.Ups.AbsoluteUps [2m0ms[0m  [34mos.PathError$AbsolutePathOutsideRoot$: The path created has enough ..s that it would start outside the root directory[39m
+[32m+[39m test.os.PathTests.Basic.Ups.RootUpBreak [2m0ms[0m  [34mos.PathError$AbsolutePathOutsideRoot$: The path created has enough ..s that it would start outside the root directory[39m
+[32m+[39m test.os.PathTests.Basic.Comparison.Relative [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.Comparison.Absolute [2m0ms[0m  
+[32m+[39m test.os.PathTests.Basic.Comparison.Invalid [2m4ms[0m 
+  [34mType("omg"/"wtf" > root/"omg"/"wtf"[39m
+  [34m     ^,value / is not a member of String, but could be made available as an extension method.[39m
+  [34m
+One of the following imports might make progress towards fixing the problem:[39m
+  [34m
+  import math.Fractional.Implicits.infixFractionalOps[39m
+  [34m  import math.Integral.Implicits.infixIntegralOps[39m
+  [34m  import sourcecode.Text.generate[39m
+  [34m
+)[39m
+[32m+[39m test.os.PathTests.Errors.InvalidChars [2m3ms[0m  
+[32m+[39m test.os.PathTests.Errors.InvalidSegments [2m1ms[0m  [34mos.PathError$InvalidSegment: [..] is not a valid path segment. OS-Lib does not allow [..] as a path segment If you are dealing with path-strings coming from external sources, use the Path(...) or RelPath(...) constructor calls to convert them. If you want to use the `..` segment manually to represent going up one level in the path, use the `up` segment from `os.up` e.g. an external path foo/bar/../baz translates into 'foo/'bar/up/'baz.[39m
+[32m+[39m test.os.PathTests.Errors.EmptySegment [2m0ms[0m  [34mos.PathError$InvalidSegment: [..] is not a valid path segment. OS-Lib does not allow [..] as a path segment If you are dealing with path-strings coming from external sources, use the Path(...) or RelPath(...) constructor calls to convert them. If you want to use the `..` segment manually to represent going up one level in the path, use the `up` segment from `os.up` e.g. an external path foo/bar/../baz translates into 'foo/'bar/up/'baz.[39m
+[32m+[39m test.os.PathTests.Errors.CannotRelativizeAbsAndRel [2m0ms[0m  
+[32m+[39m test.os.PathTests.Errors.InvalidCasts [2m0ms[0m  
+[32m+[39m test.os.PathTests.Errors.Pollution [2m0ms[0m 
+  [34mType( "omg".ext[39m
+  [34m       ^,value ext is not a member of String, but could be made available as an extension method.[39m
+  [34m
+The following import might make progress towards fixing the problem:[39m
+  [34m
+  import sourcecode.Text.generate[39m
+  [34m
+)[39m
+[32m+[39m test.os.PathTests.Extractors.paths [2m0ms[0m  
+[32m+[39m test.os.PathTests.sorting.0 [2m0ms[0m  
+[32m+[39m test.os.PathTests.sorting.1 [2m0ms[0m  
+[32m+[39m test.os.PathTests.sorting.2 [2m0ms[0m  
+[32m+[39m test.os.PathTests.construction.success [2m1ms[0m  
+[32m+[39m test.os.PathTests.construction.basepath [2m0ms[0m  
+[32m+[39m test.os.PathTests.construction.based [2m0ms[0m  
+[32m+[39m test.os.PathTests.construction.failure [2m1ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.os.SubprocessTests.lines [2m18ms[0m  
+[32m+[39m test.os.SubprocessTests.string [2m6ms[0m  
+[32m+[39m test.os.SubprocessTests.bytes [2m6ms[0m  
+[32m+[39m test.os.SubprocessTests.chained [2m47ms[0m  
+[32m+[39m test.os.SubprocessTests.basicList [2m6ms[0m  
+[32m+[39m test.os.SubprocessTests.listMixAndMatch [2m5ms[0m  
+[32m+[39m test.os.SubprocessTests.failures [2m8ms[0m  
+[32m+[39m test.os.SubprocessTests.filebased [2m17ms[0m  
+[32m+[39m test.os.SubprocessTests.filebased2 [2m22ms[0m  
+[32m+[39m test.os.SubprocessTests.charSequence [2m6ms[0m  
+[32m+[39m test.os.SubprocessTests.envArgs [2m31ms[0m  
+[32m+[39m test.os.SubprocessTests.multiChunk.bashC [2m4ms[0m  
+[32m+[39m test.os.SubprocessTests.multiChunk.jarTf [2m208ms[0m  
+[32m+[39m test.os.SubprocessTests.workingDirectory [2m7ms[0m  
+[32m+[39m test.os.SubprocessTests.customWorkingDir [2m6ms[0m  
+[32m+[39m test.os.SubprocessTests.fileCustomWorkingDir [2m12ms[0m  
+-------------------------------- Running Tests --------------------------------
+ls: doesnt-exist: No such file or directory
+[32m+[39m test.os.SpawningSubprocessesTests.proc.call.0 [2m57ms[0m  
+[32m+[39m test.os.SpawningSubprocessesTests.proc.call.1 [2m2008ms[0m  
+[32m+[39m test.os.SpawningSubprocessesTests.proc.stream.0 [2m10ms[0m  
+[32m+[39m test.os.SpawningSubprocessesTests.proc.stream.1 [2m9ms[0m  
+[32m+[39m test.os.SpawningSubprocessesTests.proc.spawn.0 [2m12ms[0m  
+[32m+[39m test.os.SpawningSubprocessesTests.proc.spawn callback.0 [2m9ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.os.FilesystemMetadataTests.stat.0 [2m5ms[0m  
+[32m+[39m test.os.FilesystemMetadataTests.isFile.0 [2m4ms[0m  
+[32m+[39m test.os.FilesystemMetadataTests.isDir.0 [2m5ms[0m  
+[32m+[39m test.os.FilesystemMetadataTests.isLink.0 [2m4ms[0m  
+[32m+[39m test.os.FilesystemMetadataTests.size.0 [2m5ms[0m  
+[32m+[39m test.os.FilesystemMetadataTests.mtime.0 [2m10ms[0m  
+[32m[SUCCESS os-lib][0m
+[32m[os-lib DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 16.886s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.001s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 50 s, completed Jun 21, 2023, 3:59:48 PM

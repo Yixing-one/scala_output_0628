@@ -1,0 +1,101 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- [E044] Cyclic Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/sconfig/sconfig/shared/src/test/scala/org/ekrich/config/impl/PropertiesTest.scala:19:43 
+[error] 19 |    def last(s: String) = PropertiesParser.lastElement(s)
+[error]    |                                           ^
+[error]    |            Overloaded or recursive method lastElement needs return type
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E044] Cyclic Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/sconfig/sconfig/shared/src/test/scala/org/ekrich/config/impl/PropertiesTest.scala:20:49 
+[error] 20 |    def exceptLast(s: String) = PropertiesParser.exceptLastElement(s)
+[error]    |                                                 ^
+[error]    |      Overloaded or recursive method exceptLastElement needs return type
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] two errors found
+[error] (sconfigJVM / Test / compileIncremental) Compilation failed
+[error] Total time: 23 s, completed Jun 21, 2023, 9:22:20 PM
+[error] -- [E044] Cyclic Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/sconfig/sconfig/shared/src/test/scala/org/ekrich/config/impl/PropertiesTest.scala:19:43 
+[error] 19 |    def last(s: String) = PropertiesParser.lastElement(s)
+[error]    |                                           ^
+[error]    |            Overloaded or recursive method lastElement needs return type
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E044] Cyclic Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/sconfig/sconfig/shared/src/test/scala/org/ekrich/config/impl/PropertiesTest.scala:20:49 
+[error] 20 |    def exceptLast(s: String) = PropertiesParser.exceptLastElement(s)
+[error]    |                                                 ^
+[error]    |      Overloaded or recursive method exceptLastElement needs return type
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] two errors found
+[error] (sconfigJVM / Test / compileIncremental) Compilation failed
+[error] Total time: 22 s, completed Jun 21, 2023, 9:23:02 PM
+[error] -- [E044] Cyclic Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/sconfig/sconfig/shared/src/test/scala/org/ekrich/config/impl/PropertiesTest.scala:19:43 
+[error] 19 |    def last(s: String) = PropertiesParser.lastElement(s)
+[error]    |                                           ^
+[error]    |            Overloaded or recursive method lastElement needs return type
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E044] Cyclic Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/sconfig/sconfig/shared/src/test/scala/org/ekrich/config/impl/PropertiesTest.scala:20:49 
+[error] 20 |    def exceptLast(s: String) = PropertiesParser.exceptLastElement(s)
+[error]    |                                                 ^
+[error]    |      Overloaded or recursive method exceptLastElement needs return type
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] two errors found
+[error] (sconfigJVM / Test / compileIncremental) Compilation failed
+[error] Total time: 23 s, completed Jun 21, 2023, 9:23:45 PM
+[error] -- [E044] Cyclic Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/sconfig/sconfig/shared/src/test/scala/org/ekrich/config/impl/PropertiesTest.scala:19:43 
+[error] 19 |    def last(s: String) = PropertiesParser.lastElement(s)
+[error]    |                                           ^
+[error]    |            Overloaded or recursive method lastElement needs return type
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E044] Cyclic Error: /Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/community-projects/sconfig/sconfig/shared/src/test/scala/org/ekrich/config/impl/PropertiesTest.scala:20:49 
+[error] 20 |    def exceptLast(s: String) = PropertiesParser.exceptLastElement(s)
+[error]    |                                                 ^
+[error]    |      Overloaded or recursive method exceptLastElement needs return type
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] two errors found
+[error] (sconfigJVM / Test / compileIncremental) Compilation failed
+[error] Total time: 26 s, completed Jun 21, 2023, 9:24:30 PM
+[error] Test dotty.communitybuild.CommunityBuildTestC.sconfig failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/sconfig
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_flexible_unsafe/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls","-Yflexible-types");++3.3.1-RC1-bin-SNAPSHOT!; sconfigJVM/test"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 216.301 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.sconfig(CommunityBuildTest.scala:94)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 253 s (04:13), completed Jun 21, 2023, 9:24:31 PM

@@ -1,0 +1,298 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project dotty-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/project/project
+[info] loading settings for project dotty-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_no_change/dotty/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_no_change/dotty/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 21 16:39:31 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 16:39:32 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 16:39:32 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 16:39:35 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_no_change/dotty/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_no_change/dotty/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 16:39:36 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 16:39:36 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -author set repeatedly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Flag -groups set repeatedly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -default-template set repeatedly
+[warn] Flag -author set repeatedly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Flag -groups set repeatedly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 16:39:37 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error] 13 |object IArray:
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |       ^
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[warn] 14 warnings found
+[warn] 28 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 16:39:53 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 16:39:54 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_no_change/dotty/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.scas started
+[32m[STARTING scas][0m
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING scas][0m
+[32mBuilding scas with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT scas.application.test[0m
+Compiling /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scas/build.sc
+[1/75] scas.application.mainClass 
+[1A[2K[9999D[3/75] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[4/75] scas.application.scalaVersion 
+[1A[2K[9999D[5/75] scas.scalaVersion 
+[1A[2K[9999D[6/75] scas.upstreamCompileOutput 
+[1A[2K[9999D[7/75] scas.sources 
+[1A[2K[9999D[8/75] scas.generatedSources 
+[1A[2K[9999D[9/75] scas.allSources 
+[1A[2K[9999D[10/75] scas.allSourceFiles 
+[1A[2K[9999D[11/75] scas.transitiveLocalClasspath 
+[1A[2K[9999D[12/75] scas.resources 
+[1A[2K[9999D[13/75] scas.unmanagedClasspath 
+[1A[2K[9999D[14/75] scas.platformSuffix 
+[1A[2K[9999D[15/75] scas.compileIvyDeps 
+[1A[2K[9999D[16/75] scas.transitiveCompileIvyDeps 
+[1A[2K[9999D[17/75] scas.ivyDeps 
+[1A[2K[9999D[18/75] scas.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[19/75] scas.scalaOrganization 
+[1A[2K[9999D[20/75] scas.scalaLibraryIvyDeps 
+[1A[2K[9999D[21/75] scas.mandatoryIvyDeps 
+[1A[2K[9999D[22/75] scas.transitiveIvyDeps 
+[1A[2K[9999D[23/75] scas.resolvedIvyDeps 
+[1A[2K[9999D[24/75] scas.compileClasspath 
+[1A[2K[9999D[25/75] scas.javacOptions 
+[1A[2K[9999D[26/75] scas.mandatoryScalacOptions 
+[1A[2K[9999D[27/75] scas.scalacPluginIvyDeps 
+[1A[2K[9999D[28/75] scas.enablePluginScalacOptions 
+[1A[2K[9999D[29/75] scas.scalacOptions 
+[1A[2K[9999D[30/75] scas.allScalacOptions 
+[1A[2K[9999D[31/75] scas.scalaCompilerClasspath 
+[1A[2K[9999D[32/75] scas.scalacPluginClasspath 
+[1A[2K[9999D[33/75] scas.compile 
+[info] compiling 23 Scala sources to /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scas/out/scas/compile.dest/classes ...
+[warn] there were 3 deprecation warnings; re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[info] compiling 43 Scala sources to /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scas/out/scas/compile.dest/classes ...
+[warn] one warning found
+[info] done compiling
+[34/75] scas.application.upstreamCompileOutput 
+[1A[2K[9999D[35/75] scas.application.sources 
+[1A[2K[9999D[36/75] scas.application.generatedSources 
+[1A[2K[9999D[37/75] scas.application.allSources 
+[1A[2K[9999D[38/75] scas.application.allSourceFiles 
+[1A[2K[9999D[39/75] scas.localClasspath 
+[1A[2K[9999D[40/75] scas.application.transitiveLocalClasspath 
+[1A[2K[9999D[41/75] scas.application.resources 
+[1A[2K[9999D[42/75] scas.application.unmanagedClasspath 
+[1A[2K[9999D[43/75] scas.application.platformSuffix 
+[1A[2K[9999D[44/75] scas.application.compileIvyDeps 
+[1A[2K[9999D[45/75] scas.application.transitiveCompileIvyDeps 
+[1A[2K[9999D[46/75] scas.application.ivyDeps 
+[1A[2K[9999D[47/75] scas.application.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[48/75] scas.application.scalaOrganization 
+[1A[2K[9999D[49/75] scas.application.scalaLibraryIvyDeps 
+[1A[2K[9999D[50/75] scas.application.mandatoryIvyDeps 
+[1A[2K[9999D[51/75] scas.application.transitiveIvyDeps 
+[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps 
+[1A[2K[9999D[53/75] scas.application.compileClasspath 
+[1A[2K[9999D[54/75] scas.application.javacOptions 
+[1A[2K[9999D[55/75] scas.application.mandatoryScalacOptions 
+[1A[2K[9999D[56/75] scas.application.scalacPluginIvyDeps 
+[1A[2K[9999D[57/75] scas.application.enablePluginScalacOptions 
+[1A[2K[9999D[58/75] scas.application.scalacOptions 
+[1A[2K[9999D[59/75] scas.application.allScalacOptions 
+[1A[2K[9999D[60/75] scas.application.scalaCompilerClasspath 
+[1A[2K[9999D[61/75] scas.application.scalacPluginClasspath 
+[1A[2K[9999D[62/75] scas.application.compile 
+[info] compiling 21 Scala sources to /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/scas/out/scas/application/compile.dest/classes ...
+[warn] there was 1 deprecation warning; re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[63/75] scas.application.finalMainClassOpt 
+[1A[2K[9999D[64/75] scas.application.finalMainClass 
+[1A[2K[9999D[65/75] scas.application.localClasspath 
+[1A[2K[9999D[66/75] scas.application.runIvyDeps 
+[1A[2K[9999D[67/75] scas.application.resolvedRunIvyDeps 
+[1A[2K[9999D[68/75] scas.application.upstreamAssemblyClasspath 
+[1A[2K[9999D[69/75] scas.application.runClasspath 
+[1A[2K[9999D[70/75] scas.application.forkArgs 
+[1A[2K[9999D[71/75] scas.application.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
+[1A[2K[9999D[72/75] scas.application.forkEnv 
+[1A[2K[9999D[73/75] scas.application.forkWorkingDir 
+[1A[2K[9999D[74/75] scas.application.runUseArgsFile 
+[1A[2K[9999D[75/75] scas.application.run 
+polypower.txt
+p: z + y + x + 1 
+q: 1771
+q1: 1771
+q2: 12341
+t: 1059
+modint.txt
+mod_polynomial.txt
+index.txt
+rational_module.txt
+polynomial.txt
+math3.txt
+ringsbigint.txt
+poly_rings.txt
+product.txt
+rational.txt
+bigint.txt
+rational_polynomial.txt
+pp2.txt
+polypower_jaspp.txt
+p: z+y+x+1
+q: 1771
+q1: 1771
+q2: 12341
+t: 1163
+pp1.txt
+polypower_scas.txt
+p: 1+x+y+z
+q: 1771
+q1: 1771
+q2: 12341
+t: 1127
+poly.txt
+module.txt
+pp_jas.txt
+jasbigint.txt
+polypower_rings.txt
+p: 1+z+y+x
+q: 1771
+q1: 1771
+q2: 12341
+t: 341
+solvable_polynomial.txt
+success : 23, failure : 0
+[32m[SUCCESS scas][0m
+[32m[scas DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 38.78s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 63 s (01:03), completed Jun 21, 2023, 4:40:33 PM

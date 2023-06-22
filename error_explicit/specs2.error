@@ -1,0 +1,937 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/control/NamedThreadFactory.scala:14:46 
+[error] 14 |    group: ThreadGroup = Thread.currentThread.getThreadGroup,
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value getThreadGroup is not a member of Thread | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Thread | Null could be null at runtime.
+[error]    |If you want to select getThreadGroup without checking for a null value,
+[error]    |insert a .nn before .getThreadGroup or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/control/NamedThreadFactory.scala:15:41 
+[error] 15 |    priority: Int = Thread.currentThread.getPriority
+[error]    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  value getPriority is not a member of Thread | Null.
+[error]    |  Since explicit-nulls is enabled, the selection is rejected because
+[error]    |  Thread | Null could be null at runtime.
+[error]    |  If you want to select getPriority without checking for a null value,
+[error]    |  insert a .nn before .getPriority or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/ExecutorServices.scala:110:32 
+[error] 110 |    Executors.newFixedThreadPool(threadsNb, NamedThreadFactory(name))
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    Found:    java.util.concurrent.ExecutorService | Null
+[error]     |    Required: java.util.concurrent.ExecutorService
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/ExecutorServices.scala:115:36 
+[error] 115 |    Executors.newScheduledThreadPool(scheduledThreadsNb, NamedThreadFactory("specs2.scheduled." + name))
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    Found:    java.util.concurrent.ScheduledExecutorService | Null
+[error]     |    Required: java.util.concurrent.ScheduledExecutorService
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:9:42 
+[error] 9 |  lazy val threadsNb = Runtime.getRuntime.availableProcessors
+[error]   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value availableProcessors is not a member of Runtime | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Runtime | Null could be null at runtime.
+[error]   |If you want to select availableProcessors without checking for a null value,
+[error]   |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:12:36 
+[error] 12 |    Executors.newScheduledThreadPool(scheduledThreadsNb)
+[error]    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    Found:    java.util.concurrent.ScheduledExecutorService | Null
+[error]    |    Required: java.util.concurrent.ScheduledExecutorService
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:25:26 
+[error] 25 |        () => { scheduled.cancel(false); () }
+[error]    |                ^^^^^^^^^^^^^^^^
+[error]    |value cancel is not a member of java.util.concurrent.ScheduledFuture[?] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.concurrent.ScheduledFuture[?] | Null could be null at runtime.
+[error]    |If you want to select cancel without checking for a null value,
+[error]    |insert a .nn before .cancel or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/ClassLoading.scala:5:25 
+[error] 5 |    Thread.currentThread.setContextClassLoader(classLoader)
+[error]   |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value setContextClassLoader is not a member of Thread | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Thread | Null could be null at runtime.
+[error]   |If you want to select setContextClassLoader without checking for a null value,
+[error]   |insert a .nn before .setContextClassLoader or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:23:30 
+[error] 23 |    createInstance(className, getClass.getClassLoader)
+[error]    |                              ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                              Found:    ClassLoader | Null
+[error]    |                              Required: ClassLoader
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:35:35 
+[error] 35 |    createInstanceFromClass(klass, klass.getClassLoader, defaultInstances)
+[error]    |                                   ^^^^^^^^^^^^^^^^^^^^
+[error]    |                                   Found:    ClassLoader | Null
+[error]    |                                   Required: ClassLoader
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:46:36 
+[error] 46 |      klass.getDeclaredConstructors.toList.filter(_.getParameterTypes.size <= 1).sortBy(_.getParameterTypes.size)
+[error]    |      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value toList is not a member of Array[java.lang.reflect.Constructor[?] | Null] | Null.
+[error]    |Extension methods were tried, but could not be fully constructed:
+[error]    |
+[error]    |    genericWrapArray[T](klass.getDeclaredConstructors())
+[error]    |
+[error]    |    org.specs2.fp.syntax.toList()
+[error]    |
+[error]    |    failed with:
+[error]    |
+[error]    |        value toList: <overloaded org.specs2.fp.syntax.toList> does not take parameters
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:64:42 
+[error] 64 |            klass.getDeclaredConstructors.toList.filter(_.getParameterTypes.size <= 1).sortBy(_.getParameterTypes.size)
+[error]    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value toList is not a member of Array[java.lang.reflect.Constructor[?] | Null] | Null.
+[error]    |Extension methods were tried, but could not be fully constructed:
+[error]    |
+[error]    |    genericWrapArray[T](klass.getDeclaredConstructors())
+[error]    |
+[error]    |    org.specs2.fp.syntax.toList()
+[error]    |
+[error]    |    failed with:
+[error]    |
+[error]    |        value toList: <overloaded org.specs2.fp.syntax.toList> does not take parameters
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:97:38 
+[error] 97 |    if (constructor.getParameterTypes.isEmpty) {
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value isEmpty is not a member of Array[Class[?] | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:98:24 
+[error] 98 |      if (klass.getName.endsWith("$")) {
+[error]    |          ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |     value endsWith is not a member of String | Null.
+[error]    |     Since explicit-nulls is enabled, the selection is rejected because
+[error]    |     String | Null could be null at runtime.
+[error]    |     If you want to select endsWith without checking for a null value,
+[error]    |     insert a .nn before .endsWith or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:99:88 
+[error] 99 |        newInstance(klass, klass.getDeclaredField(NameTransformer.MODULE_INSTANCE_NAME).get(null))
+[error]    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value get is not a member of java.lang.reflect.Field | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.lang.reflect.Field | Null could be null at runtime.
+[error]    |      If you want to select get without checking for a null value,
+[error]    |      insert a .nn before .get or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:103:45 
+[error] 103 |    } else if (constructor.getParameterTypes.size == 1) {
+[error]     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value size is not a member of Array[Class[?] | Null] | Null.
+[error]     |    An extension method was tried, but could not be fully constructed:
+[error]     |
+[error]     |        refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:104:63 
+[error] 104 |      defaultInstances.find(i => constructor.getParameterTypes.apply(0).isAssignableFrom(i.getClass)) match {
+[error]     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value apply is not a member of Array[Class[?] | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Class[?] | Null] | Null could be null at runtime.
+[error]     |    If you want to select apply without checking for a null value,
+[error]     |    insert a .nn before .apply or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:110:57 
+[error] 110 |            createInstance(constructor.getParameterTypes.toSeq(0).getName, loader, defaultInstances)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value toSeq is not a member of Array[Class[?] | Null] | Null.
+[error]     |    An extension method was tried, but could not be fully constructed:
+[error]     |
+[error]     |        refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/concurrent/ExecuteArguments.scala:7:32 
+[error] 7 |    math.max(Runtime.getRuntime.availableProcessors, 4)
+[error]   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value availableProcessors is not a member of Runtime | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Runtime | Null could be null at runtime.
+[error]   |If you want to select availableProcessors without checking for a null value,
+[error]   |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/concurrent/ExecuteArguments.scala:11:32 
+[error] 11 |    math.max(Runtime.getRuntime.availableProcessors, 4)
+[error]    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value availableProcessors is not a member of Runtime | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Runtime | Null could be null at runtime.
+[error]    |If you want to select availableProcessors without checking for a null value,
+[error]    |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] 187 errors found
+[error] (common / Compile / compileIncremental) Compilation failed
+[error] Total time: 25 s, completed Jun 22, 2023, 12:53:21 AM
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/control/NamedThreadFactory.scala:14:46 
+[error] 14 |    group: ThreadGroup = Thread.currentThread.getThreadGroup,
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value getThreadGroup is not a member of Thread | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Thread | Null could be null at runtime.
+[error]    |If you want to select getThreadGroup without checking for a null value,
+[error]    |insert a .nn before .getThreadGroup or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/control/NamedThreadFactory.scala:15:41 
+[error] 15 |    priority: Int = Thread.currentThread.getPriority
+[error]    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  value getPriority is not a member of Thread | Null.
+[error]    |  Since explicit-nulls is enabled, the selection is rejected because
+[error]    |  Thread | Null could be null at runtime.
+[error]    |  If you want to select getPriority without checking for a null value,
+[error]    |  insert a .nn before .getPriority or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/ExecutorServices.scala:110:32 
+[error] 110 |    Executors.newFixedThreadPool(threadsNb, NamedThreadFactory(name))
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    Found:    java.util.concurrent.ExecutorService | Null
+[error]     |    Required: java.util.concurrent.ExecutorService
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/ExecutorServices.scala:115:36 
+[error] 115 |    Executors.newScheduledThreadPool(scheduledThreadsNb, NamedThreadFactory("specs2.scheduled." + name))
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    Found:    java.util.concurrent.ScheduledExecutorService | Null
+[error]     |    Required: java.util.concurrent.ScheduledExecutorService
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:9:42 
+[error] 9 |  lazy val threadsNb = Runtime.getRuntime.availableProcessors
+[error]   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value availableProcessors is not a member of Runtime | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Runtime | Null could be null at runtime.
+[error]   |If you want to select availableProcessors without checking for a null value,
+[error]   |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:12:36 
+[error] 12 |    Executors.newScheduledThreadPool(scheduledThreadsNb)
+[error]    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    Found:    java.util.concurrent.ScheduledExecutorService | Null
+[error]    |    Required: java.util.concurrent.ScheduledExecutorService
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:25:26 
+[error] 25 |        () => { scheduled.cancel(false); () }
+[error]    |                ^^^^^^^^^^^^^^^^
+[error]    |value cancel is not a member of java.util.concurrent.ScheduledFuture[?] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.concurrent.ScheduledFuture[?] | Null could be null at runtime.
+[error]    |If you want to select cancel without checking for a null value,
+[error]    |insert a .nn before .cancel or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/ClassLoading.scala:5:25 
+[error] 5 |    Thread.currentThread.setContextClassLoader(classLoader)
+[error]   |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value setContextClassLoader is not a member of Thread | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Thread | Null could be null at runtime.
+[error]   |If you want to select setContextClassLoader without checking for a null value,
+[error]   |insert a .nn before .setContextClassLoader or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:23:30 
+[error] 23 |    createInstance(className, getClass.getClassLoader)
+[error]    |                              ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                              Found:    ClassLoader | Null
+[error]    |                              Required: ClassLoader
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:35:35 
+[error] 35 |    createInstanceFromClass(klass, klass.getClassLoader, defaultInstances)
+[error]    |                                   ^^^^^^^^^^^^^^^^^^^^
+[error]    |                                   Found:    ClassLoader | Null
+[error]    |                                   Required: ClassLoader
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:46:36 
+[error] 46 |      klass.getDeclaredConstructors.toList.filter(_.getParameterTypes.size <= 1).sortBy(_.getParameterTypes.size)
+[error]    |      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value toList is not a member of Array[java.lang.reflect.Constructor[?] | Null] | Null.
+[error]    |Extension methods were tried, but could not be fully constructed:
+[error]    |
+[error]    |    genericWrapArray[T](klass.getDeclaredConstructors())
+[error]    |
+[error]    |    org.specs2.fp.syntax.toList()
+[error]    |
+[error]    |    failed with:
+[error]    |
+[error]    |        value toList: <overloaded org.specs2.fp.syntax.toList> does not take parameters
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:64:42 
+[error] 64 |            klass.getDeclaredConstructors.toList.filter(_.getParameterTypes.size <= 1).sortBy(_.getParameterTypes.size)
+[error]    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value toList is not a member of Array[java.lang.reflect.Constructor[?] | Null] | Null.
+[error]    |Extension methods were tried, but could not be fully constructed:
+[error]    |
+[error]    |    genericWrapArray[T](klass.getDeclaredConstructors())
+[error]    |
+[error]    |    org.specs2.fp.syntax.toList()
+[error]    |
+[error]    |    failed with:
+[error]    |
+[error]    |        value toList: <overloaded org.specs2.fp.syntax.toList> does not take parameters
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:97:38 
+[error] 97 |    if (constructor.getParameterTypes.isEmpty) {
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value isEmpty is not a member of Array[Class[?] | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:98:24 
+[error] 98 |      if (klass.getName.endsWith("$")) {
+[error]    |          ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |     value endsWith is not a member of String | Null.
+[error]    |     Since explicit-nulls is enabled, the selection is rejected because
+[error]    |     String | Null could be null at runtime.
+[error]    |     If you want to select endsWith without checking for a null value,
+[error]    |     insert a .nn before .endsWith or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:99:88 
+[error] 99 |        newInstance(klass, klass.getDeclaredField(NameTransformer.MODULE_INSTANCE_NAME).get(null))
+[error]    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value get is not a member of java.lang.reflect.Field | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.lang.reflect.Field | Null could be null at runtime.
+[error]    |      If you want to select get without checking for a null value,
+[error]    |      insert a .nn before .get or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:103:45 
+[error] 103 |    } else if (constructor.getParameterTypes.size == 1) {
+[error]     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value size is not a member of Array[Class[?] | Null] | Null.
+[error]     |    An extension method was tried, but could not be fully constructed:
+[error]     |
+[error]     |        refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:104:63 
+[error] 104 |      defaultInstances.find(i => constructor.getParameterTypes.apply(0).isAssignableFrom(i.getClass)) match {
+[error]     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value apply is not a member of Array[Class[?] | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Class[?] | Null] | Null could be null at runtime.
+[error]     |    If you want to select apply without checking for a null value,
+[error]     |    insert a .nn before .apply or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:110:57 
+[error] 110 |            createInstance(constructor.getParameterTypes.toSeq(0).getName, loader, defaultInstances)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value toSeq is not a member of Array[Class[?] | Null] | Null.
+[error]     |    An extension method was tried, but could not be fully constructed:
+[error]     |
+[error]     |        refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/concurrent/ExecuteArguments.scala:7:32 
+[error] 7 |    math.max(Runtime.getRuntime.availableProcessors, 4)
+[error]   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value availableProcessors is not a member of Runtime | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Runtime | Null could be null at runtime.
+[error]   |If you want to select availableProcessors without checking for a null value,
+[error]   |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/concurrent/ExecuteArguments.scala:11:32 
+[error] 11 |    math.max(Runtime.getRuntime.availableProcessors, 4)
+[error]    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value availableProcessors is not a member of Runtime | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Runtime | Null could be null at runtime.
+[error]    |If you want to select availableProcessors without checking for a null value,
+[error]    |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] ## Exception when compiling 118 sources to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/target/scala-3.3.1-RC1-bin-SNAPSHOT/classes
+[error] java.lang.NoClassDefFoundError: dotty/tools/dotc/Run$
+[error] dotty.tools.dotc.Driver.doCompile(Driver.scala:45)
+[error] dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+[error] dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] sbt.Execute.work(Execute.scala:291)
+[error] sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] java.base/java.lang.Thread.run(Unknown Source)
+[error]            
+[error] java.lang.NoClassDefFoundError: dotty/tools/dotc/Run$
+[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:45)
+[error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+[error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] 	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] 	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] 	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] 	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] 	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] 	at sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] 	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] 	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] 	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] 	at java.base/java.lang.Thread.run(Unknown Source)
+[error] Caused by: java.lang.ClassNotFoundException: dotty.tools.dotc.Run$
+[error] 	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+[error] 	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+[error] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+[error] 	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:45)
+[error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+[error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] 	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] 	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] 	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] 	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] 	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] 	at sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] 	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] 	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] 	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] 	at java.base/java.lang.Thread.run(Unknown Source)
+[error] Caused by: java.util.zip.ZipException: ZipFile invalid LOC header (bad signature)
+[error] 	at java.base/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(Unknown Source)
+[error] 	at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+[error] 	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(Unknown Source)
+[error] 	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source)
+[error] 	at java.base/jdk.internal.loader.Resource.getBytes(Unknown Source)
+[error] 	at java.base/java.net.URLClassLoader.defineClass(Unknown Source)
+[error] 	at java.base/java.net.URLClassLoader.access$100(Unknown Source)
+[error] 	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+[error] 	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+[error] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+[error] 	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:45)
+[error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+[error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
+[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
+[error] 	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
+[error] 	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] 	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] 	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
+[error] 	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
+[error] 	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
+[error] 	at sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
+[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] 	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
+[error] 	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:46)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:28)
+[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:23)
+[error] 	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
+[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[error] 	at java.base/java.lang.Thread.run(Unknown Source)
+[error] (common / Compile / compileIncremental) java.lang.NoClassDefFoundError: dotty/tools/dotc/Run$
+[error] Total time: 18 s, completed Jun 22, 2023, 12:54:01 AM
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/control/NamedThreadFactory.scala:14:46 
+[error] 14 |    group: ThreadGroup = Thread.currentThread.getThreadGroup,
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value getThreadGroup is not a member of Thread | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Thread | Null could be null at runtime.
+[error]    |If you want to select getThreadGroup without checking for a null value,
+[error]    |insert a .nn before .getThreadGroup or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/control/NamedThreadFactory.scala:15:41 
+[error] 15 |    priority: Int = Thread.currentThread.getPriority
+[error]    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  value getPriority is not a member of Thread | Null.
+[error]    |  Since explicit-nulls is enabled, the selection is rejected because
+[error]    |  Thread | Null could be null at runtime.
+[error]    |  If you want to select getPriority without checking for a null value,
+[error]    |  insert a .nn before .getPriority or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/ExecutorServices.scala:110:32 
+[error] 110 |    Executors.newFixedThreadPool(threadsNb, NamedThreadFactory(name))
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    Found:    java.util.concurrent.ExecutorService | Null
+[error]     |    Required: java.util.concurrent.ExecutorService
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/ExecutorServices.scala:115:36 
+[error] 115 |    Executors.newScheduledThreadPool(scheduledThreadsNb, NamedThreadFactory("specs2.scheduled." + name))
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    Found:    java.util.concurrent.ScheduledExecutorService | Null
+[error]     |    Required: java.util.concurrent.ScheduledExecutorService
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:9:42 
+[error] 9 |  lazy val threadsNb = Runtime.getRuntime.availableProcessors
+[error]   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value availableProcessors is not a member of Runtime | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Runtime | Null could be null at runtime.
+[error]   |If you want to select availableProcessors without checking for a null value,
+[error]   |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:12:36 
+[error] 12 |    Executors.newScheduledThreadPool(scheduledThreadsNb)
+[error]    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    Found:    java.util.concurrent.ScheduledExecutorService | Null
+[error]    |    Required: java.util.concurrent.ScheduledExecutorService
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:25:26 
+[error] 25 |        () => { scheduled.cancel(false); () }
+[error]    |                ^^^^^^^^^^^^^^^^
+[error]    |value cancel is not a member of java.util.concurrent.ScheduledFuture[?] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.concurrent.ScheduledFuture[?] | Null could be null at runtime.
+[error]    |If you want to select cancel without checking for a null value,
+[error]    |insert a .nn before .cancel or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/ClassLoading.scala:5:25 
+[error] 5 |    Thread.currentThread.setContextClassLoader(classLoader)
+[error]   |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value setContextClassLoader is not a member of Thread | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Thread | Null could be null at runtime.
+[error]   |If you want to select setContextClassLoader without checking for a null value,
+[error]   |insert a .nn before .setContextClassLoader or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:23:30 
+[error] 23 |    createInstance(className, getClass.getClassLoader)
+[error]    |                              ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                              Found:    ClassLoader | Null
+[error]    |                              Required: ClassLoader
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:35:35 
+[error] 35 |    createInstanceFromClass(klass, klass.getClassLoader, defaultInstances)
+[error]    |                                   ^^^^^^^^^^^^^^^^^^^^
+[error]    |                                   Found:    ClassLoader | Null
+[error]    |                                   Required: ClassLoader
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:46:36 
+[error] 46 |      klass.getDeclaredConstructors.toList.filter(_.getParameterTypes.size <= 1).sortBy(_.getParameterTypes.size)
+[error]    |      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value toList is not a member of Array[java.lang.reflect.Constructor[?] | Null] | Null.
+[error]    |Extension methods were tried, but could not be fully constructed:
+[error]    |
+[error]    |    genericWrapArray[T](klass.getDeclaredConstructors())
+[error]    |
+[error]    |    org.specs2.fp.syntax.toList()
+[error]    |
+[error]    |    failed with:
+[error]    |
+[error]    |        value toList: <overloaded org.specs2.fp.syntax.toList> does not take parameters
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:64:42 
+[error] 64 |            klass.getDeclaredConstructors.toList.filter(_.getParameterTypes.size <= 1).sortBy(_.getParameterTypes.size)
+[error]    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value toList is not a member of Array[java.lang.reflect.Constructor[?] | Null] | Null.
+[error]    |Extension methods were tried, but could not be fully constructed:
+[error]    |
+[error]    |    genericWrapArray[T](klass.getDeclaredConstructors())
+[error]    |
+[error]    |    org.specs2.fp.syntax.toList()
+[error]    |
+[error]    |    failed with:
+[error]    |
+[error]    |        value toList: <overloaded org.specs2.fp.syntax.toList> does not take parameters
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:97:38 
+[error] 97 |    if (constructor.getParameterTypes.isEmpty) {
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value isEmpty is not a member of Array[Class[?] | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:98:24 
+[error] 98 |      if (klass.getName.endsWith("$")) {
+[error]    |          ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |     value endsWith is not a member of String | Null.
+[error]    |     Since explicit-nulls is enabled, the selection is rejected because
+[error]    |     String | Null could be null at runtime.
+[error]    |     If you want to select endsWith without checking for a null value,
+[error]    |     insert a .nn before .endsWith or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:99:88 
+[error] 99 |        newInstance(klass, klass.getDeclaredField(NameTransformer.MODULE_INSTANCE_NAME).get(null))
+[error]    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value get is not a member of java.lang.reflect.Field | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.lang.reflect.Field | Null could be null at runtime.
+[error]    |      If you want to select get without checking for a null value,
+[error]    |      insert a .nn before .get or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:103:45 
+[error] 103 |    } else if (constructor.getParameterTypes.size == 1) {
+[error]     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value size is not a member of Array[Class[?] | Null] | Null.
+[error]     |    An extension method was tried, but could not be fully constructed:
+[error]     |
+[error]     |        refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:104:63 
+[error] 104 |      defaultInstances.find(i => constructor.getParameterTypes.apply(0).isAssignableFrom(i.getClass)) match {
+[error]     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value apply is not a member of Array[Class[?] | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Class[?] | Null] | Null could be null at runtime.
+[error]     |    If you want to select apply without checking for a null value,
+[error]     |    insert a .nn before .apply or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:110:57 
+[error] 110 |            createInstance(constructor.getParameterTypes.toSeq(0).getName, loader, defaultInstances)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value toSeq is not a member of Array[Class[?] | Null] | Null.
+[error]     |    An extension method was tried, but could not be fully constructed:
+[error]     |
+[error]     |        refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/concurrent/ExecuteArguments.scala:7:32 
+[error] 7 |    math.max(Runtime.getRuntime.availableProcessors, 4)
+[error]   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value availableProcessors is not a member of Runtime | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Runtime | Null could be null at runtime.
+[error]   |If you want to select availableProcessors without checking for a null value,
+[error]   |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/concurrent/ExecuteArguments.scala:11:32 
+[error] 11 |    math.max(Runtime.getRuntime.availableProcessors, 4)
+[error]    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value availableProcessors is not a member of Runtime | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Runtime | Null could be null at runtime.
+[error]    |If you want to select availableProcessors without checking for a null value,
+[error]    |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] 187 errors found
+[error] (common / Compile / compileIncremental) Compilation failed
+[error] Total time: 29 s, completed Jun 22, 2023, 12:54:56 AM
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/control/NamedThreadFactory.scala:14:46 
+[error] 14 |    group: ThreadGroup = Thread.currentThread.getThreadGroup,
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value getThreadGroup is not a member of Thread | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Thread | Null could be null at runtime.
+[error]    |If you want to select getThreadGroup without checking for a null value,
+[error]    |insert a .nn before .getThreadGroup or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/control/NamedThreadFactory.scala:15:41 
+[error] 15 |    priority: Int = Thread.currentThread.getPriority
+[error]    |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  value getPriority is not a member of Thread | Null.
+[error]    |  Since explicit-nulls is enabled, the selection is rejected because
+[error]    |  Thread | Null could be null at runtime.
+[error]    |  If you want to select getPriority without checking for a null value,
+[error]    |  insert a .nn before .getPriority or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/ExecutorServices.scala:110:32 
+[error] 110 |    Executors.newFixedThreadPool(threadsNb, NamedThreadFactory(name))
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    Found:    java.util.concurrent.ExecutorService | Null
+[error]     |    Required: java.util.concurrent.ExecutorService
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/ExecutorServices.scala:115:36 
+[error] 115 |    Executors.newScheduledThreadPool(scheduledThreadsNb, NamedThreadFactory("specs2.scheduled." + name))
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    Found:    java.util.concurrent.ScheduledExecutorService | Null
+[error]     |    Required: java.util.concurrent.ScheduledExecutorService
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:9:42 
+[error] 9 |  lazy val threadsNb = Runtime.getRuntime.availableProcessors
+[error]   |                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value availableProcessors is not a member of Runtime | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Runtime | Null could be null at runtime.
+[error]   |If you want to select availableProcessors without checking for a null value,
+[error]   |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:12:36 
+[error] 12 |    Executors.newScheduledThreadPool(scheduledThreadsNb)
+[error]    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    Found:    java.util.concurrent.ScheduledExecutorService | Null
+[error]    |    Required: java.util.concurrent.ScheduledExecutorService
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/concurrent/Schedulers.scala:25:26 
+[error] 25 |        () => { scheduled.cancel(false); () }
+[error]    |                ^^^^^^^^^^^^^^^^
+[error]    |value cancel is not a member of java.util.concurrent.ScheduledFuture[?] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.concurrent.ScheduledFuture[?] | Null could be null at runtime.
+[error]    |If you want to select cancel without checking for a null value,
+[error]    |insert a .nn before .cancel or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/ClassLoading.scala:5:25 
+[error] 5 |    Thread.currentThread.setContextClassLoader(classLoader)
+[error]   |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value setContextClassLoader is not a member of Thread | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Thread | Null could be null at runtime.
+[error]   |If you want to select setContextClassLoader without checking for a null value,
+[error]   |insert a .nn before .setContextClassLoader or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:23:30 
+[error] 23 |    createInstance(className, getClass.getClassLoader)
+[error]    |                              ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                              Found:    ClassLoader | Null
+[error]    |                              Required: ClassLoader
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:35:35 
+[error] 35 |    createInstanceFromClass(klass, klass.getClassLoader, defaultInstances)
+[error]    |                                   ^^^^^^^^^^^^^^^^^^^^
+[error]    |                                   Found:    ClassLoader | Null
+[error]    |                                   Required: ClassLoader
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:46:36 
+[error] 46 |      klass.getDeclaredConstructors.toList.filter(_.getParameterTypes.size <= 1).sortBy(_.getParameterTypes.size)
+[error]    |      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value toList is not a member of Array[java.lang.reflect.Constructor[?] | Null] | Null.
+[error]    |Extension methods were tried, but could not be fully constructed:
+[error]    |
+[error]    |    genericWrapArray[T](klass.getDeclaredConstructors())
+[error]    |
+[error]    |    org.specs2.fp.syntax.toList()
+[error]    |
+[error]    |    failed with:
+[error]    |
+[error]    |        value toList: <overloaded org.specs2.fp.syntax.toList> does not take parameters
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:64:42 
+[error] 64 |            klass.getDeclaredConstructors.toList.filter(_.getParameterTypes.size <= 1).sortBy(_.getParameterTypes.size)
+[error]    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value toList is not a member of Array[java.lang.reflect.Constructor[?] | Null] | Null.
+[error]    |Extension methods were tried, but could not be fully constructed:
+[error]    |
+[error]    |    genericWrapArray[T](klass.getDeclaredConstructors())
+[error]    |
+[error]    |    org.specs2.fp.syntax.toList()
+[error]    |
+[error]    |    failed with:
+[error]    |
+[error]    |        value toList: <overloaded org.specs2.fp.syntax.toList> does not take parameters
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:97:38 
+[error] 97 |    if (constructor.getParameterTypes.isEmpty) {
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value isEmpty is not a member of Array[Class[?] | Null] | Null.
+[error]    |      An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |          refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:98:24 
+[error] 98 |      if (klass.getName.endsWith("$")) {
+[error]    |          ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |     value endsWith is not a member of String | Null.
+[error]    |     Since explicit-nulls is enabled, the selection is rejected because
+[error]    |     String | Null could be null at runtime.
+[error]    |     If you want to select endsWith without checking for a null value,
+[error]    |     insert a .nn before .endsWith or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:99:88 
+[error] 99 |        newInstance(klass, klass.getDeclaredField(NameTransformer.MODULE_INSTANCE_NAME).get(null))
+[error]    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value get is not a member of java.lang.reflect.Field | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.lang.reflect.Field | Null could be null at runtime.
+[error]    |      If you want to select get without checking for a null value,
+[error]    |      insert a .nn before .get or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:103:45 
+[error] 103 |    } else if (constructor.getParameterTypes.size == 1) {
+[error]     |               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value size is not a member of Array[Class[?] | Null] | Null.
+[error]     |    An extension method was tried, but could not be fully constructed:
+[error]     |
+[error]     |        refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:104:63 
+[error] 104 |      defaultInstances.find(i => constructor.getParameterTypes.apply(0).isAssignableFrom(i.getClass)) match {
+[error]     |                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value apply is not a member of Array[Class[?] | Null] | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    Array[Class[?] | Null] | Null could be null at runtime.
+[error]     |    If you want to select apply without checking for a null value,
+[error]     |    insert a .nn before .apply or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/jvm/src/main/scala/org/specs2/reflect/Classes.scala:110:57 
+[error] 110 |            createInstance(constructor.getParameterTypes.toSeq(0).getName, loader, defaultInstances)
+[error]     |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value toSeq is not a member of Array[Class[?] | Null] | Null.
+[error]     |    An extension method was tried, but could not be fully constructed:
+[error]     |
+[error]     |        refArrayOps[T](constructor.getParameterTypes())
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/concurrent/ExecuteArguments.scala:7:32 
+[error] 7 |    math.max(Runtime.getRuntime.availableProcessors, 4)
+[error]   |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]   |value availableProcessors is not a member of Runtime | Null.
+[error]   |Since explicit-nulls is enabled, the selection is rejected because
+[error]   |Runtime | Null could be null at runtime.
+[error]   |If you want to select availableProcessors without checking for a null value,
+[error]   |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/specs2/common/shared/src/main/scala/org/specs2/concurrent/ExecuteArguments.scala:11:32 
+[error] 11 |    math.max(Runtime.getRuntime.availableProcessors, 4)
+[error]    |             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value availableProcessors is not a member of Runtime | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Runtime | Null could be null at runtime.
+[error]    |If you want to select availableProcessors without checking for a null value,
+[error]    |insert a .nn before .availableProcessors or import scala.language.unsafeNulls.
+[error] 187 errors found
+[error] (common / Compile / compileIncremental) Compilation failed
+[error] Total time: 30 s, completed Jun 22, 2023, 12:55:53 AM
+[error] Test dotty.communitybuild.CommunityBuildTestC.specs2 failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/specs2
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; core/testOnly -- exclude ci"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 206.574 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.specs2(CommunityBuildTest.scala:97)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 239 s (03:59), completed Jun 22, 2023, 12:55:55 AM

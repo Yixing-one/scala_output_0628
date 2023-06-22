@@ -1,0 +1,165 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/Marshaller.scala:7:6 
+[error] 7 |class Marshaller[T <: GeneratedMessage](companion: GeneratedMessageCompanion[T])
+[error]   |      ^
+[error]   |class Marshaller needs to be abstract, since def stream(x$0: T | Null): java.io.InputStream | Null in trait Marshaller in object MethodDescriptor is not defined 
+[error]   |(Note that
+[error]   | parameter T | Null in def stream(x$0: T | Null): java.io.InputStream | Null in trait Marshaller in object MethodDescriptor does not match
+[error]   | parameter T in override def stream(t: T): java.io.InputStream in class Marshaller in package scalapb.grpc
+[error]   | )
+[error] -- [E038] Declaration Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/Marshaller.scala:9:15 
+[error] 9 |  override def stream(t: T): InputStream = new ByteArrayInputStream(t.toByteArray)
+[error]   |               ^
+[error]   |   method stream has a different signature than the overridden declaration
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/ProtoUtils.scala:8:8 
+[error] 8 |  class ScalaPbMetadataMarshaller[T <: GeneratedMessage](
+[error]   |        ^
+[error]   |class ScalaPbMetadataMarshaller needs to be abstract, since def toBytes(x$0: T | Null): Array[Byte] | Null in trait BinaryMarshaller in object Metadata is not defined 
+[error]   |(Note that
+[error]   | parameter T | Null in def toBytes(x$0: T | Null): Array[Byte] | Null in trait BinaryMarshaller in object Metadata does not match
+[error]   | parameter T in override def toBytes(value: T): Array[Byte] in class ScalaPbMetadataMarshaller in object ProtoUtils
+[error]   | )
+[error] -- [E038] Declaration Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/ProtoUtils.scala:11:17 
+[error] 11 |    override def toBytes(value: T): Array[Byte] = value.toByteArray
+[error]    |                 ^
+[error]    |method toBytes has a different signature than the overridden declaration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] four errors found
+[error] (grpcRuntimeJVM3 / Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Jun 22, 2023, 4:17:31 AM
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/Marshaller.scala:7:6 
+[error] 7 |class Marshaller[T <: GeneratedMessage](companion: GeneratedMessageCompanion[T])
+[error]   |      ^
+[error]   |class Marshaller needs to be abstract, since def stream(x$0: T | Null): java.io.InputStream | Null in trait Marshaller in object MethodDescriptor is not defined 
+[error]   |(Note that
+[error]   | parameter T | Null in def stream(x$0: T | Null): java.io.InputStream | Null in trait Marshaller in object MethodDescriptor does not match
+[error]   | parameter T in override def stream(t: T): java.io.InputStream in class Marshaller in package scalapb.grpc
+[error]   | )
+[error] -- [E038] Declaration Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/Marshaller.scala:9:15 
+[error] 9 |  override def stream(t: T): InputStream = new ByteArrayInputStream(t.toByteArray)
+[error]   |               ^
+[error]   |   method stream has a different signature than the overridden declaration
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/ProtoUtils.scala:8:8 
+[error] 8 |  class ScalaPbMetadataMarshaller[T <: GeneratedMessage](
+[error]   |        ^
+[error]   |class ScalaPbMetadataMarshaller needs to be abstract, since def toBytes(x$0: T | Null): Array[Byte] | Null in trait BinaryMarshaller in object Metadata is not defined 
+[error]   |(Note that
+[error]   | parameter T | Null in def toBytes(x$0: T | Null): Array[Byte] | Null in trait BinaryMarshaller in object Metadata does not match
+[error]   | parameter T in override def toBytes(value: T): Array[Byte] in class ScalaPbMetadataMarshaller in object ProtoUtils
+[error]   | )
+[error] -- [E038] Declaration Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/ProtoUtils.scala:11:17 
+[error] 11 |    override def toBytes(value: T): Array[Byte] = value.toByteArray
+[error]    |                 ^
+[error]    |method toBytes has a different signature than the overridden declaration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] four errors found
+[error] (grpcRuntimeJVM3 / Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Jun 22, 2023, 4:18:18 AM
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/Marshaller.scala:7:6 
+[error] 7 |class Marshaller[T <: GeneratedMessage](companion: GeneratedMessageCompanion[T])
+[error]   |      ^
+[error]   |class Marshaller needs to be abstract, since def stream(x$0: T | Null): java.io.InputStream | Null in trait Marshaller in object MethodDescriptor is not defined 
+[error]   |(Note that
+[error]   | parameter T | Null in def stream(x$0: T | Null): java.io.InputStream | Null in trait Marshaller in object MethodDescriptor does not match
+[error]   | parameter T in override def stream(t: T): java.io.InputStream in class Marshaller in package scalapb.grpc
+[error]   | )
+[error] -- [E038] Declaration Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/Marshaller.scala:9:15 
+[error] 9 |  override def stream(t: T): InputStream = new ByteArrayInputStream(t.toByteArray)
+[error]   |               ^
+[error]   |   method stream has a different signature than the overridden declaration
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/ProtoUtils.scala:8:8 
+[error] 8 |  class ScalaPbMetadataMarshaller[T <: GeneratedMessage](
+[error]   |        ^
+[error]   |class ScalaPbMetadataMarshaller needs to be abstract, since def toBytes(x$0: T | Null): Array[Byte] | Null in trait BinaryMarshaller in object Metadata is not defined 
+[error]   |(Note that
+[error]   | parameter T | Null in def toBytes(x$0: T | Null): Array[Byte] | Null in trait BinaryMarshaller in object Metadata does not match
+[error]   | parameter T in override def toBytes(value: T): Array[Byte] in class ScalaPbMetadataMarshaller in object ProtoUtils
+[error]   | )
+[error] -- [E038] Declaration Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/ProtoUtils.scala:11:17 
+[error] 11 |    override def toBytes(value: T): Array[Byte] = value.toByteArray
+[error]    |                 ^
+[error]    |method toBytes has a different signature than the overridden declaration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] four errors found
+[error] (grpcRuntimeJVM3 / Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Jun 22, 2023, 4:19:06 AM
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/Marshaller.scala:7:6 
+[error] 7 |class Marshaller[T <: GeneratedMessage](companion: GeneratedMessageCompanion[T])
+[error]   |      ^
+[error]   |class Marshaller needs to be abstract, since def stream(x$0: T | Null): java.io.InputStream | Null in trait Marshaller in object MethodDescriptor is not defined 
+[error]   |(Note that
+[error]   | parameter T | Null in def stream(x$0: T | Null): java.io.InputStream | Null in trait Marshaller in object MethodDescriptor does not match
+[error]   | parameter T in override def stream(t: T): java.io.InputStream in class Marshaller in package scalapb.grpc
+[error]   | )
+[error] -- [E038] Declaration Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/Marshaller.scala:9:15 
+[error] 9 |  override def stream(t: T): InputStream = new ByteArrayInputStream(t.toByteArray)
+[error]   |               ^
+[error]   |   method stream has a different signature than the overridden declaration
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/ProtoUtils.scala:8:8 
+[error] 8 |  class ScalaPbMetadataMarshaller[T <: GeneratedMessage](
+[error]   |        ^
+[error]   |class ScalaPbMetadataMarshaller needs to be abstract, since def toBytes(x$0: T | Null): Array[Byte] | Null in trait BinaryMarshaller in object Metadata is not defined 
+[error]   |(Note that
+[error]   | parameter T | Null in def toBytes(x$0: T | Null): Array[Byte] | Null in trait BinaryMarshaller in object Metadata does not match
+[error]   | parameter T in override def toBytes(value: T): Array[Byte] in class ScalaPbMetadataMarshaller in object ProtoUtils
+[error]   | )
+[error] -- [E038] Declaration Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/ScalaPB/scalapb-runtime-grpc/src/main/scala/scalapb/grpc/ProtoUtils.scala:11:17 
+[error] 11 |    override def toBytes(value: T): Array[Byte] = value.toByteArray
+[error]    |                 ^
+[error]    |method toBytes has a different signature than the overridden declaration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] four errors found
+[error] (grpcRuntimeJVM3 / Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Jun 22, 2023, 4:19:54 AM
+[error] Test dotty.communitybuild.CommunityBuildTestC.scalaPB failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/ScalaPB
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; lensesJVM3/compile; runtimeJVM3/compile; grpcRuntimeJVM3/compile; compilerPluginJVM3/compile"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 200.444 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.scalaPB(CommunityBuildTest.scala:89)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 224 s (03:44), completed Jun 22, 2023, 4:19:55 AM

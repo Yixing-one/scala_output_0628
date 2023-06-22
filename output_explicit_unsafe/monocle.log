@@ -1,0 +1,500 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/project/project
+[info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Thu Jun 22 02:23:47 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 02:23:48 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 02:23:49 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 02:23:53 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 02:23:54 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 02:23:54 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Flag -author set repeatedly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -groups set repeatedly
+[warn] Flag -author set repeatedly
+[warn] Flag -default-template set repeatedly
+[warn] Flag -groups set repeatedly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 02:23:55 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[warn] 14 warnings found
+[warn] 28 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 02:24:13 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 02:24:13 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.001s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test dotty.communitybuild.CommunityBuildTestB.monocle started
+[32m[STARTING Monocle][0m
+[32mPublishing scalacheck[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scalacheck-build from plugin.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[success] Total time: 0 s, completed Jun 22, 2023, 2:24:25 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 64 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 21 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by bench / scalacOptions, coreJS / scalacOptions and 5 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[success] Total time: 19 s, completed Jun 22, 2023, 2:24:47 AM
+[success] Total time: 11 s, completed Jun 22, 2023, 2:24:58 AM
+[32mPublishing discipline[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; set every credentials := Nil;coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project discipline-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline/project
+[info] loading settings for project root from build.sbt ...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline/)
+[success] Total time: 0 s, completed Jun 22, 2023, 2:25:08 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 53 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by coreJS / dependencyTreeIgnoreMissingUpdate / updateOptions, coreJS / ivyConfiguration and 18 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by coreJS / scalacOptions, coreJVM / scalacOptions and 4 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline/)
+[info] Defining Global / credentials, coreJS / credentials and 5 others.
+[info] The new values will be used by allCredentials, coreJS / allCredentials and 39 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline
+[info] set current project to discipline (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline/)
+[success] Total time: 7 s, completed Jun 22, 2023, 2:25:18 AM
+[success] Total time: 2 s, completed Jun 22, 2023, 2:25:20 AM
+[32mPublishing munit[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; munitJVM/publishLocal; munitJS/publishLocal; munitScalacheckJVM/publishLocal; munitScalacheckJS/publishLocal; junit/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project munit-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/munit/project
+[info] loading settings for project munit from build.sbt ...
+[info] resolving key references (14023 settings) ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/munit/)
+[success] Total time: 1 s, completed Jun 22, 2023, 2:25:31 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 101 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/munit/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by dependencyTreeIgnoreMissingUpdate / updateOptions, docs / dependencyTreeIgnoreMissingUpdate / updateOptions and 36 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/munit/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by Compile / scalacOptions, Scalafix / scalacOptions and 12 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/munit/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set current project to munit (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/munit/)
+[success] Total time: 14 s, completed Jun 22, 2023, 2:25:49 AM
+[success] Total time: 6 s, completed Jun 22, 2023, 2:25:55 AM
+[success] Total time: 2 s, completed Jun 22, 2023, 2:25:57 AM
+[success] Total time: 2 s, completed Jun 22, 2023, 2:25:59 AM
+[success] Total time: 1 s, completed Jun 22, 2023, 2:26:00 AM
+[32mPublishing discipline-munit[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project discipline-munit-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline-munit/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline-munit/)
+[success] Total time: 0 s, completed Jun 22, 2023, 2:26:09 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 53 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline-munit/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by coreJS / dependencyTreeIgnoreMissingUpdate / updateOptions, coreJS / ivyConfiguration and 18 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline-munit/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by coreJS / scalacOptions, coreJVM / scalacOptions and 4 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline-munit/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/discipline-munit
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/discipline-munit/)
+[success] Total time: 7 s, completed Jun 22, 2023, 2:26:19 AM
+[success] Total time: 2 s, completed Jun 22, 2023, 2:26:21 AM
+[32mPublishing simulacrum-scalafix[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; annotation/publishLocal;annotationJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project simulacrum-scalafix-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/simulacrum-scalafix/project
+[info] loading settings for project root from build.sbt,version.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/simulacrum-scalafix/)
+[success] Total time: 0 s, completed Jun 22, 2023, 2:26:31 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 53 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/simulacrum-scalafix/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by annotation / dependencyTreeIgnoreMissingUpdate / updateOptions, annotation / ivyConfiguration and 18 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/simulacrum-scalafix/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by annotation / scalacOptions, annotationJS / scalacOptions and 4 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/simulacrum-scalafix/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/simulacrum-scalafix/)
+[success] Total time: 6 s, completed Jun 22, 2023, 2:26:39 AM
+[success] Total time: 2 s, completed Jun 22, 2023, 2:26:40 AM
+[32mPublishing cats[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; rootJVM/publishLocal;rootJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project cats-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/project
+[info] loading settings for project root from build.sbt,mima.sbt ...
+[info] resolving key references (44288 settings) ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * ThisBuild / tlFatalWarningsInCi
+[warn]   +- /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/build.sbt:27
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[success] Total time: 3 s, completed Jun 22, 2023, 2:27:00 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 352 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by algebraJS / dependencyTreeIgnoreMissingUpdate / updateOptions, algebraJS / ivyConfiguration and 129 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by algebraJS / scalacOptions, algebraJVM / scalacOptions and 41 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set scmInfo to https://github.com/dotty-staging/cats
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/)
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class <root>)),object cats),NonEmptyParallel),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.NonEmptyParallelLaws[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val P: cats.NonEmptyParallel.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class <root>)),object cats),Parallel),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.ParallelLaws[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val P: cats.Parallel.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class cats)),object laws),NonEmptyParallelLaws),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.discipline.NonEmptyParallelTests[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val laws: cats.laws.NonEmptyParallelLaws.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class cats)),object laws),ParallelLaws),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.discipline.ParallelTests[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val laws: cats.laws.ParallelLaws.Aux[M, F0]
+}
+[success] Total time: 104 s (01:44), completed Jun 22, 2023, 2:28:54 AM
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class <root>)),object cats),NonEmptyParallel),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.NonEmptyParallelLaws[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val P: cats.NonEmptyParallel.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class <root>)),object cats),Parallel),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.ParallelLaws[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val P: cats.Parallel.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class cats)),object laws),NonEmptyParallelLaws),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.discipline.NonEmptyParallelTests[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val laws: cats.laws.NonEmptyParallelLaws.Aux[M, F0]
+}
+WARN: Unsupported type: Not supported type in refinement AppliedType(TypeRef(TermRef(TermRef(ThisType(TypeRef(NoPrefix,module class cats)),object laws),ParallelLaws),type Aux),List(TypeRef(NoPrefix,type M), TypeRef(NoPrefix,type F0))): cats.laws.discipline.ParallelTests[M] {
+  type F >: [A >: scala.Nothing <: scala.Any] => F0[A] <: [A >: scala.Nothing <: scala.Any] => F0[A]
+  val laws: cats.laws.ParallelLaws.Aux[M, F0]
+}
+[success] Total time: 65 s (01:05), completed Jun 22, 2023, 2:29:59 AM
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING Monocle][0m
+[32mBuilding Monocle with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/test; macrosJVM/test; testJVM/test[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)[0m
+[0m[[0m[0minfo[0m] [0m[0mloading global plugins from /Users/y3536zha/.sbt/1.0/plugins[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project monocle-build from plugins.sbt,sbt-injected-plugins ...[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/Monocle/project[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project monocle from build.sbt ...[0m
+[0m[[0m[0minfo[0m] [0m[0mresolving key references (21095 settings) ...[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[0m[[0m[0minfo[0m] [0m[0mset current project to monocle (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/Monocle/)[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining Global / testOptions[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 48 others.[0m
+[0m[[0m[0minfo[0m] [0m[0m	Run `last` for details.[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to monocle (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/Monocle/)[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Jun 22, 2023, 2:30:15 AM[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining Global / logLevel[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 176 others.[0m
+[0m[[0m[0minfo[0m] [0m[0m	Run `last` for details.[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to monocle (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/Monocle/)[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining Global / updateOptions[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 63 others.[0m
+[0m[[0m[0minfo[0m] [0m[0m	Run `last` for details.[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to monocle (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/Monocle/)[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining Global / scalacOptions[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by bench / scalacOptions, coreJS / scalacOptions and 19 others.[0m
+[0m[[0m[0minfo[0m] [0m[0m	Run `last` for details.[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to monocle (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/Monocle/)[0m
+[0m[[0m[0minfo[0m] [0m[0mForcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mLoading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to monocle (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/Monocle/)[0m
+Warning: mocking up superclass for module class focus
+Warning: mocking up superclass for module class internal
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 21 s, completed Jun 22, 2023, 2:30:41 AM[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 4 s, completed Jun 22, 2023, 2:30:45 AM[0m
+Warning: mocking up superclass for module class focus
+Warning: mocking up superclass for module class internal
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 30 s, completed Jun 22, 2023, 2:31:14 AM[0m
+[0J[32m[SUCCESS Monocle][0m
+[32m[Monocle DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 1 total, 421.291s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 449 s (07:29), completed Jun 22, 2023, 2:31:15 AM

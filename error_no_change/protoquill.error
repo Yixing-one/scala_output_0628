@@ -1,0 +1,1669 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/FlicersSpec.scala:42:22 
+[error]  42 |      val r = ctx.run(q)
+[error]     |                      ^
+[error]     |Exception occurred while executing macro expansion.
+[error]     |scala.quoted.runtime.impl.ScopeException: Expression created in a splice was used outside of that splice.
+[error]     |Created in: quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:54 at column 79
+[error]     |Used in: quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:48 at column 31
+[error]     |Expr: field.toString()
+[error]     |
+[error]     |
+[error]     |Creation stack:
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:54 at column 79
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:20 at column 176
+[error]     |
+[error]     |
+[error]     |Use stack:
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:48 at column 31
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:20 at column 176
+[error]     |
+[error]     |
+[error]     |Hint: A common reason for this to happen is when a `def` that creates a `'{...}`
+[error]     |      captures an outer instance of `Quotes`. If this `def` is called in a splice
+[error]     |      it will not track the `Quotes` provided by that particular splice.
+[error]     |      To fix it add a `given Quotes` to this `def`.
+[error]     |          
+[error]     |	at scala.quoted.runtime.impl.ScopeException$.checkInCorrectScope(ScopeException.scala:35)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.quotedExprToTree(PickledQuotes.scala:40)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:112)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1449)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1415)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.spliceTerms(PickledQuotes.scala:152)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.unpickleTerm(PickledQuotes.scala:88)
+[error]     |	at scala.quoted.runtime.impl.QuotesImpl.unpickleExprV2(QuotesImpl.scala:3098)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.fieldInject$1(MapFlicer.scala:48)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$1$$anonfun$1(MapFlicer.scala:54)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$1(MapFlicer.scala:54)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$adapted$1(MapFlicer.scala:54)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:110)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1449)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1481)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transformStats(Trees.scala:1506)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transformBlock(Trees.scala:1508)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1429)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1415)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.spliceTerms(PickledQuotes.scala:152)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.unpickleTerm(PickledQuotes.scala:88)
+[error]     |	at scala.quoted.runtime.impl.QuotesImpl.unpickleExprV2(QuotesImpl.scala:3098)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1(MapFlicer.scala:54)
+[error]     |	at scala.collection.immutable.List.map(List.scala:246)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.buildClause(MapFlicer.scala:56)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.base(MapFlicer.scala:62)
+[error]     |	at io.getquill.metaprog.etc.MapFlicer$.applyImpl(MapFlicer.scala:23)
+[error]     |	at io.getquill.metaprog.etc.MapFlicer$.inline$applyImpl(MapFlicer.scala:21)
+[error]     |
+[error]     |---------------------------------------------------------------------------
+[error]     |Inline stack trace
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error]  20 |  inline def apply[T, PrepareRow, Session](inline entity: T, inline map: Map[String, String], inline default:String, inline eachField: (String, String) => Boolean): Boolean = ${ applyImpl[T, PrepareRow, Session]('entity, 'map, 'default, 'eachField) }
+[error]     |                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error] 117 |      q.filter(p => MapFlicer[T, PrepareRow, Session](p, map, null, (a, b) => (a == b) || (b == (null) ) ))
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error]  40 |        query[PersonFlatOpt].filterByKeys(keys)
+[error]     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]      ---------------------------------------------------------------------------
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/FlicersSpec.scala:68:22 
+[error] 68 |      val r = ctx.run(q) //
+[error]    |                      ^
+[error]    |Exception occurred while executing macro expansion.
+[error]    |java.lang.AssertionError: NoDenotation.owner
+[error]    |	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2581)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$SymbolMethods$.owner(QuotesImpl.scala:2536)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$SymbolMethods$.owner(QuotesImpl.scala:2536)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$SourceCodePrinter.splicedName(SourceCode.scala:1441)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$SourceCodePrinter.printTree(SourceCode.scala:334)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$.showTree(SourceCode.scala:10)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$12.show(QuotesImpl.scala:3055)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$12.show(QuotesImpl.scala:3054)
+[error]    |	at io.getquill.parser.engine.ParserError$.apply(ParserError.scala:30)
+[error]    |	at io.getquill.parser.engine.ParserError$.apply(ParserError.scala:12)
+[error]    |	at io.getquill.parser.InfixParser.$anonfun$21(Parser.scala:661)
+[error]    |	at scala.Option.getOrElse(Option.scala:201)
+[error]    |	at io.getquill.parser.InfixParser.genericInfix(Parser.scala:661)
+[error]    |	at io.getquill.parser.InfixParser$$anon$16.applyOrElse(Parser.scala:658)
+[error]    |	at io.getquill.parser.InfixParser$$anon$16.applyOrElse(Parser.scala:653)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.QueryParser$$anon$13.applyOrElse(Parser.scala:518)
+[error]    |	at io.getquill.parser.QueryParser$$anon$13.applyOrElse(Parser.scala:501)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.GenericExpressionsParser$$anon$20.applyOrElse(Parser.scala:879)
+[error]    |	at io.getquill.parser.GenericExpressionsParser$$anon$20.applyOrElse(Parser.scala:871)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.ParserLibrary$ReadyParser.apply(Parser.scala:100)
+[error]    |	at io.getquill.context.QuoteMacro$.apply(QuoteMacro.scala:73)
+[error]    |
+[error]    |----------------------------------------------------------------------------
+[error]    |Inline stack trace
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error] 72 |  inline def quote[T](inline bodyExpr: T): Quoted[T] = ${ QuoteMacro[T]('bodyExpr) }
+[error]    |                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error]  3 |export Dsl._
+[error]    |       ^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error] 65 |      inline def q = quote {
+[error]    |                     ^
+[error] 66 |        query[PersonNestOpt].filterByKeys(keys)
+[error] 67 |      }
+[error]     ----------------------------------------------------------------------------
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/anyval/AnyValEncodingSpec.scala:18:25 
+[error] 18 |    val mirror = ctx.run(query[Person].filter(p => p.name == lift(name)))
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |Exception occurred while executing macro expansion.
+[error]    |java.lang.AssertionError: assertion failed: Tree had an unexpected owner for class $anon
+[error]    |Expected: val ctx (io.getquill.anyval.AnyValEncodingSpec._$_$_$_$ctx)
+[error]    |But was: method $anonfun (io.getquill.anyval.AnyValEncodingSpec._$_$_$$anonfun)
+[error]    |
+[error]    |
+[error]    |The code of the definition of class $anon is
+[error]    |final class $anon() extends io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name] {
+[error]    |  override def makeMappedEncoder[Base](mapped: io.getquill.MappedEncoding[io.getquill.anyval.Name, Base], encoder: LowPriorityImplicits_this.Encoder[Base]): LowPriorityImplicits_this.Encoder[io.getquill.anyval.Name] = LowPriorityImplicits_this.mappedEncoder[io.getquill.anyval.Name, Base](mapped, encoder)
+[error]    |}
+[error]    |
+[error]    |which was found in the code
+[error]    |{
+[error]    |  final class $anon() extends io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name] {
+[error]    |    override def makeMappedEncoder[Base](mapped: io.getquill.MappedEncoding[io.getquill.anyval.Name, Base], encoder: LowPriorityImplicits_this.Encoder[Base]): LowPriorityImplicits_this.Encoder[io.getquill.anyval.Name] = LowPriorityImplicits_this.mappedEncoder[io.getquill.anyval.Name, Base](mapped, encoder)
+[error]    |  }
+[error]    |
+[error]    |  (new $anon(): io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name])
+[error]    |}
+[error]    |
+[error]    |which has the AST representation
+[error]    |Block(List(ClassDef("$anon", DefDef("<init>", List(TermParamClause(Nil)), Inferred(), None), List(Apply(Select(New(Inferred()), "<init>"), Nil), Applied(TypeIdent("AnyValEncoderContext"), List(TypeIdent("Encoder"), Inferred()))), None, List(DefDef("makeMappedEncoder", List(TypeParamClause(List(TypeDef("Base", TypeBoundsTree(Inferred(), Inferred())))), TermParamClause(List(ValDef("mapped", Applied(TypeIdent("MappedEncoding"), List(Inferred(), TypeIdent("Base"))), None), ValDef("encoder", Applied(TypeIdent("Encoder"), List(TypeIdent("Base"))), None)))), Applied(TypeIdent("Encoder"), List(Inferred())), Some(Apply(TypeApply(Select(Inlined(None, Nil, Ident("LowPriorityImplicits_this")), "mappedEncoder"), List(Inferred(), Inferred())), List(Ident("mapped"), Ident("encoder")))))))), Typed(Apply(Select(New(TypeIdent("$anon")), "<init>"), Nil), Inferred()))
+[error]    |
+[error]    |
+[error]    |
+[error]    |Tip: The owner of a tree can be changed using method `Tree.changeOwner`.
+[error]    |Tip: The default owner of definitions created in quotes can be changed using method `Symbol.asQuotes`.
+[error]    |
+[error]    |	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$9.traverse(QuotesImpl.scala:3003)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1660)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1660)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1532)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1534)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1565)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1538)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1661)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$9.traverse(QuotesImpl.scala:3010)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$.xCheckMacroOwners(QuotesImpl.scala:3011)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$.scala$quoted$runtime$impl$QuotesImpl$reflect$$$xCheckMacroedOwners(QuotesImpl.scala:2969)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$ValDef$.copy(QuotesImpl.scala:312)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$ValDef$.copy(QuotesImpl.scala:311)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition(ExprMap.scala:29)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStatement(ExprMap.scala:18)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats$$anonfun$1(ExprMap.scala:126)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats(ExprMap.scala:126)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:74)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:68)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:45)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:68)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition$$anonfun$1(ExprMap.scala:32)
+[error]    |	at scala.Option.map(Option.scala:242)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition(ExprMap.scala:32)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStatement(ExprMap.scala:18)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats$$anonfun$1(ExprMap.scala:126)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats(ExprMap.scala:126)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:74)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$.apply(ExprAccumulate.scala:118)
+[error]    |	at io.getquill.metaprog.PlanterExpr$.findUnquotes(ExprModel.scala:179)
+[error]    |	at io.getquill.context.ExtractLifts$.extractLifts(QuoteMacro.scala:41)
+[error]    |	at io.getquill.context.ExtractLifts$.apply(QuoteMacro.scala:58)
+[error]    |	at io.getquill.context.QuoteMacro$.apply(QuoteMacro.scala:79)
+[error]    |
+[error]    |----------------------------------------------------------------------------
+[error]    |Inline stack trace
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:76
+[error] 76 |  inline implicit def autoQuote[T](inline body: T): Quoted[T] = ${ QuoteMacro[T]('body) }
+[error]    |                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:76
+[error]  3 |export Dsl._
+[error]    |       ^^^
+[error]     ----------------------------------------------------------------------------
+[error] three errors found
+[error] (quill-sql / Test / compileIncremental) Compilation failed
+[error] Total time: 40 s, completed Jun 21, 2023, 4:14:25 PM
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/FlicersSpec.scala:42:22 
+[error]  42 |      val r = ctx.run(q)
+[error]     |                      ^
+[error]     |Exception occurred while executing macro expansion.
+[error]     |scala.quoted.runtime.impl.ScopeException: Expression created in a splice was used outside of that splice.
+[error]     |Created in: quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:54 at column 79
+[error]     |Used in: quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:48 at column 31
+[error]     |Expr: field.toString()
+[error]     |
+[error]     |
+[error]     |Creation stack:
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:54 at column 79
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:20 at column 176
+[error]     |
+[error]     |
+[error]     |Use stack:
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:48 at column 31
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:20 at column 176
+[error]     |
+[error]     |
+[error]     |Hint: A common reason for this to happen is when a `def` that creates a `'{...}`
+[error]     |      captures an outer instance of `Quotes`. If this `def` is called in a splice
+[error]     |      it will not track the `Quotes` provided by that particular splice.
+[error]     |      To fix it add a `given Quotes` to this `def`.
+[error]     |          
+[error]     |	at scala.quoted.runtime.impl.ScopeException$.checkInCorrectScope(ScopeException.scala:35)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.quotedExprToTree(PickledQuotes.scala:40)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:112)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1449)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1415)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.spliceTerms(PickledQuotes.scala:152)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.unpickleTerm(PickledQuotes.scala:88)
+[error]     |	at scala.quoted.runtime.impl.QuotesImpl.unpickleExprV2(QuotesImpl.scala:3098)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.fieldInject$1(MapFlicer.scala:48)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$1$$anonfun$1(MapFlicer.scala:54)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$1(MapFlicer.scala:54)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$adapted$1(MapFlicer.scala:54)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:110)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1449)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1481)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transformStats(Trees.scala:1506)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transformBlock(Trees.scala:1508)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1429)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1415)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.spliceTerms(PickledQuotes.scala:152)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.unpickleTerm(PickledQuotes.scala:88)
+[error]     |	at scala.quoted.runtime.impl.QuotesImpl.unpickleExprV2(QuotesImpl.scala:3098)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1(MapFlicer.scala:54)
+[error]     |	at scala.collection.immutable.List.map(List.scala:246)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.buildClause(MapFlicer.scala:56)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.base(MapFlicer.scala:62)
+[error]     |	at io.getquill.metaprog.etc.MapFlicer$.applyImpl(MapFlicer.scala:23)
+[error]     |	at io.getquill.metaprog.etc.MapFlicer$.inline$applyImpl(MapFlicer.scala:21)
+[error]     |
+[error]     |---------------------------------------------------------------------------
+[error]     |Inline stack trace
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error]  20 |  inline def apply[T, PrepareRow, Session](inline entity: T, inline map: Map[String, String], inline default:String, inline eachField: (String, String) => Boolean): Boolean = ${ applyImpl[T, PrepareRow, Session]('entity, 'map, 'default, 'eachField) }
+[error]     |                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error] 117 |      q.filter(p => MapFlicer[T, PrepareRow, Session](p, map, null, (a, b) => (a == b) || (b == (null) ) ))
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error]  40 |        query[PersonFlatOpt].filterByKeys(keys)
+[error]     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]      ---------------------------------------------------------------------------
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/FlicersSpec.scala:68:22 
+[error] 68 |      val r = ctx.run(q) //
+[error]    |                      ^
+[error]    |Exception occurred while executing macro expansion.
+[error]    |java.lang.AssertionError: NoDenotation.owner
+[error]    |	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2581)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$SymbolMethods$.owner(QuotesImpl.scala:2536)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$SymbolMethods$.owner(QuotesImpl.scala:2536)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$SourceCodePrinter.splicedName(SourceCode.scala:1441)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$SourceCodePrinter.printTree(SourceCode.scala:334)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$.showTree(SourceCode.scala:10)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$12.show(QuotesImpl.scala:3055)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$12.show(QuotesImpl.scala:3054)
+[error]    |	at io.getquill.parser.engine.ParserError$.apply(ParserError.scala:30)
+[error]    |	at io.getquill.parser.engine.ParserError$.apply(ParserError.scala:12)
+[error]    |	at io.getquill.parser.InfixParser.$anonfun$21(Parser.scala:661)
+[error]    |	at scala.Option.getOrElse(Option.scala:201)
+[error]    |	at io.getquill.parser.InfixParser.genericInfix(Parser.scala:661)
+[error]    |	at io.getquill.parser.InfixParser$$anon$16.applyOrElse(Parser.scala:658)
+[error]    |	at io.getquill.parser.InfixParser$$anon$16.applyOrElse(Parser.scala:653)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.QueryParser$$anon$13.applyOrElse(Parser.scala:518)
+[error]    |	at io.getquill.parser.QueryParser$$anon$13.applyOrElse(Parser.scala:501)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.GenericExpressionsParser$$anon$20.applyOrElse(Parser.scala:879)
+[error]    |	at io.getquill.parser.GenericExpressionsParser$$anon$20.applyOrElse(Parser.scala:871)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.ParserLibrary$ReadyParser.apply(Parser.scala:100)
+[error]    |	at io.getquill.context.QuoteMacro$.apply(QuoteMacro.scala:73)
+[error]    |
+[error]    |----------------------------------------------------------------------------
+[error]    |Inline stack trace
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error] 72 |  inline def quote[T](inline bodyExpr: T): Quoted[T] = ${ QuoteMacro[T]('bodyExpr) }
+[error]    |                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error]  3 |export Dsl._
+[error]    |       ^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error] 65 |      inline def q = quote {
+[error]    |                     ^
+[error] 66 |        query[PersonNestOpt].filterByKeys(keys)
+[error] 67 |      }
+[error]     ----------------------------------------------------------------------------
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/anyval/AnyValEncodingSpec.scala:18:25 
+[error] 18 |    val mirror = ctx.run(query[Person].filter(p => p.name == lift(name)))
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |Exception occurred while executing macro expansion.
+[error]    |java.lang.AssertionError: assertion failed: Tree had an unexpected owner for class $anon
+[error]    |Expected: val ctx (io.getquill.anyval.AnyValEncodingSpec._$_$_$_$ctx)
+[error]    |But was: method $anonfun (io.getquill.anyval.AnyValEncodingSpec._$_$_$$anonfun)
+[error]    |
+[error]    |
+[error]    |The code of the definition of class $anon is
+[error]    |final class $anon() extends io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name] {
+[error]    |  override def makeMappedEncoder[Base](mapped: io.getquill.MappedEncoding[io.getquill.anyval.Name, Base], encoder: LowPriorityImplicits_this.Encoder[Base]): LowPriorityImplicits_this.Encoder[io.getquill.anyval.Name] = LowPriorityImplicits_this.mappedEncoder[io.getquill.anyval.Name, Base](mapped, encoder)
+[error]    |}
+[error]    |
+[error]    |which was found in the code
+[error]    |{
+[error]    |  final class $anon() extends io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name] {
+[error]    |    override def makeMappedEncoder[Base](mapped: io.getquill.MappedEncoding[io.getquill.anyval.Name, Base], encoder: LowPriorityImplicits_this.Encoder[Base]): LowPriorityImplicits_this.Encoder[io.getquill.anyval.Name] = LowPriorityImplicits_this.mappedEncoder[io.getquill.anyval.Name, Base](mapped, encoder)
+[error]    |  }
+[error]    |
+[error]    |  (new $anon(): io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name])
+[error]    |}
+[error]    |
+[error]    |which has the AST representation
+[error]    |Block(List(ClassDef("$anon", DefDef("<init>", List(TermParamClause(Nil)), Inferred(), None), List(Apply(Select(New(Inferred()), "<init>"), Nil), Applied(TypeIdent("AnyValEncoderContext"), List(TypeIdent("Encoder"), Inferred()))), None, List(DefDef("makeMappedEncoder", List(TypeParamClause(List(TypeDef("Base", TypeBoundsTree(Inferred(), Inferred())))), TermParamClause(List(ValDef("mapped", Applied(TypeIdent("MappedEncoding"), List(Inferred(), TypeIdent("Base"))), None), ValDef("encoder", Applied(TypeIdent("Encoder"), List(TypeIdent("Base"))), None)))), Applied(TypeIdent("Encoder"), List(Inferred())), Some(Apply(TypeApply(Select(Inlined(None, Nil, Ident("LowPriorityImplicits_this")), "mappedEncoder"), List(Inferred(), Inferred())), List(Ident("mapped"), Ident("encoder")))))))), Typed(Apply(Select(New(TypeIdent("$anon")), "<init>"), Nil), Inferred()))
+[error]    |
+[error]    |
+[error]    |
+[error]    |Tip: The owner of a tree can be changed using method `Tree.changeOwner`.
+[error]    |Tip: The default owner of definitions created in quotes can be changed using method `Symbol.asQuotes`.
+[error]    |
+[error]    |	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$9.traverse(QuotesImpl.scala:3003)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1660)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1660)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1532)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1534)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1565)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1538)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1661)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$9.traverse(QuotesImpl.scala:3010)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$.xCheckMacroOwners(QuotesImpl.scala:3011)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$.scala$quoted$runtime$impl$QuotesImpl$reflect$$$xCheckMacroedOwners(QuotesImpl.scala:2969)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$ValDef$.copy(QuotesImpl.scala:312)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$ValDef$.copy(QuotesImpl.scala:311)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition(ExprMap.scala:29)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStatement(ExprMap.scala:18)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats$$anonfun$1(ExprMap.scala:126)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats(ExprMap.scala:126)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:74)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:68)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:45)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:68)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition$$anonfun$1(ExprMap.scala:32)
+[error]    |	at scala.Option.map(Option.scala:242)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition(ExprMap.scala:32)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStatement(ExprMap.scala:18)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats$$anonfun$1(ExprMap.scala:126)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats(ExprMap.scala:126)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:74)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$.apply(ExprAccumulate.scala:118)
+[error]    |	at io.getquill.metaprog.PlanterExpr$.findUnquotes(ExprModel.scala:179)
+[error]    |	at io.getquill.context.ExtractLifts$.extractLifts(QuoteMacro.scala:41)
+[error]    |	at io.getquill.context.ExtractLifts$.apply(QuoteMacro.scala:58)
+[error]    |	at io.getquill.context.QuoteMacro$.apply(QuoteMacro.scala:79)
+[error]    |
+[error]    |----------------------------------------------------------------------------
+[error]    |Inline stack trace
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:76
+[error] 76 |  inline implicit def autoQuote[T](inline body: T): Quoted[T] = ${ QuoteMacro[T]('body) }
+[error]    |                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:76
+[error]  3 |export Dsl._
+[error]    |       ^^^
+[error]     ----------------------------------------------------------------------------
+[error] three errors found
+[error] (quill-sql / Test / compileIncremental) Compilation failed
+[error] Total time: 37 s, completed Jun 21, 2023, 4:15:17 PM
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/FlicersSpec.scala:42:22 
+[error]  42 |      val r = ctx.run(q)
+[error]     |                      ^
+[error]     |Exception occurred while executing macro expansion.
+[error]     |scala.quoted.runtime.impl.ScopeException: Expression created in a splice was used outside of that splice.
+[error]     |Created in: quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:54 at column 79
+[error]     |Used in: quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:48 at column 31
+[error]     |Expr: field.toString()
+[error]     |
+[error]     |
+[error]     |Creation stack:
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:54 at column 79
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:20 at column 176
+[error]     |
+[error]     |
+[error]     |Use stack:
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:48 at column 31
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:20 at column 176
+[error]     |
+[error]     |
+[error]     |Hint: A common reason for this to happen is when a `def` that creates a `'{...}`
+[error]     |      captures an outer instance of `Quotes`. If this `def` is called in a splice
+[error]     |      it will not track the `Quotes` provided by that particular splice.
+[error]     |      To fix it add a `given Quotes` to this `def`.
+[error]     |          
+[error]     |	at scala.quoted.runtime.impl.ScopeException$.checkInCorrectScope(ScopeException.scala:35)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.quotedExprToTree(PickledQuotes.scala:40)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:112)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1449)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1415)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.spliceTerms(PickledQuotes.scala:152)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.unpickleTerm(PickledQuotes.scala:88)
+[error]     |	at scala.quoted.runtime.impl.QuotesImpl.unpickleExprV2(QuotesImpl.scala:3098)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.fieldInject$1(MapFlicer.scala:48)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$1$$anonfun$1(MapFlicer.scala:54)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$1(MapFlicer.scala:54)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$adapted$1(MapFlicer.scala:54)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:110)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1449)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1481)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transformStats(Trees.scala:1506)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transformBlock(Trees.scala:1508)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1429)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1415)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.spliceTerms(PickledQuotes.scala:152)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.unpickleTerm(PickledQuotes.scala:88)
+[error]     |	at scala.quoted.runtime.impl.QuotesImpl.unpickleExprV2(QuotesImpl.scala:3098)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1(MapFlicer.scala:54)
+[error]     |	at scala.collection.immutable.List.map(List.scala:246)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.buildClause(MapFlicer.scala:56)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.base(MapFlicer.scala:62)
+[error]     |	at io.getquill.metaprog.etc.MapFlicer$.applyImpl(MapFlicer.scala:23)
+[error]     |	at io.getquill.metaprog.etc.MapFlicer$.inline$applyImpl(MapFlicer.scala:21)
+[error]     |
+[error]     |---------------------------------------------------------------------------
+[error]     |Inline stack trace
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error]  20 |  inline def apply[T, PrepareRow, Session](inline entity: T, inline map: Map[String, String], inline default:String, inline eachField: (String, String) => Boolean): Boolean = ${ applyImpl[T, PrepareRow, Session]('entity, 'map, 'default, 'eachField) }
+[error]     |                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error] 117 |      q.filter(p => MapFlicer[T, PrepareRow, Session](p, map, null, (a, b) => (a == b) || (b == (null) ) ))
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error]  40 |        query[PersonFlatOpt].filterByKeys(keys)
+[error]     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]      ---------------------------------------------------------------------------
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/FlicersSpec.scala:68:22 
+[error] 68 |      val r = ctx.run(q) //
+[error]    |                      ^
+[error]    |Exception occurred while executing macro expansion.
+[error]    |java.lang.AssertionError: NoDenotation.owner
+[error]    |	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2581)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$SymbolMethods$.owner(QuotesImpl.scala:2536)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$SymbolMethods$.owner(QuotesImpl.scala:2536)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$SourceCodePrinter.splicedName(SourceCode.scala:1441)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$SourceCodePrinter.printTree(SourceCode.scala:334)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$.showTree(SourceCode.scala:10)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$12.show(QuotesImpl.scala:3055)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$12.show(QuotesImpl.scala:3054)
+[error]    |	at io.getquill.parser.engine.ParserError$.apply(ParserError.scala:30)
+[error]    |	at io.getquill.parser.engine.ParserError$.apply(ParserError.scala:12)
+[error]    |	at io.getquill.parser.InfixParser.$anonfun$21(Parser.scala:661)
+[error]    |	at scala.Option.getOrElse(Option.scala:201)
+[error]    |	at io.getquill.parser.InfixParser.genericInfix(Parser.scala:661)
+[error]    |	at io.getquill.parser.InfixParser$$anon$16.applyOrElse(Parser.scala:658)
+[error]    |	at io.getquill.parser.InfixParser$$anon$16.applyOrElse(Parser.scala:653)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.QueryParser$$anon$13.applyOrElse(Parser.scala:518)
+[error]    |	at io.getquill.parser.QueryParser$$anon$13.applyOrElse(Parser.scala:501)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.GenericExpressionsParser$$anon$20.applyOrElse(Parser.scala:879)
+[error]    |	at io.getquill.parser.GenericExpressionsParser$$anon$20.applyOrElse(Parser.scala:871)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.ParserLibrary$ReadyParser.apply(Parser.scala:100)
+[error]    |	at io.getquill.context.QuoteMacro$.apply(QuoteMacro.scala:73)
+[error]    |
+[error]    |----------------------------------------------------------------------------
+[error]    |Inline stack trace
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error] 72 |  inline def quote[T](inline bodyExpr: T): Quoted[T] = ${ QuoteMacro[T]('bodyExpr) }
+[error]    |                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error]  3 |export Dsl._
+[error]    |       ^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error] 65 |      inline def q = quote {
+[error]    |                     ^
+[error] 66 |        query[PersonNestOpt].filterByKeys(keys)
+[error] 67 |      }
+[error]     ----------------------------------------------------------------------------
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/anyval/AnyValEncodingSpec.scala:18:25 
+[error] 18 |    val mirror = ctx.run(query[Person].filter(p => p.name == lift(name)))
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |Exception occurred while executing macro expansion.
+[error]    |java.lang.AssertionError: assertion failed: Tree had an unexpected owner for class $anon
+[error]    |Expected: val ctx (io.getquill.anyval.AnyValEncodingSpec._$_$_$_$ctx)
+[error]    |But was: method $anonfun (io.getquill.anyval.AnyValEncodingSpec._$_$_$$anonfun)
+[error]    |
+[error]    |
+[error]    |The code of the definition of class $anon is
+[error]    |final class $anon() extends io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name] {
+[error]    |  override def makeMappedEncoder[Base](mapped: io.getquill.MappedEncoding[io.getquill.anyval.Name, Base], encoder: LowPriorityImplicits_this.Encoder[Base]): LowPriorityImplicits_this.Encoder[io.getquill.anyval.Name] = LowPriorityImplicits_this.mappedEncoder[io.getquill.anyval.Name, Base](mapped, encoder)
+[error]    |}
+[error]    |
+[error]    |which was found in the code
+[error]    |{
+[error]    |  final class $anon() extends io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name] {
+[error]    |    override def makeMappedEncoder[Base](mapped: io.getquill.MappedEncoding[io.getquill.anyval.Name, Base], encoder: LowPriorityImplicits_this.Encoder[Base]): LowPriorityImplicits_this.Encoder[io.getquill.anyval.Name] = LowPriorityImplicits_this.mappedEncoder[io.getquill.anyval.Name, Base](mapped, encoder)
+[error]    |  }
+[error]    |
+[error]    |  (new $anon(): io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name])
+[error]    |}
+[error]    |
+[error]    |which has the AST representation
+[error]    |Block(List(ClassDef("$anon", DefDef("<init>", List(TermParamClause(Nil)), Inferred(), None), List(Apply(Select(New(Inferred()), "<init>"), Nil), Applied(TypeIdent("AnyValEncoderContext"), List(TypeIdent("Encoder"), Inferred()))), None, List(DefDef("makeMappedEncoder", List(TypeParamClause(List(TypeDef("Base", TypeBoundsTree(Inferred(), Inferred())))), TermParamClause(List(ValDef("mapped", Applied(TypeIdent("MappedEncoding"), List(Inferred(), TypeIdent("Base"))), None), ValDef("encoder", Applied(TypeIdent("Encoder"), List(TypeIdent("Base"))), None)))), Applied(TypeIdent("Encoder"), List(Inferred())), Some(Apply(TypeApply(Select(Inlined(None, Nil, Ident("LowPriorityImplicits_this")), "mappedEncoder"), List(Inferred(), Inferred())), List(Ident("mapped"), Ident("encoder")))))))), Typed(Apply(Select(New(TypeIdent("$anon")), "<init>"), Nil), Inferred()))
+[error]    |
+[error]    |
+[error]    |
+[error]    |Tip: The owner of a tree can be changed using method `Tree.changeOwner`.
+[error]    |Tip: The default owner of definitions created in quotes can be changed using method `Symbol.asQuotes`.
+[error]    |
+[error]    |	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$9.traverse(QuotesImpl.scala:3003)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1660)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1660)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1532)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1534)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1565)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1538)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1661)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$9.traverse(QuotesImpl.scala:3010)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$.xCheckMacroOwners(QuotesImpl.scala:3011)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$.scala$quoted$runtime$impl$QuotesImpl$reflect$$$xCheckMacroedOwners(QuotesImpl.scala:2969)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$ValDef$.copy(QuotesImpl.scala:312)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$ValDef$.copy(QuotesImpl.scala:311)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition(ExprMap.scala:29)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStatement(ExprMap.scala:18)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats$$anonfun$1(ExprMap.scala:126)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats(ExprMap.scala:126)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:74)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:68)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:45)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:68)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition$$anonfun$1(ExprMap.scala:32)
+[error]    |	at scala.Option.map(Option.scala:242)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition(ExprMap.scala:32)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStatement(ExprMap.scala:18)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats$$anonfun$1(ExprMap.scala:126)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats(ExprMap.scala:126)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:74)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$.apply(ExprAccumulate.scala:118)
+[error]    |	at io.getquill.metaprog.PlanterExpr$.findUnquotes(ExprModel.scala:179)
+[error]    |	at io.getquill.context.ExtractLifts$.extractLifts(QuoteMacro.scala:41)
+[error]    |	at io.getquill.context.ExtractLifts$.apply(QuoteMacro.scala:58)
+[error]    |	at io.getquill.context.QuoteMacro$.apply(QuoteMacro.scala:79)
+[error]    |
+[error]    |----------------------------------------------------------------------------
+[error]    |Inline stack trace
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:76
+[error] 76 |  inline implicit def autoQuote[T](inline body: T): Quoted[T] = ${ QuoteMacro[T]('body) }
+[error]    |                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:76
+[error]  3 |export Dsl._
+[error]    |       ^^^
+[error]     ----------------------------------------------------------------------------
+[error] three errors found
+[error] (quill-sql / Test / compileIncremental) Compilation failed
+[error] Total time: 37 s, completed Jun 21, 2023, 4:16:09 PM
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/FlicersSpec.scala:42:22 
+[error]  42 |      val r = ctx.run(q)
+[error]     |                      ^
+[error]     |Exception occurred while executing macro expansion.
+[error]     |scala.quoted.runtime.impl.ScopeException: Expression created in a splice was used outside of that splice.
+[error]     |Created in: quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:54 at column 79
+[error]     |Used in: quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:48 at column 31
+[error]     |Expr: field.toString()
+[error]     |
+[error]     |
+[error]     |Creation stack:
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:54 at column 79
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:20 at column 176
+[error]     |
+[error]     |
+[error]     |Use stack:
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:48 at column 31
+[error]     |	quill-sql/src/main/scala/io/getquill/metaprog/etc/MapFlicer.scala:20 at column 176
+[error]     |
+[error]     |
+[error]     |Hint: A common reason for this to happen is when a `def` that creates a `'{...}`
+[error]     |      captures an outer instance of `Quotes`. If this `def` is called in a splice
+[error]     |      it will not track the `Quotes` provided by that particular splice.
+[error]     |      To fix it add a `given Quotes` to this `def`.
+[error]     |          
+[error]     |	at scala.quoted.runtime.impl.ScopeException$.checkInCorrectScope(ScopeException.scala:35)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.quotedExprToTree(PickledQuotes.scala:40)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:112)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1449)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1415)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.spliceTerms(PickledQuotes.scala:152)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.unpickleTerm(PickledQuotes.scala:88)
+[error]     |	at scala.quoted.runtime.impl.QuotesImpl.unpickleExprV2(QuotesImpl.scala:3098)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.fieldInject$1(MapFlicer.scala:48)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$1$$anonfun$1(MapFlicer.scala:54)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$1(MapFlicer.scala:54)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1$$anonfun$adapted$1(MapFlicer.scala:54)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:110)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1449)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1481)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transformStats(Trees.scala:1506)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transformBlock(Trees.scala:1508)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1429)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform$$anonfun$1(Trees.scala:1510)
+[error]     |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1510)
+[error]     |	at dotty.tools.dotc.ast.Trees$Instance$TreeMap.transform(Trees.scala:1415)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$$anon$1.transform(PickledQuotes.scala:135)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.spliceTerms(PickledQuotes.scala:152)
+[error]     |	at dotty.tools.dotc.quoted.PickledQuotes$.unpickleTerm(PickledQuotes.scala:88)
+[error]     |	at scala.quoted.runtime.impl.QuotesImpl.unpickleExprV2(QuotesImpl.scala:3098)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.$anonfun$1(MapFlicer.scala:54)
+[error]     |	at scala.collection.immutable.List.map(List.scala:246)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.buildClause(MapFlicer.scala:56)
+[error]     |	at io.getquill.metaprog.etc.MapFlicerMacro.base(MapFlicer.scala:62)
+[error]     |	at io.getquill.metaprog.etc.MapFlicer$.applyImpl(MapFlicer.scala:23)
+[error]     |	at io.getquill.metaprog.etc.MapFlicer$.inline$applyImpl(MapFlicer.scala:21)
+[error]     |
+[error]     |---------------------------------------------------------------------------
+[error]     |Inline stack trace
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error]  20 |  inline def apply[T, PrepareRow, Session](inline entity: T, inline map: Map[String, String], inline default:String, inline eachField: (String, String) => Boolean): Boolean = ${ applyImpl[T, PrepareRow, Session]('entity, 'map, 'default, 'eachField) }
+[error]     |                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error] 117 |      q.filter(p => MapFlicer[T, PrepareRow, Session](p, map, null, (a, b) => (a == b) || (b == (null) ) ))
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]     |This location contains code that was inlined from MapFlicer.scala:20
+[error]  40 |        query[PersonFlatOpt].filterByKeys(keys)
+[error]     |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]      ---------------------------------------------------------------------------
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/FlicersSpec.scala:68:22 
+[error] 68 |      val r = ctx.run(q) //
+[error]    |                      ^
+[error]    |Exception occurred while executing macro expansion.
+[error]    |java.lang.AssertionError: NoDenotation.owner
+[error]    |	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2581)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$SymbolMethods$.owner(QuotesImpl.scala:2536)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$SymbolMethods$.owner(QuotesImpl.scala:2536)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$SourceCodePrinter.splicedName(SourceCode.scala:1441)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$SourceCodePrinter.printTree(SourceCode.scala:334)
+[error]    |	at scala.quoted.runtime.impl.printers.SourceCode$.showTree(SourceCode.scala:10)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$12.show(QuotesImpl.scala:3055)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$12.show(QuotesImpl.scala:3054)
+[error]    |	at io.getquill.parser.engine.ParserError$.apply(ParserError.scala:30)
+[error]    |	at io.getquill.parser.engine.ParserError$.apply(ParserError.scala:12)
+[error]    |	at io.getquill.parser.InfixParser.$anonfun$21(Parser.scala:661)
+[error]    |	at scala.Option.getOrElse(Option.scala:201)
+[error]    |	at io.getquill.parser.InfixParser.genericInfix(Parser.scala:661)
+[error]    |	at io.getquill.parser.InfixParser$$anon$16.applyOrElse(Parser.scala:658)
+[error]    |	at io.getquill.parser.InfixParser$$anon$16.applyOrElse(Parser.scala:653)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.QueryParser$$anon$13.applyOrElse(Parser.scala:518)
+[error]    |	at io.getquill.parser.QueryParser$$anon$13.applyOrElse(Parser.scala:501)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.GenericExpressionsParser$$anon$20.applyOrElse(Parser.scala:879)
+[error]    |	at io.getquill.parser.GenericExpressionsParser$$anon$20.applyOrElse(Parser.scala:871)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:338)
+[error]    |	at scala.PartialFunction$Lifted.apply(PartialFunction.scala:334)
+[error]    |	at io.getquill.parser.engine.ParserChain$.io$getquill$parser$engine$ParserChain$OrElse$$anon$2$$_$$anonfun$1$$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.Option.orElse(Option.scala:477)
+[error]    |	at io.getquill.parser.engine.ParserChain$OrElse$$anon$2.$anonfun$1(ParserChain.scala:42)
+[error]    |	at scala.PartialFunction$$anonfun$fromFunction$1.applyOrElse(PartialFunction.scala:363)
+[error]    |	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:35)
+[error]    |	at io.getquill.parser.engine.Parser.apply(Parser.scala:9)
+[error]    |	at io.getquill.parser.engine.Parser.apply$(Parser.scala:7)
+[error]    |	at io.getquill.parser.engine.ParserChain$$anon$1.apply(ParserChain.scala:14)
+[error]    |	at io.getquill.parser.ParserLibrary$ReadyParser.apply(Parser.scala:100)
+[error]    |	at io.getquill.context.QuoteMacro$.apply(QuoteMacro.scala:73)
+[error]    |
+[error]    |----------------------------------------------------------------------------
+[error]    |Inline stack trace
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error] 72 |  inline def quote[T](inline bodyExpr: T): Quoted[T] = ${ QuoteMacro[T]('bodyExpr) }
+[error]    |                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error]  3 |export Dsl._
+[error]    |       ^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:72
+[error] 65 |      inline def q = quote {
+[error]    |                     ^
+[error] 66 |        query[PersonNestOpt].filterByKeys(keys)
+[error] 67 |      }
+[error]     ----------------------------------------------------------------------------
+[error] -- Error: /Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/protoquill/quill-sql/src/test/scala/io/getquill/anyval/AnyValEncodingSpec.scala:18:25 
+[error] 18 |    val mirror = ctx.run(query[Person].filter(p => p.name == lift(name)))
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |Exception occurred while executing macro expansion.
+[error]    |java.lang.AssertionError: assertion failed: Tree had an unexpected owner for class $anon
+[error]    |Expected: val ctx (io.getquill.anyval.AnyValEncodingSpec._$_$_$_$ctx)
+[error]    |But was: method $anonfun (io.getquill.anyval.AnyValEncodingSpec._$_$_$$anonfun)
+[error]    |
+[error]    |
+[error]    |The code of the definition of class $anon is
+[error]    |final class $anon() extends io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name] {
+[error]    |  override def makeMappedEncoder[Base](mapped: io.getquill.MappedEncoding[io.getquill.anyval.Name, Base], encoder: LowPriorityImplicits_this.Encoder[Base]): LowPriorityImplicits_this.Encoder[io.getquill.anyval.Name] = LowPriorityImplicits_this.mappedEncoder[io.getquill.anyval.Name, Base](mapped, encoder)
+[error]    |}
+[error]    |
+[error]    |which was found in the code
+[error]    |{
+[error]    |  final class $anon() extends io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name] {
+[error]    |    override def makeMappedEncoder[Base](mapped: io.getquill.MappedEncoding[io.getquill.anyval.Name, Base], encoder: LowPriorityImplicits_this.Encoder[Base]): LowPriorityImplicits_this.Encoder[io.getquill.anyval.Name] = LowPriorityImplicits_this.mappedEncoder[io.getquill.anyval.Name, Base](mapped, encoder)
+[error]    |  }
+[error]    |
+[error]    |  (new $anon(): io.getquill.generic.AnyValEncoderContext[LowPriorityImplicits_this.Encoder, io.getquill.anyval.Name])
+[error]    |}
+[error]    |
+[error]    |which has the AST representation
+[error]    |Block(List(ClassDef("$anon", DefDef("<init>", List(TermParamClause(Nil)), Inferred(), None), List(Apply(Select(New(Inferred()), "<init>"), Nil), Applied(TypeIdent("AnyValEncoderContext"), List(TypeIdent("Encoder"), Inferred()))), None, List(DefDef("makeMappedEncoder", List(TypeParamClause(List(TypeDef("Base", TypeBoundsTree(Inferred(), Inferred())))), TermParamClause(List(ValDef("mapped", Applied(TypeIdent("MappedEncoding"), List(Inferred(), TypeIdent("Base"))), None), ValDef("encoder", Applied(TypeIdent("Encoder"), List(TypeIdent("Base"))), None)))), Applied(TypeIdent("Encoder"), List(Inferred())), Some(Apply(TypeApply(Select(Inlined(None, Nil, Ident("LowPriorityImplicits_this")), "mappedEncoder"), List(Inferred(), Inferred())), List(Ident("mapped"), Ident("encoder")))))))), Typed(Apply(Select(New(TypeIdent("$anon")), "<init>"), Nil), Inferred()))
+[error]    |
+[error]    |
+[error]    |
+[error]    |Tip: The owner of a tree can be changed using method `Tree.changeOwner`.
+[error]    |Tip: The default owner of definitions created in quotes can be changed using method `Symbol.asQuotes`.
+[error]    |
+[error]    |	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:8)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$9.traverse(QuotesImpl.scala:3003)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1660)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1660)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1532)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1534)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1565)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1538)
+[error]    |	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1661)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$$anon$9.traverse(QuotesImpl.scala:3010)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$.xCheckMacroOwners(QuotesImpl.scala:3011)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$.scala$quoted$runtime$impl$QuotesImpl$reflect$$$xCheckMacroedOwners(QuotesImpl.scala:2969)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$ValDef$.copy(QuotesImpl.scala:312)
+[error]    |	at scala.quoted.runtime.impl.QuotesImpl$reflect$ValDef$.copy(QuotesImpl.scala:311)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition(ExprMap.scala:29)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStatement(ExprMap.scala:18)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats$$anonfun$1(ExprMap.scala:126)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats(ExprMap.scala:126)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:74)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:68)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:45)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:68)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition$$anonfun$1(ExprMap.scala:32)
+[error]    |	at scala.Option.map(Option.scala:242)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformDefinition(ExprMap.scala:32)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStatement(ExprMap.scala:18)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats$$anonfun$1(ExprMap.scala:126)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformStats(ExprMap.scala:126)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:74)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms$$anonfun$1(ExprMap.scala:136)
+[error]    |	at scala.collection.immutable.List.mapConserve(List.scala:472)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerms(ExprMap.scala:136)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:56)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:112)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTerm(ExprMap.scala:104)
+[error]    |	at scala.quoted.ExprMap$MapChildren$1.transformTermChildren(ExprMap.scala:96)
+[error]    |	at scala.quoted.ExprMap.transformChildren(ExprMap.scala:153)
+[error]    |	at scala.quoted.ExprMap.transformChildren$(ExprMap.scala:3)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transformChildren(ExprAccumulate.scala:87)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$$anon$1.transform(ExprAccumulate.scala:114)
+[error]    |	at io.getquill.metaprog.ExprAccumulate$.apply(ExprAccumulate.scala:118)
+[error]    |	at io.getquill.metaprog.PlanterExpr$.findUnquotes(ExprModel.scala:179)
+[error]    |	at io.getquill.context.ExtractLifts$.extractLifts(QuoteMacro.scala:41)
+[error]    |	at io.getquill.context.ExtractLifts$.apply(QuoteMacro.scala:58)
+[error]    |	at io.getquill.context.QuoteMacro$.apply(QuoteMacro.scala:79)
+[error]    |
+[error]    |----------------------------------------------------------------------------
+[error]    |Inline stack trace
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:76
+[error] 76 |  inline implicit def autoQuote[T](inline body: T): Quoted[T] = ${ QuoteMacro[T]('body) }
+[error]    |                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[error]    |This location contains code that was inlined from Dsl.scala:76
+[error]  3 |export Dsl._
+[error]    |       ^^^
+[error]     ----------------------------------------------------------------------------
+[error] three errors found
+[error] (quill-sql / Test / compileIncremental) Compilation failed
+[error] Total time: 37 s, completed Jun 21, 2023, 4:17:01 PM
+[error] Test dotty.communitybuild.CommunityBuildTestC.protoquill failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/protoquill
+[error]     sbt -Dcommunity=true -DcommunityRemote=true -Dquill.macro.stdout=true -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-language:implicitConversions","-Xcheck-macros");++3.3.1-RC1-bin-SNAPSHOT!; runCommunityBuild"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 338.795 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.protoquill(CommunityBuildTest.scala:81)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 363 s (06:03), completed Jun 21, 2023, 4:17:02 PM

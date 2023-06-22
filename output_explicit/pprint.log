@@ -1,0 +1,384 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project/project
+[info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Thu Jun 22 00:17:33 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 00:17:33 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 00:17:35 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 00:17:39 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 00:17:40 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 00:17:40 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Flag -author set repeatedly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -groups set repeatedly
+[warn] Flag -author set repeatedly
+[warn] Flag -default-template set repeatedly
+[warn] Flag -groups set repeatedly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 00:17:42 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[warn] 14 warnings found
+[warn] 28 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 00:17:59 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 00:17:59 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.001s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.pprint started
+[32m[STARTING PPrint][0m
+[32mPublishing utest[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/58] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[7/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.CrossScalaModule.sources 
+[1A[2K[9999D[8/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[41/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches 'eae17c7a4d0d63bab1406ca75791d3cb6394233d'
+[1A[2K[9999D[42/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[58/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,utest_3,v0.6.8-204-eae17c) to ivy repo /Users/y3536zha/.ivy2/local
+[32mPublishing sourcecode[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/64] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[7/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.CrossScalaModule.sources 
+[1A[2K[9999D[8/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[41/64] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches '28b4f6c21fddeb33d694dc210f51b0535a2ada68'
+[1A[2K[9999D[42/64] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[51/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].docResources 
+[1A[2K[9999D[52/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].docSources 
+[1A[2K[9999D[64/64] sourcecode.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,sourcecode_3,v0.1.5-141-28b4f6) to ivy repo /Users/y3536zha/.ivy2/local
+[32mPublishing fansi[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT fansi.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/64] fansi.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/64] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/64] fansi.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[7/64] fansi.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.CrossScalaModule.sources 
+[1A[2K[9999D[8/64] fansi.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[41/64] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches '953306f8139f6eaabf9f4ae7707906f9d2ba236a'
+[1A[2K[9999D[42/64] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[51/64] fansi.jvm[3.3.1-RC1-bin-SNAPSHOT].docResources 
+[1A[2K[9999D[52/64] fansi.jvm[3.3.1-RC1-bin-SNAPSHOT].docSources 
+[1A[2K[9999D[64/64] fansi.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,fansi_3,0.2.8-48-953306) to ivy repo /Users/y3536zha/.ivy2/local
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING PPrint][0m
+[32mBuilding PPrint with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test[0m
+[1/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.runUseArgsFile 
+[1A[2K[9999D[2/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.testUseArgsFile 
+[1A[2K[9999D[3/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkArgs 
+[1A[2K[9999D[4/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.testFramework 
+[1A[2K[9999D[5/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resources 
+[1A[2K[9999D[7/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaVersion 
+[1A[2K[9999D[9/74] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[11/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[12/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.CrossScalaModule.sources 
+[1A[2K[9999D[13/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[18/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[40/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.upstreamCompileOutput 
+[1A[2K[9999D[41/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[42/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.CrossScalaModule.CrossScalaModuleTests.sources 
+[1A[2K[9999D[43/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources 
+[1A[2K[9999D[44/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.generatedSources 
+[1A[2K[9999D[45/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allSources 
+[1A[2K[9999D[46/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allSourceFiles 
+[1A[2K[9999D[48/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveLocalClasspath 
+[1A[2K[9999D[49/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.unmanagedClasspath 
+[1A[2K[9999D[50/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.platformSuffix 
+[1A[2K[9999D[51/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compileIvyDeps 
+[1A[2K[9999D[52/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveCompileIvyDeps 
+[1A[2K[9999D[53/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.ivyDeps 
+[1A[2K[9999D[54/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[55/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaOrganization 
+[1A[2K[9999D[56/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaLibraryIvyDeps 
+[1A[2K[9999D[57/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.mandatoryIvyDeps 
+[1A[2K[9999D[58/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveIvyDeps 
+[1A[2K[9999D[59/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resolvedIvyDeps 
+[1A[2K[9999D[60/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compileClasspath 
+[1A[2K[9999D[61/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.enablePluginScalacOptions 
+[1A[2K[9999D[62/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allScalacOptions 
+[1A[2K[9999D[63/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaCompilerClasspath 
+[1A[2K[9999D[64/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compile 
+[info] compiling 10 Scala sources to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/PPrint/out/pprint/jvm/3.3.1-RC1-bin-SNAPSHOT/test/compile.dest/classes ...
+[warn] -- Unchecked Warning: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/PPrint/pprint/test/src/test/pprint/AdvancedTests.scala:215:34 
+[warn] 215 |        def canEqual(that: Any) = that.isInstanceOf[Vec2]
+[warn]     |                                  ^^^^
+[warn]     |the type test for Vec2 cannot be checked at runtime because it's a local class
+[warn] there were 2 deprecation warnings; re-run with -deprecation for details
+[warn] two warnings found
+[info] done compiling
+[65/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.localClasspath 
+[1A[2K[9999D[66/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.runIvyDeps 
+[1A[2K[9999D[67/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resolvedRunIvyDeps 
+[1A[2K[9999D[68/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.upstreamAssemblyClasspath 
+[1A[2K[9999D[69/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.runClasspath 
+[1A[2K[9999D[70/74] mill.scalalib.ZincWorkerModule.scalalibClasspath 
+[1A[2K[9999D[71/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
+[1A[2K[9999D[72/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkEnv 
+[1A[2K[9999D[73/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkWorkingDir 
+[1A[2K[9999D[74/74] pprint.jvm[3.3.1-RC1-bin-SNAPSHOT].test.test 
+-------------------------------- Running Tests --------------------------------
+[32m+[39m pprint.TPrintTests.plain.simple [2m101ms[0m  
+[32m+[39m pprint.TPrintTests.plain.nothing.0 [2m1ms[0m  
+[32m+[39m pprint.TPrintTests.plain.nothing.1 [2m0ms[0m  
+[32m+[39m pprint.TPrintTests.plain.nothing.2 [2m0ms[0m  
+[32m+[39m pprint.TPrintTests.plain.nothing.3 [2m0ms[0m  
+[32m+[39m pprint.TPrintTests.plain.singleton [2m0ms[0m  
+[32m+[39m pprint.TPrintTests.plain.java [2m0ms[0m  
+[32m+[39m pprint.TPrintTests.plain.mutable [2m0ms[0m  
+[32m+[39m pprint.TPrintTests.plain.compound [2m1ms[0m  
+[32m+[39m pprint.TPrintTests.plain.existential [2m0ms[0m  
+[32m+[39m pprint.TPrintTests.plain.higherKinded [2m0ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.pprint.DerivationTests.singletons [2m22ms[0m  
+[32m+[39m test.pprint.DerivationTests.adts [2m26ms[0m  
+[32m+[39m test.pprint.DerivationTests.sealedHierarchies [2m2ms[0m  
+[32m+[39m test.pprint.DerivationTests.varargs [2m1ms[0m  
+[32m+[39m test.pprint.DerivationTests.genericADTs [2m6ms[0m  
+[32m+[39m test.pprint.DerivationTests.fallback [2m4ms[0m  
+[32m+[39m test.pprint.DerivationTests.enums [2m1ms[0m  
+[32m+[39m test.pprint.DerivationTests.issue28 [2m0ms[0m  
+[32m+[39m test.pprint.DerivationTests.issue92 [2m0ms[0m  
+[32m+[39m test.pprint.DerivationTests.test [2m1ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Unit.0 [2m2ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Char.0 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Char.1 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Byte.0 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Byte.1 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Short.0 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Short.1 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Int.0 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Int.1 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Long.0 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Long.1 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Float.0 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Float.1 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Double.0 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.Double.1 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.String.0 [2m1ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.String.1 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.String.2 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.String.3 [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.primitives.String.4 [2m1ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.misc.Nothing [2m1ms[0m  [34mjava.lang.Exception[39m
+[32m+[39m test.pprint.HorizontalTests.Horizontal.misc.Null [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.misc.Either [2m1ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.misc.Options [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.misc.Default [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.Iterator [2m3ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.Iterator [2m1ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.Array [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.Seq [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.List [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.Vector [2m1ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.Buffer [2m1ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.LazyList [2m1ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.Iterable [2m1ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.Set [2m8ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.mutableSet [2m7ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.collectionSet [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.SortedSet [2m9ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.Map [2m6ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.collectionMap [2m0ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.mutableMap [2m1ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.collections.SortedMap [2m22ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.tuples.normal [2m4ms[0m  
+[32m+[39m test.pprint.HorizontalTests.Horizontal.tuples.infix [2m0ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.pprint.AdvancedTests.applyPrefixWidthExactlyMaxWidth [2m6ms[0m  
+[32m+[39m test.pprint.AdvancedTests.truncatedAttrs [2m1ms[0m  
+[32m+[39m test.pprint.AdvancedTests.config [2m4ms[0m  
+[32m+[39m test.pprint.AdvancedTests.Laziness.list.Horizontal [2m5ms[0m  
+[32m+[39m test.pprint.AdvancedTests.Laziness.list.Vertical [2m1ms[0m  
+[32m+[39m test.pprint.AdvancedTests.Laziness.map.Horizontal [2m2ms[0m  
+[32m+[39m test.pprint.AdvancedTests.Laziness.map.Vertical [2m3ms[0m  
+[32m+[39m test.pprint.AdvancedTests.Laziness.unicode [2m20ms[0m  
+[32m+[39m test.pprint.AdvancedTests.toStringReturnsNull [2m0ms[0m  
+[32m+[39m test.pprint.AdvancedTests.customProduct2 [2m0ms[0m  [34m(13.0, 37.0)[39m
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.0 [2m3ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.1 [2m0ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.2 [2m0ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.3 [2m0ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.4 [2m3ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.5 [2m4ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.6 [2m5ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.7 [2m2ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.8 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.9 [2m2ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.singleNested.10 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.doubleNested.0 [2m3ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.doubleNested.1 [2m2ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.doubleNested.2 [2m3ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.doubleNested.3 [2m2ms[0m  
+[32m+[39m test.pprint.VerticalTests.Vertical.doubleNested.4 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.traited [2m0ms[0m  
+[32m+[39m test.pprint.VerticalTests.Color.0 [2m2ms[0m  
+[32m+[39m test.pprint.VerticalTests.Color.1 [2m0ms[0m  
+[32m+[39m test.pprint.VerticalTests.Color.2 [2m0ms[0m  
+[32m+[39m test.pprint.VerticalTests.Color.3 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.longNoTruncation.0 [2m4ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.longNoTruncation.1 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.shortNonTruncated.0 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.shortNonTruncated.1 [2m0ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.shortNonTruncated.2 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.shortLinesTruncated.0 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.shortLinesTruncated.1 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.longLineTruncated.0 [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.longLineTruncated.1 [2m0ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.longLineTruncated.2 [2m0ms[0m  
+[32m+[39m test.pprint.VerticalTests.Truncation.stream [2m1ms[0m  
+[32m+[39m test.pprint.VerticalTests.wrappedLines [2m0ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m test.pprint.UnitTests.escapeChar [2m1ms[0m  
+[32m+[39m test.pprint.UnitTests.literalize [2m1ms[0m  
+[32m+[39m test.pprint.UnitTests.concatIter.multipleItems [2m1ms[0m  
+[32m+[39m test.pprint.UnitTests.concatIter.singleItem [2m0ms[0m  
+[32m+[39m test.pprint.UnitTests.concatIter.empty [2m0ms[0m  
+[32m+[39m test.pprint.UnitTests.concatIter.empty2 [2m0ms[0m  
+[32m+[39m test.pprint.UnitTests.concatIter.joinedEmpties [2m0ms[0m  
+[32m+[39m test.pprint.UnitTests.concatIter.halfEmpty [2m0ms[0m  
+[32m+[39m test.pprint.UnitTests.concatIter.halfEmpty2 [2m0ms[0m  
+[32m[SUCCESS PPrint][0m
+[32m[PPrint DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 22.853s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 51 s, completed Jun 22, 2023, 12:18:23 AM

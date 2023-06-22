@@ -1,0 +1,795 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:44:80 
+[error] 44 |      implicit val ec: ExecutionContextExecutor = ExecutionContext.fromExecutor(tp)
+[error]    |                                                                                ^^
+[error]    |            Found:    (tp : java.util.concurrent.ExecutorService | Null)
+[error]    |            Required: java.util.concurrent.Executor
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:48:33 
+[error] 48 |            Thread.currentThread.setContextClassLoader(_)
+[error]    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value setContextClassLoader is not a member of Thread | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Thread | Null could be null at runtime.
+[error]    |If you want to select setContextClassLoader without checking for a null value,
+[error]    |insert a .nn before .setContextClassLoader or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:59:11 
+[error] 59 |        tp.shutdown()
+[error]    |        ^^^^^^^^^^^
+[error]    |value shutdown is not a member of java.util.concurrent.ExecutorService | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.concurrent.ExecutorService | Null could be null at runtime.
+[error]    |If you want to select shutdown without checking for a null value,
+[error]    |insert a .nn before .shutdown or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:66:43 
+[error] 66 |    else Class.forName(name, true, loader).getDeclaredConstructor().newInstance().asInstanceOf[AnyRef]
+[error]    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value getDeclaredConstructor is not a member of Class[?] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Class[?] | Null could be null at runtime.
+[error]    |If you want to select getDeclaredConstructor without checking for a null value,
+[error]    |insert a .nn before .getDeclaredConstructor or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:69:44 
+[error] 69 |    Class.forName(name + "$", true, loader).getField("MODULE$").get(null)
+[error]    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    value getField is not a member of Class[?] | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    Class[?] | Null could be null at runtime.
+[error]    |    If you want to select getField without checking for a null value,
+[error]    |    insert a .nn before .getField or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:31:25 
+[error] 31 |    Arbitrary(Gen.choose(minJavaDuration, maxJavaDuration))
+[error]    |                         ^^^^^^^^^^^^^^^
+[error]    |                 Found:    (minJavaDuration : java.time.Duration | Null)
+[error]    |                 Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:31:42 
+[error] 31 |    Arbitrary(Gen.choose(minJavaDuration, maxJavaDuration))
+[error]    |                                          ^^^^^^^^^^^^^^^
+[error]    |                 Found:    (maxJavaDuration : java.time.Duration | Null)
+[error]    |                 Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:37:33 
+[error] 37 |    Arbitrary(Gen.choose(Instant.MIN, Instant.MAX))
+[error]    |                         ^^^^^^^^^^^
+[error]    |            Found:    (java.time.Instant.MIN : java.time.Instant | Null)
+[error]    |            Required: java.time.Instant
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:37:46 
+[error] 37 |    Arbitrary(Gen.choose(Instant.MIN, Instant.MAX))
+[error]    |                                      ^^^^^^^^^^^
+[error]    |            Found:    (java.time.Instant.MAX : java.time.Instant | Null)
+[error]    |            Required: java.time.Instant
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:42:32 
+[error] 42 |    Arbitrary(Gen.choose(Year.of(Year.MIN_VALUE), Year.of(Year.MAX_VALUE)))
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                         Found:    java.time.Year | Null
+[error]    |                         Required: java.time.Year
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:42:57 
+[error] 42 |    Arbitrary(Gen.choose(Year.of(Year.MIN_VALUE), Year.of(Year.MAX_VALUE)))
+[error]    |                                                  ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                         Found:    java.time.Year | Null
+[error]    |                                         Required: java.time.Year
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:47:35 
+[error] 47 |    Arbitrary(Gen.choose(LocalDate.MIN, LocalDate.MAX))
+[error]    |                         ^^^^^^^^^^^^^
+[error]    |        Found:    (java.time.LocalDate.MIN : java.time.LocalDate | Null)
+[error]    |        Required: java.time.LocalDate
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:47:50 
+[error] 47 |    Arbitrary(Gen.choose(LocalDate.MIN, LocalDate.MAX))
+[error]    |                                        ^^^^^^^^^^^^^
+[error]    |        Found:    (java.time.LocalDate.MAX : java.time.LocalDate | Null)
+[error]    |        Required: java.time.LocalDate
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:52:35 
+[error] 52 |    Arbitrary(Gen.choose(LocalTime.MIN, LocalTime.MAX))
+[error]    |                         ^^^^^^^^^^^^^
+[error]    |        Found:    (java.time.LocalTime.MIN : java.time.LocalTime | Null)
+[error]    |        Required: java.time.LocalTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:52:50 
+[error] 52 |    Arbitrary(Gen.choose(LocalTime.MIN, LocalTime.MAX))
+[error]    |                                        ^^^^^^^^^^^^^
+[error]    |        Found:    (java.time.LocalTime.MAX : java.time.LocalTime | Null)
+[error]    |        Required: java.time.LocalTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:57:39 
+[error] 57 |    Arbitrary(Gen.choose(LocalDateTime.MIN, LocalDateTime.MAX))
+[error]    |                         ^^^^^^^^^^^^^^^^^
+[error]    |Found:    (java.time.LocalDateTime.MIN : java.time.LocalDateTime | Null)
+[error]    |Required: java.time.LocalDateTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:57:58 
+[error] 57 |    Arbitrary(Gen.choose(LocalDateTime.MIN, LocalDateTime.MAX))
+[error]    |                                            ^^^^^^^^^^^^^^^^^
+[error]    |Found:    (java.time.LocalDateTime.MAX : java.time.LocalDateTime | Null)
+[error]    |Required: java.time.LocalDateTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:62:36 
+[error] 62 |    Arbitrary(Gen.choose(MonthDay.of(Month.JANUARY, 1), MonthDay.of(Month.DECEMBER, 31)))
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                         Found:    java.time.MonthDay | Null
+[error]    |                         Required: java.time.MonthDay
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:62:67 
+[error] 62 |    Arbitrary(Gen.choose(MonthDay.of(Month.JANUARY, 1), MonthDay.of(Month.DECEMBER, 31)))
+[error]    |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    java.time.MonthDay | Null
+[error]    |                                     Required: java.time.MonthDay
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:70:50 
+[error] 70 |        Gen.choose(ZoneOffset.MAX, ZoneOffset.MIN) // These look flipped, but they are not.
+[error]    |                                                  ^
+[error]    |No given instance of type org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null] was found for parameter c of method choose in object Gen
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:83:31 
+[error] 83 |    ZoneId.getAvailableZoneIds.toArray(Array.empty[String]).toSet.map((value: String) => ZoneId.of(value))
+[error]    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    value toArray is not a member of java.util.Set[String] | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    java.util.Set[String] | Null could be null at runtime.
+[error]    |    If you want to select toArray without checking for a null value,
+[error]    |    insert a .nn before .toArray or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:95:36 
+[error] 95 |    Arbitrary(Gen.choose(OffsetTime.MIN, OffsetTime.MAX))
+[error]    |                         ^^^^^^^^^^^^^^
+[error]    |      Found:    (java.time.OffsetTime.MIN : java.time.OffsetTime | Null)
+[error]    |      Required: java.time.OffsetTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:95:52 
+[error] 95 |    Arbitrary(Gen.choose(OffsetTime.MIN, OffsetTime.MAX))
+[error]    |                                         ^^^^^^^^^^^^^^
+[error]    |      Found:    (java.time.OffsetTime.MAX : java.time.OffsetTime | Null)
+[error]    |      Required: java.time.OffsetTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:100:40 
+[error] 100 |    Arbitrary(Gen.choose(OffsetDateTime.MIN, OffsetDateTime.MAX))
+[error]     |                         ^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (java.time.OffsetDateTime.MIN : java.time.OffsetDateTime | Null)
+[error]     |Required: java.time.OffsetDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:100:60 
+[error] 100 |    Arbitrary(Gen.choose(OffsetDateTime.MIN, OffsetDateTime.MAX))
+[error]     |                                             ^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (java.time.OffsetDateTime.MAX : java.time.OffsetDateTime | Null)
+[error]     |Required: java.time.OffsetDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:110:23 
+[error] 110 |      } yield Period.of(years, months, days))
+[error]     |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |              Found:    java.time.Period | Null
+[error]     |              Required: java.time.Period
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:115:37 
+[error] 115 |    Arbitrary(Gen.choose(YearMonth.of(Year.MIN_VALUE, Month.JANUARY), YearMonth.of(Year.MAX_VALUE, Month.DECEMBER)))
+[error]     |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                         Found:    java.time.YearMonth | Null
+[error]     |                         Required: java.time.YearMonth
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:115:82 
+[error] 115 |    Arbitrary(Gen.choose(YearMonth.of(Year.MIN_VALUE, Month.JANUARY), YearMonth.of(Year.MAX_VALUE, Month.DECEMBER)))
+[error]     |                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                  Found:    java.time.YearMonth | Null
+[error]     |                                  Required: java.time.YearMonth
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:123:41 
+[error] 123 |    Arbitrary(Gen.choose(ZonedDateTime.of(LocalDateTime.MIN, ZoneOffset.MAX), ZonedDateTime.of(LocalDateTime.MAX, ZoneOffset.MIN)))
+[error]     |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                         Found:    java.time.ZonedDateTime | Null
+[error]     |                         Required: java.time.ZonedDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:123:94 
+[error] 123 |    Arbitrary(Gen.choose(ZonedDateTime.of(LocalDateTime.MIN, ZoneOffset.MAX), ZonedDateTime.of(LocalDateTime.MAX, ZoneOffset.MIN)))
+[error]     |                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    java.time.ZonedDateTime | Null
+[error]     |                              Required: java.time.ZonedDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:48:34 
+[error] 48 |                Duration.ofSeconds(seconds, nanos.toLong)
+[error]    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                Found:    java.time.Duration | Null
+[error]    |                Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:78:37 
+[error] 78 |                Instant.ofEpochSecond(epochSecond, nanos.toLong)
+[error]    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                Found:    java.time.Instant | Null
+[error]    |                Required: java.time.Instant
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:88:23 
+[error] 88 |      value => Month.of((value % 12) + 1),
+[error]    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |               Found:    java.time.Month | Null
+[error]    |               Required: java.time.Month
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:101:71 
+[error] 101 |            Gen.choose(min.getValue, max.getValue).map(value => Year.of(value))
+[error]     |                                                                ^^^^^^^^^^^^^^
+[error]     |                                       Found:    java.time.Year | Null
+[error]     |                                       Required: java.time.Year
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:117:18 
+[error] 117 |                  min.getMonth
+[error]     |                  ^^^^^^^^^^^^
+[error]     |                  Found:    java.time.Month | Null
+[error]     |                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:123:18 
+[error] 123 |                  max.getMonth
+[error]     |                  ^^^^^^^^^^^^
+[error]     |                  Found:    java.time.Month | Null
+[error]     |                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:143:30 
+[error] 143 |                  LocalDate.of(year, month, day)
+[error]     |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                  Found:    java.time.LocalDate | Null
+[error]     |                  Required: java.time.LocalDate
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:156:31 
+[error] 156 |          LocalTime.ofNanoOfDay(nano)
+[error]     |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |          Found:    java.time.LocalTime | Null
+[error]     |          Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:170:14 
+[error] 170 |              min.toLocalDate
+[error]     |              ^^^^^^^^^^^^^^^
+[error]     |              Found:    java.time.LocalDate | Null
+[error]     |              Required: java.time.LocalDate
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:172:14 
+[error] 172 |              max.toLocalDate
+[error]     |              ^^^^^^^^^^^^^^^
+[error]     |              Found:    java.time.LocalDate | Null
+[error]     |              Required: java.time.LocalDate
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:176:18 
+[error] 176 |                  min.toLocalTime
+[error]     |                  ^^^^^^^^^^^^^^^
+[error]     |                  Found:    java.time.LocalTime | Null
+[error]     |                  Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:178:28 
+[error] 178 |                  LocalTime.MIN
+[error]     |                  ^^^^^^^^^^^^^
+[error]     |      Found:    (java.time.LocalTime.MIN : java.time.LocalTime | Null)
+[error]     |      Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:182:18 
+[error] 182 |                  max.toLocalTime
+[error]     |                  ^^^^^^^^^^^^^^^
+[error]     |                  Found:    java.time.LocalTime | Null
+[error]     |                  Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:184:28 
+[error] 184 |                  LocalTime.MAX
+[error]     |                  ^^^^^^^^^^^^^
+[error]     |      Found:    (java.time.LocalTime.MAX : java.time.LocalTime | Null)
+[error]     |      Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:187:32 
+[error] 187 |                LocalDateTime.of(localDate, localTime)
+[error]     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                Found:    java.time.LocalDateTime | Null
+[error]     |                Required: java.time.LocalDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:203:34 
+[error] 203 |            val minMonth: Month = min.getMonth
+[error]     |                                  ^^^^^^^^^^^^
+[error]     |                                  Found:    java.time.Month | Null
+[error]     |                                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:204:34 
+[error] 204 |            val maxMonth: Month = max.getMonth
+[error]     |                                  ^^^^^^^^^^^^
+[error]     |                                  Found:    java.time.Month | Null
+[error]     |                                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:219:27 
+[error] 219 |                MonthDay.of(month, dayOfMonth)
+[error]     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                Found:    java.time.MonthDay | Null
+[error]     |                Required: java.time.MonthDay
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:264:103 
+[error] 264 |            Gen.choose(max.getTotalSeconds, min.getTotalSeconds).map(value => ZoneOffset.ofTotalSeconds(value))
+[error]     |                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                 Found:    java.time.ZoneOffset | Null
+[error]     |                                 Required: java.time.ZoneOffset
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:280:22 
+[error] 280 |    value.getOffset().getTotalSeconds()
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |value getTotalSeconds is not a member of java.time.ZoneOffset | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |java.time.ZoneOffset | Null could be null at runtime.
+[error]     |If you want to select getTotalSeconds without checking for a null value,
+[error]     |insert a .nn before .getTotalSeconds or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:283:74 
+[error] 283 |    value.withOffsetSameLocal(ZoneOffset.ofTotalSeconds(value.getOffset().getTotalSeconds() - seconds))
+[error]     |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |value getTotalSeconds is not a member of java.time.ZoneOffset | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |java.time.ZoneOffset | Null could be null at runtime.
+[error]     |If you want to select getTotalSeconds without checking for a null value,
+[error]     |insert a .nn before .getTotalSeconds or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:297:56 
+[error] 297 |        val durationFromMin: Duration = Duration.between(shifted, min)
+[error]     |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                   Found:    java.time.Duration | Null
+[error]     |                                   Required: java.time.Duration
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:298:62 
+[error] 298 |        val durationAfterMidnight: Duration = Duration.between(shifted.toLocalTime, LocalTime.MIN)
+[error]     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                   Found:    java.time.Duration | Null
+[error]     |                                   Required: java.time.Duration
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:310:56 
+[error] 310 |        val durationFromMax: Duration = Duration.between(shifted, max)
+[error]     |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                   Found:    java.time.Duration | Null
+[error]     |                                   Required: java.time.Duration
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:311:61 
+[error] 311 |        val durationFromMidnight: Duration = Duration.between(shifted.toLocalTime, LocalTime.MAX)
+[error]     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                   Found:    java.time.Duration | Null
+[error]     |                                   Required: java.time.Duration
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:319:20 
+[error] 319 |        shifted.plus(localShift)
+[error]     |        ^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |        Found:    java.time.OffsetTime | Null
+[error]     |        Required: java.time.OffsetTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:331:65 
+[error] 331 |            Gen.choose(Duration.ZERO, Duration.between(min, max)).flatMap{duration =>
+[error]     |                                                                 ^
+[error]     |No given instance of type org.scalacheck.Gen.Choose[java.time.Duration | Null] was found for parameter c of method choose in object Gen.
+[error]     |I found:
+[error]     |
+[error]     |    JavaTimeChoose.this.chooseJavaDuration
+[error]     |
+[error]     |But Found:    (JavaTimeChoose.this.chooseJavaDuration :
+[error]     |  org.scalacheck.Gen.Choose[java.time.Duration])
+[error]     |Required: org.scalacheck.Gen.Choose[java.time.Duration | Null].
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:346:52 
+[error] 346 |            Gen.choose(min.getOffset, max.getOffset).flatMap(offset =>
+[error]     |                                                    ^
+[error]     |No given instance of type org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null] was found for parameter c of method choose in object Gen.
+[error]     |I found:
+[error]     |
+[error]     |    JavaTimeChoose.this.chooseZoneOffset
+[error]     |
+[error]     |But Found:    (JavaTimeChoose.this.chooseZoneOffset :
+[error]     |  org.scalacheck.Gen.Choose[java.time.ZoneOffset])
+[error]     |Required: org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null].
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:363:39 
+[error] 363 |            val minYear: Year = Year.of(min.getYear)
+[error]     |                                ^^^^^^^^^^^^^^^^^^^^
+[error]     |                                Found:    java.time.Year | Null
+[error]     |                                Required: java.time.Year
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:364:39 
+[error] 364 |            val maxYear: Year = Year.of(max.getYear)
+[error]     |                                ^^^^^^^^^^^^^^^^^^^^
+[error]     |                                Found:    java.time.Year | Null
+[error]     |                                Required: java.time.Year
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:368:18 
+[error] 368 |                  min.getMonth
+[error]     |                  ^^^^^^^^^^^^
+[error]     |                  Found:    java.time.Month | Null
+[error]     |                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:374:18 
+[error] 374 |                  max.getMonth
+[error]     |                  ^^^^^^^^^^^^
+[error]     |                  Found:    java.time.Month | Null
+[error]     |                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:379:28 
+[error] 379 |                YearMonth.of(year.getValue, month)
+[error]     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                Found:    java.time.YearMonth | Null
+[error]     |                Required: java.time.YearMonth
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:394:52 
+[error] 394 |            Gen.choose(min.getOffset, max.getOffset).flatMap(offset =>
+[error]     |                                                    ^
+[error]     |No given instance of type org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null] was found for parameter c of method choose in object Gen.
+[error]     |I found:
+[error]     |
+[error]     |    JavaTimeChoose.this.chooseZoneOffset
+[error]     |
+[error]     |But Found:    (JavaTimeChoose.this.chooseZoneOffset :
+[error]     |  org.scalacheck.Gen.Choose[java.time.ZoneOffset])
+[error]     |Required: org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null].
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:57:54 
+[error] 57 |    Cogen[(LocalDate, LocalTime)].contramap(value => (value.toLocalDate, value.toLocalTime))
+[error]    |                                                      ^^^^^^^^^^^^^^^^^
+[error]    |                                    Found:    java.time.LocalDate | Null
+[error]    |                                    Required: java.time.LocalDate
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:57:73 
+[error] 57 |    Cogen[(LocalDate, LocalTime)].contramap(value => (value.toLocalDate, value.toLocalTime))
+[error]    |                                                                         ^^^^^^^^^^^^^^^^^
+[error]    |                                    Found:    java.time.LocalTime | Null
+[error]    |                                    Required: java.time.LocalTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:62:44 
+[error] 62 |    Cogen[(Month, Int)].contramap(value => (value.getMonth, value.getDayOfMonth))
+[error]    |                                            ^^^^^^^^^^^^^^
+[error]    |                                        Found:    java.time.Month | Null
+[error]    |                                        Required: java.time.Month
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:80:55 
+[error] 80 |    Cogen[(LocalTime, ZoneOffset)].contramap(value => (value.toLocalTime, value.getOffset))
+[error]    |                                                       ^^^^^^^^^^^^^^^^^
+[error]    |                                    Found:    java.time.LocalTime | Null
+[error]    |                                    Required: java.time.LocalTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:80:74 
+[error] 80 |    Cogen[(LocalTime, ZoneOffset)].contramap(value => (value.toLocalTime, value.getOffset))
+[error]    |                                                                          ^^^^^^^^^^^^^^^
+[error]    |                                   Found:    java.time.ZoneOffset | Null
+[error]    |                                   Required: java.time.ZoneOffset
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:85:59 
+[error] 85 |    Cogen[(LocalDateTime, ZoneOffset)].contramap(value => (value.toLocalDateTime, value.getOffset))
+[error]    |                                                           ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    java.time.LocalDateTime | Null
+[error]    |                                Required: java.time.LocalDateTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:85:82 
+[error] 85 |    Cogen[(LocalDateTime, ZoneOffset)].contramap(value => (value.toLocalDateTime, value.getOffset))
+[error]    |                                                                                  ^^^^^^^^^^^^^^^
+[error]    |                                   Found:    java.time.ZoneOffset | Null
+[error]    |                                   Required: java.time.ZoneOffset
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:95:59 
+[error] 95 |    Cogen[(Int, Month)].contramap(value => (value.getYear, value.getMonth))
+[error]    |                                                           ^^^^^^^^^^^^^^
+[error]    |                                        Found:    java.time.Month | Null
+[error]    |                                        Required: java.time.Month
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:100:59 
+[error] 100 |    Cogen[(LocalDateTime, ZoneOffset)].contramap(value => (value.toLocalDateTime, value.getOffset))
+[error]     |                                                           ^^^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    java.time.LocalDateTime | Null
+[error]     |                              Required: java.time.LocalDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:100:82 
+[error] 100 |    Cogen[(LocalDateTime, ZoneOffset)].contramap(value => (value.toLocalDateTime, value.getOffset))
+[error]     |                                                                                  ^^^^^^^^^^^^^^^
+[error]     |                                 Found:    java.time.ZoneOffset | Null
+[error]     |                                 Required: java.time.ZoneOffset
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeShrink.scala:22:39 
+[error] 22 |      val q: Duration = value.dividedBy(2)
+[error]    |                        ^^^^^^^^^^^^^^^^^^
+[error]    |                        Found:    java.time.Duration | Null
+[error]    |                        Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeShrink.scala:24:24 
+[error] 24 |        Stream(Duration.ZERO)
+[error]    |               ^^^^^^^^^^^^^
+[error]    |         Found:    (java.time.Duration.ZERO : java.time.Duration | Null)
+[error]    |         Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeShrink.scala:26:8 
+[error] 26 |        q #:: q.negated #:: shrinkJavaDuration.shrink(q)
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |        Found:    Stream[java.time.Duration | Null]
+[error]    |        Required: Stream[java.time.Duration]
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeShrink.scala:35:35 
+[error] 35 |        case (y, m, d) => Period.of(y, m, d)
+[error]    |                          ^^^^^^^^^^^^^^^^^^
+[error]    |                          Found:    java.time.Period | Null
+[error]    |                          Required: java.time.Period
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:186:31 
+[error] 186 |    Arbitrary(Gen.calendar.map(_.getTime))
+[error]     |                               ^^^^^^^^^
+[error]     |                               Found:    java.util.Date | Null
+[error]     |                               Required: java.util.Date
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:238:12 
+[error] 238 |      oneOf(DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |            ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL32 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:238:23 
+[error] 238 |      oneOf(DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                       ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL64 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:238:34 
+[error] 238 |      oneOf(DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                                  ^^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL128 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:254:12 
+[error] 254 |      oneOf(UNLIMITED, DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |            ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.UNLIMITED : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:254:23 
+[error] 254 |      oneOf(UNLIMITED, DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                       ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL32 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:254:34 
+[error] 254 |      oneOf(UNLIMITED, DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                                  ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL64 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:254:45 
+[error] 254 |      oneOf(UNLIMITED, DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                                             ^^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL128 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:266:10 
+[error] 266 |          BigDecimal(n, scale, UNLIMITED)
+[error]     |          ^^^^^^^^^^
+[error]     |None of the overloaded alternatives of method apply in object BigDecimal with types
+[error]     | (bd: java.math.BigDecimal): BigDecimal
+[error]     | (unscaledVal: BigInt, scale: Int, mc: java.math.MathContext): BigDecimal
+[error]     | (unscaledVal: BigInt, scale: Int): BigDecimal
+[error]     | (x: BigInt, mc: java.math.MathContext): BigDecimal
+[error]     | (x: BigInt): BigDecimal
+[error]     | (x: String, mc: java.math.MathContext): BigDecimal
+[error]     | (x: String): BigDecimal
+[error]     | (x: Array[Char], mc: java.math.MathContext): BigDecimal
+[error]     | (x: Array[Char]): BigDecimal
+[error]     | (d: Double, mc: java.math.MathContext): BigDecimal
+[error]     | (d: Double): BigDecimal
+[error]     | (unscaledVal: Long, scale: Int, mc: java.math.MathContext): BigDecimal
+[error]     | (unscaledVal: Long, scale: Int): BigDecimal
+[error]     | (l: Long, mc: java.math.MathContext): BigDecimal
+[error]     | (l: Long): BigDecimal
+[error]     | (i: Int, mc: java.math.MathContext): BigDecimal
+[error]     | (i: Int): BigDecimal
+[error]     |match arguments ((n : BigInt), (scale : Int), (java.math.MathContext.UNLIMITED : java.math.MathContext | Null))
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:321:20 
+[error] 321 |      (1, exception(null))
+[error]     |                    ^^^^
+[error]     |Found:    Null
+[error]     |Required: org.scalacheck.Gen.Parameters
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than org.scalacheck.Gen.Parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:80:21 
+[error] 80 |      val quotient = divideAndRemainder(0)
+[error]    |                     ^^^^^^^^^^^^^^^^^^
+[error]    |                     value divideAndRemainder does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:81:22 
+[error] 81 |      val remainder = divideAndRemainder(1)
+[error]    |                      ^^^^^^^^^^^^^^^^^^
+[error]    |                      value divideAndRemainder does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:82:39 
+[error] 82 |      val canNormalize = (unscaled.abs.compareTo(BigInteger.TEN) >= 0) &&
+[error]    |                          ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    value compareTo is not a member of java.math.BigInteger | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    java.math.BigInteger | Null could be null at runtime.
+[error]    |    If you want to select compareTo without checking for a null value,
+[error]    |    insert a .nn before .compareTo or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:94:42 
+[error] 94 |        val (unscaled, scale) = normalize(n.bigDecimal.unscaledValue, n.scale)
+[error]    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                   Found:    java.math.BigInteger | Null
+[error]    |                                   Required: java.math.BigInteger
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:95:56 
+[error] 95 |        Cogen[(Int, Array[Byte])].perturb(seed, (scale, unscaled.toByteArray))
+[error]    |                                                        ^^^^^^^^^^^^^^^^^^^^
+[error]    |                                            Found:    Array[Byte] | Null
+[error]    |                                            Required: Array[Byte]
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:659:22 
+[error] 659 |        r(Some(big.add(lower)), seed)
+[error]     |               ^^^^^^^^^^^^^^
+[error]     |               Found:    java.math.BigInteger | Null
+[error]     |               Required: java.math.BigInteger
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:715:42 
+[error] 715 |            val span = high.subtract(low).add(BigInteger.ONE)
+[error]     |                       ^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value add is not a member of java.math.BigInteger | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    java.math.BigInteger | Null could be null at runtime.
+[error]     |    If you want to select add without checking for a null value,
+[error]     |    insert a .nn before .add or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:778:24 
+[error] 778 |              .choose(x.unscaledValue, y.unscaledValue)
+[error]     |                      ^^^^^^^^^^^^^^^
+[error]     |value unscaledValue is not a member of java.math.BigDecimal | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |java.math.BigDecimal | Null could be null at runtime.
+[error]     |If you want to select unscaledValue without checking for a null value,
+[error]     |insert a .nn before .unscaledValue or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:778:41 
+[error] 778 |              .choose(x.unscaledValue, y.unscaledValue)
+[error]     |                                       ^^^^^^^^^^^^^^^
+[error]     |value unscaledValue is not a member of java.math.BigDecimal | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |java.math.BigDecimal | Null could be null at runtime.
+[error]     |If you want to select unscaledValue without checking for a null value,
+[error]     |insert a .nn before .unscaledValue or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:1475:25 
+[error] 1475 |  } yield UUID.fromString(
+[error]      |          ^
+[error]      |          Found:    java.util.UUID | Null
+[error]      |          Required: java.util.UUID
+[error] 1476 |    new UUID(l1,l2).toString.updated(14, '4').updated(19, y)
+[error] 1477 |  )
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:1497:15 
+[error] 1497 |        adjust(Calendar.getInstance)(_.setTimeInMillis(t))
+[error]      |               ^^^^^^^^^^^^^^^^^^^^
+[error]      |               Found:    java.util.Calendar | Null
+[error]      |               Required: java.util.Calendar
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Prop.scala:392:39 
+[error] 392 |  lazy val exception: Prop = exception(null)
+[error]     |                                       ^^^^
+[error]     |Found:    Null
+[error]     |Required: org.scalacheck.Gen.Parameters
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than org.scalacheck.Gen.Parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 118 errors found
+[error] (coreJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 21 s, completed Jun 21, 2023, 11:23:48 PM
+[error] Test dotty.communitybuild.CommunityBuildTestB.catsMtl failed: java.lang.RuntimeException: Publish command exited with code 1 for project scalacheck. Project details:
+[error] SbtCommunityProject(scalacheck,coreJVM/test;coreJS/test,List(),List(),dotty.communitybuild.SbtCommunityProject$$$Lambda$51/90253004@74d68645,coreJVM/publishLocal;coreJS/publishLocal,null,List(-Xcheck-macros, -Ysafe-init, -Yexplicit-nulls),false), took 44.476 sec
+[error]     at dotty.communitybuild.CommunityProject.publish(projects.scala:64)
+[error]     at dotty.communitybuild.CommunityProject.publish$(projects.scala:35)
+[error]     at dotty.communitybuild.SbtCommunityProject.publish(projects.scala:104)
+[error]     at dotty.communitybuild.CommunityProject.publishDependencies$$anonfun$1(projects.scala:52)
+[error]     at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error]     at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error]     at scala.collection.immutable.List.foreach(List.scala:333)
+[error]     at dotty.communitybuild.CommunityProject.publishDependencies(projects.scala:52)
+[error]     at dotty.communitybuild.CommunityProject.publishDependencies$(projects.scala:35)
+[error]     at dotty.communitybuild.SbtCommunityProject.publishDependencies(projects.scala:104)
+[error]     at dotty.communitybuild.CommunityProject.publish(projects.scala:58)
+[error]     at dotty.communitybuild.CommunityProject.publish$(projects.scala:35)
+[error]     at dotty.communitybuild.SbtCommunityProject.publish(projects.scala:104)
+[error]     at dotty.communitybuild.CommunityProject.publishDependencies$$anonfun$1(projects.scala:52)
+[error]     at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error]     at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error]     at scala.collection.immutable.List.foreach(List.scala:333)
+[error]     at dotty.communitybuild.CommunityProject.publishDependencies(projects.scala:52)
+[error]     at dotty.communitybuild.CommunityProject.publishDependencies$(projects.scala:35)
+[error]     at dotty.communitybuild.SbtCommunityProject.publishDependencies(projects.scala:104)
+[error]     at dotty.communitybuild.CommunityProject.publish(projects.scala:58)
+[error]     at dotty.communitybuild.CommunityProject.publish$(projects.scala:35)
+[error]     at dotty.communitybuild.SbtCommunityProject.publish(projects.scala:104)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run$$anonfun$1(CommunityBuildRunner.scala:24)
+[error]     at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error]     at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error]     at scala.collection.immutable.List.foreach(List.scala:333)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:24)
+[error]     at dotty.communitybuild.CommunityBuildTestB.catsMtl(CommunityBuildTest.scala:41)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestB
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 82 s (01:22), completed Jun 21, 2023, 11:23:48 PM

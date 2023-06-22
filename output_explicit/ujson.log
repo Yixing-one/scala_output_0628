@@ -1,0 +1,743 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project/project
+[info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 01:00:58 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Thu Jun 22 01:00:58 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 01:01:01 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 01:01:06 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 01:01:06 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 01:01:07 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Flag -author set repeatedly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Flag -groups set repeatedly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Flag -default-template set repeatedly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Flag -author set repeatedly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Flag -groups set repeatedly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 01:01:09 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[warn] 28 warnings found
+[warn] 14 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 01:01:32 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 01:01:32 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.ujson started
+[32m[STARTING upickle][0m
+[32mPublishing utest[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/58] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[7/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.CrossScalaModule.sources 
+[1A[2K[9999D[8/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[41/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches 'eae17c7a4d0d63bab1406ca75791d3cb6394233d'
+[1A[2K[9999D[42/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[58/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,utest_3,v0.6.8-204-eae17c) to ivy repo /Users/y3536zha/.ivy2/local
+[32mPublishing geny[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT geny.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/62] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[39/62] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches 'd981da16a05ff4978857e7aa88489c873b8d8922'
+[1A[2K[9999D[40/62] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[49/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].docResources 
+[1A[2K[9999D[50/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].docSources 
+[1A[2K[9999D[62/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,geny_3,0.5.1-60-d981da) to ivy repo /Users/y3536zha/.ivy2/local
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING upickle][0m
+[32mBuilding upickle with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test[0m
+[1/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.runUseArgsFile 
+[1A[2K[9999D[2/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.testUseArgsFile 
+[1A[2K[9999D[3/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkArgs 
+[1A[2K[9999D[4/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.testFramework 
+[1A[2K[9999D[5/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resources 
+[1A[2K[9999D[7/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaVersion 
+[1A[2K[9999D[9/139] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[12/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[13/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.ammonite.$file.build.CommonModule.sources 
+[1A[2K[9999D[14/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[15/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].templates 
+[1A[2K[9999D[20/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[44/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[45/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.ammonite.$file.build.CommonModule.sources 
+[1A[2K[9999D[46/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[47/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].templates 
+[1A[2K[9999D[53/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[76/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaVersion 
+[1A[2K[9999D[77/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.upstreamCompileOutput 
+[1A[2K[9999D[78/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[79/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.CrossScalaModule.CrossScalaModuleTests.sources 
+[1A[2K[9999D[80/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources 
+[1A[2K[9999D[81/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.generatedSources 
+[1A[2K[9999D[82/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allSources 
+[1A[2K[9999D[83/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allSourceFiles 
+[1A[2K[9999D[84/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveLocalClasspath 
+[1A[2K[9999D[85/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resources 
+[1A[2K[9999D[86/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.unmanagedClasspath 
+[1A[2K[9999D[87/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.platformSuffix 
+[1A[2K[9999D[88/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compileIvyDeps 
+[1A[2K[9999D[89/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveCompileIvyDeps 
+[1A[2K[9999D[90/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.ivyDeps 
+[1A[2K[9999D[91/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[92/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaOrganization 
+[1A[2K[9999D[93/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaLibraryIvyDeps 
+[1A[2K[9999D[94/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.mandatoryIvyDeps 
+[1A[2K[9999D[95/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveIvyDeps 
+[1A[2K[9999D[96/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resolvedIvyDeps 
+[1A[2K[9999D[97/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compileClasspath 
+[1A[2K[9999D[98/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.enablePluginScalacOptions 
+[1A[2K[9999D[99/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalacOptions 
+[1A[2K[9999D[100/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allScalacOptions 
+[1A[2K[9999D[101/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaCompilerClasspath 
+[1A[2K[9999D[102/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compile 
+[1A[2K[9999D[103/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.upstreamCompileOutput 
+[1A[2K[9999D[104/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[105/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.CrossScalaModule.CrossScalaModuleTests.sources 
+[1A[2K[9999D[106/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources 
+[1A[2K[9999D[107/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.generatedSources 
+[1A[2K[9999D[108/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allSources 
+[1A[2K[9999D[109/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allSourceFiles 
+[1A[2K[9999D[111/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.localClasspath 
+[1A[2K[9999D[112/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveLocalClasspath 
+[1A[2K[9999D[113/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.unmanagedClasspath 
+[1A[2K[9999D[114/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.platformSuffix 
+[1A[2K[9999D[115/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compileIvyDeps 
+[1A[2K[9999D[116/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveCompileIvyDeps 
+[1A[2K[9999D[117/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.ivyDeps 
+[1A[2K[9999D[118/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[119/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaOrganization 
+[1A[2K[9999D[120/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaLibraryIvyDeps 
+[1A[2K[9999D[121/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.mandatoryIvyDeps 
+[1A[2K[9999D[122/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveIvyDeps 
+[1A[2K[9999D[123/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resolvedIvyDeps 
+[1A[2K[9999D[124/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compileClasspath 
+[1A[2K[9999D[125/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.enablePluginScalacOptions 
+[1A[2K[9999D[126/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalacOptions 
+[1A[2K[9999D[127/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allScalacOptions 
+[1A[2K[9999D[128/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaCompilerClasspath 
+[1A[2K[9999D[129/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compile 
+[info] compiling 8 Scala sources to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/upickle/out/ujson/jvm/3.3.1-RC1-bin-SNAPSHOT/test/compile.dest/classes ...
+Exception in thread "Thread-1" java.lang.NoClassDefFoundError: dotty/tools/tasty/TastyHash$
+	at dotty.tools.dotc.core.tasty.TastyPickler.assembleParts(TastyPickler.scala:41)
+	at dotty.tools.dotc.transform.Pickler.computePickled$1$$anonfun$1(Pickler.scala:111)
+	at dotty.tools.dotc.transform.Pickler$serialized$.run(Pickler.scala:70)
+	at dotty.tools.dotc.transform.Pickler.computePickled$1(Pickler.scala:122)
+	at dotty.tools.dotc.transform.Pickler.$anonfun$4(Pickler.scala:132)
+	at scala.util.Try$.apply(Try.scala:210)
+	at dotty.tools.dotc.util.concurrent$Executor.run(concurrent.scala:53)
+Caused by: java.lang.ClassNotFoundException: dotty.tools.tasty.TastyHash$
+	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+	at mill.api.ClassLoader$$anon$1.findClass(ClassLoader.scala:47)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 7 more
+Caused by: java.util.zip.ZipException: ZipFile invalid LOC header (bad signature)
+	at java.base/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(Unknown Source)
+	at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(Unknown Source)
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source)
+	at java.base/jdk.internal.loader.Resource.getBytes(Unknown Source)
+	at java.base/java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.base/java.net.URLClassLoader.access$100(Unknown Source)
+	... 14 more
+java.lang.NoClassDefFoundError: dotty/tools/backend/jvm/Primitives$EQ$
+	at dotty.tools.backend.jvm.CodeGen.genClass(CodeGen.scala:137)
+	at dotty.tools.backend.jvm.CodeGen.genClassDef$1(CodeGen.scala:55)
+	at dotty.tools.backend.jvm.CodeGen.genClassDefs$1(CodeGen.scala:101)
+	at dotty.tools.backend.jvm.CodeGen.genClassDefs$1$$anonfun$1(CodeGen.scala:99)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.backend.jvm.CodeGen.genClassDefs$1(CodeGen.scala:99)
+	at dotty.tools.backend.jvm.CodeGen.genUnit(CodeGen.scala:104)
+	at dotty.tools.backend.jvm.GenBCode.run(GenBCode.scala:76)
+	at dotty.tools.dotc.core.Phases$Phase.runOn$$anonfun$1(Phases.scala:324)
+	at scala.collection.immutable.List.map(List.scala:246)
+	at dotty.tools.dotc.core.Phases$Phase.runOn(Phases.scala:328)
+	at dotty.tools.backend.jvm.GenBCode.runOn(GenBCode.scala:87)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:279)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:194)
+	at dotty.tools.dotc.Run.compile(Run.scala:179)
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:192)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:247)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:182)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:210)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:528)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:528)
+	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:177)
+	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:175)
+	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:461)
+	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:416)
+	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:503)
+	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:403)
+	at sbt.internal.inc.Incremental$.apply(Incremental.scala:169)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:528)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:482)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+	at mill.scalalib.worker.ZincWorkerImpl.compileInternal(ZincWorkerImpl.scala:545)
+	at mill.scalalib.worker.ZincWorkerImpl.$anonfun$compileMixed0$1(ZincWorkerImpl.scala:317)
+	at mill.api.FixSizedCache.withCachedValue(FixSizedCache.scala:66)
+	at mill.scalalib.worker.ZincWorkerImpl.withCompilers(ZincWorkerImpl.scala:399)
+	at mill.scalalib.worker.ZincWorkerImpl.compileMixed0(ZincWorkerImpl.scala:316)
+	at mill.scalalib.worker.ZincWorkerImpl.compileMixed(ZincWorkerImpl.scala:284)
+	at mill.scalalib.ScalaModule.$anonfun$compile$2(ScalaModule.scala:195)
+	at mill.define.Task$TraverseCtx.evaluate(Task.scala:380)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$13(Evaluator.scala:627)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+	at scala.Console$.withErr(Console.scala:193)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$12(Evaluator.scala:627)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+	at scala.Console$.withOut(Console.scala:164)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$11(Evaluator.scala:626)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+	at scala.Console$.withIn(Console.scala:227)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$8(Evaluator.scala:625)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$8$adapted(Evaluator.scala:586)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at mill.eval.Evaluator.evaluateGroup(Evaluator.scala:586)
+	at mill.eval.Evaluator.$anonfun$evaluateGroupCached$21(Evaluator.scala:478)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+	at mill.eval.Evaluator.evaluateGroupCached(Evaluator.scala:469)
+	at mill.eval.Evaluator.$anonfun$sequentialEvaluate$2(Evaluator.scala:202)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at mill.eval.Evaluator.sequentialEvaluate(Evaluator.scala:177)
+	at mill.eval.Evaluator.evaluate(Evaluator.scala:162)
+	at mill.main.RunScript$.evaluateNamed(RunScript.scala:364)
+	at mill.main.RunScript$.evaluate(RunScript.scala:349)
+	at mill.main.RunScript$.$anonfun$evaluateTasks$1(RunScript.scala:314)
+	at scala.util.Either.map(Either.scala:382)
+	at mill.main.RunScript$.evaluateTasks(RunScript.scala:312)
+	at mill.main.RunScript$.$anonfun$runScript$8(RunScript.scala:105)
+	at ammonite.util.Res$Success.flatMap(Res.scala:62)
+	at mill.main.RunScript$.runScript(RunScript.scala:104)
+	at mill.main.MainRunner.$anonfun$runScript$1(MainRunner.scala:119)
+	at mill.main.MainRunner.watchLoop2(MainRunner.scala:67)
+	at mill.main.MainRunner.runScript(MainRunner.scala:92)
+	at mill.MillMain$.main0(MillMain.scala:310)
+	at mill.MillMain$.main(MillMain.scala:52)
+	at mill.MillMain.main(MillMain.scala)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at mill.main.client.IsolatedMillMainLoader.runMain(IsolatedMillMainLoader.java:58)
+	at mill.main.client.MillClientMain.main(MillClientMain.java:67)
+Caused by: java.lang.ClassNotFoundException: dotty.tools.backend.jvm.Primitives$EQ$
+	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+	at mill.api.ClassLoader$$anon$1.findClass(ClassLoader.scala:47)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 105 more
+Caused by: java.io.EOFException
+	at java.base/java.io.RandomAccessFile.readFully(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.readFullyAt(Unknown Source)
+	at java.base/java.util.zip.ZipFile$Source.access$1200(Unknown Source)
+	at java.base/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(Unknown Source)
+	at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(Unknown Source)
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source)
+	at java.base/jdk.internal.loader.Resource.getBytes(Unknown Source)
+	at java.base/java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.base/java.net.URLClassLoader.access$100(Unknown Source)
+	... 112 more
+[error] ## Exception when compiling 8 sources to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/upickle/out/ujson/jvm/3.3.1-RC1-bin-SNAPSHOT/test/compile.dest/classes
+[error] java.lang.NoClassDefFoundError: dotty/tools/dotc/Run$
+[error] dotty.tools.dotc.Driver.doCompile(Driver.scala:45)
+[error] dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+[error] dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+[error] sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:192)
+[error] scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:247)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:182)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+[error] sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+[error] sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:210)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:528)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:528)
+[error] sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:177)
+[error] sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:175)
+[error] sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:461)
+[error] sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+[error] sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+[error] sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:416)
+[error] sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:503)
+[error] sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:403)
+[error] sbt.internal.inc.Incremental$.apply(Incremental.scala:169)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:528)
+[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:482)
+[error] sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)
+[error] sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+[error] mill.scalalib.worker.ZincWorkerImpl.compileInternal(ZincWorkerImpl.scala:545)
+[error] mill.scalalib.worker.ZincWorkerImpl.$anonfun$compileMixed0$1(ZincWorkerImpl.scala:317)
+[error] mill.api.FixSizedCache.withCachedValue(FixSizedCache.scala:66)
+[error] mill.scalalib.worker.ZincWorkerImpl.withCompilers(ZincWorkerImpl.scala:399)
+[error] mill.scalalib.worker.ZincWorkerImpl.compileMixed0(ZincWorkerImpl.scala:316)
+[error] mill.scalalib.worker.ZincWorkerImpl.compileMixed(ZincWorkerImpl.scala:284)
+[error] mill.scalalib.ScalaModule.$anonfun$compile$2(ScalaModule.scala:195)
+[error] mill.define.Task$TraverseCtx.evaluate(Task.scala:380)
+[error] mill.eval.Evaluator.$anonfun$evaluateGroup$13(Evaluator.scala:627)
+[error] scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+[error] scala.Console$.withErr(Console.scala:193)
+[error] mill.eval.Evaluator.$anonfun$evaluateGroup$12(Evaluator.scala:627)
+[error] scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+[error] scala.Console$.withOut(Console.scala:164)
+[error] mill.eval.Evaluator.$anonfun$evaluateGroup$11(Evaluator.scala:626)
+[error] scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+[error] scala.Console$.withIn(Console.scala:227)
+[error] mill.eval.Evaluator.$anonfun$evaluateGroup$8(Evaluator.scala:625)
+[error] mill.eval.Evaluator.$anonfun$evaluateGroup$8$adapted(Evaluator.scala:586)
+[error] scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+[error] mill.eval.Evaluator.evaluateGroup(Evaluator.scala:586)
+[error] mill.eval.Evaluator.$anonfun$evaluateGroupCached$21(Evaluator.scala:478)
+[error] scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+[error] mill.eval.Evaluator.evaluateGroupCached(Evaluator.scala:469)
+[error] mill.eval.Evaluator.$anonfun$sequentialEvaluate$2(Evaluator.scala:202)
+[error] scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+[error] scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+[error] scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+[error] mill.eval.Evaluator.sequentialEvaluate(Evaluator.scala:177)
+[error] mill.eval.Evaluator.evaluate(Evaluator.scala:162)
+[error] mill.main.RunScript$.evaluateNamed(RunScript.scala:364)
+[error] mill.main.RunScript$.evaluate(RunScript.scala:349)
+[error] mill.main.RunScript$.$anonfun$evaluateTasks$1(RunScript.scala:314)
+[error] scala.util.Either.map(Either.scala:382)
+[error] mill.main.RunScript$.evaluateTasks(RunScript.scala:312)
+[error] mill.main.RunScript$.$anonfun$runScript$8(RunScript.scala:105)
+[error] ammonite.util.Res$Success.flatMap(Res.scala:62)
+[error] mill.main.RunScript$.runScript(RunScript.scala:104)
+[error] mill.main.MainRunner.$anonfun$runScript$1(MainRunner.scala:119)
+[error] mill.main.MainRunner.watchLoop2(MainRunner.scala:67)
+[error] mill.main.MainRunner.runScript(MainRunner.scala:92)
+[error] mill.MillMain$.main0(MillMain.scala:310)
+[error] mill.MillMain$.main(MillMain.scala:52)
+[error] mill.MillMain.main(MillMain.scala)
+[error] java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error] java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error] java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error] java.base/java.lang.reflect.Method.invoke(Unknown Source)
+[error] mill.main.client.IsolatedMillMainLoader.runMain(IsolatedMillMainLoader.java:58)
+[error] mill.main.client.MillClientMain.main(MillClientMain.java:67)
+[error]            
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at mill.main.client.IsolatedMillMainLoader.runMain(IsolatedMillMainLoader.java:58)
+	at mill.main.client.MillClientMain.main(MillClientMain.java:67)
+Caused by: java.lang.NoClassDefFoundError: dotty/tools/dotc/Run$
+	at dotty.tools.dotc.Driver.doCompile(Driver.scala:45)
+	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
+	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
+	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:192)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:247)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:182)
+	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
+	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
+	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:210)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:528)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:528)
+	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:177)
+	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:175)
+	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:461)
+	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
+	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
+	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
+	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
+	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:416)
+	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:503)
+	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:403)
+	at sbt.internal.inc.Incremental$.apply(Incremental.scala:169)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:528)
+	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:482)
+	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
+	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)
+	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
+	at mill.scalalib.worker.ZincWorkerImpl.compileInternal(ZincWorkerImpl.scala:545)
+	at mill.scalalib.worker.ZincWorkerImpl.$anonfun$compileMixed0$1(ZincWorkerImpl.scala:317)
+	at mill.api.FixSizedCache.withCachedValue(FixSizedCache.scala:66)
+	at mill.scalalib.worker.ZincWorkerImpl.withCompilers(ZincWorkerImpl.scala:399)
+	at mill.scalalib.worker.ZincWorkerImpl.compileMixed0(ZincWorkerImpl.scala:316)
+	at mill.scalalib.worker.ZincWorkerImpl.compileMixed(ZincWorkerImpl.scala:284)
+	at mill.scalalib.ScalaModule.$anonfun$compile$2(ScalaModule.scala:195)
+	at mill.define.Task$TraverseCtx.evaluate(Task.scala:380)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$13(Evaluator.scala:627)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+	at scala.Console$.withErr(Console.scala:193)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$12(Evaluator.scala:627)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+	at scala.Console$.withOut(Console.scala:164)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$11(Evaluator.scala:626)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+	at scala.Console$.withIn(Console.scala:227)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$8(Evaluator.scala:625)
+	at mill.eval.Evaluator.$anonfun$evaluateGroup$8$adapted(Evaluator.scala:586)
+	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
+	at mill.eval.Evaluator.evaluateGroup(Evaluator.scala:586)
+	at mill.eval.Evaluator.$anonfun$evaluateGroupCached$21(Evaluator.scala:478)
+	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
+	at mill.eval.Evaluator.evaluateGroupCached(Evaluator.scala:469)
+	at mill.eval.Evaluator.$anonfun$sequentialEvaluate$2(Evaluator.scala:202)
+	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
+	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
+	at mill.eval.Evaluator.sequentialEvaluate(Evaluator.scala:177)
+	at mill.eval.Evaluator.evaluate(Evaluator.scala:162)
+	at mill.main.RunScript$.evaluateNamed(RunScript.scala:364)
+	at mill.main.RunScript$.evaluate(RunScript.scala:349)
+	at mill.main.RunScript$.$anonfun$evaluateTasks$1(RunScript.scala:314)
+	at scala.util.Either.map(Either.scala:382)
+	at mill.main.RunScript$.evaluateTasks(RunScript.scala:312)
+	at mill.main.RunScript$.$anonfun$runScript$8(RunScript.scala:105)
+	at ammonite.util.Res$Success.flatMap(Res.scala:62)
+	at mill.main.RunScript$.runScript(RunScript.scala:104)
+	at mill.main.MainRunner.$anonfun$runScript$1(MainRunner.scala:119)
+	at mill.main.MainRunner.watchLoop2(MainRunner.scala:67)
+	at mill.main.MainRunner.runScript(MainRunner.scala:92)
+	at mill.MillMain$.main0(MillMain.scala:310)
+	at mill.MillMain$.main(MillMain.scala:52)
+	at mill.MillMain.main(MillMain.scala)
+	... 6 more
+Caused by: java.lang.ClassNotFoundException: dotty.tools.dotc.Run$
+	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+	at mill.api.ClassLoader$$anon$1.findClass(ClassLoader.scala:47)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 80 more
+Caused by: java.util.zip.ZipException: ZipFile invalid LOC header (bad signature)
+	at java.base/java.util.zip.ZipFile$ZipFileInputStream.initDataOffset(Unknown Source)
+	at java.base/java.util.zip.ZipFile$ZipFileInputStream.read(Unknown Source)
+	at java.base/java.util.zip.ZipFile$ZipFileInflaterInputStream.fill(Unknown Source)
+	at java.base/java.util.zip.InflaterInputStream.read(Unknown Source)
+	at java.base/jdk.internal.loader.Resource.getBytes(Unknown Source)
+	at java.base/java.net.URLClassLoader.defineClass(Unknown Source)
+	at java.base/java.net.URLClassLoader.access$100(Unknown Source)
+	... 87 more
+[32mRerunning tests in upickle because of a previous run failure.[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test[0m
+[5/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resources 
+[1A[2K[9999D[9/139] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[12/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[13/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.ammonite.$file.build.CommonModule.sources 
+[1A[2K[9999D[14/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[15/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].templates 
+[1A[2K[9999D[20/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[44/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[45/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.ammonite.$file.build.CommonModule.sources 
+[1A[2K[9999D[46/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[47/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].templates 
+[1A[2K[9999D[53/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[78/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[79/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.CrossScalaModule.CrossScalaModuleTests.sources 
+[1A[2K[9999D[80/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources 
+[1A[2K[9999D[85/139] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resources 
+[1A[2K[9999D[104/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[105/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.CrossScalaModule.CrossScalaModuleTests.sources 
+[1A[2K[9999D[106/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources 
+[1A[2K[9999D[129/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compile 
+[info] compiling 8 Scala sources to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/upickle/out/ujson/jvm/3.3.1-RC1-bin-SNAPSHOT/test/compile.dest/classes ...
+[info] done compiling
+[130/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.localClasspath 
+[1A[2K[9999D[131/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.runIvyDeps 
+[1A[2K[9999D[132/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resolvedRunIvyDeps 
+[1A[2K[9999D[133/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.upstreamAssemblyClasspath 
+[1A[2K[9999D[134/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.runClasspath 
+[1A[2K[9999D[136/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
+[1A[2K[9999D[137/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkEnv 
+[1A[2K[9999D[138/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkWorkingDir 
+[1A[2K[9999D[139/139] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].test.test 
+-------------------------------- Running Tests --------------------------------
+[32m+[39m ujson.FileTests.large strings in files are ok [2m49ms[0m  
+[32m+[39m ujson.FileTests.make sure geny.Readable and InputStreamParser works [2m6ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m ujson.ExampleJsonTests.0 [2m305ms[0m  
+[32m+[39m ujson.ExampleJsonTests.1 [2m48ms[0m  
+[32m+[39m ujson.ExampleJsonTests.2 [2m299ms[0m  
+[32m+[39m ujson.ExampleJsonTests.3 [2m39ms[0m  
+[32m+[39m ujson.ExampleJsonTests.4 [2m80ms[0m  
+[32m+[39m ujson.ExampleJsonTests.5 [2m171ms[0m  
+[32m+[39m ujson.ExampleJsonTests.6 [2m103ms[0m  
+[32m+[39m ujson.ExampleJsonTests.7 [2m61ms[0m  
+[32m+[39m ujson.ExampleJsonTests.8 [2m12ms[0m  
+[32m+[39m ujson.ExampleJsonTests.9 [2m382ms[0m  
+[32m+[39m ujson.ExampleJsonTests.10 [2m4051ms[0m  
+[32m+[39m ujson.ExampleJsonTests.11 [2m54ms[0m  
+[32m+[39m ujson.ExampleJsonTests.12 [2m10ms[0m  
+[32m+[39m ujson.ExampleJsonTests.13 [2m3ms[0m  
+[32m+[39m ujson.ExampleJsonTests.14 [2m12ms[0m  
+[32m+[39m ujson.ExampleJsonTests.15 [2m314ms[0m  
+[32m+[39m ujson.ExampleJsonTests.16 [2m7ms[0m  
+[32m+[39m ujson.ExampleJsonTests.17 [2m8ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m ujson.BoolTests.ujson.Bool apply [2m5ms[0m  
+[32m+[39m ujson.BoolTests.ujson.Bool.value [2m0ms[0m  
+[32m+[39m ujson.BoolTests.ujson.Bool unapply [2m6ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m ujson.SmallJsonTests.unicode [2m1ms[0m  
+[32m+[39m ujson.SmallJsonTests.shortcuts.positive [2m0ms[0m  
+[32m+[39m ujson.SmallJsonTests.shortcuts.negative [2m3ms[0m  [34mujson.Value$InvalidData: Expected ujson.Obj (data: "1")[39m
+[32m+[39m ujson.SmallJsonTests.inputsEu [2m1ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m ujson.JsonTests.correctness [2m5ms[0m  [34m("rosebud","rosebud")[39m
+[32m+[39m ujson.JsonTests.inputs [2m3ms[0m  
+[32m+[39m ujson.JsonTests.streaming [2m1ms[0m  
+[32m+[39m ujson.JsonTests.batch [2m0ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m ujson.SyntaxTests.empty.0 [2m12ms[0m  
+[32m+[39m ujson.SyntaxTests.empty.1 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.unicode is ok.0 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.unicode is ok.1 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.unicode is ok.2 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.true.0 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.true.1 [2m16ms[0m  
+[32m+[39m ujson.SyntaxTests.true.2 [2m2ms[0m  
+[32m+[39m ujson.SyntaxTests.false.0 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.false.1 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.false.2 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.null.0 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.null.1 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.null.2 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.string.0 [2m4ms[0m  
+[32m+[39m ujson.SyntaxTests.string.1 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.string.2 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.string.3 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.string.4 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.string.5 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.string.6 [2m2ms[0m  
+[32m+[39m ujson.SyntaxTests.string.7 [2m2ms[0m  
+[32m+[39m ujson.SyntaxTests.string.8 [2m2ms[0m  
+[32m+[39m ujson.SyntaxTests.string.9 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.string.duh is valid [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal TAB is invalid [2m2ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal NL is invalid [2m2ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal CR is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal NUL is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal BS TAB is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal BS NL is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal BS CR is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal BS NUL is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal BS ZERO is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.string.literal BS X is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.objects.0 [2m2ms[0m  
+[32m+[39m ujson.SyntaxTests.objects.1 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.objects.2 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.objects.3 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.objects.4 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.objects.5 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.objects.6 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.objects.7 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.arrays.0 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.arrays.1 [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.arrays.2 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.arrays.3 [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.0 is ok [2m6ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.0e is invalid [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.123e is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers..999 is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.0.999 is ok [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.-.999 is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.-0.999 is ok [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.+0.999 is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.--0.999 is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.01 is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1e is invalid [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1e- is invalid [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1e+ is invalid [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1. is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.e is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.e9 is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.e- is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.e+ is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.1e is invalid [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.1e- is invalid [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.1e+ is invalid [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.1e1 is ok [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.1e-1 is ok [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1.1e+1 is ok [2m0ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1+ is invalid [2m1ms[0m  
+[32m+[39m ujson.SyntaxTests.numbers.1- is invalid [2m1ms[0m  
+[32m[SUCCESS upickle][0m
+[32m[upickle DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 43.456s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 80 s (01:20), completed Jun 22, 2023, 1:02:16 AM

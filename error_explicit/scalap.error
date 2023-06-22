@@ -1,0 +1,1445 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:55:20 
+[error] 55 |      case idx  => ((str take idx).trim, (str drop (idx + 1)).trim)
+[error]    |                    ^^^^^^^^^^^^^^^^^^^
+[error]    |                    Found:    String | Null
+[error]    |                    Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:55:41 
+[error] 55 |      case idx  => ((str take idx).trim, (str drop (idx + 1)).trim)
+[error]    |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                         Found:    String | Null
+[error]    |                                         Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:65:10 
+[error] 65 |      if (args != null) {
+[error]    |          ^^^^^^^^^^^^
+[error]    | Values of types Array[String] and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:68:15 
+[error] 68 |          if ((args(i) == null) || (args(i).length() == 0))
+[error]    |               ^^^^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:99:75 
+[error] 99 |                res.addPrefixed(prefix, args(i).substring(prefix.length()).trim())
+[error]    |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value trim is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select trim without checking for a null value,
+[error]    |      insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:108:63 
+[error] 108 |                  val arg = args(i).substring(prefix.length()).trim()
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value trim is not a member of String | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    String | Null could be null at runtime.
+[error]     |    If you want to select trim without checking for a null value,
+[error]     |    insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Classfile.scala:126:47 
+[error] 126 |      for ((x, i) <- entries.zipWithIndex ; if x != null) yield
+[error]     |                                               ^^^^^^^^^
+[error]     |Values of types Pool.this.PoolEntry and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:37:27 
+[error] 37 |  def getIndentWidth = if (step == null) -1 else step.length()
+[error]    |                           ^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:60:8 
+[error] 60 |    if (step == null)
+[error]    |        ^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:99:42 
+[error] 99 |  def print(value: Boolean): CodeWriter = print(String.valueOf(value))
+[error]    |                                          ^^^^^
+[error]    |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]    | (value: String): scala.tools.scalap.CodeWriter
+[error]    | (value: Double): scala.tools.scalap.CodeWriter
+[error]    | (value: Float): scala.tools.scalap.CodeWriter
+[error]    | (value: Long): scala.tools.scalap.CodeWriter
+[error]    | (value: Int): scala.tools.scalap.CodeWriter
+[error]    | (value: Char): scala.tools.scalap.CodeWriter
+[error]    | (value: Short): scala.tools.scalap.CodeWriter
+[error]    | (value: Byte): scala.tools.scalap.CodeWriter
+[error]    | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]    |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:101:39 
+[error] 101 |  def print(value: Byte): CodeWriter = print(String.valueOf(value.toInt))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:103:40 
+[error] 103 |  def print(value: Short): CodeWriter = print(String.valueOf(value.toInt))
+[error]     |                                        ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:105:39 
+[error] 105 |  def print(value: Char): CodeWriter = print(String.valueOf(value))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:107:38 
+[error] 107 |  def print(value: Int): CodeWriter = print(String.valueOf(value))
+[error]     |                                      ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:109:39 
+[error] 109 |  def print(value: Long): CodeWriter = print(String.valueOf(value))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:111:40 
+[error] 111 |  def print(value: Float): CodeWriter = print(String.valueOf(value))
+[error]     |                                        ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:113:41 
+[error] 113 |  def print(value: Double): CodeWriter = print(String.valueOf(value))
+[error]     |                                         ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:254:18 
+[error] 254 |      buffer(i) = null
+[error]     |                  ^^^^
+[error]     |Found:    Null
+[error]     |Required: scala.tools.scalap.scalax.rules.scalasig.ConstantPool => Any
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than scala.tools.scalap.scalax.rules.scalasig.ConstantPool => Any
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Decode.scala:58:32 
+[error] 58 |      val _bytes    = bytesElem.elementValue match { case ConstValueIndex(x) => constantWrapped(x) }
+[error]    |                      ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value elementValue is not a member of scala.tools.scalap.scalax.rules.scalasig.ClassFileParser.AnnotationElement |
+[error]    |  Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |scala.tools.scalap.scalax.rules.scalasig.ClassFileParser.AnnotationElement |
+[error]    |  Null could be null at runtime.
+[error]    |If you want to select elementValue without checking for a null value,
+[error]    |insert a .nn before .elementValue or import scala.language.unsafeNulls.
+[error] -- [E006] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Decode.scala:58:96 
+[error] 58 |      val _bytes    = bytesElem.elementValue match { case ConstValueIndex(x) => constantWrapped(x) }
+[error]    |                                                                                                ^
+[error]    |                                                            Not found: x
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:38:48 
+[error] 38 |    val res = NameTransformer.decode(str.replace('/', '.'))
+[error]    |                                     ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    String | Null
+[error]    |                                     Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:43:48 
+[error] 43 |    val res = NameTransformer.decode(str.replace('/', '.'))
+[error]    |                                     ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    String | Null
+[error]    |                                     Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:48:40 
+[error] 48 |    NameTransformer.decode(str.substring(str.lastIndexOf('/') + 1))
+[error]    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                           Found:    String | Null
+[error]    |                           Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:52:61 
+[error] 52 |    val name = if (inx == -1) str else str.substring(0, inx).replace('/', '.')
+[error]    |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value replace is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select replace without checking for a null value,
+[error]    |      insert a .nn before .replace or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:71:32 
+[error] 71 |      (nameToClass(str.substring(i + 1, j)), j + 1)
+[error]    |                   ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                   Found:    String | Null
+[error]    |                   Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:150:10 
+[error] 150 |          print(getClassName(inx).trim())
+[error]     |          ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:162:10 
+[error] 162 |      if (cf.pool(cf.superclass) != null)
+[error]     |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types JavaWriter.this.cf.pool.PoolEntry and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:182:58 
+[error] 181 |        val mp = new MetaParser(getName(
+[error] 182 |          ((data(0) & 0xff) << 8) + (data(1) & 0xff)).trim())
+[error]     |                                ^
+[error]     |                                Found:    String | Null
+[error]     |                                Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Main.scala:62:39 
+[error] 62 |  def isPackageObjectFile(s: String) = s != null && (s.endsWith(".package") || s == "package")
+[error]    |                                       ^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/MetaParser.scala:29:34 
+[error] 29 |      token = scanner.nextToken().trim()
+[error]    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value trim is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select trim without checking for a null value,
+[error]    |      insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:27:23 
+[error] 27 |    val subPath = name.substring(name.lastIndexOf('.') + 1) + ".class"
+[error]    |                  ^^^^^^^^^^^^^^
+[error]    |    value substring is not a member of String | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    String | Null could be null at runtime.
+[error]    |    If you want to select substring without checking for a null value,
+[error]    |    insert a .nn before .substring or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:27:38 
+[error] 27 |    val subPath = name.substring(name.lastIndexOf('.') + 1) + ".class"
+[error]    |                                 ^^^^^^^^^^^^^^^^
+[error]    |  value lastIndexOf is not a member of String | Null.
+[error]    |  Since explicit-nulls is enabled, the selection is rejected because
+[error]    |  String | Null could be null at runtime.
+[error]    |  If you want to select lastIndexOf without checking for a null value,
+[error]    |  insert a .nn before .lastIndexOf or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:31:20 
+[error] 31 |      var rest = in.available()
+[error]    |                 ^^^^^^^^^^^^
+[error]    |    value available is not a member of java.io.InputStream | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    java.io.InputStream | Null could be null at runtime.
+[error]    |    If you want to select available without checking for a null value,
+[error]    |    insert a .nn before .available or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:34:21 
+[error] 34 |        val res = in.read(bytes, bytes.length - rest, rest)
+[error]    |                  ^^^^^^^
+[error]    |      value read is not a member of java.io.InputStream | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.io.InputStream | Null could be null at runtime.
+[error]    |      If you want to select read without checking for a null value,
+[error]    |      insert a .nn before .read or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:41:9 
+[error] 41 |      in.close()
+[error]    |      ^^^^^^^^
+[error]    |      value close is not a member of java.io.InputStream | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.io.InputStream | Null could be null at runtime.
+[error]    |      If you want to select close without checking for a null value,
+[error]    |      insert a .nn before .close or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:423:20 
+[error] 423 |    val m = pattern.matcher(stripped)
+[error]     |            ^^^^^^^^^^^^^^^
+[error]     |    value matcher is not a member of java.util.regex.Pattern | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    java.util.regex.Pattern | Null could be null at runtime.
+[error]     |    If you want to select matcher without checking for a null value,
+[error]     |    insert a .nn before .matcher or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:428:18 
+[error] 428 |      temp = temp.replaceAll(re, _syms(re))
+[error]     |             ^^^^^^^^^^^^^^^
+[error]     | value replaceAll is not a member of String | Null.
+[error]     | Since explicit-nulls is enabled, the selection is rejected because
+[error]     | String | Null could be null at runtime.
+[error]     | If you want to select replaceAll without checking for a null value,
+[error]     | insert a .nn before .replaceAll or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:430:22 
+[error] 430 |    val result = temp.replaceAll(placeholderPattern, "_")
+[error]     |                 ^^^^^^^^^^^^^^^
+[error]     | value replaceAll is not a member of String | Null.
+[error]     | Since explicit-nulls is enabled, the selection is rejected because
+[error]     | String | Null could be null at runtime.
+[error]     | If you want to select replaceAll without checking for a null value,
+[error]     | insert a .nn before .replaceAll or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:343:68 
+[error] 343 |        case c: Class[_] => "java.lang.Class[" + c.getComponentType.getCanonicalName.replace("$", ".") + "]"
+[error]     |                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |value getCanonicalName is not a member of Class[?] | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |Class[?] | Null could be null at runtime.
+[error]     |If you want to select getCanonicalName without checking for a null value,
+[error]     |insert a .nn before .getCanonicalName or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:355:23 
+[error] 355 |          (processName(path) + typeArgString(typeArgs)).stripPrefix("<empty>.")
+[error]     |                       ^^^^
+[error]     |                       Found:    (path : String | Null)
+[error]     |                       Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:392:50 
+[error] 392 |      val atrs = if (attrs.length > 0) attrs.trim + " " else ""
+[error]     |                                       ^^^^^^^^^^^^
+[error]     |    value + is not a member of String | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    String | Null could be null at runtime.
+[error]     |    If you want to select + without checking for a null value,
+[error]     |    insert a .nn before .+ or import scala.language.unsafeNulls.
+[error] 41 errors found
+[error] (scalap / Compile / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:28:19 AM
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:55:20 
+[error] 55 |      case idx  => ((str take idx).trim, (str drop (idx + 1)).trim)
+[error]    |                    ^^^^^^^^^^^^^^^^^^^
+[error]    |                    Found:    String | Null
+[error]    |                    Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:55:41 
+[error] 55 |      case idx  => ((str take idx).trim, (str drop (idx + 1)).trim)
+[error]    |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                         Found:    String | Null
+[error]    |                                         Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:65:10 
+[error] 65 |      if (args != null) {
+[error]    |          ^^^^^^^^^^^^
+[error]    | Values of types Array[String] and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:68:15 
+[error] 68 |          if ((args(i) == null) || (args(i).length() == 0))
+[error]    |               ^^^^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:99:75 
+[error] 99 |                res.addPrefixed(prefix, args(i).substring(prefix.length()).trim())
+[error]    |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value trim is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select trim without checking for a null value,
+[error]    |      insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:108:63 
+[error] 108 |                  val arg = args(i).substring(prefix.length()).trim()
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value trim is not a member of String | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    String | Null could be null at runtime.
+[error]     |    If you want to select trim without checking for a null value,
+[error]     |    insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Classfile.scala:126:47 
+[error] 126 |      for ((x, i) <- entries.zipWithIndex ; if x != null) yield
+[error]     |                                               ^^^^^^^^^
+[error]     |Values of types Pool.this.PoolEntry and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:37:27 
+[error] 37 |  def getIndentWidth = if (step == null) -1 else step.length()
+[error]    |                           ^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:60:8 
+[error] 60 |    if (step == null)
+[error]    |        ^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:99:42 
+[error] 99 |  def print(value: Boolean): CodeWriter = print(String.valueOf(value))
+[error]    |                                          ^^^^^
+[error]    |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]    | (value: String): scala.tools.scalap.CodeWriter
+[error]    | (value: Double): scala.tools.scalap.CodeWriter
+[error]    | (value: Float): scala.tools.scalap.CodeWriter
+[error]    | (value: Long): scala.tools.scalap.CodeWriter
+[error]    | (value: Int): scala.tools.scalap.CodeWriter
+[error]    | (value: Char): scala.tools.scalap.CodeWriter
+[error]    | (value: Short): scala.tools.scalap.CodeWriter
+[error]    | (value: Byte): scala.tools.scalap.CodeWriter
+[error]    | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]    |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:101:39 
+[error] 101 |  def print(value: Byte): CodeWriter = print(String.valueOf(value.toInt))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:103:40 
+[error] 103 |  def print(value: Short): CodeWriter = print(String.valueOf(value.toInt))
+[error]     |                                        ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:105:39 
+[error] 105 |  def print(value: Char): CodeWriter = print(String.valueOf(value))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:107:38 
+[error] 107 |  def print(value: Int): CodeWriter = print(String.valueOf(value))
+[error]     |                                      ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:109:39 
+[error] 109 |  def print(value: Long): CodeWriter = print(String.valueOf(value))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:111:40 
+[error] 111 |  def print(value: Float): CodeWriter = print(String.valueOf(value))
+[error]     |                                        ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:113:41 
+[error] 113 |  def print(value: Double): CodeWriter = print(String.valueOf(value))
+[error]     |                                         ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:254:18 
+[error] 254 |      buffer(i) = null
+[error]     |                  ^^^^
+[error]     |Found:    Null
+[error]     |Required: scala.tools.scalap.scalax.rules.scalasig.ConstantPool => Any
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than scala.tools.scalap.scalax.rules.scalasig.ConstantPool => Any
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Decode.scala:58:32 
+[error] 58 |      val _bytes    = bytesElem.elementValue match { case ConstValueIndex(x) => constantWrapped(x) }
+[error]    |                      ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value elementValue is not a member of scala.tools.scalap.scalax.rules.scalasig.ClassFileParser.AnnotationElement |
+[error]    |  Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |scala.tools.scalap.scalax.rules.scalasig.ClassFileParser.AnnotationElement |
+[error]    |  Null could be null at runtime.
+[error]    |If you want to select elementValue without checking for a null value,
+[error]    |insert a .nn before .elementValue or import scala.language.unsafeNulls.
+[error] -- [E006] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Decode.scala:58:96 
+[error] 58 |      val _bytes    = bytesElem.elementValue match { case ConstValueIndex(x) => constantWrapped(x) }
+[error]    |                                                                                                ^
+[error]    |                                                            Not found: x
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:38:48 
+[error] 38 |    val res = NameTransformer.decode(str.replace('/', '.'))
+[error]    |                                     ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    String | Null
+[error]    |                                     Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:43:48 
+[error] 43 |    val res = NameTransformer.decode(str.replace('/', '.'))
+[error]    |                                     ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    String | Null
+[error]    |                                     Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:48:40 
+[error] 48 |    NameTransformer.decode(str.substring(str.lastIndexOf('/') + 1))
+[error]    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                           Found:    String | Null
+[error]    |                           Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:52:61 
+[error] 52 |    val name = if (inx == -1) str else str.substring(0, inx).replace('/', '.')
+[error]    |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value replace is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select replace without checking for a null value,
+[error]    |      insert a .nn before .replace or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:71:32 
+[error] 71 |      (nameToClass(str.substring(i + 1, j)), j + 1)
+[error]    |                   ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                   Found:    String | Null
+[error]    |                   Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:150:10 
+[error] 150 |          print(getClassName(inx).trim())
+[error]     |          ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:162:10 
+[error] 162 |      if (cf.pool(cf.superclass) != null)
+[error]     |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types JavaWriter.this.cf.pool.PoolEntry and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:182:58 
+[error] 181 |        val mp = new MetaParser(getName(
+[error] 182 |          ((data(0) & 0xff) << 8) + (data(1) & 0xff)).trim())
+[error]     |                                ^
+[error]     |                                Found:    String | Null
+[error]     |                                Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Main.scala:62:39 
+[error] 62 |  def isPackageObjectFile(s: String) = s != null && (s.endsWith(".package") || s == "package")
+[error]    |                                       ^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/MetaParser.scala:29:34 
+[error] 29 |      token = scanner.nextToken().trim()
+[error]    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value trim is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select trim without checking for a null value,
+[error]    |      insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:27:23 
+[error] 27 |    val subPath = name.substring(name.lastIndexOf('.') + 1) + ".class"
+[error]    |                  ^^^^^^^^^^^^^^
+[error]    |    value substring is not a member of String | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    String | Null could be null at runtime.
+[error]    |    If you want to select substring without checking for a null value,
+[error]    |    insert a .nn before .substring or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:27:38 
+[error] 27 |    val subPath = name.substring(name.lastIndexOf('.') + 1) + ".class"
+[error]    |                                 ^^^^^^^^^^^^^^^^
+[error]    |  value lastIndexOf is not a member of String | Null.
+[error]    |  Since explicit-nulls is enabled, the selection is rejected because
+[error]    |  String | Null could be null at runtime.
+[error]    |  If you want to select lastIndexOf without checking for a null value,
+[error]    |  insert a .nn before .lastIndexOf or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:31:20 
+[error] 31 |      var rest = in.available()
+[error]    |                 ^^^^^^^^^^^^
+[error]    |    value available is not a member of java.io.InputStream | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    java.io.InputStream | Null could be null at runtime.
+[error]    |    If you want to select available without checking for a null value,
+[error]    |    insert a .nn before .available or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:34:21 
+[error] 34 |        val res = in.read(bytes, bytes.length - rest, rest)
+[error]    |                  ^^^^^^^
+[error]    |      value read is not a member of java.io.InputStream | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.io.InputStream | Null could be null at runtime.
+[error]    |      If you want to select read without checking for a null value,
+[error]    |      insert a .nn before .read or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:41:9 
+[error] 41 |      in.close()
+[error]    |      ^^^^^^^^
+[error]    |      value close is not a member of java.io.InputStream | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.io.InputStream | Null could be null at runtime.
+[error]    |      If you want to select close without checking for a null value,
+[error]    |      insert a .nn before .close or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:423:20 
+[error] 423 |    val m = pattern.matcher(stripped)
+[error]     |            ^^^^^^^^^^^^^^^
+[error]     |    value matcher is not a member of java.util.regex.Pattern | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    java.util.regex.Pattern | Null could be null at runtime.
+[error]     |    If you want to select matcher without checking for a null value,
+[error]     |    insert a .nn before .matcher or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:428:18 
+[error] 428 |      temp = temp.replaceAll(re, _syms(re))
+[error]     |             ^^^^^^^^^^^^^^^
+[error]     | value replaceAll is not a member of String | Null.
+[error]     | Since explicit-nulls is enabled, the selection is rejected because
+[error]     | String | Null could be null at runtime.
+[error]     | If you want to select replaceAll without checking for a null value,
+[error]     | insert a .nn before .replaceAll or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:430:22 
+[error] 430 |    val result = temp.replaceAll(placeholderPattern, "_")
+[error]     |                 ^^^^^^^^^^^^^^^
+[error]     | value replaceAll is not a member of String | Null.
+[error]     | Since explicit-nulls is enabled, the selection is rejected because
+[error]     | String | Null could be null at runtime.
+[error]     | If you want to select replaceAll without checking for a null value,
+[error]     | insert a .nn before .replaceAll or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:343:68 
+[error] 343 |        case c: Class[_] => "java.lang.Class[" + c.getComponentType.getCanonicalName.replace("$", ".") + "]"
+[error]     |                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |value getCanonicalName is not a member of Class[?] | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |Class[?] | Null could be null at runtime.
+[error]     |If you want to select getCanonicalName without checking for a null value,
+[error]     |insert a .nn before .getCanonicalName or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:355:23 
+[error] 355 |          (processName(path) + typeArgString(typeArgs)).stripPrefix("<empty>.")
+[error]     |                       ^^^^
+[error]     |                       Found:    (path : String | Null)
+[error]     |                       Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:392:50 
+[error] 392 |      val atrs = if (attrs.length > 0) attrs.trim + " " else ""
+[error]     |                                       ^^^^^^^^^^^^
+[error]     |    value + is not a member of String | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    String | Null could be null at runtime.
+[error]     |    If you want to select + without checking for a null value,
+[error]     |    insert a .nn before .+ or import scala.language.unsafeNulls.
+[error] 41 errors found
+[error] (scalap / Compile / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:28:36 AM
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:55:20 
+[error] 55 |      case idx  => ((str take idx).trim, (str drop (idx + 1)).trim)
+[error]    |                    ^^^^^^^^^^^^^^^^^^^
+[error]    |                    Found:    String | Null
+[error]    |                    Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:55:41 
+[error] 55 |      case idx  => ((str take idx).trim, (str drop (idx + 1)).trim)
+[error]    |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                         Found:    String | Null
+[error]    |                                         Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:65:10 
+[error] 65 |      if (args != null) {
+[error]    |          ^^^^^^^^^^^^
+[error]    | Values of types Array[String] and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:68:15 
+[error] 68 |          if ((args(i) == null) || (args(i).length() == 0))
+[error]    |               ^^^^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:99:75 
+[error] 99 |                res.addPrefixed(prefix, args(i).substring(prefix.length()).trim())
+[error]    |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value trim is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select trim without checking for a null value,
+[error]    |      insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:108:63 
+[error] 108 |                  val arg = args(i).substring(prefix.length()).trim()
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value trim is not a member of String | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    String | Null could be null at runtime.
+[error]     |    If you want to select trim without checking for a null value,
+[error]     |    insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Classfile.scala:126:47 
+[error] 126 |      for ((x, i) <- entries.zipWithIndex ; if x != null) yield
+[error]     |                                               ^^^^^^^^^
+[error]     |Values of types Pool.this.PoolEntry and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:37:27 
+[error] 37 |  def getIndentWidth = if (step == null) -1 else step.length()
+[error]    |                           ^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:60:8 
+[error] 60 |    if (step == null)
+[error]    |        ^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:99:42 
+[error] 99 |  def print(value: Boolean): CodeWriter = print(String.valueOf(value))
+[error]    |                                          ^^^^^
+[error]    |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]    | (value: String): scala.tools.scalap.CodeWriter
+[error]    | (value: Double): scala.tools.scalap.CodeWriter
+[error]    | (value: Float): scala.tools.scalap.CodeWriter
+[error]    | (value: Long): scala.tools.scalap.CodeWriter
+[error]    | (value: Int): scala.tools.scalap.CodeWriter
+[error]    | (value: Char): scala.tools.scalap.CodeWriter
+[error]    | (value: Short): scala.tools.scalap.CodeWriter
+[error]    | (value: Byte): scala.tools.scalap.CodeWriter
+[error]    | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]    |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:101:39 
+[error] 101 |  def print(value: Byte): CodeWriter = print(String.valueOf(value.toInt))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:103:40 
+[error] 103 |  def print(value: Short): CodeWriter = print(String.valueOf(value.toInt))
+[error]     |                                        ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:105:39 
+[error] 105 |  def print(value: Char): CodeWriter = print(String.valueOf(value))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:107:38 
+[error] 107 |  def print(value: Int): CodeWriter = print(String.valueOf(value))
+[error]     |                                      ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:109:39 
+[error] 109 |  def print(value: Long): CodeWriter = print(String.valueOf(value))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:111:40 
+[error] 111 |  def print(value: Float): CodeWriter = print(String.valueOf(value))
+[error]     |                                        ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:113:41 
+[error] 113 |  def print(value: Double): CodeWriter = print(String.valueOf(value))
+[error]     |                                         ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:254:18 
+[error] 254 |      buffer(i) = null
+[error]     |                  ^^^^
+[error]     |Found:    Null
+[error]     |Required: scala.tools.scalap.scalax.rules.scalasig.ConstantPool => Any
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than scala.tools.scalap.scalax.rules.scalasig.ConstantPool => Any
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Decode.scala:58:32 
+[error] 58 |      val _bytes    = bytesElem.elementValue match { case ConstValueIndex(x) => constantWrapped(x) }
+[error]    |                      ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value elementValue is not a member of scala.tools.scalap.scalax.rules.scalasig.ClassFileParser.AnnotationElement |
+[error]    |  Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |scala.tools.scalap.scalax.rules.scalasig.ClassFileParser.AnnotationElement |
+[error]    |  Null could be null at runtime.
+[error]    |If you want to select elementValue without checking for a null value,
+[error]    |insert a .nn before .elementValue or import scala.language.unsafeNulls.
+[error] -- [E006] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Decode.scala:58:96 
+[error] 58 |      val _bytes    = bytesElem.elementValue match { case ConstValueIndex(x) => constantWrapped(x) }
+[error]    |                                                                                                ^
+[error]    |                                                            Not found: x
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:38:48 
+[error] 38 |    val res = NameTransformer.decode(str.replace('/', '.'))
+[error]    |                                     ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    String | Null
+[error]    |                                     Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:43:48 
+[error] 43 |    val res = NameTransformer.decode(str.replace('/', '.'))
+[error]    |                                     ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    String | Null
+[error]    |                                     Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:48:40 
+[error] 48 |    NameTransformer.decode(str.substring(str.lastIndexOf('/') + 1))
+[error]    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                           Found:    String | Null
+[error]    |                           Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:52:61 
+[error] 52 |    val name = if (inx == -1) str else str.substring(0, inx).replace('/', '.')
+[error]    |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value replace is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select replace without checking for a null value,
+[error]    |      insert a .nn before .replace or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:71:32 
+[error] 71 |      (nameToClass(str.substring(i + 1, j)), j + 1)
+[error]    |                   ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                   Found:    String | Null
+[error]    |                   Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:150:10 
+[error] 150 |          print(getClassName(inx).trim())
+[error]     |          ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:162:10 
+[error] 162 |      if (cf.pool(cf.superclass) != null)
+[error]     |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types JavaWriter.this.cf.pool.PoolEntry and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:182:58 
+[error] 181 |        val mp = new MetaParser(getName(
+[error] 182 |          ((data(0) & 0xff) << 8) + (data(1) & 0xff)).trim())
+[error]     |                                ^
+[error]     |                                Found:    String | Null
+[error]     |                                Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Main.scala:62:39 
+[error] 62 |  def isPackageObjectFile(s: String) = s != null && (s.endsWith(".package") || s == "package")
+[error]    |                                       ^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/MetaParser.scala:29:34 
+[error] 29 |      token = scanner.nextToken().trim()
+[error]    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value trim is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select trim without checking for a null value,
+[error]    |      insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:27:23 
+[error] 27 |    val subPath = name.substring(name.lastIndexOf('.') + 1) + ".class"
+[error]    |                  ^^^^^^^^^^^^^^
+[error]    |    value substring is not a member of String | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    String | Null could be null at runtime.
+[error]    |    If you want to select substring without checking for a null value,
+[error]    |    insert a .nn before .substring or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:27:38 
+[error] 27 |    val subPath = name.substring(name.lastIndexOf('.') + 1) + ".class"
+[error]    |                                 ^^^^^^^^^^^^^^^^
+[error]    |  value lastIndexOf is not a member of String | Null.
+[error]    |  Since explicit-nulls is enabled, the selection is rejected because
+[error]    |  String | Null could be null at runtime.
+[error]    |  If you want to select lastIndexOf without checking for a null value,
+[error]    |  insert a .nn before .lastIndexOf or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:31:20 
+[error] 31 |      var rest = in.available()
+[error]    |                 ^^^^^^^^^^^^
+[error]    |    value available is not a member of java.io.InputStream | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    java.io.InputStream | Null could be null at runtime.
+[error]    |    If you want to select available without checking for a null value,
+[error]    |    insert a .nn before .available or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:34:21 
+[error] 34 |        val res = in.read(bytes, bytes.length - rest, rest)
+[error]    |                  ^^^^^^^
+[error]    |      value read is not a member of java.io.InputStream | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.io.InputStream | Null could be null at runtime.
+[error]    |      If you want to select read without checking for a null value,
+[error]    |      insert a .nn before .read or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:41:9 
+[error] 41 |      in.close()
+[error]    |      ^^^^^^^^
+[error]    |      value close is not a member of java.io.InputStream | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.io.InputStream | Null could be null at runtime.
+[error]    |      If you want to select close without checking for a null value,
+[error]    |      insert a .nn before .close or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:423:20 
+[error] 423 |    val m = pattern.matcher(stripped)
+[error]     |            ^^^^^^^^^^^^^^^
+[error]     |    value matcher is not a member of java.util.regex.Pattern | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    java.util.regex.Pattern | Null could be null at runtime.
+[error]     |    If you want to select matcher without checking for a null value,
+[error]     |    insert a .nn before .matcher or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:428:18 
+[error] 428 |      temp = temp.replaceAll(re, _syms(re))
+[error]     |             ^^^^^^^^^^^^^^^
+[error]     | value replaceAll is not a member of String | Null.
+[error]     | Since explicit-nulls is enabled, the selection is rejected because
+[error]     | String | Null could be null at runtime.
+[error]     | If you want to select replaceAll without checking for a null value,
+[error]     | insert a .nn before .replaceAll or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:430:22 
+[error] 430 |    val result = temp.replaceAll(placeholderPattern, "_")
+[error]     |                 ^^^^^^^^^^^^^^^
+[error]     | value replaceAll is not a member of String | Null.
+[error]     | Since explicit-nulls is enabled, the selection is rejected because
+[error]     | String | Null could be null at runtime.
+[error]     | If you want to select replaceAll without checking for a null value,
+[error]     | insert a .nn before .replaceAll or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:343:68 
+[error] 343 |        case c: Class[_] => "java.lang.Class[" + c.getComponentType.getCanonicalName.replace("$", ".") + "]"
+[error]     |                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |value getCanonicalName is not a member of Class[?] | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |Class[?] | Null could be null at runtime.
+[error]     |If you want to select getCanonicalName without checking for a null value,
+[error]     |insert a .nn before .getCanonicalName or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:355:23 
+[error] 355 |          (processName(path) + typeArgString(typeArgs)).stripPrefix("<empty>.")
+[error]     |                       ^^^^
+[error]     |                       Found:    (path : String | Null)
+[error]     |                       Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:392:50 
+[error] 392 |      val atrs = if (attrs.length > 0) attrs.trim + " " else ""
+[error]     |                                       ^^^^^^^^^^^^
+[error]     |    value + is not a member of String | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    String | Null could be null at runtime.
+[error]     |    If you want to select + without checking for a null value,
+[error]     |    insert a .nn before .+ or import scala.language.unsafeNulls.
+[error] 41 errors found
+[error] (scalap / Compile / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:28:54 AM
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:55:20 
+[error] 55 |      case idx  => ((str take idx).trim, (str drop (idx + 1)).trim)
+[error]    |                    ^^^^^^^^^^^^^^^^^^^
+[error]    |                    Found:    String | Null
+[error]    |                    Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:55:41 
+[error] 55 |      case idx  => ((str take idx).trim, (str drop (idx + 1)).trim)
+[error]    |                                         ^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                         Found:    String | Null
+[error]    |                                         Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:65:10 
+[error] 65 |      if (args != null) {
+[error]    |          ^^^^^^^^^^^^
+[error]    | Values of types Array[String] and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:68:15 
+[error] 68 |          if ((args(i) == null) || (args(i).length() == 0))
+[error]    |               ^^^^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:99:75 
+[error] 99 |                res.addPrefixed(prefix, args(i).substring(prefix.length()).trim())
+[error]    |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value trim is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select trim without checking for a null value,
+[error]    |      insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Arguments.scala:108:63 
+[error] 108 |                  val arg = args(i).substring(prefix.length()).trim()
+[error]     |                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value trim is not a member of String | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    String | Null could be null at runtime.
+[error]     |    If you want to select trim without checking for a null value,
+[error]     |    insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Classfile.scala:126:47 
+[error] 126 |      for ((x, i) <- entries.zipWithIndex ; if x != null) yield
+[error]     |                                               ^^^^^^^^^
+[error]     |Values of types Pool.this.PoolEntry and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:37:27 
+[error] 37 |  def getIndentWidth = if (step == null) -1 else step.length()
+[error]    |                           ^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:60:8 
+[error] 60 |    if (step == null)
+[error]    |        ^^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:99:42 
+[error] 99 |  def print(value: Boolean): CodeWriter = print(String.valueOf(value))
+[error]    |                                          ^^^^^
+[error]    |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]    | (value: String): scala.tools.scalap.CodeWriter
+[error]    | (value: Double): scala.tools.scalap.CodeWriter
+[error]    | (value: Float): scala.tools.scalap.CodeWriter
+[error]    | (value: Long): scala.tools.scalap.CodeWriter
+[error]    | (value: Int): scala.tools.scalap.CodeWriter
+[error]    | (value: Char): scala.tools.scalap.CodeWriter
+[error]    | (value: Short): scala.tools.scalap.CodeWriter
+[error]    | (value: Byte): scala.tools.scalap.CodeWriter
+[error]    | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]    |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:101:39 
+[error] 101 |  def print(value: Byte): CodeWriter = print(String.valueOf(value.toInt))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:103:40 
+[error] 103 |  def print(value: Short): CodeWriter = print(String.valueOf(value.toInt))
+[error]     |                                        ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:105:39 
+[error] 105 |  def print(value: Char): CodeWriter = print(String.valueOf(value))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:107:38 
+[error] 107 |  def print(value: Int): CodeWriter = print(String.valueOf(value))
+[error]     |                                      ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:109:39 
+[error] 109 |  def print(value: Long): CodeWriter = print(String.valueOf(value))
+[error]     |                                       ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:111:40 
+[error] 111 |  def print(value: Float): CodeWriter = print(String.valueOf(value))
+[error]     |                                        ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/CodeWriter.scala:113:41 
+[error] 113 |  def print(value: Double): CodeWriter = print(String.valueOf(value))
+[error]     |                                         ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:254:18 
+[error] 254 |      buffer(i) = null
+[error]     |                  ^^^^
+[error]     |Found:    Null
+[error]     |Required: scala.tools.scalap.scalax.rules.scalasig.ConstantPool => Any
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than scala.tools.scalap.scalax.rules.scalasig.ConstantPool => Any
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Decode.scala:58:32 
+[error] 58 |      val _bytes    = bytesElem.elementValue match { case ConstValueIndex(x) => constantWrapped(x) }
+[error]    |                      ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value elementValue is not a member of scala.tools.scalap.scalax.rules.scalasig.ClassFileParser.AnnotationElement |
+[error]    |  Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |scala.tools.scalap.scalax.rules.scalasig.ClassFileParser.AnnotationElement |
+[error]    |  Null could be null at runtime.
+[error]    |If you want to select elementValue without checking for a null value,
+[error]    |insert a .nn before .elementValue or import scala.language.unsafeNulls.
+[error] -- [E006] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Decode.scala:58:96 
+[error] 58 |      val _bytes    = bytesElem.elementValue match { case ConstValueIndex(x) => constantWrapped(x) }
+[error]    |                                                                                                ^
+[error]    |                                                            Not found: x
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:38:48 
+[error] 38 |    val res = NameTransformer.decode(str.replace('/', '.'))
+[error]    |                                     ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    String | Null
+[error]    |                                     Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:43:48 
+[error] 43 |    val res = NameTransformer.decode(str.replace('/', '.'))
+[error]    |                                     ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    String | Null
+[error]    |                                     Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:48:40 
+[error] 48 |    NameTransformer.decode(str.substring(str.lastIndexOf('/') + 1))
+[error]    |                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                           Found:    String | Null
+[error]    |                           Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:52:61 
+[error] 52 |    val name = if (inx == -1) str else str.substring(0, inx).replace('/', '.')
+[error]    |                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value replace is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select replace without checking for a null value,
+[error]    |      insert a .nn before .replace or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:71:32 
+[error] 71 |      (nameToClass(str.substring(i + 1, j)), j + 1)
+[error]    |                   ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                   Found:    String | Null
+[error]    |                   Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:150:10 
+[error] 150 |          print(getClassName(inx).trim())
+[error]     |          ^^^^^
+[error]     |None of the overloaded alternatives of method print in class CodeWriter with types
+[error]     | (value: String): scala.tools.scalap.CodeWriter
+[error]     | (value: Double): scala.tools.scalap.CodeWriter
+[error]     | (value: Float): scala.tools.scalap.CodeWriter
+[error]     | (value: Long): scala.tools.scalap.CodeWriter
+[error]     | (value: Int): scala.tools.scalap.CodeWriter
+[error]     | (value: Char): scala.tools.scalap.CodeWriter
+[error]     | (value: Short): scala.tools.scalap.CodeWriter
+[error]     | (value: Byte): scala.tools.scalap.CodeWriter
+[error]     | (value: Boolean): scala.tools.scalap.CodeWriter
+[error]     |match arguments (String | Null)
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:162:10 
+[error] 162 |      if (cf.pool(cf.superclass) != null)
+[error]     |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types JavaWriter.this.cf.pool.PoolEntry and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/JavaWriter.scala:182:58 
+[error] 181 |        val mp = new MetaParser(getName(
+[error] 182 |          ((data(0) & 0xff) << 8) + (data(1) & 0xff)).trim())
+[error]     |                                ^
+[error]     |                                Found:    String | Null
+[error]     |                                Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/Main.scala:62:39 
+[error] 62 |  def isPackageObjectFile(s: String) = s != null && (s.endsWith(".package") || s == "package")
+[error]    |                                       ^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/MetaParser.scala:29:34 
+[error] 29 |      token = scanner.nextToken().trim()
+[error]    |              ^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |      value trim is not a member of String | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      String | Null could be null at runtime.
+[error]    |      If you want to select trim without checking for a null value,
+[error]    |      insert a .nn before .trim or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:27:23 
+[error] 27 |    val subPath = name.substring(name.lastIndexOf('.') + 1) + ".class"
+[error]    |                  ^^^^^^^^^^^^^^
+[error]    |    value substring is not a member of String | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    String | Null could be null at runtime.
+[error]    |    If you want to select substring without checking for a null value,
+[error]    |    insert a .nn before .substring or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:27:38 
+[error] 27 |    val subPath = name.substring(name.lastIndexOf('.') + 1) + ".class"
+[error]    |                                 ^^^^^^^^^^^^^^^^
+[error]    |  value lastIndexOf is not a member of String | Null.
+[error]    |  Since explicit-nulls is enabled, the selection is rejected because
+[error]    |  String | Null could be null at runtime.
+[error]    |  If you want to select lastIndexOf without checking for a null value,
+[error]    |  insert a .nn before .lastIndexOf or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:31:20 
+[error] 31 |      var rest = in.available()
+[error]    |                 ^^^^^^^^^^^^
+[error]    |    value available is not a member of java.io.InputStream | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    java.io.InputStream | Null could be null at runtime.
+[error]    |    If you want to select available without checking for a null value,
+[error]    |    insert a .nn before .available or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:34:21 
+[error] 34 |        val res = in.read(bytes, bytes.length - rest, rest)
+[error]    |                  ^^^^^^^
+[error]    |      value read is not a member of java.io.InputStream | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.io.InputStream | Null could be null at runtime.
+[error]    |      If you want to select read without checking for a null value,
+[error]    |      insert a .nn before .read or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ClassFileParser.scala:41:9 
+[error] 41 |      in.close()
+[error]    |      ^^^^^^^^
+[error]    |      value close is not a member of java.io.InputStream | Null.
+[error]    |      Since explicit-nulls is enabled, the selection is rejected because
+[error]    |      java.io.InputStream | Null could be null at runtime.
+[error]    |      If you want to select close without checking for a null value,
+[error]    |      insert a .nn before .close or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:423:20 
+[error] 423 |    val m = pattern.matcher(stripped)
+[error]     |            ^^^^^^^^^^^^^^^
+[error]     |    value matcher is not a member of java.util.regex.Pattern | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    java.util.regex.Pattern | Null could be null at runtime.
+[error]     |    If you want to select matcher without checking for a null value,
+[error]     |    insert a .nn before .matcher or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:428:18 
+[error] 428 |      temp = temp.replaceAll(re, _syms(re))
+[error]     |             ^^^^^^^^^^^^^^^
+[error]     | value replaceAll is not a member of String | Null.
+[error]     | Since explicit-nulls is enabled, the selection is rejected because
+[error]     | String | Null could be null at runtime.
+[error]     | If you want to select replaceAll without checking for a null value,
+[error]     | insert a .nn before .replaceAll or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:430:22 
+[error] 430 |    val result = temp.replaceAll(placeholderPattern, "_")
+[error]     |                 ^^^^^^^^^^^^^^^
+[error]     | value replaceAll is not a member of String | Null.
+[error]     | Since explicit-nulls is enabled, the selection is rejected because
+[error]     | String | Null could be null at runtime.
+[error]     | If you want to select replaceAll without checking for a null value,
+[error]     | insert a .nn before .replaceAll or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:343:68 
+[error] 343 |        case c: Class[_] => "java.lang.Class[" + c.getComponentType.getCanonicalName.replace("$", ".") + "]"
+[error]     |                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |value getCanonicalName is not a member of Class[?] | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |Class[?] | Null could be null at runtime.
+[error]     |If you want to select getCanonicalName without checking for a null value,
+[error]     |insert a .nn before .getCanonicalName or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:355:23 
+[error] 355 |          (processName(path) + typeArgString(typeArgs)).stripPrefix("<empty>.")
+[error]     |                       ^^^^
+[error]     |                       Found:    (path : String | Null)
+[error]     |                       Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalap/src/scalap/scala/tools/scalap/scalax/rules/scalasig/ScalaSigPrinter.scala:392:50 
+[error] 392 |      val atrs = if (attrs.length > 0) attrs.trim + " " else ""
+[error]     |                                       ^^^^^^^^^^^^
+[error]     |    value + is not a member of String | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    String | Null could be null at runtime.
+[error]     |    If you want to select + without checking for a null value,
+[error]     |    insert a .nn before .+ or import scala.language.unsafeNulls.
+[error] 41 errors found
+[error] (scalap / Compile / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:29:10 AM
+[error] Test dotty.communitybuild.CommunityBuildTestC.scalap failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/scalap
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; scalap/compile"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 70.348 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.scalap(CommunityBuildTest.scala:86)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 97 s (01:37), completed Jun 22, 2023, 12:29:11 AM

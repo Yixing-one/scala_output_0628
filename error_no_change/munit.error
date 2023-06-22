@@ -1,0 +1,53 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error]    |       ^
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] failed to start node; did you install it? (run `last ProjectRef(uri("file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/"), "testsJS") / Test / loadedTestFrameworks` for the full stack trace)
+[error] (testsJS / Test / loadedTestFrameworks) failed to start node; did you install it? (run `last ProjectRef(uri("file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/"), "testsJS") / Test / loadedTestFrameworks` for the full stack trace)
+[error] Total time: 10 s, completed Jun 21, 2023, 2:16:40 PM
+[error] failed to start node; did you install it? (run `last ProjectRef(uri("file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/"), "testsJS") / Test / loadedTestFrameworks` for the full stack trace)
+[error] (testsJS / Test / loadedTestFrameworks) failed to start node; did you install it? (run `last ProjectRef(uri("file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/"), "testsJS") / Test / loadedTestFrameworks` for the full stack trace)
+[error] Total time: 11 s, completed Jun 21, 2023, 2:17:19 PM
+[error] failed to start node; did you install it? (run `last ProjectRef(uri("file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/"), "testsJS") / Test / loadedTestFrameworks` for the full stack trace)
+[error] (testsJS / Test / loadedTestFrameworks) failed to start node; did you install it? (run `last ProjectRef(uri("file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/"), "testsJS") / Test / loadedTestFrameworks` for the full stack trace)
+[error] Total time: 11 s, completed Jun 21, 2023, 2:17:59 PM
+[error] failed to start node; did you install it? (run `last ProjectRef(uri("file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/"), "testsJS") / Test / loadedTestFrameworks` for the full stack trace)
+[error] (testsJS / Test / loadedTestFrameworks) failed to start node; did you install it? (run `last ProjectRef(uri("file:/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/community-projects/munit/"), "testsJS") / Test / loadedTestFrameworks` for the full stack trace)
+[error] Total time: 11 s, completed Jun 21, 2023, 2:18:38 PM
+[error] Test dotty.communitybuild.CommunityBuildTestB.munit failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/munit
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; testsJVM/test;testsJS/test;"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 203.025 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestB.munit(CommunityBuildTest.scala:48)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestB
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 229 s (03:49), completed Jun 21, 2023, 2:18:39 PM

@@ -1,0 +1,2332 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/project/project
+[info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 21 21:47:20 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 21:47:21 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 21:47:22 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 21:47:26 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 21:47:26 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 21:47:26 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -author set repeatedly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Flag -groups set repeatedly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -default-template set repeatedly
+[warn] Flag -author set repeatedly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Flag -groups set repeatedly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 21:47:28 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      No DRI found for query: MalformedNumber
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[warn] 14 warnings found
+[warn] 28 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 21:47:44 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 21:47:44 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.upickle started
+[32m[STARTING upickle][0m
+[32mPublishing utest[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/58] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[7/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.CrossScalaModule.sources 
+[1A[2K[9999D[8/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[41/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches 'eae17c7a4d0d63bab1406ca75791d3cb6394233d'
+[1A[2K[9999D[42/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[58/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,utest_3,v0.6.8-204-eae17c) to ivy repo /Users/y3536zha/.ivy2/local
+[32mPublishing geny[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT geny.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/62] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[39/62] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches 'd981da16a05ff4978857e7aa88489c873b8d8922'
+[1A[2K[9999D[40/62] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[49/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].docResources 
+[1A[2K[9999D[50/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].docSources 
+[1A[2K[9999D[62/62] geny.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,geny_3,0.5.1-60-d981da) to ivy repo /Users/y3536zha/.ivy2/local
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING upickle][0m
+[32mBuilding upickle with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test[0m
+[1/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.runUseArgsFile 
+[1A[2K[9999D[2/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.testUseArgsFile 
+[1A[2K[9999D[3/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkArgs 
+[1A[2K[9999D[4/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.testFramework 
+[1A[2K[9999D[5/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resources 
+[1A[2K[9999D[6/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaVersion 
+[1A[2K[9999D[7/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaVersion 
+[1A[2K[9999D[9/242] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[13/242] core.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[14/242] core.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.ammonite.$file.build.CommonModule.sources 
+[1A[2K[9999D[15/242] core.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[16/242] core.jvm[3.3.1-RC1-bin-SNAPSHOT].templates 
+[1A[2K[9999D[21/242] core.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[45/242] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[46/242] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.ammonite.$file.build.CommonModule.sources 
+[1A[2K[9999D[47/242] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[48/242] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].templates 
+[1A[2K[9999D[54/242] ujson.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[77/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaVersion 
+[1A[2K[9999D[78/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].upstreamCompileOutput 
+[1A[2K[9999D[79/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[80/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.ammonite.$file.build.CommonModule.sources 
+[1A[2K[9999D[81/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[82/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].templates 
+[1A[2K[9999D[83/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].generatedSources 
+[1A[2K[9999D[84/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].allSources 
+[1A[2K[9999D[85/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].allSourceFiles 
+[1A[2K[9999D[86/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].transitiveLocalClasspath 
+[1A[2K[9999D[87/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[88/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].unmanagedClasspath 
+[1A[2K[9999D[89/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].platformSuffix 
+[1A[2K[9999D[90/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].compileIvyDeps 
+[1A[2K[9999D[91/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].transitiveCompileIvyDeps 
+[1A[2K[9999D[92/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].ivyDeps 
+[1A[2K[9999D[93/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[94/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaOrganization 
+[1A[2K[9999D[95/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaLibraryIvyDeps 
+[1A[2K[9999D[96/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].mandatoryIvyDeps 
+[1A[2K[9999D[97/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].transitiveIvyDeps 
+[1A[2K[9999D[98/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].resolvedIvyDeps 
+[1A[2K[9999D[99/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].compileClasspath 
+[1A[2K[9999D[100/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].javacOptions 
+[1A[2K[9999D[101/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].mandatoryScalacOptions 
+[1A[2K[9999D[102/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacPluginIvyDeps 
+[1A[2K[9999D[103/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].enablePluginScalacOptions 
+[1A[2K[9999D[104/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacOptions.overridden.mill.scalalib.ScalaModule.scalacOptions 
+[1A[2K[9999D[105/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacOptions 
+[1A[2K[9999D[106/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].allScalacOptions 
+[1A[2K[9999D[107/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaCompilerClasspath 
+[1A[2K[9999D[108/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacPluginClasspath 
+[1A[2K[9999D[109/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].compile 
+[info] compiling 1 Scala source to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/out/upack/jvm/3.3.1-RC1-bin-SNAPSHOT/compile.dest/classes ...
+[info] done compiling
+[110/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaVersion 
+[1A[2K[9999D[111/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].upstreamCompileOutput 
+[1A[2K[9999D[112/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[113/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.ammonite.$file.build.CommonModule.sources 
+[1A[2K[9999D[114/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[115/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].generatedSources 
+[1A[2K[9999D[116/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].allSources 
+[1A[2K[9999D[117/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].allSourceFiles 
+[1A[2K[9999D[118/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].transitiveLocalClasspath 
+[1A[2K[9999D[119/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[120/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].unmanagedClasspath 
+[1A[2K[9999D[121/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].platformSuffix 
+[1A[2K[9999D[122/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].compileIvyDeps 
+[1A[2K[9999D[123/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].transitiveCompileIvyDeps 
+[1A[2K[9999D[124/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].ivyDeps 
+[1A[2K[9999D[125/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[126/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaOrganization 
+[1A[2K[9999D[127/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaLibraryIvyDeps 
+[1A[2K[9999D[128/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].mandatoryIvyDeps 
+[1A[2K[9999D[129/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].transitiveIvyDeps 
+[1A[2K[9999D[130/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].resolvedIvyDeps 
+[1A[2K[9999D[131/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].compileClasspath 
+[1A[2K[9999D[132/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].javacOptions 
+[1A[2K[9999D[133/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].mandatoryScalacOptions 
+[1A[2K[9999D[134/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacPluginIvyDeps 
+[1A[2K[9999D[135/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].enablePluginScalacOptions 
+[1A[2K[9999D[136/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacOptions.overridden.mill.scalalib.ScalaModule.scalacOptions 
+[1A[2K[9999D[137/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacOptions 
+[1A[2K[9999D[138/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].allScalacOptions 
+[1A[2K[9999D[139/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaCompilerClasspath 
+[1A[2K[9999D[140/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacPluginClasspath 
+[1A[2K[9999D[141/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].compile 
+[info] compiling 4 Scala sources to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/out/implicits/jvm/3.3.1-RC1-bin-SNAPSHOT/compile.dest/classes ...
+[info] done compiling
+[info] compiling 11 Scala sources to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/out/implicits/jvm/3.3.1-RC1-bin-SNAPSHOT/compile.dest/classes ...
+[warn] there were 2 deprecation warnings; re-run with -deprecation for details
+[warn] one warning found
+[info] done compiling
+[142/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].upstreamCompileOutput 
+[1A[2K[9999D[143/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[144/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.ammonite.$file.build.CommonModule.sources 
+[1A[2K[9999D[145/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[146/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].templates 
+[1A[2K[9999D[147/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].generatedSources 
+[1A[2K[9999D[148/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].allSources 
+[1A[2K[9999D[149/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].allSourceFiles 
+[1A[2K[9999D[151/242] upack.jvm[3.3.1-RC1-bin-SNAPSHOT].localClasspath 
+[1A[2K[9999D[152/242] implicits.jvm[3.3.1-RC1-bin-SNAPSHOT].localClasspath 
+[1A[2K[9999D[153/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].transitiveLocalClasspath 
+[1A[2K[9999D[154/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[155/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].unmanagedClasspath 
+[1A[2K[9999D[156/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].platformSuffix 
+[1A[2K[9999D[157/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].compileIvyDeps 
+[1A[2K[9999D[158/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].transitiveCompileIvyDeps 
+[1A[2K[9999D[159/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].ivyDeps 
+[1A[2K[9999D[160/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[161/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaOrganization 
+[1A[2K[9999D[162/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaLibraryIvyDeps 
+[1A[2K[9999D[163/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].mandatoryIvyDeps 
+[1A[2K[9999D[164/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].transitiveIvyDeps 
+[1A[2K[9999D[165/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].resolvedIvyDeps 
+[1A[2K[9999D[166/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].compileClasspath 
+[1A[2K[9999D[167/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].javacOptions 
+[1A[2K[9999D[168/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].mandatoryScalacOptions 
+[1A[2K[9999D[169/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacPluginIvyDeps 
+[1A[2K[9999D[170/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].enablePluginScalacOptions 
+[1A[2K[9999D[171/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacOptions.overridden.mill.scalalib.ScalaModule.scalacOptions 
+[1A[2K[9999D[172/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacOptions.overridden.ammonite.$file.build.CommonModule.scalacOptions 
+[1A[2K[9999D[173/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacOptions 
+[1A[2K[9999D[174/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].allScalacOptions 
+[1A[2K[9999D[175/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].scalaCompilerClasspath 
+[1A[2K[9999D[176/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].scalacPluginClasspath 
+[1A[2K[9999D[177/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].compile 
+[info] compiling 4 Scala sources to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/out/upickle/jvm/3.3.1-RC1-bin-SNAPSHOT/compile.dest/classes ...
+[info] done compiling
+[180/242] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[181/242] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.CrossScalaModule.CrossScalaModuleTests.sources 
+[1A[2K[9999D[182/242] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources 
+[1A[2K[9999D[187/242] core.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resources 
+[1A[2K[9999D[205/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.upstreamCompileOutput 
+[1A[2K[9999D[206/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[207/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources.overridden.mill.scalalib.CrossScalaModule.CrossScalaModuleTests.sources 
+[1A[2K[9999D[208/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.sources 
+[1A[2K[9999D[209/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.generatedSources 
+[1A[2K[9999D[210/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allSources 
+[1A[2K[9999D[211/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allSourceFiles 
+[1A[2K[9999D[212/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].localClasspath 
+[1A[2K[9999D[214/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveLocalClasspath 
+[1A[2K[9999D[215/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.unmanagedClasspath 
+[1A[2K[9999D[216/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.platformSuffix 
+[1A[2K[9999D[217/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compileIvyDeps 
+[1A[2K[9999D[218/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveCompileIvyDeps 
+[1A[2K[9999D[219/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.ivyDeps 
+[1A[2K[9999D[220/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
+[1A[2K[9999D[221/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaOrganization 
+[1A[2K[9999D[222/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaLibraryIvyDeps 
+[1A[2K[9999D[223/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.mandatoryIvyDeps 
+[1A[2K[9999D[224/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.transitiveIvyDeps 
+[1A[2K[9999D[225/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resolvedIvyDeps 
+[1A[2K[9999D[226/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compileClasspath 
+[1A[2K[9999D[227/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.enablePluginScalacOptions 
+[1A[2K[9999D[228/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalacOptions.overridden.ammonite.$file.build.CommonModule.scalacOptions 
+[1A[2K[9999D[229/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalacOptions 
+[1A[2K[9999D[230/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.allScalacOptions 
+[1A[2K[9999D[231/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.scalaCompilerClasspath 
+[1A[2K[9999D[232/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.compile 
+[info] compiling 16 Scala sources to /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/out/upickle/jvm/3.3.1-RC1-bin-SNAPSHOT/test/compile.dest/classes ...
+[warn] -- Warning: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/upickle/test/src/upickle/ClassDefs.scala:157:38 
+[warn] 157 |    implicit def rw: RW[LL] = RW.merge(default.macroRW[End.type], default.macroRW[Node])
+[warn]     |                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[warn]     |Infinite loop in function body
+[warn]     |upickle.default.ReadWriter.merge[upickle.Recursive.LL](
+[warn]     |  [
+[warn]     |    {
+[warn]     |      val MacroImplicits_this: upickle.default.type = upickle.default
+[warn]     |      val evidence$1$proxy23: scala.reflect.ClassTag[upickle.Recursive.End.type]
+[warn]     |         =
+[warn]     |        scala.reflect.ClassTag.apply[upickle.Recursive.End.type](
+[warn]     |          classOf[object upickle.Recursive.End])
+[warn]     |      val x$1$proxy23:
+[warn]     |        
+[warn]     |          scala.deriving.Mirror.Singleton{
+[warn]     |            type MirroredMonoType = upickle.Recursive.End.type;
+[warn]     |              type MirroredType = upickle.Recursive.End.type;
+[warn]     |              type MirroredLabel = ("End" : String)
+[warn]     |          }
+[warn]     |        
+[warn]     |       =
+[warn]     |        upickle.Recursive.End.$asInstanceOf[
+[warn]     |          
+[warn]     |            scala.deriving.Mirror.Singleton{
+[warn]     |              type MirroredMonoType = upickle.Recursive.End.type;
+[warn]     |                type MirroredType = upickle.Recursive.End.type;
+[warn]     |                type MirroredLabel = ("End" : String)
+[warn]     |            }
+[warn]     |          
+[warn]     |        ]
+[warn]     |      MacroImplicits_this.ReadWriter.join[upickle.Recursive.End.type](
+[warn]     |        {
+[warn]     |          val CaseClassReaderPiece_this:
+[warn]     |            (MacroImplicits_this : upickle.default.type) = MacroImplicits_this
+[warn]     |          {
+[warn]     |            val $scrutinee197:
+[warn]     |              
+[warn]     |                (x$1$proxy23 :
+[warn]     |                  scala.deriving.Mirror.Singleton{
+[warn]     |                    type MirroredMonoType = upickle.Recursive.End.type;
+[warn]     |                      type MirroredType = upickle.Recursive.End.type;
+[warn]     |                      type MirroredLabel = ("End" : String)
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              
+[warn]     |             = x$1$proxy23
+[warn]     |            val m:
+[warn]     |              
+[warn]     |                scala.deriving.Mirror.Singleton{
+[warn]     |                  type MirroredMonoType = upickle.Recursive.End.type;
+[warn]     |                    type MirroredType = upickle.Recursive.End.type;
+[warn]     |                    type MirroredLabel = ("End" : String)
+[warn]     |                }
+[warn]     |              
+[warn]     |             = $scrutinee197
+[warn]     |            val labels: List[String] = Nil:List[String]
+[warn]     |            val visitors: List[upickle.core.Visitor[?, ?]] =
+[warn]     |              (Nil:List[?]).asInstanceOf[List[upickle.core.Visitor[?, ?]]]
+[warn]     |            val defaultParams: Map[String, AnyRef] =
+[warn]     |              Map.empty[String, Nothing]:Map[String, AnyRef]
+[warn]     |            val reader:
+[warn]     |              
+[warn]     |                CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                  upickle.Recursive.End.type]
+[warn]     |              
+[warn]     |             =
+[warn]     |              {
+[warn]     |                final class $anon() extends
+[warn]     |                  CaseClassReaderPiece_this.CaseR[upickle.Recursive.End.type]()
+[warn]     |                    ,
+[warn]     |                
+[warn]     |                  CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                    upickle.Recursive.End.type]
+[warn]     |                 {
+[warn]     |                  override def visitorForKey(key: String):
+[warn]     |                    upickle.core.Visitor[?, ?] =
+[warn]     |                    labels.zip[upickle.core.Visitor[?, ?]](visitors).toMap[
+[warn]     |                      String, upickle.core.Visitor[?, ?]](
+[warn]     |                      <:<.refl[(String, upickle.core.Visitor[?, ?])]).get(key)
+[warn]     |                       match 
+[warn]     |                      {
+[warn]     |                        case None =>
+[warn]     |                          upickle.core.NoOpVisitor
+[warn]     |                        case 
+[warn]     |                          Some.unapply[upickle.core.Visitor[?, ?]](v @ _):
+[warn]     |                            Some[upickle.core.Visitor[?, ?]]
+[warn]     |                         =>
+[warn]     |                          v:upickle.core.Visitor[?, ?]
+[warn]     |                      }
+[warn]     |                  override def make(params: Map[String, Any]):
+[warn]     |                    upickle.Recursive.End.type =
+[warn]     |                    {
+[warn]     |                      val values: scala.collection.mutable.ListBuffer[AnyRef] =
+[warn]     |                        collection.mutable.ListBuffer.empty²[AnyRef]
+[warn]     |                      val missingKeys:
+[warn]     |                        scala.collection.mutable.ListBuffer[String] =
+[warn]     |                        collection.mutable.ListBuffer.empty²[String]
+[warn]     |                      labels.zip[upickle.core.Visitor[?, ?]](visitors).map[
+[warn]     |                        
+[warn]     |                          scala.collection.mutable.ListBuffer[?
+[warn]     |                             >: String <: AnyRef]
+[warn]     |                        
+[warn]     |                      ](
+[warn]     |                        {
+[warn]     |                          def $anonfun(x$1: (String, upickle.core.Visitor[?, ?])
+[warn]     |                            ):
+[warn]     |                            
+[warn]     |                              scala.collection.mutable.ListBuffer[?
+[warn]     |                                 >: String <: AnyRef]
+[warn]     |                            
+[warn]     |                           =
+[warn]     |                            x$1 match 
+[warn]     |                              {
+[warn]     |                                case 
+[warn]     |                                  Tuple2.unapply²[String,
+[warn]     |                                    upickle.core.Visitor[?, ?]](fieldName @ _, _
+[warn]     |                                    )
+[warn]     |                                 =>
+[warn]     |                                  params.get(fieldName) match 
+[warn]     |                                    {
+[warn]     |                                      case 
+[warn]     |                                        Some.unapply[Any](value @ _):Some[Any]
+[warn]     |                                         =>
+[warn]     |                                        values.+=(value.asInstanceOf[AnyRef])
+[warn]     |                                      case None =>
+[warn]     |                                        defaultParams.get(fieldName) match 
+[warn]     |                                          {
+[warn]     |                                            case 
+[warn]     |                                              Some.unapply[Object](fallback @ _)
+[warn]     |                                                :Some[Object]
+[warn]     |                                             =>
+[warn]     |                                              values.+=(
+[warn]     |                                                fallback.asInstanceOf[AnyRef])
+[warn]     |                                            case None =>
+[warn]     |                                              missingKeys.+=(fieldName)
+[warn]     |                                          }
+[warn]     |                                    }
+[warn]     |                              }
+[warn]     |                          closure($anonfun)
+[warn]     |                        }
+[warn]     |                      )
+[warn]     |                      if missingKeys.isEmpty.unary_! then
+[warn]     |                        {
+[warn]     |                          throw 
+[warn]     |                            new upickle.core.Abort(
+[warn]     |                              "missing keys in dictionary: ".+(
+[warn]     |                                missingKeys.mkString(", "))
+[warn]     |                            )
+[warn]     |                        }
+[warn]     |                       else ()
+[warn]     |                      val valuesArray: Array[Object] =
+[warn]     |                        values.toArray[Object](
+[warn]     |                          reflect.ClassTag.apply[Object](classOf[Object]))
+[warn]     |                      m.fromProduct(
+[warn]     |                        {
+[warn]     |                          final class $anon²() extends Object(), Product {
+[warn]     |                            def canEqual(that: Any): Boolean = true
+[warn]     |                            def productArity: Int = valuesArray.length
+[warn]     |                            def productElement(i: Int): Any =
+[warn]     |                              valuesArray.apply²(i)
+[warn]     |                          }
+[warn]     |                          new Object with Product {...}():Object & Product
+[warn]     |                        }
+[warn]     |                      )
+[warn]     |                    }
+[warn]     |                }
+[warn]     |                new 
+[warn]     |                  
+[warn]     |                    CaseClassReaderPiece_this.CaseR[upickle.Recursive.End.type]
+[warn]     |                       with 
+[warn]     |                  
+[warn]     |                    CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                      upickle.Recursive.End.type]
+[warn]     |                   {...}
+[warn]     |                ():
+[warn]     |                  
+[warn]     |                    CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                      upickle.Recursive.End.type]
+[warn]     |                  
+[warn]     |              }
+[warn]     |            CaseClassReaderPiece_this.annotate[upickle.Recursive.End.type](
+[warn]     |              reader, "upickle.Recursive.End":String)
+[warn]     |          }:CaseClassReaderPiece_this.Reader[upickle.Recursive.End.type]
+[warn]     |        },
+[warn]     |        {
+[warn]     |          val CaseClassWriterPiece_this:
+[warn]     |            (MacroImplicits_this : upickle.default.type) = MacroImplicits_this
+[warn]     |          {
+[warn]     |            val $scrutinee199:
+[warn]     |              
+[warn]     |                (x$1$proxy23 :
+[warn]     |                  scala.deriving.Mirror.Singleton{
+[warn]     |                    type MirroredMonoType = upickle.Recursive.End.type;
+[warn]     |                      type MirroredType = upickle.Recursive.End.type;
+[warn]     |                      type MirroredLabel = ("End" : String)
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              
+[warn]     |             = x$1$proxy23
+[warn]     |            val m²:
+[warn]     |              
+[warn]     |                scala.deriving.Mirror.Singleton{
+[warn]     |                  type MirroredMonoType = upickle.Recursive.End.type;
+[warn]     |                    type MirroredType = upickle.Recursive.End.type;
+[warn]     |                    type MirroredLabel = ("End" : String)
+[warn]     |                }
+[warn]     |              
+[warn]     |             = $scrutinee199
+[warn]     |            def elemsInfo(v²: upickle.Recursive.End.type):
+[warn]     |              List[(String, CaseClassWriterPiece_this.Writer[?], Any)] =
+[warn]     |              {
+[warn]     |                val labels²: List[String] = Nil:List[String]
+[warn]     |                val writers: List[CaseClassWriterPiece_this.Writer[?]] =
+[warn]     |                  (Nil:List[?]).asInstanceOf[
+[warn]     |                    List[CaseClassWriterPiece_this.Writer[?]]]
+[warn]     |                val values²: List[Any] =
+[warn]     |                  v².asInstanceOf[Product].productIterator.toList
+[warn]     |                labels².zip[CaseClassWriterPiece_this.Writer[?]](writers).zip[
+[warn]     |                  Any](values²).withFilter(
+[warn]     |                  {
+[warn]     |                    def $anonfun²(
+[warn]     |                      x$1²: ((String, CaseClassWriterPiece_this.Writer[?]), Any)
+[warn]     |                      ): Boolean =
+[warn]     |                      x$1²:
+[warn]     |                        
+[warn]     |                          (x$1² : (
+[warn]     |                            (String, CaseClassWriterPiece_this.Writer[?]), Any))
+[warn]     |                             @unchecked
+[warn]     |                        
+[warn]     |                       match 
+[warn]     |                        {
+[warn]     |                          case 
+[warn]     |                            Tuple2.unapply²[
+[warn]     |                              (String, CaseClassWriterPiece_this.Writer[?]), Any
+[warn]     |                              ](
+[warn]     |                              Tuple2.unapply²[String,
+[warn]     |                                CaseClassWriterPiece_this.Writer[?]](l @ _,
+[warn]     |                                w @ _),
+[warn]     |                            v³ @ _)
+[warn]     |                           => true
+[warn]     |                          case _ => false
+[warn]     |                        }
+[warn]     |                    closure($anonfun²)
+[warn]     |                  }
+[warn]     |                ).map²[(String, CaseClassWriterPiece_this.Writer[?], Any)](
+[warn]     |                  {
+[warn]     |                    def $anonfun³(
+[warn]     |                      x$1³: ((String, CaseClassWriterPiece_this.Writer[?]), Any)
+[warn]     |                      ): (String, CaseClassWriterPiece_this.Writer[?], Any) =
+[warn]     |                      x$1³:
+[warn]     |                        
+[warn]     |                          ((String, CaseClassWriterPiece_this.Writer[?]), Any)
+[warn]     |                            @unchecked
+[warn]     |                        
+[warn]     |                       match 
+[warn]     |                        {
+[warn]     |                          case 
+[warn]     |                            Tuple2.unapply²[
+[warn]     |                              (String, CaseClassWriterPiece_this.Writer[?]), Any
+[warn]     |                              ](
+[warn]     |                              Tuple2.unapply²[String,
+[warn]     |                                CaseClassWriterPiece_this.Writer[?]](l² @ _,
+[warn]     |                                w² @ _),
+[warn]     |                            v⁴ @ _)
+[warn]     |                           =>
+[warn]     |                            Tuple3.apply³[String,
+[warn]     |                              CaseClassWriterPiece_this.Writer[?], Any](l², w²,
+[warn]     |                              v⁴)
+[warn]     |                        }
+[warn]     |                    closure($anonfun³)
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              }
+[warn]     |            val writer:
+[warn]     |              
+[warn]     |                CaseClassWriterPiece_this.CaseClassWriter[
+[warn]     |                  upickle.Recursive.End.type]
+[warn]     |              
+[warn]     |             =
+[warn]     |              new CaseClassWriterPiece_this.CaseClassWriter[
+[warn]     |                upickle.Recursive.End.type](
+[warn]     |                {
+[warn]     |                  def $anonfun⁴(v⁵: upickle.Recursive.End.type):
+[warn]     |                    List[(String, CaseClassWriterPiece_this.Writer[?], Any)] =
+[warn]     |                    elemsInfo(v⁵)
+[warn]     |                  closure($anonfun⁴)
+[warn]     |                },
+[warn]     |              Map.empty[String, Nothing]:Map[String, AnyRef])
+[warn]     |            CaseClassWriterPiece_this.annotate²[upickle.Recursive.End.type](
+[warn]     |              new CaseClassWriterPiece_this.SingletonW[
+[warn]     |                upickle.Recursive.End.type](
+[warn]     |                null.asInstanceOf[upickle.Recursive.End.type]),
+[warn]     |              "upickle.Recursive.End":String)(evidence$1$proxy23)
+[warn]     |          }:CaseClassWriterPiece_this.Writer[upickle.Recursive.End.type]
+[warn]     |        }
+[warn]     |      ):MacroImplicits_this.ReadWriter[upickle.Recursive.End.type]
+[warn]     |    },
+[warn]     |    {
+[warn]     |      val MacroImplicits_this²: upickle.default.type = upickle.default
+[warn]     |      val evidence$1$proxy24: scala.reflect.ClassTag[upickle.Recursive.Node] =
+[warn]     |        scala.reflect.ClassTag.apply[upickle.Recursive.Node](
+[warn]     |          classOf[upickle.Recursive.Node])
+[warn]     |      val x$1$proxy24:
+[warn]     |        
+[warn]     |          scala.deriving.Mirror.Product²{
+[warn]     |            type MirroredMonoType² = upickle.Recursive.Node;
+[warn]     |              type MirroredType = upickle.Recursive.Node;
+[warn]     |              type MirroredLabel = ("Node" : String);
+[warn]     |              type MirroredElemTypes = (Int, upickle.Recursive.LL);
+[warn]     |              type MirroredElemLabels = (("c" : String), ("next" : String))
+[warn]     |          }
+[warn]     |        
+[warn]     |       =
+[warn]     |        upickle.Recursive.Node.$asInstanceOf[
+[warn]     |          
+[warn]     |            scala.deriving.Mirror.Product²{
+[warn]     |              type MirroredMonoType² = upickle.Recursive.Node;
+[warn]     |                type MirroredType = upickle.Recursive.Node;
+[warn]     |                type MirroredLabel = ("Node" : String);
+[warn]     |                type MirroredElemTypes = (Int, upickle.Recursive.LL);
+[warn]     |                type MirroredElemLabels = (("c" : String), ("next" : String))
+[warn]     |            }
+[warn]     |          
+[warn]     |        ]
+[warn]     |      MacroImplicits_this².ReadWriter.join[upickle.Recursive.Node](
+[warn]     |        {
+[warn]     |          val CaseClassReaderPiece_this²:
+[warn]     |            (MacroImplicits_this² : upickle.default.type) = MacroImplicits_this²
+[warn]     |          {
+[warn]     |            val $scrutinee201:
+[warn]     |              
+[warn]     |                (x$1$proxy24 :
+[warn]     |                  scala.deriving.Mirror.Product²{
+[warn]     |                    type MirroredMonoType² = upickle.Recursive.Node;
+[warn]     |                      type MirroredType = upickle.Recursive.Node;
+[warn]     |                      type MirroredLabel = ("Node" : String);
+[warn]     |                      type MirroredElemTypes = (Int, upickle.Recursive.LL);
+[warn]     |                      type MirroredElemLabels = (("c" : String),
+[warn]     |                        ("next" : String))
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              
+[warn]     |             = x$1$proxy24
+[warn]     |            val m³:
+[warn]     |              
+[warn]     |                scala.deriving.Mirror.Product²{
+[warn]     |                  type MirroredMonoType² = upickle.Recursive.Node;
+[warn]     |                    type MirroredType = upickle.Recursive.Node;
+[warn]     |                    type MirroredLabel = ("Node" : String);
+[warn]     |                    type MirroredElemTypes = (Int, upickle.Recursive.LL);
+[warn]     |                    type MirroredElemLabels = (("c" : String), ("next" : String)
+[warn]     |                      )
+[warn]     |                }
+[warn]     |              
+[warn]     |             = $scrutinee201
+[warn]     |            val labels³: List[String] =
+[warn]     |              List.apply⁴[String](["c","next" : String]):List[String]
+[warn]     |            val visitors²: List[upickle.core.Visitor[?, ?]] =
+[warn]     |              (
+[warn]     |                {
+[warn]     |                  val elem$1: CaseClassReaderPiece_this².Reader[Int] =
+[warn]     |                    upickle.default.IntReader
+[warn]     |                  (
+[warn]     |                    {
+[warn]     |                      val elem$1²:
+[warn]     |                        CaseClassReaderPiece_this².Reader[upickle.Recursive.LL]
+[warn]     |                         = upickle.Recursive.LL.rw
+[warn]     |                      (Nil:List[?]).::[List[?]#A](elem$1²)
+[warn]     |                    }
+[warn]     |                  :List[?]).::[List[?]#A](elem$1)
+[warn]     |                }
+[warn]     |              :List[?]).asInstanceOf[List[upickle.core.Visitor[?, ?]]]
+[warn]     |            val defaultParams²: Map[String, AnyRef] =
+[warn]     |              Nil.zip[Object](
+[warn]     |                Nil.map[Object](
+[warn]     |                  {
+[warn]     |                    def $anonfun⁵(_$3: Any): Object = _$3.asInstanceOf[Object]
+[warn]     |                    closure($anonfun⁵)
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              ).toMap[String, Object](<:<.refl[(String, Object)]):
+[warn]     |                Map[String, AnyRef]
+[warn]     |            val reader²:
+[warn]     |              CaseClassReaderPiece_this².CaseClassReader[upickle.Recursive.Node]
+[warn]     |               =
+[warn]     |              {
+[warn]     |                final class $anon³() extends
+[warn]     |                  CaseClassReaderPiece_this².CaseR[upickle.Recursive.Node](), 
+[warn]     |                  CaseClassReaderPiece_this².CaseClassReader[
+[warn]     |                    upickle.Recursive.Node]
+[warn]     |                 {
+[warn]     |                  override def visitorForKey²(key²: String):
+[warn]     |                    upickle.core.Visitor[?, ?] =
+[warn]     |                    labels³.zip[upickle.core.Visitor[?, ?]](visitors²).toMap[
+[warn]     |                      String, upickle.core.Visitor[?, ?]](
+[warn]     |                      <:<.refl[(String, upickle.core.Visitor[?, ?])]).get(key²)
+[warn]     |                       match 
+[warn]     |                      {
+[warn]     |                        case None =>
+[warn]     |                          upickle.core.NoOpVisitor
+[warn]     |                        case 
+[warn]     |                          Some.unapply[upickle.core.Visitor[?, ?]](v⁶ @ _):
+[warn]     |                            Some[upickle.core.Visitor[?, ?]]
+[warn]     |                         =>
+[warn]     |                          v⁶:upickle.core.Visitor[?, ?]
+[warn]     |                      }
+[warn]     |                  override def make²(params²: Map[String, Any]):
+[warn]     |                    upickle.Recursive.Node =
+[warn]     |                    {
+[warn]     |                      val values³: scala.collection.mutable.ListBuffer[AnyRef]
+[warn]     |                         = collection.mutable.ListBuffer.empty²[AnyRef]
+[warn]     |                      val missingKeys²:
+[warn]     |                        scala.collection.mutable.ListBuffer[String] =
+[warn]     |                        collection.mutable.ListBuffer.empty²[String]
+[warn]     |                      labels³.zip[upickle.core.Visitor[?, ?]](visitors²).map[
+[warn]     |                        
+[warn]     |                          scala.collection.mutable.ListBuffer[?
+[warn]     |                             >: String <: AnyRef]
+[warn]     |                        
+[warn]     |                      ](
+[warn]     |                        {
+[warn]     |                          def $anonfun⁶(
+[warn]     |                            x$1⁴: (String, upickle.core.Visitor[?, ?])):
+[warn]     |                            
+[warn]     |                              scala.collection.mutable.ListBuffer[?
+[warn]     |                                 >: String <: AnyRef]
+[warn]     |                            
+[warn]     |                           =
+[warn]     |                            x$1⁴ match 
+[warn]     |                              {
+[warn]     |                                case 
+[warn]     |                                  Tuple2.unapply²[String,
+[warn]     |                                    upickle.core.Visitor[?, ?]](fieldName² @ _,
+[warn]     |                                    _)
+[warn]     |                                 =>
+[warn]     |                                  params².get(fieldName²) match 
+[warn]     |                                    {
+[warn]     |                                      case 
+[warn]     |                                        Some.unapply[Any](value² @ _):Some[Any]
+[warn]     |                                         =>
+[warn]     |                                        values³.+=(value².asInstanceOf[AnyRef])
+[warn]     |                                      case None =>
+[warn]     |                                        defaultParams².get(fieldName²) match 
+[warn]     |                                          {
+[warn]     |                                            case 
+[warn]     |                                              Some.unapply[Object](fallback² @ _
+[warn]     |                                                ):Some[Object]
+[warn]     |                                             =>
+[warn]     |                                              values³.+=(
+[warn]     |                                                fallback².asInstanceOf[AnyRef])
+[warn]     |                                            case None =>
+[warn]     |                                              missingKeys².+=(fieldName²)
+[warn]     |                                          }
+[warn]     |                                    }
+[warn]     |                              }
+[warn]     |                          closure($anonfun⁶)
+[warn]     |                        }
+[warn]     |                      )
+[warn]     |                      if missingKeys².isEmpty.unary_! then
+[warn]     |                        {
+[warn]     |                          throw 
+[warn]     |                            new upickle.core.Abort(
+[warn]     |                              "missing keys in dictionary: ".+(
+[warn]     |                                missingKeys².mkString(", "))
+[warn]     |                            )
+[warn]     |                        }
+[warn]     |                       else ()
+[warn]     |                      val valuesArray²: Array[Object] =
+[warn]     |                        values³.toArray[Object](
+[warn]     |                          reflect.ClassTag.apply[Object](classOf[Object]))
+[warn]     |                      m³.fromProduct²(
+[warn]     |                        {
+[warn]     |                          final class $anon⁴() extends Object(), Product {
+[warn]     |                            def canEqual²(that²: Any): Boolean = true
+[warn]     |                            def productArity²: Int = valuesArray².length
+[warn]     |                            def productElement²(i²: Int): Any =
+[warn]     |                              valuesArray².apply²(i²)
+[warn]     |                          }
+[warn]     |                          new Object with Product {...}():Object & Product
+[warn]     |                        }
+[warn]     |                      )
+[warn]     |                    }
+[warn]     |                }
+[warn]     |                new 
+[warn]     |                  CaseClassReaderPiece_this².CaseR[upickle.Recursive.Node] with 
+[warn]     |                    CaseClassReaderPiece_this².CaseClassReader[
+[warn]     |                      upickle.Recursive.Node]
+[warn]     |                   {...}
+[warn]     |                ():
+[warn]     |                  
+[warn]     |                    CaseClassReaderPiece_this².CaseClassReader[
+[warn]     |                      upickle.Recursive.Node]
+[warn]     |                  
+[warn]     |              }
+[warn]     |            CaseClassReaderPiece_this².annotate[upickle.Recursive.Node](
+[warn]     |              reader², "upickle.Recursive.Node":String)
+[warn]     |          }:CaseClassReaderPiece_this².Reader[upickle.Recursive.Node]
+[warn]     |        },
+[warn]     |        {
+[warn]     |          val CaseClassWriterPiece_this²:
+[warn]     |            (MacroImplicits_this² : upickle.default.type) = MacroImplicits_this²
+[warn]     |          {
+[warn]     |            val $scrutinee205:
+[warn]     |              
+[warn]     |                (x$1$proxy24 :
+[warn]     |                  scala.deriving.Mirror.Product²{
+[warn]     |                    type MirroredMonoType² = upickle.Recursive.Node;
+[warn]     |                      type MirroredType = upickle.Recursive.Node;
+[warn]     |                      type MirroredLabel = ("Node" : String);
+[warn]     |                      type MirroredElemTypes = (Int, upickle.Recursive.LL);
+[warn]     |                      type MirroredElemLabels = (("c" : String),
+[warn]     |                        ("next" : String))
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              
+[warn]     |             = x$1$proxy24
+[warn]     |            val m⁴:
+[warn]     |              
+[warn]     |                scala.deriving.Mirror.Product²{
+[warn]     |                  type MirroredMonoType² = upickle.Recursive.Node;
+[warn]     |                    type MirroredType = upickle.Recursive.Node;
+[warn]     |                    type MirroredLabel = ("Node" : String);
+[warn]     |                    type MirroredElemTypes = (Int, upickle.Recursive.LL);
+[warn]     |                    type MirroredElemLabels = (("c" : String), ("next" : String)
+[warn]     |                      )
+[warn]     |                }
+[warn]     |              
+[warn]     |             = $scrutinee205
+[warn]     |            def elemsInfo²(v⁷: upickle.Recursive.Node):
+[warn]     |              List[(String, CaseClassWriterPiece_this².Writer[?], Any)] =
+[warn]     |              {
+[warn]     |                val labels⁴: List[String] =
+[warn]     |                  List.apply⁴[String](["c","next" : String]):List[String]
+[warn]     |                val writers²: List[CaseClassWriterPiece_this².Writer[?]] =
+[warn]     |                  (
+[warn]     |                    {
+[warn]     |                      val elem$1³: CaseClassWriterPiece_this².Writer[Int] =
+[warn]     |                        upickle.default.IntWriter
+[warn]     |                      (
+[warn]     |                        {
+[warn]     |                          val elem$1⁴:
+[warn]     |                            
+[warn]     |                              CaseClassWriterPiece_this².Writer[
+[warn]     |                                upickle.Recursive.LL]
+[warn]     |                            
+[warn]     |                           = upickle.Recursive.LL.rw
+[warn]     |                          (Nil:List[?]).::[List[?]#A](elem$1⁴)
+[warn]     |                        }
+[warn]     |                      :List[?]).::[List[?]#A](elem$1³)
+[warn]     |                    }
+[warn]     |                  :List[?]).asInstanceOf[
+[warn]     |                    List[CaseClassWriterPiece_this².Writer[?]]]
+[warn]     |                val values⁴: List[Any] =
+[warn]     |                  v⁷.asInstanceOf[Product].productIterator.toList
+[warn]     |                labels⁴.zip[CaseClassWriterPiece_this².Writer[?]](writers²).zip[
+[warn]     |                  Any](values⁴).withFilter(
+[warn]     |                  {
+[warn]     |                    def $anonfun⁷(
+[warn]     |                      x$1⁵:
+[warn]     |                        ((String, CaseClassWriterPiece_this².Writer[?]), Any)
+[warn]     |                    ): Boolean =
+[warn]     |                      x$1⁵:
+[warn]     |                        
+[warn]     |                          (x$1⁵ : (
+[warn]     |                            (String, CaseClassWriterPiece_this².Writer[?]), Any)
+[warn]     |                            ) @unchecked
+[warn]     |                        
+[warn]     |                       match 
+[warn]     |                        {
+[warn]     |                          case 
+[warn]     |                            Tuple2.unapply²[
+[warn]     |                              (String, CaseClassWriterPiece_this².Writer[?]),
+[warn]     |                              Any](
+[warn]     |                              Tuple2.unapply²[String,
+[warn]     |                                CaseClassWriterPiece_this².Writer[?]](l³ @ _,
+[warn]     |                                w³ @ _),
+[warn]     |                            v⁸ @ _)
+[warn]     |                           => true
+[warn]     |                          case _ => false
+[warn]     |                        }
+[warn]     |                    closure($anonfun⁷)
+[warn]     |                  }
+[warn]     |                ).map²[(String, CaseClassWriterPiece_this².Writer[?], Any)](
+[warn]     |                  {
+[warn]     |                    def $anonfun⁸(
+[warn]     |                      x$1⁶:
+[warn]     |                        ((String, CaseClassWriterPiece_this².Writer[?]), Any)
+[warn]     |                    ): (String, CaseClassWriterPiece_this².Writer[?], Any) =
+[warn]     |                      x$1⁶:
+[warn]     |                        
+[warn]     |                          ((String, CaseClassWriterPiece_this².Writer[?]), Any)
+[warn]     |                            @unchecked
+[warn]     |                        
+[warn]     |                       match 
+[warn]     |                        {
+[warn]     |                          case 
+[warn]     |                            Tuple2.unapply²[
+[warn]     |                              (String, CaseClassWriterPiece_this².Writer[?]),
+[warn]     |                              Any](
+[warn]     |                              Tuple2.unapply²[String,
+[warn]     |                                CaseClassWriterPiece_this².Writer[?]](l⁴ @ _,
+[warn]     |                                w⁴ @ _),
+[warn]     |                            v⁹ @ _)
+[warn]     |                           =>
+[warn]     |                            Tuple3.apply³[String,
+[warn]     |                              CaseClassWriterPiece_this².Writer[?], Any](l⁴,
+[warn]     |                              w⁴, v⁹)
+[warn]     |                        }
+[warn]     |                    closure($anonfun⁸)
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              }
+[warn]     |            val writer²:
+[warn]     |              CaseClassWriterPiece_this².CaseClassWriter[upickle.Recursive.Node]
+[warn]     |               =
+[warn]     |              new CaseClassWriterPiece_this².CaseClassWriter[
+[warn]     |                upickle.Recursive.Node](
+[warn]     |                {
+[warn]     |                  def $anonfun⁹(v¹⁰: upickle.Recursive.Node):
+[warn]     |                    List[(String, CaseClassWriterPiece_this².Writer[?], Any)] =
+[warn]     |                    elemsInfo²(v¹⁰)
+[warn]     |                  closure($anonfun⁹)
+[warn]     |                },
+[warn]     |                Nil.zip[Object](
+[warn]     |                  Nil.map[Object](
+[warn]     |                    {
+[warn]     |                      def $anonfun¹⁰(_$3²: Any): Object =
+[warn]     |                        _$3².asInstanceOf[Object]
+[warn]     |                      closure($anonfun¹⁰)
+[warn]     |                    }
+[warn]     |                  )
+[warn]     |                ).toMap[String, Object](<:<.refl[(String, Object)]):
+[warn]     |                  Map[String, AnyRef]
+[warn]     |              )
+[warn]     |            CaseClassWriterPiece_this².annotate²[upickle.Recursive.Node](
+[warn]     |              writer², "upickle.Recursive.Node":String)(evidence$1$proxy24)
+[warn]     |          }:CaseClassWriterPiece_this².Writer[upickle.Recursive.Node]
+[warn]     |        }
+[warn]     |      ):MacroImplicits_this².ReadWriter[upickle.Recursive.Node]
+[warn]     |    }
+[warn]     |   : upickle.default.ReadWriter[? <: upickle.Recursive.LL]]
+[warn]     |)
+[warn]     |
+[warn]     |where:    $anon                      is a anonymous class in the initializer of value reader
+[warn]     |          $anonfun                   is a method in method make
+[warn]     |          $anonfun²                  is a method in method elemsInfo
+[warn]     |          $anonfun³                  is a method in method elemsInfo
+[warn]     |          $anonfun¹⁰                 is a method in the initializer of value writer²
+[warn]     |          $anonfun⁴                  is a method in the initializer of value writer
+[warn]     |          $anonfun⁵                  is a method in the initializer of value defaultParams²
+[warn]     |          $anonfun⁶                  is a method in method make²
+[warn]     |          $anonfun⁷                  is a method in method elemsInfo²
+[warn]     |          $anonfun⁸                  is a method in method elemsInfo²
+[warn]     |          $anonfun⁹                  is a method in the initializer of value writer²
+[warn]     |          $anon²                     is a anonymous class in method make
+[warn]     |          $anon³                     is a anonymous class in the initializer of value reader²
+[warn]     |          $anon⁴                     is a anonymous class in method make²
+[warn]     |          CaseClassReaderPiece_this  is a value in method rw
+[warn]     |          CaseClassReaderPiece_this² is a value in method rw
+[warn]     |          CaseClassWriterPiece_this  is a value in method rw
+[warn]     |          CaseClassWriterPiece_this² is a value in method rw
+[warn]     |          MacroImplicits_this        is a value in method rw
+[warn]     |          MacroImplicits_this²       is a value in method rw
+[warn]     |          MirroredMonoType           is a type in trait Singleton which is an alias of (Singleton.this : scala.deriving.Mirror.Singleton)
+[warn]     |          MirroredMonoType²          is a type in trait Mirror with bounds 
+[warn]     |          Product                    is a trait in package scala
+[warn]     |          Product²                   is a trait in object Mirror
+[warn]     |          _$3                        is a parameter in an anonymous function in method rw
+[warn]     |          _$3²                       is a parameter in an anonymous function in method rw
+[warn]     |          annotate                   is a method in trait AttributeTagged
+[warn]     |          annotate²                  is a method in trait AttributeTagged
+[warn]     |          apply                      is a method in object ClassTag
+[warn]     |          apply²                     is a method in class Array
+[warn]     |          apply³                     is a method in object Tuple3
+[warn]     |          apply⁴                     is a method in trait IterableFactory
+[warn]     |          canEqual                   is a method in an anonymous class in method make
+[warn]     |          canEqual²                  is a method in an anonymous class in method make²
+[warn]     |          defaultParams              is a value in method rw
+[warn]     |          defaultParams²             is a value in method rw
+[warn]     |          elem$1                     is a value in the initializer of value visitors²
+[warn]     |          elem$1²                    is a value in the initializer of value visitors²
+[warn]     |          elem$1³                    is a value in the initializer of value writers²
+[warn]     |          elem$1⁴                    is a value in the initializer of value writers²
+[warn]     |          elemsInfo                  is a method in method rw
+[warn]     |          elemsInfo²                 is a method in method rw
+[warn]     |          empty                      is a method in object Map
+[warn]     |          empty²                     is a method in object ListBuffer
+[warn]     |          fallback                   is a value in an anonymous function in method make
+[warn]     |          fallback²                  is a value in an anonymous function in method make²
+[warn]     |          fieldName                  is a value in an anonymous function in method make
+[warn]     |          fieldName²                 is a value in an anonymous function in method make²
+[warn]     |          fromProduct                is a method in trait Singleton
+[warn]     |          fromProduct²               is a method in trait Product²
+[warn]     |          i                          is a parameter in method productElement
+[warn]     |          i²                         is a parameter in method productElement²
+[warn]     |          key                        is a parameter in method visitorForKey
+[warn]     |          key²                       is a parameter in method visitorForKey²
+[warn]     |          l                          is a value in an anonymous function in method elemsInfo
+[warn]     |          labels                     is a value in method rw
+[warn]     |          labels²                    is a value in method elemsInfo
+[warn]     |          labels³                    is a value in method rw
+[warn]     |          labels⁴                    is a value in method elemsInfo²
+[warn]     |          l²                         is a value in an anonymous function in method elemsInfo
+[warn]     |          l³                         is a value in an anonymous function in method elemsInfo²
+[warn]     |          l⁴                         is a value in an anonymous function in method elemsInfo²
+[warn]     |          m                          is a value in method rw
+[warn]     |          make                       is a method in an anonymous class in method rw
+[warn]     |          make²                      is a method in an anonymous class in method rw
+[warn]     |          map                        is a method in class List
+[warn]     |          map²                       is a method in class WithFilter
+[warn]     |          missingKeys                is a value in method make
+[warn]     |          missingKeys²               is a value in method make²
+[warn]     |          m²                         is a value in method rw
+[warn]     |          m³                         is a value in method rw
+[warn]     |          m⁴                         is a value in method rw
+[warn]     |          params                     is a parameter in method make
+[warn]     |          params²                    is a parameter in method make²
+[warn]     |          productArity               is a method in an anonymous class in method make
+[warn]     |          productArity²              is a method in an anonymous class in method make²
+[warn]     |          productElement             is a method in an anonymous class in method make
+[warn]     |          productElement²            is a method in an anonymous class in method make²
+[warn]     |          reader                     is a value in method rw
+[warn]     |          reader²                    is a value in method rw
+[warn]     |          that                       is a parameter in method canEqual
+[warn]     |          that²                      is a parameter in method canEqual²
+[warn]     |          unapply                    is a method in object Some
+[warn]     |          unapply²                   is a method in object Tuple2
+[warn]     |          v                          is a value in method visitorForKey
+[warn]     |          value                      is a value in an anonymous function in method make
+[warn]     |          values                     is a value in method make
+[warn]     |          valuesArray                is a value in method make
+[warn]     |          valuesArray²               is a value in method make²
+[warn]     |          values²                    is a value in method elemsInfo
+[warn]     |          values³                    is a value in method make²
+[warn]     |          values⁴                    is a value in method elemsInfo²
+[warn]     |          value²                     is a value in an anonymous function in method make²
+[warn]     |          visitorForKey              is a method in an anonymous class in method rw
+[warn]     |          visitorForKey²             is a method in an anonymous class in method rw
+[warn]     |          visitors                   is a value in method rw
+[warn]     |          visitors²                  is a value in method rw
+[warn]     |          v²                         is a parameter in method elemsInfo
+[warn]     |          v³                         is a value in an anonymous function in method elemsInfo
+[warn]     |          v¹⁰                        is a parameter in an anonymous function in method rw
+[warn]     |          v⁴                         is a value in an anonymous function in method elemsInfo
+[warn]     |          v⁵                         is a parameter in an anonymous function in method rw
+[warn]     |          v⁶                         is a value in method visitorForKey²
+[warn]     |          v⁷                         is a parameter in method elemsInfo²
+[warn]     |          v⁸                         is a value in an anonymous function in method elemsInfo²
+[warn]     |          v⁹                         is a value in an anonymous function in method elemsInfo²
+[warn]     |          w                          is a value in an anonymous function in method elemsInfo
+[warn]     |          writer                     is a value in method rw
+[warn]     |          writers                    is a value in method elemsInfo
+[warn]     |          writers²                   is a value in method elemsInfo²
+[warn]     |          writer²                    is a value in method rw
+[warn]     |          w²                         is a value in an anonymous function in method elemsInfo
+[warn]     |          w³                         is a value in an anonymous function in method elemsInfo²
+[warn]     |          w⁴                         is a value in an anonymous function in method elemsInfo²
+[warn]     |          x$1                        is a parameter in an anonymous function in method make
+[warn]     |          x$1²                       is a parameter in an anonymous function in method elemsInfo
+[warn]     |          x$1³                       is a parameter in an anonymous function in method elemsInfo
+[warn]     |          x$1⁴                       is a parameter in an anonymous function in method make²
+[warn]     |          x$1⁵                       is a parameter in an anonymous function in method elemsInfo²
+[warn]     |          x$1⁶                       is a parameter in an anonymous function in method elemsInfo²
+[warn] -- Warning: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/upickle/test/src/upickle/ClassDefs.scala:166:35 
+[warn] 166 |    implicit def rw: RW[IntTree] = default.macroRW
+[warn]     |                                   ^^^^^^^^^^^^^^^
+[warn]     |Infinite loop in function body
+[warn]     |{
+[warn]     |  val MacroImplicits_this: upickle.default.type = upickle.default
+[warn]     |  val evidence$1$proxy26: scala.reflect.ClassTag[upickle.Recursive.IntTree] =
+[warn]     |    scala.reflect.ClassTag.apply[upickle.Recursive.IntTree](
+[warn]     |      classOf[upickle.Recursive.IntTree])
+[warn]     |  val x$1$proxy26:
+[warn]     |    
+[warn]     |      scala.deriving.Mirror.Product{
+[warn]     |        type MirroredMonoType = upickle.Recursive.IntTree;
+[warn]     |          type MirroredType = upickle.Recursive.IntTree;
+[warn]     |          type MirroredLabel = ("IntTree" : String);
+[warn]     |          type MirroredElemTypes = (Int, List[upickle.Recursive.IntTree]);
+[warn]     |          type MirroredElemLabels = (("value" : String), ("children" : String))
+[warn]     |      }
+[warn]     |    
+[warn]     |   =
+[warn]     |    upickle.Recursive.IntTree.$asInstanceOf[
+[warn]     |      
+[warn]     |        scala.deriving.Mirror.Product{
+[warn]     |          type MirroredMonoType = upickle.Recursive.IntTree;
+[warn]     |            type MirroredType = upickle.Recursive.IntTree;
+[warn]     |            type MirroredLabel = ("IntTree" : String);
+[warn]     |            type MirroredElemTypes = (Int, List[upickle.Recursive.IntTree]);
+[warn]     |            type MirroredElemLabels = (("value" : String), ("children" : String)
+[warn]     |              )
+[warn]     |        }
+[warn]     |      
+[warn]     |    ]
+[warn]     |  MacroImplicits_this.ReadWriter.join[upickle.Recursive.IntTree](
+[warn]     |    {
+[warn]     |      val CaseClassReaderPiece_this:
+[warn]     |        (MacroImplicits_this : upickle.default.type) = MacroImplicits_this
+[warn]     |      {
+[warn]     |        val $scrutinee217:
+[warn]     |          
+[warn]     |            (x$1$proxy26 :
+[warn]     |              scala.deriving.Mirror.Product{
+[warn]     |                type MirroredMonoType = upickle.Recursive.IntTree;
+[warn]     |                  type MirroredType = upickle.Recursive.IntTree;
+[warn]     |                  type MirroredLabel = ("IntTree" : String);
+[warn]     |                  type MirroredElemTypes = (Int, List[upickle.Recursive.IntTree]
+[warn]     |                    );
+[warn]     |                  type MirroredElemLabels = (("value" : String),
+[warn]     |                    ("children" : String))
+[warn]     |              }
+[warn]     |            )
+[warn]     |          
+[warn]     |         = x$1$proxy26
+[warn]     |        val m:
+[warn]     |          
+[warn]     |            scala.deriving.Mirror.Product{
+[warn]     |              type MirroredMonoType = upickle.Recursive.IntTree;
+[warn]     |                type MirroredType = upickle.Recursive.IntTree;
+[warn]     |                type MirroredLabel = ("IntTree" : String);
+[warn]     |                type MirroredElemTypes = (Int, List[upickle.Recursive.IntTree])
+[warn]     |                  ;
+[warn]     |                type MirroredElemLabels = (("value" : String),
+[warn]     |                  ("children" : String))
+[warn]     |            }
+[warn]     |          
+[warn]     |         = $scrutinee217
+[warn]     |        val labels: List[String] =
+[warn]     |          List.apply²[String](["value","children" : String]):List[String]
+[warn]     |        val visitors: List[upickle.core.Visitor[?, ?]] =
+[warn]     |          (
+[warn]     |            {
+[warn]     |              val elem$1: CaseClassReaderPiece_this.Reader[Int] =
+[warn]     |                upickle.default.IntReader
+[warn]     |              (
+[warn]     |                {
+[warn]     |                  val elem$1²:
+[warn]     |                    
+[warn]     |                      CaseClassReaderPiece_this.Reader[
+[warn]     |                        List[upickle.Recursive.IntTree]]
+[warn]     |                    
+[warn]     |                   =
+[warn]     |                    upickle.default.SeqLikeReader[List,
+[warn]     |                      upickle.Recursive.IntTree](upickle.Recursive.IntTree.rw,
+[warn]     |                      scala.collection.immutable.List².iterableFactory[
+[warn]     |                        upickle.Recursive.IntTree]
+[warn]     |                    )
+[warn]     |                  (Nil:List[?]).::[List[?]#A](elem$1²)
+[warn]     |                }
+[warn]     |              :List[?]).::[List[?]#A](elem$1)
+[warn]     |            }
+[warn]     |          :List[?]).asInstanceOf[List[upickle.core.Visitor[?, ?]]]
+[warn]     |        val defaultParams: Map[String, AnyRef] =
+[warn]     |          Nil.zip[Object](
+[warn]     |            Nil.map[Object](
+[warn]     |              {
+[warn]     |                def $anonfun(_$3: Any): Object = _$3.asInstanceOf[Object]
+[warn]     |                closure($anonfun)
+[warn]     |              }
+[warn]     |            )
+[warn]     |          ).toMap[String, Object](<:<.refl[(String, Object)]):
+[warn]     |            Map[String, AnyRef]
+[warn]     |        val reader:
+[warn]     |          CaseClassReaderPiece_this.CaseClassReader[upickle.Recursive.IntTree]
+[warn]     |           =
+[warn]     |          {
+[warn]     |            final class $anon() extends
+[warn]     |              CaseClassReaderPiece_this.CaseR[upickle.Recursive.IntTree](), 
+[warn]     |              CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                upickle.Recursive.IntTree]
+[warn]     |             {
+[warn]     |              override def visitorForKey(key: String):
+[warn]     |                upickle.core.Visitor[?, ?] =
+[warn]     |                labels.zip[upickle.core.Visitor[?, ?]](visitors).toMap[String,
+[warn]     |                  upickle.core.Visitor[?, ?]](
+[warn]     |                  <:<.refl[(String, upickle.core.Visitor[?, ?])]).get(key)
+[warn]     |                   match 
+[warn]     |                  {
+[warn]     |                    case None =>
+[warn]     |                      upickle.core.NoOpVisitor
+[warn]     |                    case 
+[warn]     |                      Some.unapply[upickle.core.Visitor[?, ?]](v @ _):
+[warn]     |                        Some[upickle.core.Visitor[?, ?]]
+[warn]     |                     =>
+[warn]     |                      v:upickle.core.Visitor[?, ?]
+[warn]     |                  }
+[warn]     |              override def make(params: Map[String, Any]):
+[warn]     |                upickle.Recursive.IntTree =
+[warn]     |                {
+[warn]     |                  val values: scala.collection.mutable.ListBuffer[AnyRef] =
+[warn]     |                    collection.mutable.ListBuffer.empty[AnyRef]
+[warn]     |                  val missingKeys: scala.collection.mutable.ListBuffer[String]
+[warn]     |                     = collection.mutable.ListBuffer.empty[String]
+[warn]     |                  labels.zip[upickle.core.Visitor[?, ?]](visitors).map[
+[warn]     |                    scala.collection.mutable.ListBuffer[? >: String <: AnyRef]](
+[warn]     |                    {
+[warn]     |                      def $anonfun²(x$1: (String, upickle.core.Visitor[?, ?])):
+[warn]     |                        
+[warn]     |                          scala.collection.mutable.ListBuffer[?
+[warn]     |                             >: String <: AnyRef]
+[warn]     |                        
+[warn]     |                       =
+[warn]     |                        x$1 match 
+[warn]     |                          {
+[warn]     |                            case 
+[warn]     |                              Tuple2.unapply²[String, upickle.core.Visitor[?, ?]
+[warn]     |                                ](fieldName @ _, _)
+[warn]     |                             =>
+[warn]     |                              params.get(fieldName) match 
+[warn]     |                                {
+[warn]     |                                  case Some.unapply[Any](value @ _):Some[Any]
+[warn]     |                                     =>
+[warn]     |                                    values.+=(value.asInstanceOf[AnyRef])
+[warn]     |                                  case None =>
+[warn]     |                                    defaultParams.get(fieldName) match 
+[warn]     |                                      {
+[warn]     |                                        case 
+[warn]     |                                          Some.unapply[Object](fallback @ _):
+[warn]     |                                            Some[Object]
+[warn]     |                                         =>
+[warn]     |                                          values.+=(
+[warn]     |                                            fallback.asInstanceOf[AnyRef])
+[warn]     |                                        case None =>
+[warn]     |                                          missingKeys.+=(fieldName)
+[warn]     |                                      }
+[warn]     |                                }
+[warn]     |                          }
+[warn]     |                      closure($anonfun²)
+[warn]     |                    }
+[warn]     |                  )
+[warn]     |                  if missingKeys.isEmpty.unary_! then
+[warn]     |                    {
+[warn]     |                      throw 
+[warn]     |                        new upickle.core.Abort(
+[warn]     |                          "missing keys in dictionary: ".+(
+[warn]     |                            missingKeys.mkString(", "))
+[warn]     |                        )
+[warn]     |                    }
+[warn]     |                   else ()
+[warn]     |                  val valuesArray: Array[Object] =
+[warn]     |                    values.toArray[Object](
+[warn]     |                      reflect.ClassTag.apply[Object](classOf[Object]))
+[warn]     |                  m.fromProduct(
+[warn]     |                    {
+[warn]     |                      final class $anon²() extends Object(), Product² {
+[warn]     |                        def canEqual(that: Any): Boolean = true
+[warn]     |                        def productArity: Int = valuesArray.length
+[warn]     |                        def productElement(i: Int): Any = valuesArray.apply³(i)
+[warn]     |                      }
+[warn]     |                      new Object with Product² {...}():Object & Product²
+[warn]     |                    }
+[warn]     |                  )
+[warn]     |                }
+[warn]     |            }
+[warn]     |            new 
+[warn]     |              CaseClassReaderPiece_this.CaseR[upickle.Recursive.IntTree] with 
+[warn]     |                CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                  upickle.Recursive.IntTree]
+[warn]     |               {...}
+[warn]     |            ():
+[warn]     |              
+[warn]     |                CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                  upickle.Recursive.IntTree]
+[warn]     |              
+[warn]     |          }
+[warn]     |        reader:
+[warn]     |          CaseClassReaderPiece_this.CaseClassReader[upickle.Recursive.IntTree]
+[warn]     |      }:CaseClassReaderPiece_this.Reader[upickle.Recursive.IntTree]
+[warn]     |    },
+[warn]     |    {
+[warn]     |      val CaseClassWriterPiece_this:
+[warn]     |        (MacroImplicits_this : upickle.default.type) = MacroImplicits_this
+[warn]     |      {
+[warn]     |        val $scrutinee221:
+[warn]     |          
+[warn]     |            (x$1$proxy26 :
+[warn]     |              scala.deriving.Mirror.Product{
+[warn]     |                type MirroredMonoType = upickle.Recursive.IntTree;
+[warn]     |                  type MirroredType = upickle.Recursive.IntTree;
+[warn]     |                  type MirroredLabel = ("IntTree" : String);
+[warn]     |                  type MirroredElemTypes = (Int, List[upickle.Recursive.IntTree]
+[warn]     |                    );
+[warn]     |                  type MirroredElemLabels = (("value" : String),
+[warn]     |                    ("children" : String))
+[warn]     |              }
+[warn]     |            )
+[warn]     |          
+[warn]     |         = x$1$proxy26
+[warn]     |        val m²:
+[warn]     |          
+[warn]     |            scala.deriving.Mirror.Product{
+[warn]     |              type MirroredMonoType = upickle.Recursive.IntTree;
+[warn]     |                type MirroredType = upickle.Recursive.IntTree;
+[warn]     |                type MirroredLabel = ("IntTree" : String);
+[warn]     |                type MirroredElemTypes = (Int, List[upickle.Recursive.IntTree])
+[warn]     |                  ;
+[warn]     |                type MirroredElemLabels = (("value" : String),
+[warn]     |                  ("children" : String))
+[warn]     |            }
+[warn]     |          
+[warn]     |         = $scrutinee221
+[warn]     |        def elemsInfo(v²: upickle.Recursive.IntTree):
+[warn]     |          List[(String, CaseClassWriterPiece_this.Writer[?], Any)] =
+[warn]     |          {
+[warn]     |            val labels²: List[String] =
+[warn]     |              List.apply²[String](["value","children" : String]):List[String]
+[warn]     |            val writers: List[CaseClassWriterPiece_this.Writer[?]] =
+[warn]     |              (
+[warn]     |                {
+[warn]     |                  val elem$1³: CaseClassWriterPiece_this.Writer[Int] =
+[warn]     |                    upickle.default.IntWriter
+[warn]     |                  (
+[warn]     |                    {
+[warn]     |                      val elem$1⁴:
+[warn]     |                        
+[warn]     |                          CaseClassWriterPiece_this.Writer[
+[warn]     |                            List[upickle.Recursive.IntTree]]
+[warn]     |                        
+[warn]     |                       =
+[warn]     |                        upickle.default.SeqLikeWriter[List,
+[warn]     |                          upickle.Recursive.IntTree](
+[warn]     |                          upickle.Recursive.IntTree.rw)
+[warn]     |                      (Nil:List[?]).::[List[?]#A](elem$1⁴)
+[warn]     |                    }
+[warn]     |                  :List[?]).::[List[?]#A](elem$1³)
+[warn]     |                }
+[warn]     |              :List[?]).asInstanceOf[List[CaseClassWriterPiece_this.Writer[?]]]
+[warn]     |            val values²: List[Any] =
+[warn]     |              v².asInstanceOf[Product²].productIterator.toList
+[warn]     |            labels².zip[CaseClassWriterPiece_this.Writer[?]](writers).zip[Any](
+[warn]     |              values²).withFilter(
+[warn]     |              {
+[warn]     |                def $anonfun³(
+[warn]     |                  x$1²: ((String, CaseClassWriterPiece_this.Writer[?]), Any)):
+[warn]     |                  Boolean =
+[warn]     |                  x$1²:
+[warn]     |                    
+[warn]     |                      (x$1² : ((String, CaseClassWriterPiece_this.Writer[?]),
+[warn]     |                        Any)) @unchecked
+[warn]     |                    
+[warn]     |                   match 
+[warn]     |                    {
+[warn]     |                      case 
+[warn]     |                        Tuple2.unapply²[
+[warn]     |                          (String, CaseClassWriterPiece_this.Writer[?]), Any](
+[warn]     |                          Tuple2.unapply²[String,
+[warn]     |                            CaseClassWriterPiece_this.Writer[?]](l @ _, w @ _),
+[warn]     |                          v³ @ _)
+[warn]     |                       => true
+[warn]     |                      case _ => false
+[warn]     |                    }
+[warn]     |                closure($anonfun³)
+[warn]     |              }
+[warn]     |            ).map²[(String, CaseClassWriterPiece_this.Writer[?], Any)](
+[warn]     |              {
+[warn]     |                def $anonfun⁴(
+[warn]     |                  x$1³: ((String, CaseClassWriterPiece_this.Writer[?]), Any)):
+[warn]     |                  (String, CaseClassWriterPiece_this.Writer[?], Any) =
+[warn]     |                  x$1³:
+[warn]     |                    
+[warn]     |                      ((String, CaseClassWriterPiece_this.Writer[?]), Any)
+[warn]     |                        @unchecked
+[warn]     |                    
+[warn]     |                   match 
+[warn]     |                    {
+[warn]     |                      case 
+[warn]     |                        Tuple2.unapply²[
+[warn]     |                          (String, CaseClassWriterPiece_this.Writer[?]), Any](
+[warn]     |                          Tuple2.unapply²[String,
+[warn]     |                            CaseClassWriterPiece_this.Writer[?]](l² @ _, w² @ _)
+[warn]     |                            ,
+[warn]     |                        v⁴ @ _)
+[warn]     |                       =>
+[warn]     |                        Tuple3.apply⁴[String,
+[warn]     |                          CaseClassWriterPiece_this.Writer[?], Any](l², w², v⁴)
+[warn]     |                    }
+[warn]     |                closure($anonfun⁴)
+[warn]     |              }
+[warn]     |            )
+[warn]     |          }
+[warn]     |        val writer:
+[warn]     |          CaseClassWriterPiece_this.CaseClassWriter[upickle.Recursive.IntTree]
+[warn]     |           =
+[warn]     |          new CaseClassWriterPiece_this.CaseClassWriter[
+[warn]     |            upickle.Recursive.IntTree](
+[warn]     |            {
+[warn]     |              def $anonfun⁵(v⁵: upickle.Recursive.IntTree):
+[warn]     |                List[(String, CaseClassWriterPiece_this.Writer[?], Any)] =
+[warn]     |                elemsInfo(v⁵)
+[warn]     |              closure($anonfun⁵)
+[warn]     |            },
+[warn]     |            Nil.zip[Object](
+[warn]     |              Nil.map[Object](
+[warn]     |                {
+[warn]     |                  def $anonfun⁶(_$3²: Any): Object = _$3².asInstanceOf[Object]
+[warn]     |                  closure($anonfun⁶)
+[warn]     |                }
+[warn]     |              )
+[warn]     |            ).toMap[String, Object](<:<.refl[(String, Object)]):
+[warn]     |              Map[String, AnyRef]
+[warn]     |          )
+[warn]     |        writer:
+[warn]     |          CaseClassWriterPiece_this.CaseClassWriter[upickle.Recursive.IntTree]
+[warn]     |      }:CaseClassWriterPiece_this.Writer[upickle.Recursive.IntTree]
+[warn]     |    }
+[warn]     |  ):MacroImplicits_this.ReadWriter[upickle.Recursive.IntTree]
+[warn]     |}
+[warn]     |
+[warn]     |where:    $anon     is a anonymous class in the initializer of value reader
+[warn]     |          $anonfun  is a method in the initializer of value defaultParams
+[warn]     |          $anonfun² is a method in method make
+[warn]     |          $anonfun³ is a method in method elemsInfo
+[warn]     |          $anonfun⁴ is a method in method elemsInfo
+[warn]     |          $anonfun⁵ is a method in the initializer of value writer
+[warn]     |          $anonfun⁶ is a method in the initializer of value writer
+[warn]     |          $anon²    is a anonymous class in method make
+[warn]     |          List      is a getter in package object scala
+[warn]     |          List²     is a object in package scala.collection.immutable
+[warn]     |          Product   is a trait in object Mirror
+[warn]     |          Product²  is a trait in package scala
+[warn]     |          _$3       is a parameter in an anonymous function in method rw
+[warn]     |          _$3²      is a parameter in an anonymous function in method rw
+[warn]     |          apply     is a method in object ClassTag
+[warn]     |          apply²    is a method in trait IterableFactory
+[warn]     |          apply³    is a method in class Array
+[warn]     |          apply⁴    is a method in object Tuple3
+[warn]     |          elem$1    is a value in the initializer of value visitors
+[warn]     |          elem$1²   is a value in the initializer of value visitors
+[warn]     |          elem$1³   is a value in the initializer of value writers
+[warn]     |          elem$1⁴   is a value in the initializer of value writers
+[warn]     |          l         is a value in an anonymous function in method elemsInfo
+[warn]     |          labels    is a value in method rw
+[warn]     |          labels²   is a value in method elemsInfo
+[warn]     |          l²        is a value in an anonymous function in method elemsInfo
+[warn]     |          m         is a value in method rw
+[warn]     |          map       is a method in class List
+[warn]     |          map²      is a method in class WithFilter
+[warn]     |          m²        is a value in method rw
+[warn]     |          unapply   is a method in object Some
+[warn]     |          unapply²  is a method in object Tuple2
+[warn]     |          v         is a value in method visitorForKey
+[warn]     |          values    is a value in method make
+[warn]     |          values²   is a value in method elemsInfo
+[warn]     |          v²        is a parameter in method elemsInfo
+[warn]     |          v³        is a value in an anonymous function in method elemsInfo
+[warn]     |          v⁴        is a value in an anonymous function in method elemsInfo
+[warn]     |          v⁵        is a parameter in an anonymous function in method rw
+[warn]     |          w         is a value in an anonymous function in method elemsInfo
+[warn]     |          w²        is a value in an anonymous function in method elemsInfo
+[warn]     |          x$1       is a parameter in an anonymous function in method make
+[warn]     |          x$1²      is a parameter in an anonymous function in method elemsInfo
+[warn]     |          x$1³      is a parameter in an anonymous function in method elemsInfo
+[warn] -- Warning: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/upickle/test/src/upickle/ClassDefs.scala:170:46 
+[warn] 170 |    implicit def rw: RW[SingleTree] = RW.merge(default.macroRW[SingleNode])
+[warn]     |                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[warn]     |Infinite loop in function body
+[warn]     |upickle.default.ReadWriter.merge[upickle.Recursive.SingleTree](
+[warn]     |  [
+[warn]     |    {
+[warn]     |      val MacroImplicits_this: upickle.default.type = upickle.default
+[warn]     |      val evidence$1$proxy27:
+[warn]     |        scala.reflect.ClassTag[upickle.Recursive.SingleNode] =
+[warn]     |        scala.reflect.ClassTag.apply[upickle.Recursive.SingleNode](
+[warn]     |          classOf[upickle.Recursive.SingleNode])
+[warn]     |      val x$1$proxy27:
+[warn]     |        
+[warn]     |          scala.deriving.Mirror.Product{
+[warn]     |            type MirroredMonoType = upickle.Recursive.SingleNode;
+[warn]     |              type MirroredType = upickle.Recursive.SingleNode;
+[warn]     |              type MirroredLabel = ("SingleNode" : String);
+[warn]     |              type MirroredElemTypes = (Int, List[upickle.Recursive.SingleTree])
+[warn]     |                ;
+[warn]     |              type MirroredElemLabels = (("value" : String),
+[warn]     |                ("children" : String))
+[warn]     |          }
+[warn]     |        
+[warn]     |       =
+[warn]     |        upickle.Recursive.SingleNode.$asInstanceOf[
+[warn]     |          
+[warn]     |            scala.deriving.Mirror.Product{
+[warn]     |              type MirroredMonoType = upickle.Recursive.SingleNode;
+[warn]     |                type MirroredType = upickle.Recursive.SingleNode;
+[warn]     |                type MirroredLabel = ("SingleNode" : String);
+[warn]     |                type MirroredElemTypes = (Int,
+[warn]     |                  List[upickle.Recursive.SingleTree]);
+[warn]     |                type MirroredElemLabels = (("value" : String),
+[warn]     |                  ("children" : String))
+[warn]     |            }
+[warn]     |          
+[warn]     |        ]
+[warn]     |      MacroImplicits_this.ReadWriter.join[upickle.Recursive.SingleNode](
+[warn]     |        {
+[warn]     |          val CaseClassReaderPiece_this:
+[warn]     |            (MacroImplicits_this : upickle.default.type) = MacroImplicits_this
+[warn]     |          {
+[warn]     |            val $scrutinee225:
+[warn]     |              
+[warn]     |                (x$1$proxy27 :
+[warn]     |                  scala.deriving.Mirror.Product{
+[warn]     |                    type MirroredMonoType = upickle.Recursive.SingleNode;
+[warn]     |                      type MirroredType = upickle.Recursive.SingleNode;
+[warn]     |                      type MirroredLabel = ("SingleNode" : String);
+[warn]     |                      type MirroredElemTypes = (Int,
+[warn]     |                        List[upickle.Recursive.SingleTree]);
+[warn]     |                      type MirroredElemLabels = (("value" : String),
+[warn]     |                        ("children" : String))
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              
+[warn]     |             = x$1$proxy27
+[warn]     |            val m:
+[warn]     |              
+[warn]     |                scala.deriving.Mirror.Product{
+[warn]     |                  type MirroredMonoType = upickle.Recursive.SingleNode;
+[warn]     |                    type MirroredType = upickle.Recursive.SingleNode;
+[warn]     |                    type MirroredLabel = ("SingleNode" : String);
+[warn]     |                    type MirroredElemTypes = (Int,
+[warn]     |                      List[upickle.Recursive.SingleTree]);
+[warn]     |                    type MirroredElemLabels = (("value" : String),
+[warn]     |                      ("children" : String))
+[warn]     |                }
+[warn]     |              
+[warn]     |             = $scrutinee225
+[warn]     |            val labels: List[String] =
+[warn]     |              List.apply²[String](["value","children" : String]):List[String]
+[warn]     |            val visitors: List[upickle.core.Visitor[?, ?]] =
+[warn]     |              (
+[warn]     |                {
+[warn]     |                  val elem$1: CaseClassReaderPiece_this.Reader[Int] =
+[warn]     |                    upickle.default.IntReader
+[warn]     |                  (
+[warn]     |                    {
+[warn]     |                      val elem$1²:
+[warn]     |                        
+[warn]     |                          CaseClassReaderPiece_this.Reader[
+[warn]     |                            List[upickle.Recursive.SingleTree]]
+[warn]     |                        
+[warn]     |                       =
+[warn]     |                        upickle.default.SeqLikeReader[List,
+[warn]     |                          upickle.Recursive.SingleTree](
+[warn]     |                          upickle.Recursive.SingleTree.rw,
+[warn]     |                          scala.collection.immutable.List².iterableFactory[
+[warn]     |                            upickle.Recursive.SingleTree]
+[warn]     |                        )
+[warn]     |                      (Nil:List[?]).::[List[?]#A](elem$1²)
+[warn]     |                    }
+[warn]     |                  :List[?]).::[List[?]#A](elem$1)
+[warn]     |                }
+[warn]     |              :List[?]).asInstanceOf[List[upickle.core.Visitor[?, ?]]]
+[warn]     |            val defaultParams: Map[String, AnyRef] =
+[warn]     |              Nil.zip[Object](
+[warn]     |                Nil.map[Object](
+[warn]     |                  {
+[warn]     |                    def $anonfun(_$3: Any): Object = _$3.asInstanceOf[Object]
+[warn]     |                    closure($anonfun)
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              ).toMap[String, Object](<:<.refl[(String, Object)]):
+[warn]     |                Map[String, AnyRef]
+[warn]     |            val reader:
+[warn]     |              
+[warn]     |                CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                  upickle.Recursive.SingleNode]
+[warn]     |              
+[warn]     |             =
+[warn]     |              {
+[warn]     |                final class $anon() extends
+[warn]     |                  CaseClassReaderPiece_this.CaseR[upickle.Recursive.SingleNode](
+[warn]     |                    ),
+[warn]     |                
+[warn]     |                  CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                    upickle.Recursive.SingleNode]
+[warn]     |                 {
+[warn]     |                  override def visitorForKey(key: String):
+[warn]     |                    upickle.core.Visitor[?, ?] =
+[warn]     |                    labels.zip[upickle.core.Visitor[?, ?]](visitors).toMap[
+[warn]     |                      String, upickle.core.Visitor[?, ?]](
+[warn]     |                      <:<.refl[(String, upickle.core.Visitor[?, ?])]).get(key)
+[warn]     |                       match 
+[warn]     |                      {
+[warn]     |                        case None =>
+[warn]     |                          upickle.core.NoOpVisitor
+[warn]     |                        case 
+[warn]     |                          Some.unapply[upickle.core.Visitor[?, ?]](v @ _):
+[warn]     |                            Some[upickle.core.Visitor[?, ?]]
+[warn]     |                         =>
+[warn]     |                          v:upickle.core.Visitor[?, ?]
+[warn]     |                      }
+[warn]     |                  override def make(params: Map[String, Any]):
+[warn]     |                    upickle.Recursive.SingleNode =
+[warn]     |                    {
+[warn]     |                      val values: scala.collection.mutable.ListBuffer[AnyRef] =
+[warn]     |                        collection.mutable.ListBuffer.empty[AnyRef]
+[warn]     |                      val missingKeys:
+[warn]     |                        scala.collection.mutable.ListBuffer[String] =
+[warn]     |                        collection.mutable.ListBuffer.empty[String]
+[warn]     |                      labels.zip[upickle.core.Visitor[?, ?]](visitors).map[
+[warn]     |                        
+[warn]     |                          scala.collection.mutable.ListBuffer[?
+[warn]     |                             >: String <: AnyRef]
+[warn]     |                        
+[warn]     |                      ](
+[warn]     |                        {
+[warn]     |                          def $anonfun²(
+[warn]     |                            x$1: (String, upickle.core.Visitor[?, ?])):
+[warn]     |                            
+[warn]     |                              scala.collection.mutable.ListBuffer[?
+[warn]     |                                 >: String <: AnyRef]
+[warn]     |                            
+[warn]     |                           =
+[warn]     |                            x$1 match 
+[warn]     |                              {
+[warn]     |                                case 
+[warn]     |                                  Tuple2.unapply²[String,
+[warn]     |                                    upickle.core.Visitor[?, ?]](fieldName @ _, _
+[warn]     |                                    )
+[warn]     |                                 =>
+[warn]     |                                  params.get(fieldName) match 
+[warn]     |                                    {
+[warn]     |                                      case 
+[warn]     |                                        Some.unapply[Any](value @ _):Some[Any]
+[warn]     |                                         =>
+[warn]     |                                        values.+=(value.asInstanceOf[AnyRef])
+[warn]     |                                      case None =>
+[warn]     |                                        defaultParams.get(fieldName) match 
+[warn]     |                                          {
+[warn]     |                                            case 
+[warn]     |                                              Some.unapply[Object](fallback @ _)
+[warn]     |                                                :Some[Object]
+[warn]     |                                             =>
+[warn]     |                                              values.+=(
+[warn]     |                                                fallback.asInstanceOf[AnyRef])
+[warn]     |                                            case None =>
+[warn]     |                                              missingKeys.+=(fieldName)
+[warn]     |                                          }
+[warn]     |                                    }
+[warn]     |                              }
+[warn]     |                          closure($anonfun²)
+[warn]     |                        }
+[warn]     |                      )
+[warn]     |                      if missingKeys.isEmpty.unary_! then
+[warn]     |                        {
+[warn]     |                          throw 
+[warn]     |                            new upickle.core.Abort(
+[warn]     |                              "missing keys in dictionary: ".+(
+[warn]     |                                missingKeys.mkString(", "))
+[warn]     |                            )
+[warn]     |                        }
+[warn]     |                       else ()
+[warn]     |                      val valuesArray: Array[Object] =
+[warn]     |                        values.toArray[Object](
+[warn]     |                          reflect.ClassTag.apply[Object](classOf[Object]))
+[warn]     |                      m.fromProduct(
+[warn]     |                        {
+[warn]     |                          final class $anon²() extends Object(), Product² {
+[warn]     |                            def canEqual(that: Any): Boolean = true
+[warn]     |                            def productArity: Int = valuesArray.length
+[warn]     |                            def productElement(i: Int): Any =
+[warn]     |                              valuesArray.apply³(i)
+[warn]     |                          }
+[warn]     |                          new Object with Product² {...}():Object & Product²
+[warn]     |                        }
+[warn]     |                      )
+[warn]     |                    }
+[warn]     |                }
+[warn]     |                new 
+[warn]     |                  
+[warn]     |                    
+[warn]     |                      CaseClassReaderPiece_this.CaseR[
+[warn]     |                        upickle.Recursive.SingleNode]
+[warn]     |                     with 
+[warn]     |                  
+[warn]     |                    CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                      upickle.Recursive.SingleNode]
+[warn]     |                   {...}
+[warn]     |                ():
+[warn]     |                  
+[warn]     |                    CaseClassReaderPiece_this.CaseClassReader[
+[warn]     |                      upickle.Recursive.SingleNode]
+[warn]     |                  
+[warn]     |              }
+[warn]     |            CaseClassReaderPiece_this.annotate[upickle.Recursive.SingleNode](
+[warn]     |              reader, "upickle.Recursive.SingleNode":String)
+[warn]     |          }:CaseClassReaderPiece_this.Reader[upickle.Recursive.SingleNode]
+[warn]     |        },
+[warn]     |        {
+[warn]     |          val CaseClassWriterPiece_this:
+[warn]     |            (MacroImplicits_this : upickle.default.type) = MacroImplicits_this
+[warn]     |          {
+[warn]     |            val $scrutinee229:
+[warn]     |              
+[warn]     |                (x$1$proxy27 :
+[warn]     |                  scala.deriving.Mirror.Product{
+[warn]     |                    type MirroredMonoType = upickle.Recursive.SingleNode;
+[warn]     |                      type MirroredType = upickle.Recursive.SingleNode;
+[warn]     |                      type MirroredLabel = ("SingleNode" : String);
+[warn]     |                      type MirroredElemTypes = (Int,
+[warn]     |                        List[upickle.Recursive.SingleTree]);
+[warn]     |                      type MirroredElemLabels = (("value" : String),
+[warn]     |                        ("children" : String))
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              
+[warn]     |             = x$1$proxy27
+[warn]     |            val m²:
+[warn]     |              
+[warn]     |                scala.deriving.Mirror.Product{
+[warn]     |                  type MirroredMonoType = upickle.Recursive.SingleNode;
+[warn]     |                    type MirroredType = upickle.Recursive.SingleNode;
+[warn]     |                    type MirroredLabel = ("SingleNode" : String);
+[warn]     |                    type MirroredElemTypes = (Int,
+[warn]     |                      List[upickle.Recursive.SingleTree]);
+[warn]     |                    type MirroredElemLabels = (("value" : String),
+[warn]     |                      ("children" : String))
+[warn]     |                }
+[warn]     |              
+[warn]     |             = $scrutinee229
+[warn]     |            def elemsInfo(v²: upickle.Recursive.SingleNode):
+[warn]     |              List[(String, CaseClassWriterPiece_this.Writer[?], Any)] =
+[warn]     |              {
+[warn]     |                val labels²: List[String] =
+[warn]     |                  List.apply²[String](["value","children" : String]):
+[warn]     |                    List[String]
+[warn]     |                val writers: List[CaseClassWriterPiece_this.Writer[?]] =
+[warn]     |                  (
+[warn]     |                    {
+[warn]     |                      val elem$1³: CaseClassWriterPiece_this.Writer[Int] =
+[warn]     |                        upickle.default.IntWriter
+[warn]     |                      (
+[warn]     |                        {
+[warn]     |                          val elem$1⁴:
+[warn]     |                            
+[warn]     |                              CaseClassWriterPiece_this.Writer[
+[warn]     |                                List[upickle.Recursive.SingleTree]]
+[warn]     |                            
+[warn]     |                           =
+[warn]     |                            upickle.default.SeqLikeWriter[List,
+[warn]     |                              upickle.Recursive.SingleTree](
+[warn]     |                              upickle.Recursive.SingleTree.rw)
+[warn]     |                          (Nil:List[?]).::[List[?]#A](elem$1⁴)
+[warn]     |                        }
+[warn]     |                      :List[?]).::[List[?]#A](elem$1³)
+[warn]     |                    }
+[warn]     |                  :List[?]).asInstanceOf[
+[warn]     |                    List[CaseClassWriterPiece_this.Writer[?]]]
+[warn]     |                val values²: List[Any] =
+[warn]     |                  v².asInstanceOf[Product²].productIterator.toList
+[warn]     |                labels².zip[CaseClassWriterPiece_this.Writer[?]](writers).zip[
+[warn]     |                  Any](values²).withFilter(
+[warn]     |                  {
+[warn]     |                    def $anonfun³(
+[warn]     |                      x$1²: ((String, CaseClassWriterPiece_this.Writer[?]), Any)
+[warn]     |                      ): Boolean =
+[warn]     |                      x$1²:
+[warn]     |                        
+[warn]     |                          (x$1² : (
+[warn]     |                            (String, CaseClassWriterPiece_this.Writer[?]), Any))
+[warn]     |                             @unchecked
+[warn]     |                        
+[warn]     |                       match 
+[warn]     |                        {
+[warn]     |                          case 
+[warn]     |                            Tuple2.unapply²[
+[warn]     |                              (String, CaseClassWriterPiece_this.Writer[?]), Any
+[warn]     |                              ](
+[warn]     |                              Tuple2.unapply²[String,
+[warn]     |                                CaseClassWriterPiece_this.Writer[?]](l @ _,
+[warn]     |                                w @ _),
+[warn]     |                            v³ @ _)
+[warn]     |                           => true
+[warn]     |                          case _ => false
+[warn]     |                        }
+[warn]     |                    closure($anonfun³)
+[warn]     |                  }
+[warn]     |                ).map²[(String, CaseClassWriterPiece_this.Writer[?], Any)](
+[warn]     |                  {
+[warn]     |                    def $anonfun⁴(
+[warn]     |                      x$1³: ((String, CaseClassWriterPiece_this.Writer[?]), Any)
+[warn]     |                      ): (String, CaseClassWriterPiece_this.Writer[?], Any) =
+[warn]     |                      x$1³:
+[warn]     |                        
+[warn]     |                          ((String, CaseClassWriterPiece_this.Writer[?]), Any)
+[warn]     |                            @unchecked
+[warn]     |                        
+[warn]     |                       match 
+[warn]     |                        {
+[warn]     |                          case 
+[warn]     |                            Tuple2.unapply²[
+[warn]     |                              (String, CaseClassWriterPiece_this.Writer[?]), Any
+[warn]     |                              ](
+[warn]     |                              Tuple2.unapply²[String,
+[warn]     |                                CaseClassWriterPiece_this.Writer[?]](l² @ _,
+[warn]     |                                w² @ _),
+[warn]     |                            v⁴ @ _)
+[warn]     |                           =>
+[warn]     |                            Tuple3.apply⁴[String,
+[warn]     |                              CaseClassWriterPiece_this.Writer[?], Any](l², w²,
+[warn]     |                              v⁴)
+[warn]     |                        }
+[warn]     |                    closure($anonfun⁴)
+[warn]     |                  }
+[warn]     |                )
+[warn]     |              }
+[warn]     |            val writer:
+[warn]     |              
+[warn]     |                CaseClassWriterPiece_this.CaseClassWriter[
+[warn]     |                  upickle.Recursive.SingleNode]
+[warn]     |              
+[warn]     |             =
+[warn]     |              new CaseClassWriterPiece_this.CaseClassWriter[
+[warn]     |                upickle.Recursive.SingleNode](
+[warn]     |                {
+[warn]     |                  def $anonfun⁵(v⁵: upickle.Recursive.SingleNode):
+[warn]     |                    List[(String, CaseClassWriterPiece_this.Writer[?], Any)] =
+[warn]     |                    elemsInfo(v⁵)
+[warn]     |                  closure($anonfun⁵)
+[warn]     |                },
+[warn]     |                Nil.zip[Object](
+[warn]     |                  Nil.map[Object](
+[warn]     |                    {
+[warn]     |                      def $anonfun⁶(_$3²: Any): Object =
+[warn]     |                        _$3².asInstanceOf[Object]
+[warn]     |                      closure($anonfun⁶)
+[warn]     |                    }
+[warn]     |                  )
+[warn]     |                ).toMap[String, Object](<:<.refl[(String, Object)]):
+[warn]     |                  Map[String, AnyRef]
+[warn]     |              )
+[warn]     |            CaseClassWriterPiece_this.annotate²[upickle.Recursive.SingleNode](
+[warn]     |              writer, "upickle.Recursive.SingleNode":String)(evidence$1$proxy27)
+[warn]     |            }:CaseClassWriterPiece_this.Writer[upickle.Recursive.SingleNode]
+[warn]     |        }
+[warn]     |      ):MacroImplicits_this.ReadWriter[upickle.Recursive.SingleNode]
+[warn]     |    }
+[warn]     |   : upickle.default.ReadWriter[? <: upickle.Recursive.SingleTree]]
+[warn]     |)
+[warn]     |
+[warn]     |where:    $anon     is a anonymous class in the initializer of value reader
+[warn]     |          $anonfun  is a method in the initializer of value defaultParams
+[warn]     |          $anonfun² is a method in method make
+[warn]     |          $anonfun³ is a method in method elemsInfo
+[warn]     |          $anonfun⁴ is a method in method elemsInfo
+[warn]     |          $anonfun⁵ is a method in the initializer of value writer
+[warn]     |          $anonfun⁶ is a method in the initializer of value writer
+[warn]     |          $anon²    is a anonymous class in method make
+[warn]     |          List      is a getter in package object scala
+[warn]     |          List²     is a object in package scala.collection.immutable
+[warn]     |          Product   is a trait in object Mirror
+[warn]     |          Product²  is a trait in package scala
+[warn]     |          _$3       is a parameter in an anonymous function in method rw
+[warn]     |          _$3²      is a parameter in an anonymous function in method rw
+[warn]     |          annotate  is a method in trait AttributeTagged
+[warn]     |          annotate² is a method in trait AttributeTagged
+[warn]     |          apply     is a method in object ClassTag
+[warn]     |          apply²    is a method in trait IterableFactory
+[warn]     |          apply³    is a method in class Array
+[warn]     |          apply⁴    is a method in object Tuple3
+[warn]     |          elem$1    is a value in the initializer of value visitors
+[warn]     |          elem$1²   is a value in the initializer of value visitors
+[warn]     |          elem$1³   is a value in the initializer of value writers
+[warn]     |          elem$1⁴   is a value in the initializer of value writers
+[warn]     |          l         is a value in an anonymous function in method elemsInfo
+[warn]     |          labels    is a value in method rw
+[warn]     |          labels²   is a value in method elemsInfo
+[warn]     |          l²        is a value in an anonymous function in method elemsInfo
+[warn]     |          m         is a value in method rw
+[warn]     |          map       is a method in class List
+[warn]     |          map²      is a method in class WithFilter
+[warn]     |          m²        is a value in method rw
+[warn]     |          unapply   is a method in object Some
+[warn]     |          unapply²  is a method in object Tuple2
+[warn]     |          v         is a value in method visitorForKey
+[warn]     |          values    is a value in method make
+[warn]     |          values²   is a value in method elemsInfo
+[warn]     |          v²        is a parameter in method elemsInfo
+[warn]     |          v³        is a value in an anonymous function in method elemsInfo
+[warn]     |          v⁴        is a value in an anonymous function in method elemsInfo
+[warn]     |          v⁵        is a parameter in an anonymous function in method rw
+[warn]     |          w         is a value in an anonymous function in method elemsInfo
+[warn]     |          w²        is a value in an anonymous function in method elemsInfo
+[warn]     |          x$1       is a parameter in an anonymous function in method make
+[warn]     |          x$1²      is a parameter in an anonymous function in method elemsInfo
+[warn]     |          x$1³      is a parameter in an anonymous function in method elemsInfo
+[warn] -- Deprecation Warning: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/upickle/test/src/upickle/MacroTests.scala:32:15 
+[warn] 32 |      t => t.i + " " + t.s,
+[warn]    |           ^^^^^
+[warn]    |method + in class Int is deprecated since 2.13.0: Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`
+[warn] -- Deprecation Warning: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/upickle/test/src/upickle/MacroTests.scala:171:24 
+[warn] 171 |          val lhs = '"' + s"t$i" + '"'
+[warn]     |                    ^^^^^
+[warn]     |method + in class Char is deprecated since 2.13.0: Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`
+[warn] -- Deprecation Warning: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/upickle/test/src/upickle/example/ExampleTests.scala:73:15 
+[warn] 73 |      x => x.i + " " + x.s,
+[warn]    |           ^^^^^
+[warn]    |method + in class Int is deprecated since 2.13.0: Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`
+[warn] -- Deprecation Warning: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/upickle/test/src/upickle/example/ExampleTests.scala:291:61 
+[warn] 291 |            val res = s.split("_", -1).map(x => x(0).toUpper + x.drop(1)).mkString
+[warn]     |                                                ^^^^^^^^^^^^^^
+[warn]     |method + in class Char is deprecated since 2.13.0: Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`
+[warn] -- Deprecation Warning: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/upickle/test/src/upickle/example/ExampleTests.scala:292:25 
+[warn] 292 |            s(0).toLower + res.drop(1)
+[warn]     |            ^^^^^^^^^^^^^^
+[warn]     |method + in class Char is deprecated since 2.13.0: Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`
+[warn] -- Deprecation Warning: /Users/y3536zha/Desktop/scala_flexible/scala_flexible_type_with_test_script/community-build/community-projects/upickle/upickle/test/src/upickle/example/OptionsAsNullTests.scala:85:21 
+[warn] 85 |            x => x.i + " " + x.s,
+[warn]    |                 ^^^^^
+[warn]    |method + in class Int is deprecated since 2.13.0: Adding a number and a String is deprecated. Use the string interpolation `s"$num$str"`
+[warn] 9 warnings found
+[info] done compiling
+[233/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.localClasspath 
+[1A[2K[9999D[234/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.runIvyDeps 
+[1A[2K[9999D[235/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.resolvedRunIvyDeps 
+[1A[2K[9999D[236/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.upstreamAssemblyClasspath 
+[1A[2K[9999D[237/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.runClasspath 
+[1A[2K[9999D[239/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
+[1A[2K[9999D[240/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkEnv 
+[1A[2K[9999D[241/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.forkWorkingDir 
+[1A[2K[9999D[242/242] upickle.jvm[3.3.1-RC1-bin-SNAPSHOT].test.test 
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.FailureTests.jsonFailures.0 [2m60ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.1 [2m1ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.2 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.3 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.4 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.5 [2m1ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.6 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.7 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.8 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.9 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.10 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.11 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.12 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.13 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.14 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.15 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.16 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.17 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.18 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.19 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.20 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.21 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.22 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.23 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.24 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.25 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.26 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.27 [2m0ms[0m  
+[32m+[39m upickle.FailureTests.jsonFailures.28 [2m0ms[0m  [34mujson.IncompleteParseException: exhausted input[39m
+[32m+[39m upickle.FailureTests.jsonFailures.29 [2m0ms[0m  [34mujson.IncompleteParseException: exhausted input[39m
+[32m+[39m upickle.FailureTests.facadeFailures.structs.0 [2m2ms[0m  [34mjava.lang.NumberFormatException: lol[39m
+[32m+[39m upickle.FailureTests.facadeFailures.structs.1 [2m2ms[0m  [34mupickle.core.AbortException: expected sequence got string at index 0[39m
+[32m+[39m upickle.FailureTests.facadeFailures.structs.2 [2m1ms[0m  [34mupickle.core.AbortException: expected string got number at index 6[39m
+[32m+[39m upickle.FailureTests.facadeFailures.structs.tupleShort [2m1ms[0m  [34mupickle.core.AbortException: expected 2 items in sequence, found 0 at index 22[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.missingKey.0 [2m4ms[0m  [34mupickle.core.AbortException: missing keys in dictionary: s at index 9[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.missingKey.1 [2m0ms[0m  [34mupickle.core.AbortException: missing keys in dictionary: i at index 12[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.missingKey.2 [2m0ms[0m  [34mupickle.core.AbortException: missing keys in dictionary: i, s at index 3[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.badKey.0 [2m0ms[0m  [34mupickle.core.AbortException: expected number got boolean at index 6[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.wrongType.0 [2m0ms[0m  [34mupickle.core.AbortException: expected dictionary got sequence at index 0[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.wrongType.1 [2m0ms[0m  [34mupickle.core.AbortException: expected dictionary got number at index 0[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.invalidTag.0 [2m4ms[0m  [34mupickle.core.AbortException: invalid tag for tagged object: omg at index 1[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.invalidTag.1 [2m1ms[0m  [34mupickle.core.AbortException: invalid tag for tagged object: omg at index 1[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.invalidTag.2 [2m2ms[0m  [34mupickle.core.AbortException: invalid tag for tagged object: omg at index 10[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.invalidTag.3 [2m0ms[0m  [34mupickle.core.AbortException: invalid tag for tagged object: omg at index 10[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.invalidTag.4 [2m0ms[0m  [34mupickle.core.AbortException: expected tagged dictionary at index 1[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.taggedInvalidBody.0 [2m1ms[0m  [34mupickle.core.AbortException: expected number got boolean at index 24[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.taggedInvalidBody.1 [2m0ms[0m  [34mupickle.core.AbortException: expected number got boolean at index 24[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.taggedInvalidBody.2 [2m0ms[0m  [34mupickle.core.AbortException: expected number got boolean at index 32[39m
+[32m+[39m upickle.FailureTests.facadeFailures.caseClass.taggedInvalidBody.3 [2m0ms[0m  [34mupickle.core.AbortException: expected number got boolean at index 32[39m
+[32m+[39m upickle.FailureTests.compileErrors [2m2ms[0m 
+  [34mType(implicitly[upickle.default.Reader[Nothing]][39m
+  [34m                                           ^,No given instance of type upickle.default.Reader[Nothing] was found for parameter e of method implicitly in object Predef.[39m
+  [34mI found:[39m
+  [34m
+    upickle.default.given_Reader_T[Nothing]([39m
+  [34m      /* missing */summon[deriving.Mirror.Of[Nothing]])[39m
+  [34m
+But Failed to synthesize an instance of type deriving.Mirror.Of[Nothing]:[39m
+  [34m	* class Nothing is not a generic product because it is not a case class[39m
+  [34m	* class Nothing is not a generic sum because it is not a sealed class.)[39m
+[32m+[39m upickle.FailureTests.expWholeNumbers [2m3ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.DurationsTests.durations.inf [2m15ms[0m  
+[32m+[39m upickle.DurationsTests.durations.-inf [2m1ms[0m  
+[32m+[39m upickle.DurationsTests.durations.undef [2m1ms[0m  
+[32m+[39m upickle.DurationsTests.durations.1-second [2m1ms[0m  
+[32m+[39m upickle.DurationsTests.durations.2-hour [2m1ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.primitive [2m7ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.none [2m1ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.some [2m2ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.option [2m0ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.caseClass [2m2ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.optionCaseClass [2m2ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.customPickler.customClass [2m2ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.customPickler.optCustomClass_Some [2m0ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.customPickler.optCustomClass_None [2m0ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.Js.option.write [2m3ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.Js.option.readSome [2m0ms[0m  
+[32m+[39m upickle.example.OptionsAsNullTests.nullAsNone.Js.option.readNull [2m0ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.example.ExampleTests.simple [2m5ms[0m  
+[32m+[39m upickle.example.ExampleTests.binary [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.booleans [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.numbers [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.longs [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.specialNumbers [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.charStrings [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.seqs [2m18ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.options [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.tuples [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.caseClass [2m4ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.sealed [2m4ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.recursive [2m3ms[0m  
+[32m+[39m upickle.example.ExampleTests.more.null [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.defaults.reading [2m2ms[0m  
+[32m+[39m upickle.example.ExampleTests.defaults.writing [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.sources [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.mapped.simple [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.mapped.Value [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.keyed.attrs [2m2ms[0m  
+[32m+[39m upickle.example.ExampleTests.keyed.tag [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.keyed.snakeCase [2m3ms[0m  
+[32m+[39m upickle.example.ExampleTests.keyed.stringLongs [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.keyed.serializeDefaults [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.transform [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.msgConstruction [2m9ms[0m  
+[32m+[39m upickle.example.ExampleTests.msgReadWrite [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.msgInsideValue [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.msgToJson [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.json.construction [2m4ms[0m  
+[32m+[39m upickle.example.ExampleTests.json.simple [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.json.mutable [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.json.update [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.json.intermediate [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.json.copy [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.transforms.json [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.transforms.defaultTransform [2m2ms[0m  
+[32m+[39m upickle.example.ExampleTests.transforms.misc [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.transforms.validate.0 [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.transforms.validate.1 [2m0ms[0m  [34mujson.IncompleteParseException: exhausted input[39m
+[32m+[39m upickle.example.ExampleTests.transforms.validate.2 [2m0ms[0m  [34mujson.IncompleteParseException: exhausted input[39m
+[32m+[39m upickle.example.ExampleTests.transforms.validate.3 [2m0ms[0m  [34mujson.ParseException: expected whitespace or eof got "]" at index 9[39m
+[32m+[39m upickle.example.ExampleTests.transforms.upickleDefault [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.byteArrays [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.nonCustomMapKeys [2m2ms[0m  
+[32m+[39m upickle.example.ExampleTests.customMapKeys [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.msgPackMapKeys [2m0ms[0m  
+[32m+[39m upickle.example.ExampleTests.generic.read [2m1ms[0m  
+[32m+[39m upickle.example.ExampleTests.generic.write [2m0ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.PrimitiveTestsJvmNative.Int.max [2m2ms[0m  
+[32m+[39m upickle.PrimitiveTestsJvmNative.Float.max [2m4ms[0m  
+[32m+[39m upickle.PrimitiveTestsJvmNative.Float.inf [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTestsJvmNative.maps.float [2m5ms[0m  
+[32m+[39m upickle.PrimitiveTestsJvmNative.maps.double [2m5ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.InANamespaceNamedTests.it should compile when macroRW is called in a namespace named upickle [2m1ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.PrimitiveTests.Unit [2m3ms[0m  
+[32m+[39m upickle.PrimitiveTests.Boolean.true [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.Boolean.false [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Boolean.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.String.plain [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.String.quotes [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.String.unicode.0 [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.String.unicode.1 [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.String.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.String.chars [2m975ms[0m  
+[32m+[39m upickle.PrimitiveTests.Long.small [2m2ms[0m  
+[32m+[39m upickle.PrimitiveTests.Long.med [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Long.minInt [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Long.maxInt [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Long.min [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Long.max [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Long.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Long.invalid [2m0ms[0m  [34mjava.lang.NumberFormatException: a[39m
+[32m+[39m upickle.PrimitiveTests.BigInt.whole [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.BigInt.fractional [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.BigInt.negative [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.BigInt.big [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.BigInt.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.BigDecimal.whole [2m3ms[0m  
+[32m+[39m upickle.PrimitiveTests.BigDecimal.fractional [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.BigDecimal.negative [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.BigDecimal.big [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.BigDecimal.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Int.small [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.Int.med [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Int.min [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Int.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Double.whole [2m2ms[0m  
+[32m+[39m upickle.PrimitiveTests.Double.wholeLarge [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Double.fractional [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Double.negative [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Double.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Double.nan [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Short.simple [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.Short.min [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Short.max [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Short.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Short.all [2m962ms[0m  
+[32m+[39m upickle.PrimitiveTests.Byte.simple [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.Byte.min [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Byte.max [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Byte.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Byte.all [2m3ms[0m  
+[32m+[39m upickle.PrimitiveTests.Float.simple [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.Float.min [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Float.minPos [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Float.neg-inf [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Float.null [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Float.nan [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.Char.f [2m1ms[0m  
+[32m+[39m upickle.PrimitiveTests.Char.plus [2m0ms[0m  
+[32m+[39m upickle.PrimitiveTests.Char.all [2m729ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.0 [2m4ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.1 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.2 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.3 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.4 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.5 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.6 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.7 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.8 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.9 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.10 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.11 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.ujsonFailures.12 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.upickleFailures.0 [2m1ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.upickleFailures.1 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.upickleFailures.2 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.upickleFailures.3 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.upickleFailures.4 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.upickleFailures.5 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.upickleFailures.6 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.upickleFailures.7 [2m0ms[0m  
+[32m+[39m upickle.TraceVisitorTests.failures.upickleFailures.8 [2m0ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.DerivationTests.caseClassReader [2m2ms[0m  
+[32m+[39m upickle.DerivationTests.caseClassTaggedReader [2m1ms[0m  
+[32m+[39m upickle.DerivationTests.traitReader [2m2ms[0m  
+[32m+[39m upickle.DerivationTests.caseClassWriter [2m0ms[0m  
+[32m+[39m upickle.DerivationTests.caseObjectWriter [2m1ms[0m  
+[32m+[39m upickle.DerivationTests.caseObjectReader [2m0ms[0m  
+[32m+[39m upickle.DerivationTests.traitWriter [2m0ms[0m  
+[32m+[39m upickle.DerivationTests.readWriter [2m0ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.MacroTests.mixedIn.0 [2m4ms[0m  
+[32m+[39m upickle.MacroTests.mixedIn.1 [2m2ms[0m  
+[32m+[39m upickle.MacroTests.exponential [2m83ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.simpleAdt.0 [2m3ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.simpleAdt.1 [2m2ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.simpleAdt.2 [2m3ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.simpleAdt.3 [2m4ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.simpleAdt.4 [2m5ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.simpleAdt.5 [2m8ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.simpleAdt.6 [2m7ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.simpleAdt.7 [2m10ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.shallow.0 [2m8ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.shallow.1 [2m3ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.shallow.2 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.shallow.3 [2m0ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.shallow.4 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.shallow.5 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.0 [2m4ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.1 [2m4ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.2 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.3 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.4 [2m2ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.5 [2m2ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.6 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.7 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.8 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.9 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.10 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.11 [2m0ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.sealedHierarchy.deep.12 [2m0ms[0m  
+[32m+[39m upickle.MacroTests.commonCustomStructures.singleton [2m3ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.renameKeysViaAnnotations.0 [2m3ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.renameKeysViaAnnotations.1 [2m2ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.renameKeysViaAnnotations.2 [2m2ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.renameKeysViaAnnotations.3 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.useDefaults.0 [2m2ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.useDefaults.1 [2m0ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.useDefaults.2 [2m2ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.useDefaults.3 [2m0ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.useDefaults.4 [2m2ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.useDefaults.5 [2m0ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.useDefaults.6 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.useDefaults.7 [2m1ms[0m  
+[32m+[39m upickle.MacroTests.robustnessAgainstVaryingSchemas.ignoreExtraFieldsWhenDeserializing [2m0ms[0m  
+[32m+[39m upickle.MacroTests.custom.clsReaderWriter [2m1ms[0m  
+[32m+[39m upickle.MacroTests.custom.caseClsReaderWriter [2m0ms[0m  
+[32m+[39m upickle.MacroTests.varargs [2m3ms[0m  
+[32m+[39m upickle.MacroTests.defaultregression [2m0ms[0m  
+[32m+[39m upickle.MacroTests.defaultkeyregression [2m0ms[0m  
+[32m+[39m upickle.MacroTests.specialchars [2m4ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.EnumTests.simple.enum write [2m6ms[0m  
+[32m+[39m upickle.EnumTests.simple.enum read [2m0ms[0m  
+[32m+[39m upickle.EnumTests.simple.enum read failure [2m0ms[0m  
+[32m+[39m upickle.EnumTests.simple.enclosing write [2m1ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.JsonTests.correctness [2m3ms[0m  [34m("rosebud","rosebud")[39m
+[32m+[39m upickle.JsonTests.inputsSmall [2m0ms[0m  
+[32m+[39m upickle.JsonTests.inputs [2m2ms[0m  
+[32m+[39m upickle.JsonTests.shortcuts.positive [2m0ms[0m  
+[32m+[39m upickle.JsonTests.shortcuts.negative [2m1ms[0m  [34mujson.Value$InvalidData: Expected ujson.Obj (data: "1")[39m
+[32m+[39m upickle.JsonTests.writeBytesTo [2m1ms[0m  
+[32m+[39m upickle.JsonTests.writeBytesToSmall [2m0ms[0m  
+[32m+[39m upickle.JsonTests.inputsEu [2m1ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m upickle.StructTests.arrays.empty [2m3ms[0m  
+[32m+[39m upickle.StructTests.arrays.Boolean [2m1ms[0m  
+[32m+[39m upickle.StructTests.arrays.Int [2m0ms[0m  
+[32m+[39m upickle.StructTests.arrays.String [2m0ms[0m  
+[32m+[39m upickle.StructTests.arrays.Nulls [2m0ms[0m  
+[32m+[39m upickle.StructTests.tuples.null [2m0ms[0m  
+[32m+[39m upickle.StructTests.tuples.2 [2m0ms[0m  
+[32m+[39m upickle.StructTests.tuples.2-1 [2m0ms[0m  
+[32m+[39m upickle.StructTests.tuples.3 [2m0ms[0m  
+[32m+[39m upickle.StructTests.tuples.21 [2m2ms[0m  
+[32m+[39m upickle.StructTests.seqs.Seq [2m1ms[0m  
+[32m+[39m upickle.StructTests.seqs.Vector [2m0ms[0m  
+[32m+[39m upickle.StructTests.seqs.List [2m0ms[0m  
+[32m+[39m upickle.StructTests.seqs.Set [2m3ms[0m  
+[32m+[39m upickle.StructTests.seqs.SortedSet [2m3ms[0m  
+[32m+[39m upickle.StructTests.seqs.immutable.Set [2m1ms[0m  
+[32m+[39m upickle.StructTests.seqs.immutable.Seq [2m0ms[0m  
+[32m+[39m upickle.StructTests.seqs.immutable.List [2m0ms[0m  
+[32m+[39m upickle.StructTests.seqs.immutable.Queue [2m4ms[0m  
+[32m+[39m upickle.StructTests.seqs.mutable.Seq [2m1ms[0m  
+[32m+[39m upickle.StructTests.seqs.mutable.Buffer [2m0ms[0m  
+[32m+[39m upickle.StructTests.seqs.mutable.SortedSet [2m14ms[0m  
+[32m+[39m upickle.StructTests.maps.structured.Structured [2m2ms[0m  
+[32m+[39m upickle.StructTests.maps.structured.Structured2 [2m2ms[0m  
+[32m+[39m upickle.StructTests.maps.structured.Structured3 [2m1ms[0m  
+[32m+[39m upickle.StructTests.maps.structured.Structured4 [2m1ms[0m  
+[32m+[39m upickle.StructTests.maps.structured.StructuredEmpty [2m1ms[0m  
+[32m+[39m upickle.StructTests.maps.string.String [2m1ms[0m  
+[32m+[39m upickle.StructTests.maps.string.String2 [2m0ms[0m  
+[32m+[39m upickle.StructTests.maps.string.String3 [2m0ms[0m  
+[32m+[39m upickle.StructTests.maps.string.String4 [2m0ms[0m  
+[32m+[39m upickle.StructTests.maps.string.StringEmpty [2m0ms[0m  
+[32m+[39m upickle.StructTests.maps.primitive.ReadWriterJoin [2m1ms[0m  
+[32m+[39m upickle.StructTests.maps.primitive.boolean [2m0ms[0m  
+[32m+[39m upickle.StructTests.maps.primitive.int [2m0ms[0m  
+[32m+[39m upickle.StructTests.maps.primitive.long [2m0ms[0m  
+[32m+[39m upickle.StructTests.maps.primitive.char [2m0ms[0m  
+[32m+[39m upickle.StructTests.maps.primitive.uuid [2m0ms[0m  
+[32m+[39m upickle.StructTests.maps.primitive.symbol [2m1ms[0m  
+[32m+[39m upickle.StructTests.option.Some [2m0ms[0m  
+[32m+[39m upickle.StructTests.option.None [2m0ms[0m  
+[32m+[39m upickle.StructTests.option.Option [2m0ms[0m  
+[32m+[39m upickle.StructTests.either.Left [2m1ms[0m  
+[32m+[39m upickle.StructTests.either.Right [2m0ms[0m  
+[32m+[39m upickle.StructTests.either.Either [2m0ms[0m  
+[32m+[39m upickle.StructTests.combinations.SeqListMapOptionString [2m2ms[0m  
+[32m+[39m upickle.StructTests.combinations.NullySeqListMapOptionString [2m1ms[0m  
+[32m+[39m upickle.StructTests.combinations.tuples [2m0ms[0m  
+[32m+[39m upickle.StructTests.combinations.EitherDurationOptionDuration [2m2ms[0m  
+[32m+[39m upickle.StructTests.writeBytesTo.json [2m0ms[0m  
+[32m+[39m upickle.StructTests.writeBytesTo.msgpack [2m0ms[0m  
+[32m+[39m upickle.StructTests.transmutation.vectorToList [2m1ms[0m  
+[32m+[39m upickle.StructTests.transmutation.listToMap [2m0ms[0m  
+[32m+[39m upickle.StructTests.extra.UUID [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.value [2m1ms[0m  
+[32m+[39m upickle.StructTests.jsValue.str [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.num [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.obj.nested [2m1ms[0m  
+[32m+[39m upickle.StructTests.jsValue.obj.empty [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.arr.nonEmpty [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.arr.empty [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.true [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.true [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.false [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.false [2m0ms[0m  
+[32m+[39m upickle.StructTests.jsValue.null [2m0ms[0m  
+[32m[SUCCESS upickle][0m
+[32m[upickle DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 41.726s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 68 s (01:08), completed Jun 21, 2023, 9:48:27 PM

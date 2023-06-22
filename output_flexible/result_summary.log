@@ -1,0 +1,32 @@
+12 projects are successfully built:  
+	simulacrumScalafixAnnotations
+	effpi
+	fansi
+	geny
+	oslib
+	pprint
+	requests
+	scas
+	sourcecode
+	ujson
+	upickle
+	utest
+
+17 projects fail to build:  
+	betterfiles
+	endpoints4s
+	fastparse
+	intent
+	scalacheck
+	scalaCollectionCompat
+	scalaJava8Compat
+	scalap
+	scalaParserCombinators
+	scalaPB
+	scalaXml
+	sconfig
+	shapeless
+	specs2
+	stdLib213
+	verify
+	xmlInterpolator

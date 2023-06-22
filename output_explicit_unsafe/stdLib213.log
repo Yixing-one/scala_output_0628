@@ -1,0 +1,1403 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/project/project
+[info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Thu Jun 22 04:36:11 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 04:36:11 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 04:36:13 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 04:36:15 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 04:36:16 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 04:36:16 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -author set repeatedly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Flag -groups set repeatedly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -default-template set repeatedly
+[warn] Flag -author set repeatedly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Flag -groups set repeatedly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 04:36:17 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      No DRI found for query: MalformedNumber
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error]    |       ^
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[warn] 14 warnings found
+[warn] 28 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 04:36:32 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 04:36:32 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.stdLib213 started
+[32m[STARTING stdLib213][0m
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING stdLib213][0m
+[32mBuilding stdLib213 with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32msbt -Dscala.build.compileWithDotty=true -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; set Global / fatalWarnings := false; library/compile[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project stdlib213-build-build from plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/project/project
+[info] loading settings for project stdlib213-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/project
+[info] compiling 25 Scala sources to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/project/target/scala-2.12/sbt-1.0/classes ...
+[info] done compiling
+[info] loading settings for project root from build.sbt ...
+[info] resolving key references (23172 settings) ...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 66 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[success] Total time: 0 s, completed Jun 22, 2023, 4:37:02 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 203 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 72 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / scalacOptions
+[info] The new value will be used by Compile / scalacOptions, bench / scalacOptions and 25 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / fatalWarnings
+[info] The new value will be used by compiler / Compile / javacOptions, compiler / Compile / scalacOptions and 29 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:215:56 
+[error] 215 |      if (underlying.size() > 0) underlying.removeIf(!p(_))
+[error]     |                                                        ^
+[error]     |                                            Found:    (_$2 : A | Null)
+[error]     |                                            Required: A
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:340:21 
+[error] 340 |        case v    => v
+[error]     |                     ^
+[error]     |                     Found:    (v : V | Null)
+[error]     |                     Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:351:26 
+[error] 351 |        if (present) Some(result) else None
+[error]     |                          ^^^^^^
+[error]     |                          Found:    (result : V | Null)
+[error]     |                          Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:358:30 
+[error] 358 |        underlying.compute(k, recompute)
+[error]     |                              ^
+[error]     |                              Found:    (k0 : K | Null)
+[error]     |                              Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:371:41 
+[error] 371 |      try Option(underlying.compute(key, remap))
+[error]     |                                         ^
+[error]     |                                         Found:    (k : K | Null)
+[error]     |                                         Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:385:28 
+[error] 385 |      underlying.compute(k, recompute)
+[error]     |                            ^
+[error]     |                            Found:    (k0 : K | Null)
+[error]     |                            Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:462:21 
+[error] 462 |        case v    => v
+[error]     |                     ^
+[error]     |                     Found:    (v : V | Null)
+[error]     |                     Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:491:41 
+[error] 491 |      try Option(underlying.compute(key, remap))
+[error]     |                                         ^
+[error]     |                                         Found:    (k : K | Null)
+[error]     |                                         Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:183:54 
+[error] 183 |    def asJavaSeqStream: Stream[A] = java.util.Arrays.stream(a)
+[error]     |                                     ^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |None of the overloaded alternatives of method stream in object Arrays with types
+[error]     | (x$0: Array[Double] | Null, x$1: Int, x$2: Int): java.util.stream².DoubleStream
+[error]     |  | Null
+[error]     | (x$0: Array[Double] | Null): java.util.stream².DoubleStream | Null
+[error]     | (x$0: Array[Long] | Null, x$1: Int, x$2: Int): java.util.stream².LongStream |
+[error]     |  Null
+[error]     | (x$0: Array[Long] | Null): java.util.stream².LongStream | Null
+[error]     | (x$0: Array[Int] | Null, x$1: Int, x$2: Int): java.util.stream².IntStream | Null
+[error]     | (x$0: Array[Int] | Null): java.util.stream².IntStream | Null
+[error]     | [T]
+[error]     |  (x$0: Array[Object & T | Null] | Null, x$1: Int, x$2: Int):
+[error]     |    java.util.stream².Stream[T] | Null
+[error]     | [T](x$0: Array[Object & T² | Null] | Null): java.util.stream².Stream[T²] | Null
+[error]     |match arguments ((AnyArrayHasSeqParStream.this.a : Array[A]))
+[error]     |
+[error]     |where:    A       is a type in class AnyArrayHasSeqParStream with bounds <: AnyRef
+[error]     |          T       is a type variable with constraint <: Object
+[error]     |          T²      is a type variable with constraint <: Object
+[error]     |          stream  is a method in object Arrays
+[error]     |          stream² is a package in package java.util
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:424:61 
+[error] 424 |      def apply(s: Stream[Int]): IntStream = s.mapToInt(x => x)
+[error]     |                                                             ^
+[error]     |                                            Found:    (x : Int | Null)
+[error]     |                                            Required: Int
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:429:64 
+[error] 429 |      def apply(s: Stream[Long]): LongStream = s.mapToLong(x => x)
+[error]     |                                                                ^
+[error]     |                                           Found:    (x : Long | Null)
+[error]     |                                           Required: Long
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:434:70 
+[error] 434 |      def apply(s: Stream[Double]): DoubleStream = s.mapToDouble(x => x)
+[error]     |                                                                      ^
+[error]     |                                         Found:    (x : Double | Null)
+[error]     |                                         Required: Double
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/ArraySeq.scala:344:20 
+[error] 344 |        Arrays.sort(a, ord.asInstanceOf[Ordering[T]])
+[error]     |                    ^
+[error]     |       Found:    (a : Array[T])
+[error]     |       Required: Array[Object & T² | Null] | Null
+[error]     |
+[error]     |       where:    T  is a type in class ofRef with bounds <: AnyRef & B
+[error]     |                 T² is a type variable with constraint <: T
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1793:60 
+[error] 1793 |    if(start == 0 && end == a.length) a else copyOfRange[T](a, start, end)
+[error]      |                                                            ^
+[error]      |     Found:    (a : Array[T])
+[error]      |     Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |     where:    T is a type in method copyOrUse with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1795:82 
+[error] 1795 |  @inline final def copyTail[T <: AnyRef](a: Array[T]): Array[T] = copyOfRange[T](a, 1, a.length)
+[error]      |                                                                                  ^
+[error]      |      Found:    (a : Array[T])
+[error]      |      Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |      where:    T is a type in method copyTail with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1797:82 
+[error] 1797 |  @inline final def copyInit[T <: AnyRef](a: Array[T]): Array[T] = copyOfRange[T](a, 0, a.length-1)
+[error]      |                                                                                  ^
+[error]      |      Found:    (a : Array[T])
+[error]      |      Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |      where:    T is a type in method copyInit with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1800:41 
+[error] 1800 |    if(a.length == len) a else copyOf[T](a, len)
+[error]      |                                         ^
+[error]      |Found:    (a : Array[T])
+[error]      |Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |where:    T is a type in method copyIfDifferentSize with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1845:25 
+[error] 1845 |    val dest = copyOf[T](a, a.length+b.length)
+[error]      |                         ^
+[error]      |  Found:    (a : Array[T])
+[error]      |  Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |  where:    T is a type in method concatArrays with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1847:4 
+[error] 1847 |    dest
+[error]      |    ^^^^
+[error]      |  Found:    (dest : Array[T | Null])
+[error]      |  Required: Array[T]
+[error]      |
+[error]      |  where:    T is a type in method concatArrays with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1864:13 
+[error] 1864 |    val ac = copyOf(a, a.length+1)
+[error]      |             ^^^^^^
+[error]      |None of the overloaded alternatives of method copyOf in object Arrays with types
+[error]      | (x$0: Array[Boolean] | Null, x$1: Int): Array[Boolean] | Null
+[error]      | (x$0: Array[Double] | Null, x$1: Int): Array[Double] | Null
+[error]      | (x$0: Array[Float] | Null, x$1: Int): Array[Float] | Null
+[error]      | (x$0: Array[Char] | Null, x$1: Int): Array[Char] | Null
+[error]      | (x$0: Array[Long] | Null, x$1: Int): Array[Long] | Null
+[error]      | (x$0: Array[Int] | Null, x$1: Int): Array[Int] | Null
+[error]      | (x$0: Array[Short] | Null, x$1: Int): Array[Short] | Null
+[error]      | (x$0: Array[Byte] | Null, x$1: Int): Array[Byte] | Null
+[error]      | [T, U]
+[error]      |  (x$0: Array[Object & U | Null] | Null, x$1: Int, x$2:
+[error]      |    Class[? <: Array[Object & T]] | Null): Array[Object & T | Null] | Null
+[error]      | [T]
+[error]      |  (x$0: Array[Object & T² | Null] | Null, x$1: Int): Array[Object & T² | Null] |
+[error]      |     Null
+[error]      |match arguments ((a : Array[T³]), Int)
+[error]      |
+[error]      |where:    T  is a type variable with constraint <: Object
+[error]      |          T² is a type variable with constraint <: Object
+[error]      |          T³ is a type in method copyAppend with bounds <: AnyRef
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/mutable/ArrayBuilder.scala:110:38 
+[error] 110 |      else java.util.Arrays.copyOf[T](elems, size)
+[error]     |                                      ^^^^^
+[error]     |            Found:    (ofRef.this.elems : Array[T])
+[error]     |            Required: Array[Object & T | Null] | Null
+[error]     |
+[error]     |            where:    T is a type in class ofRef with bounds <: AnyRef
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/AnyAccumulator.scala:236:54 
+[error] 236 |  def adder[A]: jf.BiConsumer[AnyAccumulator[A], A] = (ac: AnyAccumulator[A], a: A) => ac addOne a
+[error]     |                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.AnyAccumulator[A], A) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.AnyAccumulator[A], A]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/DoubleAccumulator.scala:314:61 
+[error] 314 |  def boxedAdder: jf.BiConsumer[DoubleAccumulator, Double] = (ac: DoubleAccumulator, a: Double) => ac addOne a
+[error]     |                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.DoubleAccumulator, Double) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.DoubleAccumulator, Double]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/IntAccumulator.scala:319:55 
+[error] 319 |  def boxedAdder: jf.BiConsumer[IntAccumulator, Int] = (ac: IntAccumulator, a: Int) => ac addOne a
+[error]     |                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.IntAccumulator, Int) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.IntAccumulator, Int]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/LongAccumulator.scala:314:57 
+[error] 314 |  def boxedAdder: jf.BiConsumer[LongAccumulator, Long] = (ac: LongAccumulator, a: Long) => ac addOne a
+[error]     |                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.LongAccumulator, Long) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.LongAccumulator, Long]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 25 errors found
+[error] (library / Compile / compileIncremental) Compilation failed
+[error] Total time: 20 s, completed Jun 22, 2023, 4:37:28 AM
+[32mRerunning tests in stdLib213 because of a previous run failure.[0m
+[32msbt -Dscala.build.compileWithDotty=true -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; set Global / fatalWarnings := false; library/compile[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project stdlib213-build-build from plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/project/project
+[info] loading settings for project stdlib213-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/project
+[info] loading settings for project root from build.sbt ...
+[info] resolving key references (23172 settings) ...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 66 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[success] Total time: 0 s, completed Jun 22, 2023, 4:37:39 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 203 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 72 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / scalacOptions
+[info] The new value will be used by Compile / scalacOptions, bench / scalacOptions and 25 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / fatalWarnings
+[info] The new value will be used by compiler / Compile / javacOptions, compiler / Compile / scalacOptions and 29 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:215:56 
+[error] 215 |      if (underlying.size() > 0) underlying.removeIf(!p(_))
+[error]     |                                                        ^
+[error]     |                                            Found:    (_$2 : A | Null)
+[error]     |                                            Required: A
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:340:21 
+[error] 340 |        case v    => v
+[error]     |                     ^
+[error]     |                     Found:    (v : V | Null)
+[error]     |                     Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:351:26 
+[error] 351 |        if (present) Some(result) else None
+[error]     |                          ^^^^^^
+[error]     |                          Found:    (result : V | Null)
+[error]     |                          Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:358:30 
+[error] 358 |        underlying.compute(k, recompute)
+[error]     |                              ^
+[error]     |                              Found:    (k0 : K | Null)
+[error]     |                              Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:371:41 
+[error] 371 |      try Option(underlying.compute(key, remap))
+[error]     |                                         ^
+[error]     |                                         Found:    (k : K | Null)
+[error]     |                                         Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:385:28 
+[error] 385 |      underlying.compute(k, recompute)
+[error]     |                            ^
+[error]     |                            Found:    (k0 : K | Null)
+[error]     |                            Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:462:21 
+[error] 462 |        case v    => v
+[error]     |                     ^
+[error]     |                     Found:    (v : V | Null)
+[error]     |                     Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:491:41 
+[error] 491 |      try Option(underlying.compute(key, remap))
+[error]     |                                         ^
+[error]     |                                         Found:    (k : K | Null)
+[error]     |                                         Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:183:54 
+[error] 183 |    def asJavaSeqStream: Stream[A] = java.util.Arrays.stream(a)
+[error]     |                                     ^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |None of the overloaded alternatives of method stream in object Arrays with types
+[error]     | (x$0: Array[Double] | Null, x$1: Int, x$2: Int): java.util.stream².DoubleStream
+[error]     |  | Null
+[error]     | (x$0: Array[Double] | Null): java.util.stream².DoubleStream | Null
+[error]     | (x$0: Array[Long] | Null, x$1: Int, x$2: Int): java.util.stream².LongStream |
+[error]     |  Null
+[error]     | (x$0: Array[Long] | Null): java.util.stream².LongStream | Null
+[error]     | (x$0: Array[Int] | Null, x$1: Int, x$2: Int): java.util.stream².IntStream | Null
+[error]     | (x$0: Array[Int] | Null): java.util.stream².IntStream | Null
+[error]     | [T]
+[error]     |  (x$0: Array[Object & T | Null] | Null, x$1: Int, x$2: Int):
+[error]     |    java.util.stream².Stream[T] | Null
+[error]     | [T](x$0: Array[Object & T² | Null] | Null): java.util.stream².Stream[T²] | Null
+[error]     |match arguments ((AnyArrayHasSeqParStream.this.a : Array[A]))
+[error]     |
+[error]     |where:    A       is a type in class AnyArrayHasSeqParStream with bounds <: AnyRef
+[error]     |          T       is a type variable with constraint <: Object
+[error]     |          T²      is a type variable with constraint <: Object
+[error]     |          stream  is a method in object Arrays
+[error]     |          stream² is a package in package java.util
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:424:61 
+[error] 424 |      def apply(s: Stream[Int]): IntStream = s.mapToInt(x => x)
+[error]     |                                                             ^
+[error]     |                                            Found:    (x : Int | Null)
+[error]     |                                            Required: Int
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:429:64 
+[error] 429 |      def apply(s: Stream[Long]): LongStream = s.mapToLong(x => x)
+[error]     |                                                                ^
+[error]     |                                           Found:    (x : Long | Null)
+[error]     |                                           Required: Long
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:434:70 
+[error] 434 |      def apply(s: Stream[Double]): DoubleStream = s.mapToDouble(x => x)
+[error]     |                                                                      ^
+[error]     |                                         Found:    (x : Double | Null)
+[error]     |                                         Required: Double
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/ArraySeq.scala:344:20 
+[error] 344 |        Arrays.sort(a, ord.asInstanceOf[Ordering[T]])
+[error]     |                    ^
+[error]     |       Found:    (a : Array[T])
+[error]     |       Required: Array[Object & T² | Null] | Null
+[error]     |
+[error]     |       where:    T  is a type in class ofRef with bounds <: AnyRef & B
+[error]     |                 T² is a type variable with constraint <: T
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1793:60 
+[error] 1793 |    if(start == 0 && end == a.length) a else copyOfRange[T](a, start, end)
+[error]      |                                                            ^
+[error]      |     Found:    (a : Array[T])
+[error]      |     Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |     where:    T is a type in method copyOrUse with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1795:82 
+[error] 1795 |  @inline final def copyTail[T <: AnyRef](a: Array[T]): Array[T] = copyOfRange[T](a, 1, a.length)
+[error]      |                                                                                  ^
+[error]      |      Found:    (a : Array[T])
+[error]      |      Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |      where:    T is a type in method copyTail with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1797:82 
+[error] 1797 |  @inline final def copyInit[T <: AnyRef](a: Array[T]): Array[T] = copyOfRange[T](a, 0, a.length-1)
+[error]      |                                                                                  ^
+[error]      |      Found:    (a : Array[T])
+[error]      |      Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |      where:    T is a type in method copyInit with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1800:41 
+[error] 1800 |    if(a.length == len) a else copyOf[T](a, len)
+[error]      |                                         ^
+[error]      |Found:    (a : Array[T])
+[error]      |Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |where:    T is a type in method copyIfDifferentSize with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1845:25 
+[error] 1845 |    val dest = copyOf[T](a, a.length+b.length)
+[error]      |                         ^
+[error]      |  Found:    (a : Array[T])
+[error]      |  Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |  where:    T is a type in method concatArrays with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1847:4 
+[error] 1847 |    dest
+[error]      |    ^^^^
+[error]      |  Found:    (dest : Array[T | Null])
+[error]      |  Required: Array[T]
+[error]      |
+[error]      |  where:    T is a type in method concatArrays with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1864:13 
+[error] 1864 |    val ac = copyOf(a, a.length+1)
+[error]      |             ^^^^^^
+[error]      |None of the overloaded alternatives of method copyOf in object Arrays with types
+[error]      | (x$0: Array[Boolean] | Null, x$1: Int): Array[Boolean] | Null
+[error]      | (x$0: Array[Double] | Null, x$1: Int): Array[Double] | Null
+[error]      | (x$0: Array[Float] | Null, x$1: Int): Array[Float] | Null
+[error]      | (x$0: Array[Char] | Null, x$1: Int): Array[Char] | Null
+[error]      | (x$0: Array[Long] | Null, x$1: Int): Array[Long] | Null
+[error]      | (x$0: Array[Int] | Null, x$1: Int): Array[Int] | Null
+[error]      | (x$0: Array[Short] | Null, x$1: Int): Array[Short] | Null
+[error]      | (x$0: Array[Byte] | Null, x$1: Int): Array[Byte] | Null
+[error]      | [T, U]
+[error]      |  (x$0: Array[Object & U | Null] | Null, x$1: Int, x$2:
+[error]      |    Class[? <: Array[Object & T]] | Null): Array[Object & T | Null] | Null
+[error]      | [T]
+[error]      |  (x$0: Array[Object & T² | Null] | Null, x$1: Int): Array[Object & T² | Null] |
+[error]      |     Null
+[error]      |match arguments ((a : Array[T³]), Int)
+[error]      |
+[error]      |where:    T  is a type variable with constraint <: Object
+[error]      |          T² is a type variable with constraint <: Object
+[error]      |          T³ is a type in method copyAppend with bounds <: AnyRef
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/mutable/ArrayBuilder.scala:110:38 
+[error] 110 |      else java.util.Arrays.copyOf[T](elems, size)
+[error]     |                                      ^^^^^
+[error]     |            Found:    (ofRef.this.elems : Array[T])
+[error]     |            Required: Array[Object & T | Null] | Null
+[error]     |
+[error]     |            where:    T is a type in class ofRef with bounds <: AnyRef
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/AnyAccumulator.scala:236:54 
+[error] 236 |  def adder[A]: jf.BiConsumer[AnyAccumulator[A], A] = (ac: AnyAccumulator[A], a: A) => ac addOne a
+[error]     |                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.AnyAccumulator[A], A) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.AnyAccumulator[A], A]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/DoubleAccumulator.scala:314:61 
+[error] 314 |  def boxedAdder: jf.BiConsumer[DoubleAccumulator, Double] = (ac: DoubleAccumulator, a: Double) => ac addOne a
+[error]     |                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.DoubleAccumulator, Double) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.DoubleAccumulator, Double]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/IntAccumulator.scala:319:55 
+[error] 319 |  def boxedAdder: jf.BiConsumer[IntAccumulator, Int] = (ac: IntAccumulator, a: Int) => ac addOne a
+[error]     |                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.IntAccumulator, Int) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.IntAccumulator, Int]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/LongAccumulator.scala:314:57 
+[error] 314 |  def boxedAdder: jf.BiConsumer[LongAccumulator, Long] = (ac: LongAccumulator, a: Long) => ac addOne a
+[error]     |                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.LongAccumulator, Long) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.LongAccumulator, Long]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 25 errors found
+[error] (library / Compile / compileIncremental) Compilation failed
+[error] Total time: 21 s, completed Jun 22, 2023, 4:38:07 AM
+[32mRerunning tests in stdLib213 because of a previous run failure.[0m
+[32msbt -Dscala.build.compileWithDotty=true -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; set Global / fatalWarnings := false; library/compile[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project stdlib213-build-build from plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/project/project
+[info] loading settings for project stdlib213-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/project
+[info] loading settings for project root from build.sbt ...
+[info] resolving key references (23172 settings) ...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 66 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[success] Total time: 0 s, completed Jun 22, 2023, 4:38:18 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 203 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 72 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / scalacOptions
+[info] The new value will be used by Compile / scalacOptions, bench / scalacOptions and 25 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / fatalWarnings
+[info] The new value will be used by compiler / Compile / javacOptions, compiler / Compile / scalacOptions and 29 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:215:56 
+[error] 215 |      if (underlying.size() > 0) underlying.removeIf(!p(_))
+[error]     |                                                        ^
+[error]     |                                            Found:    (_$2 : A | Null)
+[error]     |                                            Required: A
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:340:21 
+[error] 340 |        case v    => v
+[error]     |                     ^
+[error]     |                     Found:    (v : V | Null)
+[error]     |                     Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:351:26 
+[error] 351 |        if (present) Some(result) else None
+[error]     |                          ^^^^^^
+[error]     |                          Found:    (result : V | Null)
+[error]     |                          Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:358:30 
+[error] 358 |        underlying.compute(k, recompute)
+[error]     |                              ^
+[error]     |                              Found:    (k0 : K | Null)
+[error]     |                              Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:371:41 
+[error] 371 |      try Option(underlying.compute(key, remap))
+[error]     |                                         ^
+[error]     |                                         Found:    (k : K | Null)
+[error]     |                                         Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:385:28 
+[error] 385 |      underlying.compute(k, recompute)
+[error]     |                            ^
+[error]     |                            Found:    (k0 : K | Null)
+[error]     |                            Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:462:21 
+[error] 462 |        case v    => v
+[error]     |                     ^
+[error]     |                     Found:    (v : V | Null)
+[error]     |                     Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:491:41 
+[error] 491 |      try Option(underlying.compute(key, remap))
+[error]     |                                         ^
+[error]     |                                         Found:    (k : K | Null)
+[error]     |                                         Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:183:54 
+[error] 183 |    def asJavaSeqStream: Stream[A] = java.util.Arrays.stream(a)
+[error]     |                                     ^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |None of the overloaded alternatives of method stream in object Arrays with types
+[error]     | (x$0: Array[Double] | Null, x$1: Int, x$2: Int): java.util.stream².DoubleStream
+[error]     |  | Null
+[error]     | (x$0: Array[Double] | Null): java.util.stream².DoubleStream | Null
+[error]     | (x$0: Array[Long] | Null, x$1: Int, x$2: Int): java.util.stream².LongStream |
+[error]     |  Null
+[error]     | (x$0: Array[Long] | Null): java.util.stream².LongStream | Null
+[error]     | (x$0: Array[Int] | Null, x$1: Int, x$2: Int): java.util.stream².IntStream | Null
+[error]     | (x$0: Array[Int] | Null): java.util.stream².IntStream | Null
+[error]     | [T]
+[error]     |  (x$0: Array[Object & T | Null] | Null, x$1: Int, x$2: Int):
+[error]     |    java.util.stream².Stream[T] | Null
+[error]     | [T](x$0: Array[Object & T² | Null] | Null): java.util.stream².Stream[T²] | Null
+[error]     |match arguments ((AnyArrayHasSeqParStream.this.a : Array[A]))
+[error]     |
+[error]     |where:    A       is a type in class AnyArrayHasSeqParStream with bounds <: AnyRef
+[error]     |          T       is a type variable with constraint <: Object
+[error]     |          T²      is a type variable with constraint <: Object
+[error]     |          stream  is a method in object Arrays
+[error]     |          stream² is a package in package java.util
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:424:61 
+[error] 424 |      def apply(s: Stream[Int]): IntStream = s.mapToInt(x => x)
+[error]     |                                                             ^
+[error]     |                                            Found:    (x : Int | Null)
+[error]     |                                            Required: Int
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:429:64 
+[error] 429 |      def apply(s: Stream[Long]): LongStream = s.mapToLong(x => x)
+[error]     |                                                                ^
+[error]     |                                           Found:    (x : Long | Null)
+[error]     |                                           Required: Long
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:434:70 
+[error] 434 |      def apply(s: Stream[Double]): DoubleStream = s.mapToDouble(x => x)
+[error]     |                                                                      ^
+[error]     |                                         Found:    (x : Double | Null)
+[error]     |                                         Required: Double
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/ArraySeq.scala:344:20 
+[error] 344 |        Arrays.sort(a, ord.asInstanceOf[Ordering[T]])
+[error]     |                    ^
+[error]     |       Found:    (a : Array[T])
+[error]     |       Required: Array[Object & T² | Null] | Null
+[error]     |
+[error]     |       where:    T  is a type in class ofRef with bounds <: AnyRef & B
+[error]     |                 T² is a type variable with constraint <: T
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1793:60 
+[error] 1793 |    if(start == 0 && end == a.length) a else copyOfRange[T](a, start, end)
+[error]      |                                                            ^
+[error]      |     Found:    (a : Array[T])
+[error]      |     Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |     where:    T is a type in method copyOrUse with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1795:82 
+[error] 1795 |  @inline final def copyTail[T <: AnyRef](a: Array[T]): Array[T] = copyOfRange[T](a, 1, a.length)
+[error]      |                                                                                  ^
+[error]      |      Found:    (a : Array[T])
+[error]      |      Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |      where:    T is a type in method copyTail with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1797:82 
+[error] 1797 |  @inline final def copyInit[T <: AnyRef](a: Array[T]): Array[T] = copyOfRange[T](a, 0, a.length-1)
+[error]      |                                                                                  ^
+[error]      |      Found:    (a : Array[T])
+[error]      |      Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |      where:    T is a type in method copyInit with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1800:41 
+[error] 1800 |    if(a.length == len) a else copyOf[T](a, len)
+[error]      |                                         ^
+[error]      |Found:    (a : Array[T])
+[error]      |Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |where:    T is a type in method copyIfDifferentSize with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1845:25 
+[error] 1845 |    val dest = copyOf[T](a, a.length+b.length)
+[error]      |                         ^
+[error]      |  Found:    (a : Array[T])
+[error]      |  Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |  where:    T is a type in method concatArrays with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1847:4 
+[error] 1847 |    dest
+[error]      |    ^^^^
+[error]      |  Found:    (dest : Array[T | Null])
+[error]      |  Required: Array[T]
+[error]      |
+[error]      |  where:    T is a type in method concatArrays with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1864:13 
+[error] 1864 |    val ac = copyOf(a, a.length+1)
+[error]      |             ^^^^^^
+[error]      |None of the overloaded alternatives of method copyOf in object Arrays with types
+[error]      | (x$0: Array[Boolean] | Null, x$1: Int): Array[Boolean] | Null
+[error]      | (x$0: Array[Double] | Null, x$1: Int): Array[Double] | Null
+[error]      | (x$0: Array[Float] | Null, x$1: Int): Array[Float] | Null
+[error]      | (x$0: Array[Char] | Null, x$1: Int): Array[Char] | Null
+[error]      | (x$0: Array[Long] | Null, x$1: Int): Array[Long] | Null
+[error]      | (x$0: Array[Int] | Null, x$1: Int): Array[Int] | Null
+[error]      | (x$0: Array[Short] | Null, x$1: Int): Array[Short] | Null
+[error]      | (x$0: Array[Byte] | Null, x$1: Int): Array[Byte] | Null
+[error]      | [T, U]
+[error]      |  (x$0: Array[Object & U | Null] | Null, x$1: Int, x$2:
+[error]      |    Class[? <: Array[Object & T]] | Null): Array[Object & T | Null] | Null
+[error]      | [T]
+[error]      |  (x$0: Array[Object & T² | Null] | Null, x$1: Int): Array[Object & T² | Null] |
+[error]      |     Null
+[error]      |match arguments ((a : Array[T³]), Int)
+[error]      |
+[error]      |where:    T  is a type variable with constraint <: Object
+[error]      |          T² is a type variable with constraint <: Object
+[error]      |          T³ is a type in method copyAppend with bounds <: AnyRef
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/mutable/ArrayBuilder.scala:110:38 
+[error] 110 |      else java.util.Arrays.copyOf[T](elems, size)
+[error]     |                                      ^^^^^
+[error]     |            Found:    (ofRef.this.elems : Array[T])
+[error]     |            Required: Array[Object & T | Null] | Null
+[error]     |
+[error]     |            where:    T is a type in class ofRef with bounds <: AnyRef
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/AnyAccumulator.scala:236:54 
+[error] 236 |  def adder[A]: jf.BiConsumer[AnyAccumulator[A], A] = (ac: AnyAccumulator[A], a: A) => ac addOne a
+[error]     |                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.AnyAccumulator[A], A) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.AnyAccumulator[A], A]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/DoubleAccumulator.scala:314:61 
+[error] 314 |  def boxedAdder: jf.BiConsumer[DoubleAccumulator, Double] = (ac: DoubleAccumulator, a: Double) => ac addOne a
+[error]     |                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.DoubleAccumulator, Double) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.DoubleAccumulator, Double]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/IntAccumulator.scala:319:55 
+[error] 319 |  def boxedAdder: jf.BiConsumer[IntAccumulator, Int] = (ac: IntAccumulator, a: Int) => ac addOne a
+[error]     |                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.IntAccumulator, Int) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.IntAccumulator, Int]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/LongAccumulator.scala:314:57 
+[error] 314 |  def boxedAdder: jf.BiConsumer[LongAccumulator, Long] = (ac: LongAccumulator, a: Long) => ac addOne a
+[error]     |                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.LongAccumulator, Long) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.LongAccumulator, Long]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 25 errors found
+[error] (library / Compile / compileIncremental) Compilation failed
+[error] Total time: 21 s, completed Jun 22, 2023, 4:38:46 AM
+[32mRerunning tests in stdLib213 because of a previous run failure.[0m
+[32msbt -Dscala.build.compileWithDotty=true -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; set Global / fatalWarnings := false; library/compile[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project stdlib213-build-build from plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/project/project
+[info] loading settings for project stdlib213-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/project
+[info] loading settings for project root from build.sbt ...
+[info] resolving key references (23172 settings) ...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 66 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[success] Total time: 0 s, completed Jun 22, 2023, 4:38:56 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 203 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 72 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / scalacOptions
+[info] The new value will be used by Compile / scalacOptions, bench / scalacOptions and 25 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[info] Defining Global / fatalWarnings
+[info] The new value will be used by compiler / Compile / javacOptions, compiler / Compile / scalacOptions and 29 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] *** Welcome to the sbt build definition for Scala! ***
+[info] version=2.13.9-bin-SNAPSHOT scalaVersion=3.2.0
+[info] Check README.md for more information.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:215:56 
+[error] 215 |      if (underlying.size() > 0) underlying.removeIf(!p(_))
+[error]     |                                                        ^
+[error]     |                                            Found:    (_$2 : A | Null)
+[error]     |                                            Required: A
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:340:21 
+[error] 340 |        case v    => v
+[error]     |                     ^
+[error]     |                     Found:    (v : V | Null)
+[error]     |                     Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:351:26 
+[error] 351 |        if (present) Some(result) else None
+[error]     |                          ^^^^^^
+[error]     |                          Found:    (result : V | Null)
+[error]     |                          Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:358:30 
+[error] 358 |        underlying.compute(k, recompute)
+[error]     |                              ^
+[error]     |                              Found:    (k0 : K | Null)
+[error]     |                              Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:371:41 
+[error] 371 |      try Option(underlying.compute(key, remap))
+[error]     |                                         ^
+[error]     |                                         Found:    (k : K | Null)
+[error]     |                                         Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:385:28 
+[error] 385 |      underlying.compute(k, recompute)
+[error]     |                            ^
+[error]     |                            Found:    (k0 : K | Null)
+[error]     |                            Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:462:21 
+[error] 462 |        case v    => v
+[error]     |                     ^
+[error]     |                     Found:    (v : V | Null)
+[error]     |                     Required: V
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/JavaCollectionWrappers.scala:491:41 
+[error] 491 |      try Option(underlying.compute(key, remap))
+[error]     |                                         ^
+[error]     |                                         Found:    (k : K | Null)
+[error]     |                                         Required: K
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:183:54 
+[error] 183 |    def asJavaSeqStream: Stream[A] = java.util.Arrays.stream(a)
+[error]     |                                     ^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |None of the overloaded alternatives of method stream in object Arrays with types
+[error]     | (x$0: Array[Double] | Null, x$1: Int, x$2: Int): java.util.stream².DoubleStream
+[error]     |  | Null
+[error]     | (x$0: Array[Double] | Null): java.util.stream².DoubleStream | Null
+[error]     | (x$0: Array[Long] | Null, x$1: Int, x$2: Int): java.util.stream².LongStream |
+[error]     |  Null
+[error]     | (x$0: Array[Long] | Null): java.util.stream².LongStream | Null
+[error]     | (x$0: Array[Int] | Null, x$1: Int, x$2: Int): java.util.stream².IntStream | Null
+[error]     | (x$0: Array[Int] | Null): java.util.stream².IntStream | Null
+[error]     | [T]
+[error]     |  (x$0: Array[Object & T | Null] | Null, x$1: Int, x$2: Int):
+[error]     |    java.util.stream².Stream[T] | Null
+[error]     | [T](x$0: Array[Object & T² | Null] | Null): java.util.stream².Stream[T²] | Null
+[error]     |match arguments ((AnyArrayHasSeqParStream.this.a : Array[A]))
+[error]     |
+[error]     |where:    A       is a type in class AnyArrayHasSeqParStream with bounds <: AnyRef
+[error]     |          T       is a type variable with constraint <: Object
+[error]     |          T²      is a type variable with constraint <: Object
+[error]     |          stream  is a method in object Arrays
+[error]     |          stream² is a package in package java.util
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:424:61 
+[error] 424 |      def apply(s: Stream[Int]): IntStream = s.mapToInt(x => x)
+[error]     |                                                             ^
+[error]     |                                            Found:    (x : Int | Null)
+[error]     |                                            Required: Int
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:429:64 
+[error] 429 |      def apply(s: Stream[Long]): LongStream = s.mapToLong(x => x)
+[error]     |                                                                ^
+[error]     |                                           Found:    (x : Long | Null)
+[error]     |                                           Required: Long
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/convert/StreamExtensions.scala:434:70 
+[error] 434 |      def apply(s: Stream[Double]): DoubleStream = s.mapToDouble(x => x)
+[error]     |                                                                      ^
+[error]     |                                         Found:    (x : Double | Null)
+[error]     |                                         Required: Double
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/ArraySeq.scala:344:20 
+[error] 344 |        Arrays.sort(a, ord.asInstanceOf[Ordering[T]])
+[error]     |                    ^
+[error]     |       Found:    (a : Array[T])
+[error]     |       Required: Array[Object & T² | Null] | Null
+[error]     |
+[error]     |       where:    T  is a type in class ofRef with bounds <: AnyRef & B
+[error]     |                 T² is a type variable with constraint <: T
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1793:60 
+[error] 1793 |    if(start == 0 && end == a.length) a else copyOfRange[T](a, start, end)
+[error]      |                                                            ^
+[error]      |     Found:    (a : Array[T])
+[error]      |     Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |     where:    T is a type in method copyOrUse with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1795:82 
+[error] 1795 |  @inline final def copyTail[T <: AnyRef](a: Array[T]): Array[T] = copyOfRange[T](a, 1, a.length)
+[error]      |                                                                                  ^
+[error]      |      Found:    (a : Array[T])
+[error]      |      Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |      where:    T is a type in method copyTail with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1797:82 
+[error] 1797 |  @inline final def copyInit[T <: AnyRef](a: Array[T]): Array[T] = copyOfRange[T](a, 0, a.length-1)
+[error]      |                                                                                  ^
+[error]      |      Found:    (a : Array[T])
+[error]      |      Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |      where:    T is a type in method copyInit with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1800:41 
+[error] 1800 |    if(a.length == len) a else copyOf[T](a, len)
+[error]      |                                         ^
+[error]      |Found:    (a : Array[T])
+[error]      |Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |where:    T is a type in method copyIfDifferentSize with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1845:25 
+[error] 1845 |    val dest = copyOf[T](a, a.length+b.length)
+[error]      |                         ^
+[error]      |  Found:    (a : Array[T])
+[error]      |  Required: Array[Object & T | Null] | Null
+[error]      |
+[error]      |  where:    T is a type in method concatArrays with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1847:4 
+[error] 1847 |    dest
+[error]      |    ^^^^
+[error]      |  Found:    (dest : Array[T | Null])
+[error]      |  Required: Array[T]
+[error]      |
+[error]      |  where:    T is a type in method concatArrays with bounds <: AnyRef
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/immutable/Vector.scala:1864:13 
+[error] 1864 |    val ac = copyOf(a, a.length+1)
+[error]      |             ^^^^^^
+[error]      |None of the overloaded alternatives of method copyOf in object Arrays with types
+[error]      | (x$0: Array[Boolean] | Null, x$1: Int): Array[Boolean] | Null
+[error]      | (x$0: Array[Double] | Null, x$1: Int): Array[Double] | Null
+[error]      | (x$0: Array[Float] | Null, x$1: Int): Array[Float] | Null
+[error]      | (x$0: Array[Char] | Null, x$1: Int): Array[Char] | Null
+[error]      | (x$0: Array[Long] | Null, x$1: Int): Array[Long] | Null
+[error]      | (x$0: Array[Int] | Null, x$1: Int): Array[Int] | Null
+[error]      | (x$0: Array[Short] | Null, x$1: Int): Array[Short] | Null
+[error]      | (x$0: Array[Byte] | Null, x$1: Int): Array[Byte] | Null
+[error]      | [T, U]
+[error]      |  (x$0: Array[Object & U | Null] | Null, x$1: Int, x$2:
+[error]      |    Class[? <: Array[Object & T]] | Null): Array[Object & T | Null] | Null
+[error]      | [T]
+[error]      |  (x$0: Array[Object & T² | Null] | Null, x$1: Int): Array[Object & T² | Null] |
+[error]      |     Null
+[error]      |match arguments ((a : Array[T³]), Int)
+[error]      |
+[error]      |where:    T  is a type variable with constraint <: Object
+[error]      |          T² is a type variable with constraint <: Object
+[error]      |          T³ is a type in method copyAppend with bounds <: AnyRef
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/collection/mutable/ArrayBuilder.scala:110:38 
+[error] 110 |      else java.util.Arrays.copyOf[T](elems, size)
+[error]     |                                      ^^^^^
+[error]     |            Found:    (ofRef.this.elems : Array[T])
+[error]     |            Required: Array[Object & T | Null] | Null
+[error]     |
+[error]     |            where:    T is a type in class ofRef with bounds <: AnyRef
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/AnyAccumulator.scala:236:54 
+[error] 236 |  def adder[A]: jf.BiConsumer[AnyAccumulator[A], A] = (ac: AnyAccumulator[A], a: A) => ac addOne a
+[error]     |                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.AnyAccumulator[A], A) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.AnyAccumulator[A], A]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/DoubleAccumulator.scala:314:61 
+[error] 314 |  def boxedAdder: jf.BiConsumer[DoubleAccumulator, Double] = (ac: DoubleAccumulator, a: Double) => ac addOne a
+[error]     |                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.DoubleAccumulator, Double) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.DoubleAccumulator, Double]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/IntAccumulator.scala:319:55 
+[error] 319 |  def boxedAdder: jf.BiConsumer[IntAccumulator, Int] = (ac: IntAccumulator, a: Int) => ac addOne a
+[error]     |                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.IntAccumulator, Int) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.IntAccumulator, Int]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/stdLib213/src/library/scala/jdk/LongAccumulator.scala:314:57 
+[error] 314 |  def boxedAdder: jf.BiConsumer[LongAccumulator, Long] = (ac: LongAccumulator, a: Long) => ac addOne a
+[error]     |                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (scala.jdk.LongAccumulator, Long) => Unit
+[error]     |Required: java.util.function.BiConsumer[scala.jdk.LongAccumulator, Long]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 25 errors found
+[error] (library / Compile / compileIncremental) Compilation failed
+[error] Total time: 21 s, completed Jun 22, 2023, 4:39:24 AM
+[32m[FAILURE stdLib213][0m
+[32m[stdLib213 DONE RUNNING][0m
+[error] Test dotty.communitybuild.CommunityBuildTestC.stdLib213 failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/stdLib213
+[error]     sbt -Dscala.build.compileWithDotty=true -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; set Global / fatalWarnings := false; library/compile"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 171.57 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.stdLib213(CommunityBuildTest.scala:98)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 1 failed, 0 ignored, 1 total, 171.574s
+********************************************************************************
+Failed projects:
+ - dotty.communitybuild.CommunityBuildTestC.stdLib213
+********************************************************************************
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 195 s (03:15), completed Jun 22, 2023, 4:39:25 AM

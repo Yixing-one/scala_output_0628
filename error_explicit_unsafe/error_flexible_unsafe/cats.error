@@ -1,0 +1,101 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error]    |       ^
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/tests/shared/src/test/scala/cats/tests/AlgebraInvariantSuite.scala:182:78 
+[error] 182 |  protected val integralForMiniInt: Numeric[MiniInt] with Integral[MiniInt] = new MiniIntNumeric
+[error]     |                                                                              ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: cats.laws.discipline.MiniInt, y: cats.laws.discipline.MiniInt): Int in trait MiniIntNumeric in trait ScalaVersionSpecificAlgebraInvariantSuite)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/tests/shared/src/test/scala/cats/tests/AlgebraInvariantSuite.scala:326:52 
+[error] 326 |    val fractionalForMiniInt: Fractional[MiniInt] = new MiniIntNumeric with Fractional[MiniInt] {
+[error]     |                                                    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: cats.laws.discipline.MiniInt, y: cats.laws.discipline.MiniInt): Int in trait MiniIntNumeric in trait ScalaVersionSpecificAlgebraInvariantSuite)
+[error] two errors found
+[error] (testsJVM / Test / compileIncremental) Compilation failed
+[error] Total time: 104 s (01:44), completed Jun 22, 2023, 1:29:41 AM
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/tests/shared/src/test/scala/cats/tests/AlgebraInvariantSuite.scala:182:78 
+[error] 182 |  protected val integralForMiniInt: Numeric[MiniInt] with Integral[MiniInt] = new MiniIntNumeric
+[error]     |                                                                              ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: cats.laws.discipline.MiniInt, y: cats.laws.discipline.MiniInt): Int in trait MiniIntNumeric in trait ScalaVersionSpecificAlgebraInvariantSuite)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/tests/shared/src/test/scala/cats/tests/AlgebraInvariantSuite.scala:326:52 
+[error] 326 |    val fractionalForMiniInt: Fractional[MiniInt] = new MiniIntNumeric with Fractional[MiniInt] {
+[error]     |                                                    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: cats.laws.discipline.MiniInt, y: cats.laws.discipline.MiniInt): Int in trait MiniIntNumeric in trait ScalaVersionSpecificAlgebraInvariantSuite)
+[error] two errors found
+[error] (testsJVM / Test / compileIncremental) Compilation failed
+[error] Total time: 103 s (01:43), completed Jun 22, 2023, 1:31:54 AM
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/tests/shared/src/test/scala/cats/tests/AlgebraInvariantSuite.scala:182:78 
+[error] 182 |  protected val integralForMiniInt: Numeric[MiniInt] with Integral[MiniInt] = new MiniIntNumeric
+[error]     |                                                                              ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: cats.laws.discipline.MiniInt, y: cats.laws.discipline.MiniInt): Int in trait MiniIntNumeric in trait ScalaVersionSpecificAlgebraInvariantSuite)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/tests/shared/src/test/scala/cats/tests/AlgebraInvariantSuite.scala:326:52 
+[error] 326 |    val fractionalForMiniInt: Fractional[MiniInt] = new MiniIntNumeric with Fractional[MiniInt] {
+[error]     |                                                    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: cats.laws.discipline.MiniInt, y: cats.laws.discipline.MiniInt): Int in trait MiniIntNumeric in trait ScalaVersionSpecificAlgebraInvariantSuite)
+[error] two errors found
+[error] (testsJVM / Test / compileIncremental) Compilation failed
+[error] Total time: 105 s (01:45), completed Jun 22, 2023, 1:34:08 AM
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/tests/shared/src/test/scala/cats/tests/AlgebraInvariantSuite.scala:182:78 
+[error] 182 |  protected val integralForMiniInt: Numeric[MiniInt] with Integral[MiniInt] = new MiniIntNumeric
+[error]     |                                                                              ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: cats.laws.discipline.MiniInt, y: cats.laws.discipline.MiniInt): Int in trait MiniIntNumeric in trait ScalaVersionSpecificAlgebraInvariantSuite)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/cats/tests/shared/src/test/scala/cats/tests/AlgebraInvariantSuite.scala:326:52 
+[error] 326 |    val fractionalForMiniInt: Fractional[MiniInt] = new MiniIntNumeric with Fractional[MiniInt] {
+[error]     |                                                    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: cats.laws.discipline.MiniInt, y: cats.laws.discipline.MiniInt): Int in trait MiniIntNumeric in trait ScalaVersionSpecificAlgebraInvariantSuite)
+[error] two errors found
+[error] (testsJVM / Test / compileIncremental) Compilation failed
+[error] Total time: 106 s (01:46), completed Jun 22, 2023, 1:36:24 AM
+[error] Test dotty.communitybuild.CommunityBuildTestB.cats failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/cats
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; set Global/scalaJSStage := FastOptStage;rootJVM/test;rootJS/test"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 693.078 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestB.cats(CommunityBuildTest.scala:39)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestB
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 721 s (12:01), completed Jun 22, 2023, 1:36:27 AM

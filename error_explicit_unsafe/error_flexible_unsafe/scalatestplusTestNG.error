@@ -1,0 +1,335 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error] 13 |object IArray:
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |       ^
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/FiniteDouble.scala:730:4 
+[error] 730 |    new Ordering[FiniteDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.FiniteDouble, y: org.scalactic.anyvals.FiniteDouble)
+[error]     |    : Int in anonymous class Object with Ordering[org.scalactic.anyvals.FiniteDouble] {...}
+[error]     |   in object FiniteDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/FiniteFloat.scala:753:4 
+[error] 753 |    new Ordering[FiniteFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.FiniteFloat, y: org.scalactic.anyvals.FiniteFloat):
+[error]     |    Int in anonymous class Object with Ordering[org.scalactic.anyvals.FiniteFloat] {...}
+[error]     |   in object FiniteFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegDouble.scala:771:4 
+[error] 771 |    new Ordering[NegDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NegDouble, y: org.scalactic.anyvals.NegDouble): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegDouble] {...} in
+[error]     |  object NegDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegFiniteDouble.scala:776:4 
+[error] 776 |    new Ordering[NegFiniteDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NegFiniteDouble, y:
+[error]     |    org.scalactic.anyvals.NegFiniteDouble): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegFiniteDouble]
+[error]     |  {...} in object NegFiniteDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegFiniteFloat.scala:843:4 
+[error] 843 |    new Ordering[NegFiniteFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NegFiniteFloat, y:
+[error]     |    org.scalactic.anyvals.NegFiniteFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegFiniteFloat] {...}
+[error]     |   in object NegFiniteFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegFloat.scala:811:4 
+[error] 811 |    new Ordering[NegFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NegFloat, y: org.scalactic.anyvals.NegFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegFloat] {...} in
+[error]     |  object NegFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegInt.scala:1142:4 
+[error] 1142 |    new Ordering[NegInt] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.NegInt, y: org.scalactic.anyvals.NegInt): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegInt] {...} in
+[error]      |  object NegInt)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegLong.scala:1151:4 
+[error] 1151 |    new Ordering[NegLong] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.NegLong, y: org.scalactic.anyvals.NegLong): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegLong] {...} in
+[error]      |  object NegLong)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegZDouble.scala:752:4 
+[error] 752 |    new Ordering[NegZDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NegZDouble, y: org.scalactic.anyvals.NegZDouble):
+[error]     |    Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegZDouble] {...} in
+[error]     |  object NegZDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegZFiniteDouble.scala:740:4 
+[error] 740 |    new Ordering[NegZFiniteDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NegZFiniteDouble, y:
+[error]     |    org.scalactic.anyvals.NegZFiniteDouble): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegZFiniteDouble]
+[error]     |  {...} in object NegZFiniteDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegZFiniteFloat.scala:780:4 
+[error] 780 |    new Ordering[NegZFiniteFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NegZFiniteFloat, y:
+[error]     |    org.scalactic.anyvals.NegZFiniteFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegZFiniteFloat]
+[error]     |  {...} in object NegZFiniteFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegZFloat.scala:775:4 
+[error] 775 |    new Ordering[NegZFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NegZFloat, y: org.scalactic.anyvals.NegZFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegZFloat] {...} in
+[error]     |  object NegZFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegZInt.scala:1070:4 
+[error] 1070 |    new Ordering[NegZInt] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.NegZInt, y: org.scalactic.anyvals.NegZInt): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegZInt] {...} in
+[error]      |  object NegZInt)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NegZLong.scala:1097:4 
+[error] 1097 |    new Ordering[NegZLong] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.NegZLong, y: org.scalactic.anyvals.NegZLong): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NegZLong] {...} in
+[error]      |  object NegZLong)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NonZeroDouble.scala:733:4 
+[error] 733 |    new Ordering[NonZeroDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NonZeroDouble, y:
+[error]     |    org.scalactic.anyvals.NonZeroDouble): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NonZeroDouble] {...}
+[error]     |   in object NonZeroDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NonZeroFiniteDouble.scala:722:4 
+[error] 722 |    new Ordering[NonZeroFiniteDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NonZeroFiniteDouble, y:
+[error]     |    org.scalactic.anyvals.NonZeroFiniteDouble): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NonZeroFiniteDouble]
+[error]     |  {...} in object NonZeroFiniteDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NonZeroFiniteFloat.scala:762:4 
+[error] 762 |    new Ordering[NonZeroFiniteFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NonZeroFiniteFloat, y:
+[error]     |    org.scalactic.anyvals.NonZeroFiniteFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.NonZeroFiniteFloat]
+[error]     |  {...} in object NonZeroFiniteFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NonZeroFloat.scala:756:4 
+[error] 756 |    new Ordering[NonZeroFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.NonZeroFloat, y: org.scalactic.anyvals.NonZeroFloat)
+[error]     |    : Int in anonymous class Object with Ordering[org.scalactic.anyvals.NonZeroFloat] {...}
+[error]     |   in object NonZeroFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NonZeroInt.scala:1070:4 
+[error] 1070 |    new Ordering[NonZeroInt] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.NonZeroInt, y: org.scalactic.anyvals.NonZeroInt):
+[error]      |    Int in anonymous class Object with Ordering[org.scalactic.anyvals.NonZeroInt] {...} in
+[error]      |  object NonZeroInt)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/NonZeroLong.scala:1097:4 
+[error] 1097 |    new Ordering[NonZeroLong] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.NonZeroLong, y: org.scalactic.anyvals.NonZeroLong):
+[error]      |    Int in anonymous class Object with Ordering[org.scalactic.anyvals.NonZeroLong] {...}
+[error]      |   in object NonZeroLong)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosDouble.scala:771:4 
+[error] 771 |    new Ordering[PosDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosDouble, y: org.scalactic.anyvals.PosDouble): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosDouble] {...} in
+[error]     |  object PosDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosDouble.scala:791:4 
+[error] 791 |    new Ordering[PosDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosDouble, y: org.scalactic.anyvals.PosDouble): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosDouble] {...} in
+[error]     |  object PosDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosFiniteDouble.scala:776:4 
+[error] 776 |    new Ordering[PosFiniteDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosFiniteDouble, y:
+[error]     |    org.scalactic.anyvals.PosFiniteDouble): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosFiniteDouble]
+[error]     |  {...} in object PosFiniteDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosFiniteFloat.scala:843:4 
+[error] 843 |    new Ordering[PosFiniteFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosFiniteFloat, y:
+[error]     |    org.scalactic.anyvals.PosFiniteFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosFiniteFloat] {...}
+[error]     |   in object PosFiniteFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosFloat.scala:811:4 
+[error] 811 |    new Ordering[PosFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosFloat, y: org.scalactic.anyvals.PosFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosFloat] {...} in
+[error]     |  object PosFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosFloat.scala:831:4 
+[error] 831 |    new Ordering[PosFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosFloat, y: org.scalactic.anyvals.PosFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosFloat] {...} in
+[error]     |  object PosFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosInt.scala:1142:4 
+[error] 1142 |    new Ordering[PosInt] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.PosInt, y: org.scalactic.anyvals.PosInt): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosInt] {...} in
+[error]      |  object PosInt)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosInt.scala:1152:4 
+[error] 1152 |    new Ordering[PosInt] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.PosInt, y: org.scalactic.anyvals.PosInt): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosInt] {...} in
+[error]      |  object PosInt)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosLong.scala:1151:4 
+[error] 1151 |    new Ordering[PosLong] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.PosLong, y: org.scalactic.anyvals.PosLong): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosLong] {...} in
+[error]      |  object PosLong)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosLong.scala:1161:4 
+[error] 1161 |    new Ordering[PosLong] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.PosLong, y: org.scalactic.anyvals.PosLong): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosLong] {...} in
+[error]      |  object PosLong)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZDouble.scala:752:4 
+[error] 752 |    new Ordering[PosZDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosZDouble, y: org.scalactic.anyvals.PosZDouble):
+[error]     |    Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZDouble] {...} in
+[error]     |  object PosZDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZDouble.scala:772:4 
+[error] 772 |    new Ordering[PosZDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosZDouble, y: org.scalactic.anyvals.PosZDouble):
+[error]     |    Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZDouble] {...} in
+[error]     |  object PosZDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZFiniteDouble.scala:740:4 
+[error] 740 |    new Ordering[PosZFiniteDouble] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosZFiniteDouble, y:
+[error]     |    org.scalactic.anyvals.PosZFiniteDouble): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZFiniteDouble]
+[error]     |  {...} in object PosZFiniteDouble)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZFiniteFloat.scala:780:4 
+[error] 780 |    new Ordering[PosZFiniteFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosZFiniteFloat, y:
+[error]     |    org.scalactic.anyvals.PosZFiniteFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZFiniteFloat]
+[error]     |  {...} in object PosZFiniteFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZFloat.scala:775:4 
+[error] 775 |    new Ordering[PosZFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosZFloat, y: org.scalactic.anyvals.PosZFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZFloat] {...} in
+[error]     |  object PosZFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZFloat.scala:795:4 
+[error] 795 |    new Ordering[PosZFloat] {
+[error]     |    ^
+[error]     |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]     |(The class implements a member with a different type: def compare
+[error]     |  (x: org.scalactic.anyvals.PosZFloat, y: org.scalactic.anyvals.PosZFloat): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZFloat] {...} in
+[error]     |  object PosZFloat)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZInt.scala:1070:4 
+[error] 1070 |    new Ordering[PosZInt] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.PosZInt, y: org.scalactic.anyvals.PosZInt): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZInt] {...} in
+[error]      |  object PosZInt)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZInt.scala:1080:4 
+[error] 1080 |    new Ordering[PosZInt] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.PosZInt, y: org.scalactic.anyvals.PosZInt): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZInt] {...} in
+[error]      |  object PosZInt)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZLong.scala:1097:4 
+[error] 1097 |    new Ordering[PosZLong] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.PosZLong, y: org.scalactic.anyvals.PosZLong): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZLong] {...} in
+[error]      |  object PosZLong)
+[error] -- Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalatest/dotty/scalactic/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalactic/anyvals/PosZLong.scala:1107:4 
+[error] 1107 |    new Ordering[PosZLong] {
+[error]      |    ^
+[error]      |object creation impossible, since def compare(x$0: T | Null, x$1: T | Null): Int in trait Comparator in package java.util is not defined 
+[error]      |(The class implements a member with a different type: def compare
+[error]      |  (x: org.scalactic.anyvals.PosZLong, y: org.scalactic.anyvals.PosZLong): Int in anonymous class Object with Ordering[org.scalactic.anyvals.PosZLong] {...} in
+[error]      |  object PosZLong)
+[error] 40 errors found
+[error] (scalacticDotty / Compile / compileIncremental) Compilation failed
+[error] Total time: 11 s, completed Jun 22, 2023, 1:19:39 AM
+[error] Test dotty.communitybuild.CommunityBuildTestA.scalatestplusTestNG failed: java.lang.RuntimeException: Publish command exited with code 1 for project scalatest. Project details:
+[error] SbtCommunityProject(scalatest,scalacticDotty/clean; scalacticDottyJS/clean; set scalatestTestDotty / Test / managedSources ~= (_.filterNot(_.getName == "GeneratorSpec.scala").filterNot(_.getName == "FrameworkSuite.scala").filterNot(_.getName == "WaitersSpec.scala").filterNot(_.getName == "TestSortingReporterSpec.scala").filterNot(_.getName == "JavaFuturesSpec.scala").filterNot(_.getName == "ParallelTestExecutionSpec.scala").filterNot(_.getName == "TimeLimitsSpec.scala").filterNot(_.getName == "DispatchReporterSpec.scala").filterNot(_.getName == "TestThreadsStartingCounterSpec.scala").filterNot(_.getName == "SuiteSortingReporterSpec.scala").filterNot(_.getName == "CommonGeneratorsSpec.scala").filterNot(_.getName == "PropCheckerAssertingSpec.scala").filterNot(_.getName == "ConductorMethodsSuite.scala").filterNot(_.getName == "EventuallySpec.scala")); set scalacticTestDotty / Test / managedSources ~= (_.filterNot(_.getName == "NonEmptyArraySpec.scala")); set genRegularTests4 / Test / managedSources ~= (_.filterNot(_.getName == "FrameworkSuite.scala").filterNot(_.getName == "GeneratorSpec.scala").filterNot(_.getName == "CommonGeneratorsSpec.scala").filterNot(_.getName == "ParallelTestExecutionSpec.scala").filterNot(_.getName == "DispatchReporterSpec.scala").filterNot(_.getName == "TestThreadsStartingCounterSpec.scala").filterNot(_.getName == "EventuallySpec.scala")); scalacticTestDotty/test; scalatestTestDotty/test; scalacticDottyJS/compile; scalatestDottyJS/compile,List(),List(SbtCommunityProject(scala-xml,xml/test,List(),List(),dotty.communitybuild.SbtCommunityProject$$$Lambda$50/806437851@44c9cfec,xml/publishLocal,xml/doc,List(-Xcheck-macros, -Ysafe-init, -Yexplicit-nulls, -language:unsafeNulls),false)),dotty.communitybuild.projects$$$Lambda$54/830440705@50928cef,scalacticDotty/publishLocal; scalatestDotty/publishLocal; scalacticDottyJS/publishLocal; scalatestDottyJS/publishLocal,;scalacticDotty/doc,List(-Xcheck-macros, -Ysafe-init, -Yexplicit-nulls, -language:unsafeNulls),false), took 98.668 sec
+[error]     at dotty.communitybuild.CommunityProject.publish(projects.scala:64)
+[error]     at dotty.communitybuild.CommunityProject.publish$(projects.scala:35)
+[error]     at dotty.communitybuild.SbtCommunityProject.publish(projects.scala:104)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run$$anonfun$1(CommunityBuildRunner.scala:24)
+[error]     at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+[error]     at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+[error]     at scala.collection.immutable.List.foreach(List.scala:333)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:24)
+[error]     at dotty.communitybuild.CommunityBuildTestA.scalatestplusTestNG(CommunityBuildTest.scala:22)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestA
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 124 s (02:04), completed Jun 22, 2023, 1:19:40 AM

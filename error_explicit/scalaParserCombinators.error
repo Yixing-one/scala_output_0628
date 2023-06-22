@@ -1,0 +1,257 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/combinator/lexical/Scanners.scala:46:52 
+[error] 46 |    def this(in: String) = this(new CharArrayReader(in.toCharArray))
+[error]    |                                                    ^^^^^^^^^^^^^^
+[error]    |                                            Found:    Array[Char] | Null
+[error]    |                                            Required: Array[Char]
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/CharArrayReader.scala:29:55 
+[error] 29 |    extends CharSequenceReader(java.nio.CharBuffer.wrap(chars), index)
+[error]    |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                               Found:    java.nio.CharBuffer | Null
+[error]    |                               Required: CharSequence
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/OffsetPosition.scala:28:37 
+[error] 28 |    Option(OffsetPosition.indexCache.get(source)) match {
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value get is not a member of java.util.Map[CharSequence, Array[Int]] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.Map[CharSequence, Array[Int]] | Null could be null at runtime.
+[error]    |If you want to select get without checking for a null value,
+[error]    |insert a .nn before .get or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/OffsetPosition.scala:32:34 
+[error] 32 |        OffsetPosition.indexCache.put(source, index)
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value put is not a member of java.util.Map[CharSequence, Array[Int]] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.Map[CharSequence, Array[Int]] | Null could be null at runtime.
+[error]    |If you want to select put without checking for a null value,
+[error]    |insert a .nn before .put or import scala.language.unsafeNulls.
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:133:38 
+[error] 133 |    while (absindex >= current.end && current.next != null)
+[error]     |                                      ^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:207:24 
+[error] 207 |  var next  : Page[T] = null
+[error]     |                        ^^^^
+[error]     |Found:    Null
+[error]     |Required: scala.util.parsing.input.Page[T]
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than scala.util.parsing.input.Page[T]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:233:11 
+[error] 233 |    while (later.next != null) later = later.next
+[error]     |           ^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:234:11 
+[error] 234 |    while (oldLater.next != null) {
+[error]     |           ^^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] 8 errors found
+[error] (parserCombinatorsJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 7 s, completed Jun 22, 2023, 12:31:21 AM
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/combinator/lexical/Scanners.scala:46:52 
+[error] 46 |    def this(in: String) = this(new CharArrayReader(in.toCharArray))
+[error]    |                                                    ^^^^^^^^^^^^^^
+[error]    |                                            Found:    Array[Char] | Null
+[error]    |                                            Required: Array[Char]
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/CharArrayReader.scala:29:55 
+[error] 29 |    extends CharSequenceReader(java.nio.CharBuffer.wrap(chars), index)
+[error]    |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                               Found:    java.nio.CharBuffer | Null
+[error]    |                               Required: CharSequence
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/OffsetPosition.scala:28:37 
+[error] 28 |    Option(OffsetPosition.indexCache.get(source)) match {
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value get is not a member of java.util.Map[CharSequence, Array[Int]] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.Map[CharSequence, Array[Int]] | Null could be null at runtime.
+[error]    |If you want to select get without checking for a null value,
+[error]    |insert a .nn before .get or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/OffsetPosition.scala:32:34 
+[error] 32 |        OffsetPosition.indexCache.put(source, index)
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value put is not a member of java.util.Map[CharSequence, Array[Int]] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.Map[CharSequence, Array[Int]] | Null could be null at runtime.
+[error]    |If you want to select put without checking for a null value,
+[error]    |insert a .nn before .put or import scala.language.unsafeNulls.
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:133:38 
+[error] 133 |    while (absindex >= current.end && current.next != null)
+[error]     |                                      ^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:207:24 
+[error] 207 |  var next  : Page[T] = null
+[error]     |                        ^^^^
+[error]     |Found:    Null
+[error]     |Required: scala.util.parsing.input.Page[T]
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than scala.util.parsing.input.Page[T]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:233:11 
+[error] 233 |    while (later.next != null) later = later.next
+[error]     |           ^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:234:11 
+[error] 234 |    while (oldLater.next != null) {
+[error]     |           ^^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] 8 errors found
+[error] (parserCombinatorsJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 7 s, completed Jun 22, 2023, 12:31:40 AM
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/combinator/lexical/Scanners.scala:46:52 
+[error] 46 |    def this(in: String) = this(new CharArrayReader(in.toCharArray))
+[error]    |                                                    ^^^^^^^^^^^^^^
+[error]    |                                            Found:    Array[Char] | Null
+[error]    |                                            Required: Array[Char]
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/CharArrayReader.scala:29:55 
+[error] 29 |    extends CharSequenceReader(java.nio.CharBuffer.wrap(chars), index)
+[error]    |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                               Found:    java.nio.CharBuffer | Null
+[error]    |                               Required: CharSequence
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/OffsetPosition.scala:28:37 
+[error] 28 |    Option(OffsetPosition.indexCache.get(source)) match {
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value get is not a member of java.util.Map[CharSequence, Array[Int]] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.Map[CharSequence, Array[Int]] | Null could be null at runtime.
+[error]    |If you want to select get without checking for a null value,
+[error]    |insert a .nn before .get or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/OffsetPosition.scala:32:34 
+[error] 32 |        OffsetPosition.indexCache.put(source, index)
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value put is not a member of java.util.Map[CharSequence, Array[Int]] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.Map[CharSequence, Array[Int]] | Null could be null at runtime.
+[error]    |If you want to select put without checking for a null value,
+[error]    |insert a .nn before .put or import scala.language.unsafeNulls.
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:133:38 
+[error] 133 |    while (absindex >= current.end && current.next != null)
+[error]     |                                      ^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:207:24 
+[error] 207 |  var next  : Page[T] = null
+[error]     |                        ^^^^
+[error]     |Found:    Null
+[error]     |Required: scala.util.parsing.input.Page[T]
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than scala.util.parsing.input.Page[T]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:233:11 
+[error] 233 |    while (later.next != null) later = later.next
+[error]     |           ^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:234:11 
+[error] 234 |    while (oldLater.next != null) {
+[error]     |           ^^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] 8 errors found
+[error] (parserCombinatorsJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:31:59 AM
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/combinator/lexical/Scanners.scala:46:52 
+[error] 46 |    def this(in: String) = this(new CharArrayReader(in.toCharArray))
+[error]    |                                                    ^^^^^^^^^^^^^^
+[error]    |                                            Found:    Array[Char] | Null
+[error]    |                                            Required: Array[Char]
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/CharArrayReader.scala:29:55 
+[error] 29 |    extends CharSequenceReader(java.nio.CharBuffer.wrap(chars), index)
+[error]    |                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                               Found:    java.nio.CharBuffer | Null
+[error]    |                               Required: CharSequence
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/OffsetPosition.scala:28:37 
+[error] 28 |    Option(OffsetPosition.indexCache.get(source)) match {
+[error]    |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value get is not a member of java.util.Map[CharSequence, Array[Int]] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.Map[CharSequence, Array[Int]] | Null could be null at runtime.
+[error]    |If you want to select get without checking for a null value,
+[error]    |insert a .nn before .get or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/OffsetPosition.scala:32:34 
+[error] 32 |        OffsetPosition.indexCache.put(source, index)
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value put is not a member of java.util.Map[CharSequence, Array[Int]] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.Map[CharSequence, Array[Int]] | Null could be null at runtime.
+[error]    |If you want to select put without checking for a null value,
+[error]    |insert a .nn before .put or import scala.language.unsafeNulls.
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:133:38 
+[error] 133 |    while (absindex >= current.end && current.next != null)
+[error]     |                                      ^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:207:24 
+[error] 207 |  var next  : Page[T] = null
+[error]     |                        ^^^^
+[error]     |Found:    Null
+[error]     |Required: scala.util.parsing.input.Page[T]
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than scala.util.parsing.input.Page[T]
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:233:11 
+[error] 233 |    while (later.next != null) later = later.next
+[error]     |           ^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-parser-combinators/shared/src/main/scala/scala/util/parsing/input/PagedSeq.scala:234:11 
+[error] 234 |    while (oldLater.next != null) {
+[error]     |           ^^^^^^^^^^^^^^^^^^^^^
+[error]     |Values of types scala.util.parsing.input.Page[T] and Null cannot be compared with == or !=
+[error] 8 errors found
+[error] (parserCombinatorsJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 7 s, completed Jun 22, 2023, 12:32:18 AM
+[error] Test dotty.communitybuild.CommunityBuildTestC.scalaParserCombinators failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/scala-parser-combinators
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; set every versionPolicyIntention := Compatibility.None; parserCombinatorsJVM/test"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 78.383 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.scalaParserCombinators(CommunityBuildTest.scala:88)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 103 s (01:43), completed Jun 22, 2023, 12:32:19 AM

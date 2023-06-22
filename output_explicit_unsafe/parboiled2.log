@@ -1,0 +1,428 @@
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/project/project
+[info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/project
+[info] loading settings for project scala3 from build.sbt ...
+[info] resolving key references (31394 settings) ...
+[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/)
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Thu Jun 22 03:56:44 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 03:56:44 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 03:56:45 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 03:56:48 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 03:56:48 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 03:56:48 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Flag -project-logo set repeatedly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Flag -author set repeatedly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -groups set repeatedly
+[warn] Flag -author set repeatedly
+[warn] Flag -default-template set repeatedly
+[warn] Flag -groups set repeatedly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 03:56:49 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      No DRI found for query: MalformedNumber
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[warn] 28 warnings found
+[warn] 14 warnings found
+[error] one error found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 03:57:06 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 22 03:57:06 EDT 2023
+[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Test run dotty.communitybuild.CommunityBuildTestA started
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Test run dotty.communitybuild.CommunityBuildTestC started
+[info] Test dotty.communitybuild.CommunityBuildTestC.parboiled2 started
+[32m[STARTING parboiled2][0m
+[32mPublishing utest[0m
+[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal[0m
+[1/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].resources 
+[1A[2K[9999D[4/58] mill.scalalib.ZincWorkerModule.worker 
+[1A[2K[9999D[6/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.JavaModule.sources 
+[1A[2K[9999D[7/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources.overridden.mill.scalalib.CrossScalaModule.sources 
+[1A[2K[9999D[8/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].sources 
+[1A[2K[9999D[41/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState.overridden.de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+fatal: no tag exactly matches 'eae17c7a4d0d63bab1406ca75791d3cb6394233d'
+[1A[2K[9999D[42/58] de.tobiasroeser.mill.vcs.version.VcsVersion.vcsState 
+[1A[2K[9999D[58/58] utest.jvm[3.3.1-RC1-bin-SNAPSHOT].publishLocal 
+Publishing Artifact(com.lihaoyi,utest_3,v0.6.8-204-eae17c) to ivy repo /Users/y3536zha/.ivy2/local
+[32mPublishing scalacheck[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project scalacheck-build from plugin.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/project
+[info] loading settings for project root from build.sbt ...
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[success] Total time: 0 s, completed Jun 22, 2023, 3:57:20 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 64 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 21 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by bench / scalacOptions, coreJS / scalacOptions and 5 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[success] Total time: 19 s, completed Jun 22, 2023, 3:57:42 AM
+[success] Total time: 10 s, completed Jun 22, 2023, 3:57:52 AM
+[32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING parboiled2][0m
+[32mBuilding parboiled2 with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Ysafe-init","-Yexplicit-nulls","-language:unsafeNulls");++3.3.1-RC1-bin-SNAPSHOT!; parboiledCoreJVM/test; parboiledJVM/test[0m
+[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
+[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] loading settings for project parboiled2-build from plugins.sbt,sbt-injected-plugins ...
+[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/parboiled2/project
+[info] compiling 1 Scala source to /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/parboiled2/project/target/scala-2.12/sbt-1.0/classes ...
+[info] done compiling
+[info] loading settings for project root from build.sbt,version.sbt ...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/parboiled2/)
+[info] Defining Global / testOptions
+[info] The new value will be used by Test / test / testOptions, Test / testOnly / testOptions and 30 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/parboiled2/)
+[success] Total time: 0 s, completed Jun 22, 2023, 3:58:09 AM
+[info] Defining Global / logLevel
+[info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 80 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/parboiled2/)
+[info] Defining Global / updateOptions
+[info] The new value will be used by dependencyTreeIgnoreMissingUpdate / updateOptions, examples / dependencyTreeIgnoreMissingUpdate / updateOptions and 27 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/parboiled2/)
+[info] Defining Global / scalacOptions
+[info] The new value will be used by examples / scalacOptions, jsonBenchmark / scalacOptions and 7 others.
+[info] 	Run `last` for details.
+[info] Reapplying settings...
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/parboiled2/)
+[info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
+[info] Reapplying settings...
+[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] set current project to root (in build file:/Users/y3536zha/Desktop/scala_explicit_unsafe_2/scala_flexible_type_with_test_script/community-build/community-projects/parboiled2/)
+Default dialect is deprecated; use explicit: [Scala211,scala212,Scala212Source3,scala213,Scala213Source3,Sbt0137,Sbt1,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+[32m+[39m org.parboiled2.RunningSpec.Running a rule should support several notations.parser.rule.run() [2m31ms[0m  
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`capture` simple [2m34ms[0m  [34morg.parboiled2.ActionSpec$$anon$1@23f944ab[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.push, size, toList [2m31ms[0m  [34mIterable(42, yes, 3.0)[39m
+[32m+[39m org.parboiled2.ReductionResetSpec.ReductionResetSpec.reduction reset in `|` [2m26ms[0m  [34morg.parboiled2.ReductionResetSpec$$anon$1@29b064cf[39m
+[32m+[39m org.parboiled2.ReductionTypeSpec.Repeating combinators should properly compute their reduction result types.OneOrMore [2m26ms[0m  
+[32m+[39m org.parboiled2.RunSubParserSpec.`runSubParser` should.work as expected [2m94ms[0m  [34morg.parboiled2.RunSubParserSpec$$anon$1@5cb8db70[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.simple char literals [2m46ms[0m  [34morg.parboiled2.BasicSpec$$anon$1@69e9ed1a[39m
+[32m+[39m org.parboiled2.DefaultArgumentsSpec.The `push` action.properly handle default arguments [2m34ms[0m  
+[32m+[39m org.parboiled2.MetaRuleSpec.Rule transformation should be possible.using vals and `run` [2m46ms[0m  [34morg.parboiled2.MetaRuleSpec$$anon$1@7b4f3332[39m
+[32m+[39m org.parboiled2.util.Base64Spec.Base64 [2m34ms[0m  
+[32m+[39m org.parboiled2.ReductionTypeSpec.Repeating combinators should properly compute their reduction result types.ZeroOrMore [2m0ms[0m  
+[32m+[39m org.parboiled2.RunningSpec.Running a rule should support several notations.new Parser(...).rule.run() [2m0ms[0m  
++ OK, passed 100 tests.
+[32m+[39m org.parboiled2.ReductionResetSpec.ReductionResetSpec.reduction reset in `zeroOrMore` [2m0ms[0m  [34morg.parboiled2.ReductionResetSpec$$anon$2@25cddba[39m
+[32m+[39m org.parboiled2.CharUtilsSpec.CharUtils.hexValue [2m65ms[0m  
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.a simple char `val` [2m1ms[0m  [34morg.parboiled2.BasicSpec$$anon$2@515b59ab[39m
+[32m+[39m org.parboiled2.ReductionTypeSpec.Repeating combinators should properly compute their reduction result types.Optional [2m0ms[0m  
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`capture` [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$2@30344c28[39m
+[32m+[39m org.parboiled2.RunningSpec.Running a rule should support several notations.parser.rule(args).run() [2m0ms[0m  
+[32m+[39m org.parboiled2.ReductionTypeSpec.Repeating combinators should properly compute their reduction result types.Times [2m0ms[0m  
+[32m+[39m org.parboiled2.ReductionResetSpec.ReductionResetSpec.reduction reset in `oneOrMore` [2m0ms[0m  [34morg.parboiled2.ReductionResetSpec$$anon$3@3f6c3ed[39m
+[32m+[39m org.parboiled2.RunningSpec.Running a rule should support several notations.parser.rule[targs].run() [2m0ms[0m  
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.a simple char `def` [2m0ms[0m  [34morg.parboiled2.BasicSpec$$anon$3@7ff231f8[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.pushAll, toHList [2m2ms[0m  [34mIterable(42, yes, 4.5)[39m
+[32m+[39m org.parboiled2.RunningSpec.Running a rule should support several notations.this.rule.run() [2m0ms[0m  
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`test` [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$3@353a39cf[39m
+[32m+[39m org.parboiled2.RunningSpec.Running a rule should support several notations.rule(B ~ EOI).run() [2m0ms[0m  
+[32m+[39m org.parboiled2.RunningSpec.Running a rule should support several notations.namedRule(B ~ EOI).run() [2m0ms[0m  
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`run(nonRuleExpr)` [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$4@5530ec70[39m
+[32m+[39m org.parboiled2.TailrecSpec.The TailrecParser parser.be able to match 100,000 chars without overflowing the stack [2m151ms[0m  [34morg.parboiled2.TailrecSpec$$anon$1@343b3197[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.simple string literals [2m2ms[0m  [34morg.parboiled2.BasicSpec$$anon$4@55e41916[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.insert [2m2ms[0m  [34mIterable(1, 1.5, 2, 3)[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`run(ruleBlockWithRuleCall)` [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$5@796330d0[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.a simple string `val` [2m1ms[0m  [34morg.parboiled2.BasicSpec$$anon$5@326ff62b[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.pop [2m1ms[0m  [34mIterable()[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.a simple string `def` [2m1ms[0m  [34morg.parboiled2.BasicSpec$$anon$6@40d59d13[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`run(ruleBlockWithNestedRuleDef)` [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$6@79c8d140[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.a CharPredicate [2m0ms[0m  [34morg.parboiled2.BasicSpec$$anon$7@79a92e80[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`run(ruleBlockWithRuleIf)` [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$7@67df64c1[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.pullOut [2m1ms[0m  [34mIterable(2, 4)[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.anyOf [2m1ms[0m  [34morg.parboiled2.BasicSpec$$anon$8@16a4cfff[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`run(ruleBlockWithRuleMatch)` [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$8@1486a370[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.peek [2m1ms[0m  [34mIterable(1, 2, 3)[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.noneOf [2m2ms[0m  [34morg.parboiled2.BasicSpec$$anon$9@2c756e8e[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.poke [2m2ms[0m  [34mIterable(1, 2, 3)[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`run(F1producingUnit)` [2m2ms[0m  [34morg.parboiled2.ActionSpec$$anon$9@4e4521d4[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`run(F2producingValue)` [2m0ms[0m  [34morg.parboiled2.ActionSpec$$anon$10@201254e9[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.swap [2m1ms[0m  [34mIterable(1)[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.ignoreCase(char) [2m2ms[0m  [34morg.parboiled2.BasicSpec$$anon$10@52a2efa9[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`run(F2producingHList)` [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$11@242e03c2[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.ignoreCase(string) [2m2ms[0m  [34morg.parboiled2.BasicSpec$$anon$11@56a2d3b[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.swap3 [2m2ms[0m  [34mIterable(3, 2)[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`run(F1producingRule)` [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$12@409f53a5[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`push` simple value [2m0ms[0m  [34morg.parboiled2.ActionSpec$$anon$13@4313748b[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.ANY [2m0ms[0m  [34morg.parboiled2.BasicSpec$$anon$12@5504de72[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.swap4 [2m2ms[0m  [34mIterable(4, 3, 2)[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`push` HList [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$14@222cf4b9[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.EOI [2m1ms[0m  [34morg.parboiled2.BasicSpec$$anon$13@43882c49[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`drop[Int]` [2m0ms[0m  [34morg.parboiled2.ActionSpec$$anon$15@57b4d561[39m
+[32m+[39m org.parboiled2.ValueStackSpec.The ValueStack should properly support.swap5 [2m1ms[0m  [34mIterable(5, 4, 3, 2)[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`drop[Int :: String :: HNil]` [2m0ms[0m  [34morg.parboiled2.ActionSpec$$anon$16@2ea3b63c[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.character ranges [2m2ms[0m  [34morg.parboiled2.BasicSpec$$anon$14@598c3dd3[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`~>` producing `Unit` [2m0ms[0m  [34morg.parboiled2.ActionSpec$$anon$17@a3aeba4[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.MATCH [2m0ms[0m  [34morg.parboiled2.BasicSpec$$anon$15@f56ed18[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.called rules [2m0ms[0m  [34morg.parboiled2.BasicSpec$$anon$16@49522d9f[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`~>` producing case class (simple notation) [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$18@2d96fc39[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`~>` full take [2m0ms[0m  [34morg.parboiled2.ActionSpec$$anon$19@14b4533a[39m
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`~>` partial take [2m0ms[0m  [34morg.parboiled2.ActionSpec$$anon$20@1c958a6b[39m
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`~>` producing HList [2m0ms[0m  [34morg.parboiled2.ActionSpec$$anon$21@1544da30[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`~>` with a statement block [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$22@6547623f[39m
+[32m+[39m org.parboiled2.nestedpackage.AlienPackageParserSpec.Parsers in files that dont explicitly import org.parboiled2._.compile [2m1ms[0m  
+[32m+[39m org.parboiled2.CustomCharAndStringExpansionSpec.The parser.allow for custom char expansion [2m1ms[0m  [34morg.parboiled2.CustomCharAndStringExpansionSpec$$anon$1@5dd500ad[39m
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`~>` producing a Rule0 [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$23@e618ec7[39m
+[32m+[39m org.parboiled2.CustomCharAndStringExpansionSpec.The parser.allow for custom string expansion [2m1ms[0m  [34morg.parboiled2.CustomCharAndStringExpansionSpec$$anon$2@3088cd4b[39m
+[32m+[39m org.parboiled2.CharPredicateSpec.CharPredicates.correctly mask characters [2m3ms[0m  
+-------------------------------- Running Tests --------------------------------
+[32m+[39m org.parboiled2.CharPredicateSpec.CharPredicates.support `testAny` [2m0ms[0m  
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`~>` producing a Rule1 [2m1ms[0m  [34morg.parboiled2.ActionSpec$$anon$24@ee7f5ff[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.Map[String, T] [2m9ms[0m  [34morg.parboiled2.BasicSpec$$anon$17@accb7df[39m
+[32m+[39m org.parboiled2.CharPredicateSpec.CharPredicates.support `indexOfFirstMatch` [2m0ms[0m  
+[32m+[39m org.parboiled2.ActionSpec.The Parser should correctly handle.`~>` producing an expression evaluating to a rule [2m0ms[0m  [34morg.parboiled2.ActionSpec$$anon$25@b82cd1b[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.Map[String, T] that ignores case [2m1ms[0m  [34morg.parboiled2.BasicSpec$$anon$18@d1e6a83[39m
+[32m+[39m org.parboiled2.CharPredicateSpec.CharPredicates.correctly support non-masked content [2m1ms[0m  
+[32m+[39m org.parboiled2.CharPredicateSpec.CharPredicates.be backed by a mask where possible [2m2ms[0m  
+[32m+[39m org.parboiled2.CharPredicateSpec.CharPredicates.be backed by an array where possible [2m0ms[0m  
+[32m+[39m org.parboiled2.CharPredicateSpec.CharPredicates.be backed by a range where possible [2m0ms[0m  
+[32m+[39m org.parboiled2.BasicSpec.The Parser should correctly recognize/reject input for.Map[String, T] with keys that prefix each other [2m4ms[0m  [34morg.parboiled2.BasicSpec$$anon$19@3aad5fa8[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`~` combinator [2m9ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$1@bdb36cb[39m
+[32m+[39m org.parboiled2.CutSpec.The `~!~` (cut) operator.work as expected [2m7ms[0m  [34morg.parboiled2.CutSpec$$anon$1@705282c7[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`|` combinator [2m0ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$2@4bcc33bc[39m
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.example 1 [2m10ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$1@5191c559[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`zeroOrMore(Rule0)` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$3@199f6d5d[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`Rule0.*` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$4@759c87f4[39m
+[32m+[39m org.parboiled2.CalculatorSpec.The Calculator parser.successfully evaluate simple calculator expression [2m18ms[0m  [34morg.parboiled2.CalculatorSpec$$anon$1@60a61455[39m
+[32m+[39m org.parboiled2.BasicSpec.The Parser.disallow compilation of an illegal character range [2m6ms[0m  [34morg.parboiled2.BasicSpec$$anon$20@6c7ea7f0[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`zeroOrMore(Rule0).separatedBy('|')` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$5@5fdfe5ad[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`Rule0.*('|')` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$6@299e4f41[39m
++ OK, passed 100 tests.
+[32m+[39m org.parboiled2.CharUtilsSpec.CharUtils.numberOfHexDigits [2m53ms[0m  
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.for rules with negative syntactic predicates [2m6ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$2@7a283e7d[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`zeroOrMore(Rule1[T])` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$7@70eb13eb[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`zeroOrMore(Rule[I, O <: I])` modifier [2m0ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$8@75c2874c[39m
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.for rules with backtick identifiers [2m1ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$3@4d8ca2fa[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`oneOrMore(Rule0)` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$9@460aa254[39m
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.if the error location is the newline at line-end [2m0ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$4@27997eae[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`oneOrMore(Rule0).separatedBy('|')` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$10@6025dd85[39m
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.for rules with an explicitly attached name [2m1ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$5@7c7d5d93[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`oneOrMore(Rule1[T])` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$11@29a3ebdc[39m
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.for rules containing `fail` [2m1ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$6@6772b3b5[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`Rule1[T].+` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$12@6f6d56[39m
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.respecting the `errorTraceCollectionLimit` [2m1ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$7@1af67942[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`oneOrMore(Rule[I, O <: I])` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$13@4bc7847c[39m
++ OK, passed 100 tests.
+[32m+[39m org.parboiled2.CharUtilsSpec.CharUtils.upperHexString [2m10ms[0m  
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.respecting `atomic` markers (example 1) [2m1ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$8@4168b6fd[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`optional(Rule0)` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$14@3c9af208[39m
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.respecting `atomic` markers (example 2) [2m1ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$9@2290027b[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`optional(Rule1[T])` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$15@55f3b868[39m
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.respecting `quiet` markers [2m1ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$10@3f0668f0[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`optional(Rule[I, O <: I])` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$16@5803a1b5[39m
+[32m+[39m org.parboiled2.ErrorReportingSpec.The Parser should properly report errors.expanding tabs as configured [2m1ms[0m  [34morg.parboiled2.ErrorReportingSpec$$anon$11@68ca5295[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`Rule[I, O <: I].?` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$17@33d9b021[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`!(Rule0)` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$18@55a8ad9e[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`&` modifier [2m0ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$19@5b610310[39m
++ OK, passed 100 tests.
+[32m+[39m org.parboiled2.CharUtilsSpec.CharUtils.lowerHexString [2m9ms[0m  
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`1.times(Rule0)` modifier [2m0ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$20@461a6180[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`2.times(Rule0)` modifier (example 1) [2m2ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$21@3f8aa498[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`n.times(Rule0)` modifier (example 2) [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$22@24a3946[39m
++ OK, passed 100 tests.
+[32m+[39m org.parboiled2.CharUtilsSpec.CharUtils.numberOfDecimalDigits [2m7ms[0m  
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`2.times(Rule0).separatedBy('|')` modifier [2m2ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$23@31a645cc[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`(2 to 4).times(Rule0)` modifier (example 1) [2m3ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$24@482c7fb2[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`(2 to 4).times(Rule0)` modifier (example 2) [2m2ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$25@5fb257db[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`(2 to max).times(Rule0)` modifier where `max` is 4 [2m2ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$26@14364639[39m
++ OK, passed 100 tests.
+[32m+[39m org.parboiled2.CharUtilsSpec.CharUtils.signedDecimalString [2m9ms[0m  
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`(2 to 4).times(Rule0).separatedBy('|')` modifier [2m2ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$27@3a60e4e2[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`(1 to 3).times(Rule1[T])` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$28@5a437f6[39m
+[32m+[39m org.parboiled2.CombinatorSpec.The Parser should correctly recognize/reject input for the.`2.times(Rule[I, O <: I])` modifier [2m1ms[0m  [34morg.parboiled2.CombinatorSpec$$anon$29@286d30a4[39m
+[success] Total time: 30 s, completed Jun 22, 2023, 3:58:41 AM
+-------------------------------- Running Tests --------------------------------
+-------------------------------- Running Tests --------------------------------
+[32m+[39m org.parboiled2.Base64ParsingSpec.Base64Parsing.enable parsing of RFC2045 Strings [2m37ms[0m  
+[32m+[39m org.parboiled2.DynamicRuleDispatchSpec.DynamicRuleDispatch.work as expected when selecting from 0 rules [2m11ms[0m  
+[32m+[39m org.parboiled2.DynamicRuleDispatchSpec.DynamicRuleDispatch.work as expected when selecting from 1 rule [2m0ms[0m  
+[32m+[39m org.parboiled2.DynamicRuleDispatchSpec.DynamicRuleDispatch.work as expected when selecting from 2 rules [2m1ms[0m  
+[32m+[39m org.parboiled2.DynamicRuleDispatchSpec.DynamicRuleDispatch.work as expected when selecting from 3 rules [2m1ms[0m  
+[32m+[39m org.parboiled2.DynamicRuleDispatchSpec.DynamicRuleDispatch.work as expected when selecting from 4 rules [2m1ms[0m  
+[32m+[39m org.parboiled2.Base64ParsingSpec.Base64Parsing.enable parsing of RFC2045 Blocks [2m7ms[0m  
+[32m+[39m org.parboiled2.DynamicRuleDispatchSpec.DynamicRuleDispatch.work as expected when selecting from 5 rules [2m1ms[0m  
+[32m+[39m org.parboiled2.Base64ParsingSpec.Base64Parsing.enable parsing of custom-Base64 Strings [2m4ms[0m  
+[32m+[39m org.parboiled2.Base64ParsingSpec.Base64Parsing.enable parsing of custom-Base64 Blocks [2m3ms[0m  
+[32m+[39m org.parboiled2.Base64ParsingSpec.Base64Parsing.reject RFC2045 Strings with trailing garbage [2m30ms[0m  
+[32m+[39m org.parboiled2.Base64ParsingSpec.Base64Parsing.reject RFC2045 Blocks with trailing garbage [2m11ms[0m  
+[32m+[39m org.parboiled2.Base64ParsingSpec.Base64Parsing.reject custom-Base64 Strings with trailing garbage [2m11ms[0m  
+[32m+[39m org.parboiled2.Base64ParsingSpec.Base64Parsing.reject custom-Base64 Blocks with trailing garbage [2m12ms[0m  
+[success] Total time: 2 s, completed Jun 22, 2023, 3:58:44 AM
+[32m[SUCCESS parboiled2][0m
+[32m[parboiled2 DONE RUNNING][0m
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 96.917s
+[info] Test run dotty.communitybuild.CommunityBuildTestB started
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
+[info] Passed: Total 1, Failed 0, Errors 0, Passed 1
+[success] Total time: 121 s (02:01), completed Jun 22, 2023, 3:58:44 AM

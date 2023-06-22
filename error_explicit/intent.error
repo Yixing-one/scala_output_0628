@@ -1,0 +1,513 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/contain.scala:20:7 
+[error] 20 |    if actual == null then "" else lb.mkString("(", ", ", ")")
+[error]    |       ^^^^^^^^^^^^^^
+[error]    |Values of types IterableOnce[T] and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/throw.scala:34:72 
+[error] 34 |    def messageMatches(t: Throwable)          = expectedMessage.matches(t.getMessage)
+[error]    |                                                                        ^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/throw.scala:54:135 
+[error] 54 |            s"Expected the code to throw ${expectedClass.getName}${expectedMessage.describe()}, but the message was ${stringFmt.format(t.getMessage)}"
+[error]    |                                                                                                                                       ^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/util.scala:7:20 
+[error] 7 |    case Some(c) => c.getSimpleName
+[error]   |                    ^^^^^^^^^^^^^^^
+[error]   |                    Found:    String | Null
+[error]   |                    Required: String
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/runner/TestSuiteRunner.scala:97:13 
+[error] 97 |        case null => throw new IllegalStateException("Unsupported test result: null")
+[error]    |             ^^^^
+[error]    |Values of types Null and intent.core.ExpectationResult cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/runner/TestSuiteRunner.scala:102:7 
+[error] 101 |    Try(classLoader.loadClass(className)
+[error] 102 |      .getDeclaredConstructor()
+[error]     |        ^
+[error]     |value getDeclaredConstructor is not a member of Class[?] | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |Class[?] | Null could be null at runtime.
+[error]     |If you want to select getDeclaredConstructor without checking for a null value,
+[error]     |insert a .nn before .getDeclaredConstructor or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:59:29 
+[error] 59 |        runner.evaluateSuite(td.fullyQualifiedName) match {
+[error]    |                             ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                             Found:    String | Null
+[error]    |                             Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:98:80 
+[error] 98 |          case success: TestPassed  => SuccessfulEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]    |                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:98:129 
+[error] 98 |          case success: TestPassed  => SuccessfulEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]    |                                                                                                                                 ^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    sbt.testing.Fingerprint | Null
+[error]    |                                Required: sbt.testing.Fingerprint
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:99:76 
+[error] 99 |          case failure: TestFailed  => FailedEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, failure.output, failure.ex)
+[error]    |                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:99:125 
+[error] 99 |          case failure: TestFailed  => FailedEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, failure.output, failure.ex)
+[error]    |                                                                                                                             ^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    sbt.testing.Fingerprint | Null
+[error]    |                                Required: sbt.testing.Fingerprint
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:100:75 
+[error] 100 |          case error: TestError     => ErrorEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, error.context, error.ex)
+[error]     |                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                               Found:    String | Null
+[error]     |                                               Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:100:124 
+[error] 100 |          case error: TestError     => ErrorEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, error.context, error.ex)
+[error]     |                                                                                                                            ^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    sbt.testing.Fingerprint | Null
+[error]     |                              Required: sbt.testing.Fingerprint
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:101:52 
+[error] 101 |          case ignored: TestIgnored => IgnoredEvent(taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]     |                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                               Found:    String | Null
+[error]     |                                               Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:101:101 
+[error] 101 |          case ignored: TestIgnored => IgnoredEvent(taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]     |                                                                                                     ^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    sbt.testing.Fingerprint | Null
+[error]     |                              Required: sbt.testing.Fingerprint
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:106:20 
+[error] 106 |    runner.runSuite(td.fullyQualifiedName, Some(eventSubscriber)).map(_ => Array.empty)
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^
+[error]     |                    Found:    String | Null
+[error]     |                    Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:19:26 
+[error] 19 |  sw.toString.split("\n").map(line => linePrefix + line).mkString("\n")
+[error]    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  value map is not a member of Array[String | Null] | Null.
+[error]    |  An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |      genericArrayOps[T](sw.toString().split("\n"))
+[error] 17 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 9 s, completed Jun 22, 2023, 12:08:21 AM
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/contain.scala:20:7 
+[error] 20 |    if actual == null then "" else lb.mkString("(", ", ", ")")
+[error]    |       ^^^^^^^^^^^^^^
+[error]    |Values of types IterableOnce[T] and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/throw.scala:34:72 
+[error] 34 |    def messageMatches(t: Throwable)          = expectedMessage.matches(t.getMessage)
+[error]    |                                                                        ^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/throw.scala:54:135 
+[error] 54 |            s"Expected the code to throw ${expectedClass.getName}${expectedMessage.describe()}, but the message was ${stringFmt.format(t.getMessage)}"
+[error]    |                                                                                                                                       ^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/util.scala:7:20 
+[error] 7 |    case Some(c) => c.getSimpleName
+[error]   |                    ^^^^^^^^^^^^^^^
+[error]   |                    Found:    String | Null
+[error]   |                    Required: String
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/runner/TestSuiteRunner.scala:97:13 
+[error] 97 |        case null => throw new IllegalStateException("Unsupported test result: null")
+[error]    |             ^^^^
+[error]    |Values of types Null and intent.core.ExpectationResult cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/runner/TestSuiteRunner.scala:102:7 
+[error] 101 |    Try(classLoader.loadClass(className)
+[error] 102 |      .getDeclaredConstructor()
+[error]     |        ^
+[error]     |value getDeclaredConstructor is not a member of Class[?] | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |Class[?] | Null could be null at runtime.
+[error]     |If you want to select getDeclaredConstructor without checking for a null value,
+[error]     |insert a .nn before .getDeclaredConstructor or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:59:29 
+[error] 59 |        runner.evaluateSuite(td.fullyQualifiedName) match {
+[error]    |                             ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                             Found:    String | Null
+[error]    |                             Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:98:80 
+[error] 98 |          case success: TestPassed  => SuccessfulEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]    |                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:98:129 
+[error] 98 |          case success: TestPassed  => SuccessfulEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]    |                                                                                                                                 ^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    sbt.testing.Fingerprint | Null
+[error]    |                                Required: sbt.testing.Fingerprint
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:99:76 
+[error] 99 |          case failure: TestFailed  => FailedEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, failure.output, failure.ex)
+[error]    |                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:99:125 
+[error] 99 |          case failure: TestFailed  => FailedEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, failure.output, failure.ex)
+[error]    |                                                                                                                             ^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    sbt.testing.Fingerprint | Null
+[error]    |                                Required: sbt.testing.Fingerprint
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:100:75 
+[error] 100 |          case error: TestError     => ErrorEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, error.context, error.ex)
+[error]     |                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                               Found:    String | Null
+[error]     |                                               Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:100:124 
+[error] 100 |          case error: TestError     => ErrorEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, error.context, error.ex)
+[error]     |                                                                                                                            ^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    sbt.testing.Fingerprint | Null
+[error]     |                              Required: sbt.testing.Fingerprint
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:101:52 
+[error] 101 |          case ignored: TestIgnored => IgnoredEvent(taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]     |                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                               Found:    String | Null
+[error]     |                                               Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:101:101 
+[error] 101 |          case ignored: TestIgnored => IgnoredEvent(taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]     |                                                                                                     ^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    sbt.testing.Fingerprint | Null
+[error]     |                              Required: sbt.testing.Fingerprint
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:106:20 
+[error] 106 |    runner.runSuite(td.fullyQualifiedName, Some(eventSubscriber)).map(_ => Array.empty)
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^
+[error]     |                    Found:    String | Null
+[error]     |                    Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:19:26 
+[error] 19 |  sw.toString.split("\n").map(line => linePrefix + line).mkString("\n")
+[error]    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  value map is not a member of Array[String | Null] | Null.
+[error]    |  An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |      refArrayOps[T](sw.toString().split("\n"))
+[error] 17 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:08:39 AM
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/contain.scala:20:7 
+[error] 20 |    if actual == null then "" else lb.mkString("(", ", ", ")")
+[error]    |       ^^^^^^^^^^^^^^
+[error]    |Values of types IterableOnce[T] and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/throw.scala:34:72 
+[error] 34 |    def messageMatches(t: Throwable)          = expectedMessage.matches(t.getMessage)
+[error]    |                                                                        ^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/throw.scala:54:135 
+[error] 54 |            s"Expected the code to throw ${expectedClass.getName}${expectedMessage.describe()}, but the message was ${stringFmt.format(t.getMessage)}"
+[error]    |                                                                                                                                       ^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/util.scala:7:20 
+[error] 7 |    case Some(c) => c.getSimpleName
+[error]   |                    ^^^^^^^^^^^^^^^
+[error]   |                    Found:    String | Null
+[error]   |                    Required: String
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/runner/TestSuiteRunner.scala:97:13 
+[error] 97 |        case null => throw new IllegalStateException("Unsupported test result: null")
+[error]    |             ^^^^
+[error]    |Values of types Null and intent.core.ExpectationResult cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/runner/TestSuiteRunner.scala:102:7 
+[error] 101 |    Try(classLoader.loadClass(className)
+[error] 102 |      .getDeclaredConstructor()
+[error]     |        ^
+[error]     |value getDeclaredConstructor is not a member of Class[?] | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |Class[?] | Null could be null at runtime.
+[error]     |If you want to select getDeclaredConstructor without checking for a null value,
+[error]     |insert a .nn before .getDeclaredConstructor or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:59:29 
+[error] 59 |        runner.evaluateSuite(td.fullyQualifiedName) match {
+[error]    |                             ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                             Found:    String | Null
+[error]    |                             Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:98:80 
+[error] 98 |          case success: TestPassed  => SuccessfulEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]    |                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:98:129 
+[error] 98 |          case success: TestPassed  => SuccessfulEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]    |                                                                                                                                 ^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    sbt.testing.Fingerprint | Null
+[error]    |                                Required: sbt.testing.Fingerprint
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:99:76 
+[error] 99 |          case failure: TestFailed  => FailedEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, failure.output, failure.ex)
+[error]    |                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:99:125 
+[error] 99 |          case failure: TestFailed  => FailedEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, failure.output, failure.ex)
+[error]    |                                                                                                                             ^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    sbt.testing.Fingerprint | Null
+[error]    |                                Required: sbt.testing.Fingerprint
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:100:75 
+[error] 100 |          case error: TestError     => ErrorEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, error.context, error.ex)
+[error]     |                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                               Found:    String | Null
+[error]     |                                               Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:100:124 
+[error] 100 |          case error: TestError     => ErrorEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, error.context, error.ex)
+[error]     |                                                                                                                            ^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    sbt.testing.Fingerprint | Null
+[error]     |                              Required: sbt.testing.Fingerprint
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:101:52 
+[error] 101 |          case ignored: TestIgnored => IgnoredEvent(taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]     |                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                               Found:    String | Null
+[error]     |                                               Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:101:101 
+[error] 101 |          case ignored: TestIgnored => IgnoredEvent(taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]     |                                                                                                     ^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    sbt.testing.Fingerprint | Null
+[error]     |                              Required: sbt.testing.Fingerprint
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:106:20 
+[error] 106 |    runner.runSuite(td.fullyQualifiedName, Some(eventSubscriber)).map(_ => Array.empty)
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^
+[error]     |                    Found:    String | Null
+[error]     |                    Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:19:26 
+[error] 19 |  sw.toString.split("\n").map(line => linePrefix + line).mkString("\n")
+[error]    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  value map is not a member of Array[String | Null] | Null.
+[error]    |  An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |      refArrayOps[T](sw.toString().split("\n"))
+[error] 17 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:08:56 AM
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/contain.scala:20:7 
+[error] 20 |    if actual == null then "" else lb.mkString("(", ", ", ")")
+[error]    |       ^^^^^^^^^^^^^^
+[error]    |Values of types IterableOnce[T] and Null cannot be compared with == or !=
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/throw.scala:34:72 
+[error] 34 |    def messageMatches(t: Throwable)          = expectedMessage.matches(t.getMessage)
+[error]    |                                                                        ^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/throw.scala:54:135 
+[error] 54 |            s"Expected the code to throw ${expectedClass.getName}${expectedMessage.describe()}, but the message was ${stringFmt.format(t.getMessage)}"
+[error]    |                                                                                                                                       ^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/core/expectations/util.scala:7:20 
+[error] 7 |    case Some(c) => c.getSimpleName
+[error]   |                    ^^^^^^^^^^^^^^^
+[error]   |                    Found:    String | Null
+[error]   |                    Required: String
+[error]   |
+[error]   | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/runner/TestSuiteRunner.scala:97:13 
+[error] 97 |        case null => throw new IllegalStateException("Unsupported test result: null")
+[error]    |             ^^^^
+[error]    |Values of types Null and intent.core.ExpectationResult cannot be compared with == or !=
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/runner/TestSuiteRunner.scala:102:7 
+[error] 101 |    Try(classLoader.loadClass(className)
+[error] 102 |      .getDeclaredConstructor()
+[error]     |        ^
+[error]     |value getDeclaredConstructor is not a member of Class[?] | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |Class[?] | Null could be null at runtime.
+[error]     |If you want to select getDeclaredConstructor without checking for a null value,
+[error]     |insert a .nn before .getDeclaredConstructor or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:59:29 
+[error] 59 |        runner.evaluateSuite(td.fullyQualifiedName) match {
+[error]    |                             ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                             Found:    String | Null
+[error]    |                             Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:98:80 
+[error] 98 |          case success: TestPassed  => SuccessfulEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]    |                                                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:98:129 
+[error] 98 |          case success: TestPassed  => SuccessfulEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]    |                                                                                                                                 ^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    sbt.testing.Fingerprint | Null
+[error]    |                                Required: sbt.testing.Fingerprint
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:99:76 
+[error] 99 |          case failure: TestFailed  => FailedEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, failure.output, failure.ex)
+[error]    |                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                                 Found:    String | Null
+[error]    |                                                 Required: String
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:99:125 
+[error] 99 |          case failure: TestFailed  => FailedEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, failure.output, failure.ex)
+[error]    |                                                                                                                             ^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    sbt.testing.Fingerprint | Null
+[error]    |                                Required: sbt.testing.Fingerprint
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:100:75 
+[error] 100 |          case error: TestError     => ErrorEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, error.context, error.ex)
+[error]     |                                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                               Found:    String | Null
+[error]     |                                               Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:100:124 
+[error] 100 |          case error: TestError     => ErrorEvent(event.duration.toMillis, taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode, error.context, error.ex)
+[error]     |                                                                                                                            ^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    sbt.testing.Fingerprint | Null
+[error]     |                              Required: sbt.testing.Fingerprint
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:101:52 
+[error] 101 |          case ignored: TestIgnored => IgnoredEvent(taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]     |                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                               Found:    String | Null
+[error]     |                                               Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:101:101 
+[error] 101 |          case ignored: TestIgnored => IgnoredEvent(taskDef.fullyQualifiedName, event.qualifiedName, taskDef.fingerprint, focusMode)
+[error]     |                                                                                                     ^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    sbt.testing.Fingerprint | Null
+[error]     |                              Required: sbt.testing.Fingerprint
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:106:20 
+[error] 106 |    runner.runSuite(td.fullyQualifiedName, Some(eventSubscriber)).map(_ => Array.empty)
+[error]     |                    ^^^^^^^^^^^^^^^^^^^^^
+[error]     |                    Found:    String | Null
+[error]     |                    Required: String
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/intent/src/main/scala/intent/sbt/Runner.scala:19:26 
+[error] 19 |  sw.toString.split("\n").map(line => linePrefix + line).mkString("\n")
+[error]    |  ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |  value map is not a member of Array[String | Null] | Null.
+[error]    |  An extension method was tried, but could not be fully constructed:
+[error]    |
+[error]    |      refArrayOps[T](sw.toString().split("\n"))
+[error] 17 errors found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 8 s, completed Jun 22, 2023, 12:09:14 AM
+[error] Test dotty.communitybuild.CommunityBuildTestC.intent failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/intent
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; test"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 75.0 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestC.intent(CommunityBuildTest.scala:71)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestC
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 105 s (01:45), completed Jun 22, 2023, 12:09:15 AM

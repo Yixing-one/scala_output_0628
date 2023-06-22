@@ -1,0 +1,113 @@
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_no_change/dotty/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[error] one error found
+[error] one error found
+[error]   ! live fiber snapshot
+[error]    java.io.IOException: Cannot run program "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/jps": error=2, No such file or directory (IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] CAUSED BY
+[error]  java.io.IOException: error=2, No such file or directory (IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] Error: Total 1877, Failed 0, Errors 1, Passed 1876
+[error] Error during tests:
+[error] 	cats.effect.IOAppSpec
+[error] (testsJVM / Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 308 s (05:08), completed Jun 21, 2023, 12:56:48 PM
+[error]   ! live fiber snapshot
+[error]    java.io.IOException: Cannot run program "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/jps": error=2, No such file or directory (IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] CAUSED BY
+[error]  java.io.IOException: error=2, No such file or directory (IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] Error: Total 1877, Failed 0, Errors 1, Passed 1876
+[error] Error during tests:
+[error] 	cats.effect.IOAppSpec
+[error] (testsJVM / Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 342 s (05:42), completed Jun 21, 2023, 1:02:56 PM
+[error]   ! live fiber snapshot
+[error]    java.io.IOException: Cannot run program "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/jps": error=2, No such file or directory (IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] CAUSED BY
+[error]  java.io.IOException: error=2, No such file or directory (IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] Error: Total 1877, Failed 0, Errors 1, Passed 1876
+[error] Error during tests:
+[error] 	cats.effect.IOAppSpec
+[error] (testsJVM / Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 314 s (05:14), completed Jun 21, 2023, 1:08:36 PM
+[error]   ! live fiber snapshot
+[error]    java.io.IOException: Cannot run program "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/jps": error=2, No such file or directory (IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] CAUSED BY
+[error]  java.io.IOException: error=2, No such file or directory (IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$JVM$.pid(IOAppSpec.scala:83)
+[error] cats.effect.IOAppSpec$$anon$1.pid(IOAppSpec.scala:53)
+[error] cats.effect.IOAppSpec.test$$anonfun$1$$anonfun$22(IOAppSpec.scala:275)
+[error] Error: Total 1877, Failed 0, Errors 1, Passed 1876
+[error] Error during tests:
+[error] 	cats.effect.IOAppSpec
+[error] (testsJVM / Test / test) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 280 s (04:40), completed Jun 21, 2023, 1:13:42 PM
+[error] Test dotty.communitybuild.CommunityBuildTestB.catsEffect3 failed: java.lang.AssertionError: 
+[error] 
+[error] sbt exited with an error code. To reproduce without JUnit, use:
+[error] 
+[error]     sbt community-build/prepareCommunityBuild
+[error]     cd community-build/community-projects/cats-effect-3
+[error]     sbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_no_change/dotty/community-build/sbt-injected-plugins "set Global/testOptions += Tests.Argument(TestFramework("munit.Framework"), "+l"); clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init");++3.3.1-RC1-bin-SNAPSHOT!; ciJVM"
+[error] 
+[error] For a faster feedback loop on SBT projects, one can try to extract a direct call to dotc
+[error] using the sbt export command. For instance, for scalacheck, use
+[error]     sbt export jvm/test:compileIncremental
+[error] 
+[error] , took 1782.049 sec
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.failWith(CommunityBuildTest.scala:15)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject(CommunityBuildRunner.scala:93)
+[error]     at dotty.communitybuild.CommunityBuildRunner.runProject$(CommunityBuildRunner.scala:33)
+[error]     at dotty.communitybuild.CommunityBuildTest$package$testRunner$.runProject(CommunityBuildTest.scala:14)
+[error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:28)
+[error]     at dotty.communitybuild.CommunityBuildTestB.catsEffect3(CommunityBuildTest.scala:40)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[error]     at java.lang.reflect.Method.invoke(Unknown Source)
+[error]     ...
+[error] Failed: Total 1, Failed 1, Errors 0, Passed 0
+[error] Failed tests:
+[error] 	dotty.communitybuild.CommunityBuildTestB
+[error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
+[error] Total time: 1809 s (30:09), completed Jun 21, 2023, 1:13:45 PM
