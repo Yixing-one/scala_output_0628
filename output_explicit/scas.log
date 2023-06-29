@@ -13,73 +13,86 @@ SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
 SLF4J: Ignoring binding found at [jar:file:/Users/yixing/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
-[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
 [info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
 [info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
 [info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
 [info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
 [info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 28 22:35:35 EDT 2023
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 10:22:39 EDT 2023
 [info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
 [info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
 [info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
 [info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
 [info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
 [info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 28 22:35:37 EDT 2023
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Thu Jun 29 10:22:39 EDT 2023
 [info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
 [info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
 [info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
 [info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
 [info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
 [info] 	published ivy to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 28 22:35:41 EDT 2023
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 10:22:41 EDT 2023
 [info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
 [info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
 [info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
 [info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
 [info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
 [info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 28 22:35:50 EDT 2023
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 10:22:47 EDT 2023
 [info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
 [info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
 [info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
 [info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
 [info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
 [info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] Main Scala API documentation to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
 [info] Main Scala API documentation to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
-[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 28 22:35:51 EDT 2023
+[info] Main Scala API documentation to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 10:22:48 EDT 2023
 [info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
 [info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
 [info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
 [info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
 [info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
 [info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 28 22:35:51 EDT 2023
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 10:22:48 EDT 2023
 [info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
 [info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
 [info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
 [info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
 [info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
 [info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 28 22:35:52 EDT 2023
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 10:22:49 EDT 2023
 [info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
 [info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
 [info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
+[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
 [warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
 [warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
 [warn] Flag -project-logo set repeatedly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
 [warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
-[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
-[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
-[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
 [warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
 [warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
 [warn] Flag -project-footer set repeatedly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Flag -author set repeatedly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Flag -groups set repeatedly
+[warn] bad option '-default-template static-site-main' was ignored
 [warn] Flag -author set repeatedly
 [warn] Flag -groups set repeatedly
 [warn] Flag -default-template set repeatedly
@@ -87,25 +100,12 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 [warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
 [warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
 [warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
-[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
 [warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
 [warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
-[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
-[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
-[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
-[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
-[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
 [warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
 [warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
 [warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
 [warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
-[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
-[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
-[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
-[warn] bad option '-default-template static-site-main' was ignored
-[warn] Flag -author set repeatedly
-[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
-[warn] Flag -groups set repeatedly
 [warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
 [warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
 [warn] bad option '-default-template static-site-main' was ignored
@@ -128,919 +128,37 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 [error]    |       ^
 [error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
 [error]    |(Note: this can be resolved by using another name)
-[warn] 14 warnings found
-[error] one error found
 [error] -- [E069] Naming Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
 [error] 13 |object IArray:
 [error]    |       ^
 [error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
 [error]    |(Note: this can be resolved by using another name)
+[warn] 14 warnings found
+[error] one error found
 [warn] 28 warnings found
 [error] one error found
-[info] waiting for lock on /Users/yixing/.ivy2/.sbt.ivy.lock to be available...
-[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 28 22:36:51 EDT 2023
-[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 28 22:36:51 EDT 2023
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 10:23:09 EDT 2023
 [info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
-[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
-[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
-[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
-[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
 [info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
 [info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
 [info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
 [info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
 [info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 10:23:09 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
 [info] Test run dotty.communitybuild.CommunityBuildTestA started
-[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.001s
+[info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.0s
 [info] Test run dotty.communitybuild.CommunityBuildTestC started
 [info] Test dotty.communitybuild.CommunityBuildTestC.scas started
 [32m[STARTING scas][0m
 [32m[DEPENDENCIES DONE, NOW ACTUALLY RUNNING scas][0m
 [32mBuilding scas with dotty-bootstrapped 3.3.1-RC1-bin-SNAPSHOT...[0m
 [32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT scas.application.test[0m
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
- 56 62.0M   56 34.8M    0     0  26.6M      0  0:00:02  0:00:01  0:00:01 26.6M100 62.0M  100 62.0M    0     0  31.1M      0  0:00:01  0:00:01 --:--:-- 39.8M
-Compiling /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/build.sc
-[1/75] scas.application.mainClass 
-[1A[2K[9999D[2/75] mill.scalalib.ZincWorkerModule.classpath 
-[1A[2K[9999D[3/75] mill.scalalib.ZincWorkerModule.worker 
-[1A[2K[9999D[4/75] scas.application.scalaVersion 
-[1A[2K[9999D[5/75] scas.scalaVersion 
-[1A[2K[9999D[6/75] scas.upstreamCompileOutput 
-[1A[2K[9999D[7/75] scas.sources 
-[1A[2K[9999D[8/75] scas.generatedSources 
-[1A[2K[9999D[9/75] scas.allSources 
-[1A[2K[9999D[10/75] scas.allSourceFiles 
-[1A[2K[9999D[11/75] scas.transitiveLocalClasspath 
-[1A[2K[9999D[12/75] scas.resources 
-[1A[2K[9999D[13/75] scas.unmanagedClasspath 
-[1A[2K[9999D[14/75] scas.platformSuffix 
-[1A[2K[9999D[15/75] scas.compileIvyDeps 
-[1A[2K[9999D[16/75] scas.transitiveCompileIvyDeps 
-[1A[2K[9999D[17/75] scas.ivyDeps 
-[1A[2K[9999D[18/75] scas.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
-[1A[2K[9999D[19/75] scas.scalaOrganization 
-[1A[2K[9999D[20/75] scas.scalaLibraryIvyDeps 
-[1A[2K[9999D[21/75] scas.mandatoryIvyDeps 
-[1A[2K[9999D[22/75] scas.transitiveIvyDeps 
-[1A[2K[9999D[23/75] scas.resolvedIvyDeps 
-[1A[2K[9999D[24/75] scas.compileClasspath 
-[1A[2K[9999D[25/75] scas.javacOptions 
-[1A[2K[9999D[26/75] scas.mandatoryScalacOptions 
-[1A[2K[9999D[27/75] scas.scalacPluginIvyDeps 
-[1A[2K[9999D[28/75] scas.enablePluginScalacOptions 
-[1A[2K[9999D[29/75] scas.scalacOptions 
-[1A[2K[9999D[30/75] scas.allScalacOptions 
-[1A[2K[9999D[31/75] scas.scalaCompilerClasspath 
-[1A[2K[9999D[32/75] scas.scalacPluginClasspath 
-[1A[2K[9999D[33/75] scas.compile 
-[info] compiling 96 Scala sources to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/out/scas/compile.dest/classes ...
-[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/base/ModInteger.scala:17:146 
-[error] 17 |  extension (ring: UniqueFactorizationDomain[BigInteger]) def apply(str: String): scas.structure.commutative.Residue[BigInteger] = ring(BigInteger(str))
-[error]    |                                                                                                                                        ^^^^^^^^^^^^^^^
-[error]    |                                          Found:    java.math.BigInteger
-[error]    |                                          Required: Long
-[error]    |
-[error]    | longer explanation available when compiling with `-explain`
-java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$ while typechecking /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/base/Rational.scala
-Exception while compiling /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/base/BigInteger.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/base/ModInteger.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/base/Rational.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/base/conversion/BigInteger.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/base/conversion/ModInteger.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/base/conversion/Rational.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/math/Equiv.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/math/Numeric.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/math/Ordering.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/math/PartialOrdering.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/math/conversion/Equiv.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/math/conversion/Ordering.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/math/conversion/PartialOrdering.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/module/ArrayModule.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/module/conversion/Array.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/module/conversion/ArrayModule.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/Polynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/SolvablePolynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/TreeMutablePolynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/TreePolynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/WeylAlgebra.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/conversion/Polynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/tree/Polynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/tree/SolvablePolynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/tree/WeylAlgebra.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/tree/mutable/Polynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/ufd/MultivariatePolynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/ufd/PolynomialOverField.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/ufd/PolynomialOverUFD.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/polynomial/ufd/UnivariatePolynomial.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/power/ArrayPowerProduct.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/power/ArrayPowerProductWithDegree.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/power/Lexicographic.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/power/PowerProduct.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/power/conversion/Lexicographic.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/power/conversion/PowerProduct.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/power/splittable/PowerProduct.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/power/splittable/conversion/Lexicographic.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/prettyprint/Main.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/prettyprint/Show.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/AbelianGroup.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/Algebra.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/Field.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/Module.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/Monoid.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/NotQuiteField.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/NotQuiteGroup.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/Product.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/Ring.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/SemiGroup.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/Structure.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/VectorSpace.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/EuclidianDomain.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/Field.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/Quotient.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/Residue.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/UniqueFactorizationDomain.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/conversion/EuclidianDomain.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/conversion/Field.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/conversion/Quotient.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/conversion/UniqueFactorizationDomain.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/ordered/EuclidianDomain.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/ordered/Field.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/ordered/Quotient.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/ordered/Residue.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/ordered/UniqueFactorizationDomain.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/ordered/conversion/EuclidianDomain.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/ordered/conversion/Field.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/ordered/conversion/Quotient.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/commutative/ordered/conversion/UniqueFactorizationDomain.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/AbelianGroup.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/Algebra.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/Field.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/Module.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/Monoid.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/NotQuiteField.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/NotQuiteGroup.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/Product.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/Ring.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/SemiGroup.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/Structure.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/conversion/VectorSpace.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/ordered/AbelianGroup.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/ordered/Monoid.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/ordered/Ring.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/ordered/Structure.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/ordered/conversion/AbelianGroup.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/ordered/conversion/Monoid.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/ordered/conversion/Ring.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/structure/ordered/conversion/Structure.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/util/Fragable.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/util/Main.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/variable/Constant.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/variable/Function.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/variable/Sqrt.scala, /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/variable/Variable.scala
-[error] ## Exception when compiling 96 sources to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/out/scas/compile.dest/classes
-[error] java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$
-[error] dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:169)
-[error] dotty.tools.dotc.ast.tpd$.New(tpd.scala:522)
-[error] dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:231)
-[error] dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:234)
-[error] dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:140)
-[error] dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:242)
-[error] dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
-[error] dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
-[error] dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:903)
-[error] dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$2(Namer.scala:915)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] scala.collection.immutable.List.foreach(List.scala:333)
-[error] dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:915)
-[error] dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:815)
-[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-[error] dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-[error] dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-[error] dotty.tools.dotc.core.Types$TermRef.underlying(Types.scala:2817)
-[error] dotty.tools.dotc.core.Types$Type.widenSingleton(Types.scala:1241)
-[error] dotty.tools.dotc.typer.ProtoTypes$Compatibility.normalizedCompatible(ProtoTypes.scala:61)
-[error] dotty.tools.dotc.typer.ProtoTypes$Compatibility.normalizedCompatible$(ProtoTypes.scala:28)
-[error] dotty.tools.dotc.typer.Typer.normalizedCompatible(Typer.scala:116)
-[error] dotty.tools.dotc.typer.ProtoTypes$SelectionProto.qualifies$1(ProtoTypes.scala:211)
-[error] dotty.tools.dotc.typer.ProtoTypes$SelectionProto.liftedTree1$1(ProtoTypes.scala:215)
-[error] dotty.tools.dotc.typer.ProtoTypes$SelectionProto.isMatchedBy(ProtoTypes.scala:228)
-[error] dotty.tools.dotc.core.TypeComparer.isMatchedByProto(TypeComparer.scala:2062)
-[error] dotty.tools.dotc.core.TypeComparer.firstTry$1(TypeComparer.scala:339)
-[error] dotty.tools.dotc.core.TypeComparer.recur(TypeComparer.scala:1476)
-[error] dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:208)
-[error] dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:218)
-[error] dotty.tools.dotc.core.TypeComparer.topLevelSubType(TypeComparer.scala:128)
-[error] dotty.tools.dotc.core.TypeComparer.testSubType(TypeComparer.scala:144)
-[error] dotty.tools.dotc.core.TypeComparer$.testSubType(TypeComparer.scala:2982)
-[error] dotty.tools.dotc.typer.Typer.adaptNoArgsOther$1(Typer.scala:3966)
-[error] dotty.tools.dotc.typer.Typer.adaptNoArgs$1(Typer.scala:4048)
-[error] dotty.tools.dotc.typer.Typer.adapt1(Typer.scala:4265)
-[error] dotty.tools.dotc.typer.Typer.adapt(Typer.scala:3573)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-[error] dotty.tools.dotc.typer.Typer.typeSelectOnTerm$1(Typer.scala:752)
-[error] dotty.tools.dotc.typer.Typer.typedSelect(Typer.scala:790)
-[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3004)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] dotty.tools.dotc.typer.ProtoTypes$FunProto.$anonfun$7(ProtoTypes.scala:495)
-[error] dotty.tools.dotc.typer.ProtoTypes$FunProto.cacheTypedArg(ProtoTypes.scala:418)
-[error] dotty.tools.dotc.typer.ProtoTypes$FunProto.typedArg(ProtoTypes.scala:496)
-[error] dotty.tools.dotc.typer.Applications$ApplyToUntyped.typedArg(Applications.scala:897)
-[error] dotty.tools.dotc.typer.Applications$ApplyToUntyped.typedArg(Applications.scala:897)
-[error] dotty.tools.dotc.typer.Applications$Application.addTyped$1(Applications.scala:589)
-[error] dotty.tools.dotc.typer.Applications$Application.matchArgs(Applications.scala:653)
-[error] dotty.tools.dotc.typer.Applications$Application.init(Applications.scala:492)
-[error] dotty.tools.dotc.typer.Applications$TypedApply.<init>(Applications.scala:779)
-[error] dotty.tools.dotc.typer.Applications$ApplyToUntyped.<init>(Applications.scala:896)
-[error] dotty.tools.dotc.typer.Applications.ApplyTo(Applications.scala:1126)
-[error] dotty.tools.dotc.typer.Applications.ApplyTo$(Applications.scala:352)
-[error] dotty.tools.dotc.typer.Typer.ApplyTo(Typer.scala:116)
-[error] dotty.tools.dotc.typer.Applications.simpleApply$1(Applications.scala:969)
-[error] dotty.tools.dotc.typer.Applications.realApply$1$$anonfun$2(Applications.scala:1052)
-[error] dotty.tools.dotc.typer.Typer.tryEither(Typer.scala:3310)
-[error] dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:1063)
-[error] dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1101)
-[error] dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:352)
-[error] dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:116)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3035)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.ProtoTypes$FunProto.$anonfun$7(ProtoTypes.scala:495)
-[error] dotty.tools.dotc.typer.ProtoTypes$FunProto.cacheTypedArg(ProtoTypes.scala:418)
-[error] dotty.tools.dotc.typer.ProtoTypes$FunProto.typedArg(ProtoTypes.scala:496)
-[error] dotty.tools.dotc.typer.Applications$ApplyToUntyped.typedArg(Applications.scala:897)
-[error] dotty.tools.dotc.typer.Applications$ApplyToUntyped.typedArg(Applications.scala:897)
-[error] dotty.tools.dotc.typer.Applications$Application.addTyped$1(Applications.scala:589)
-[error] dotty.tools.dotc.typer.Applications$Application.matchArgs(Applications.scala:653)
-[error] dotty.tools.dotc.typer.Applications$Application.init(Applications.scala:492)
-[error] dotty.tools.dotc.typer.Applications$TypedApply.<init>(Applications.scala:779)
-[error] dotty.tools.dotc.typer.Applications$ApplyToUntyped.<init>(Applications.scala:896)
-[error] dotty.tools.dotc.typer.Applications.ApplyTo(Applications.scala:1126)
-[error] dotty.tools.dotc.typer.Applications.ApplyTo$(Applications.scala:352)
-[error] dotty.tools.dotc.typer.Typer.ApplyTo(Typer.scala:116)
-[error] dotty.tools.dotc.typer.Applications.simpleApply$1(Applications.scala:969)
-[error] dotty.tools.dotc.typer.Applications.realApply$1$$anonfun$2(Applications.scala:1052)
-[error] dotty.tools.dotc.typer.Typer.tryEither(Typer.scala:3310)
-[error] dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:1063)
-[error] dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1101)
-[error] dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:352)
-[error] dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:116)
-[error] dotty.tools.dotc.typer.Typer.typedInfixOp(Typer.scala:2919)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3074)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-[error] dotty.tools.dotc.typer.Namer.typedAheadExpr$$anonfun$1(Namer.scala:1645)
-[error] dotty.tools.dotc.typer.Namer.typedAhead(Namer.scala:1635)
-[error] dotty.tools.dotc.typer.Namer.typedAheadExpr(Namer.scala:1645)
-[error] dotty.tools.dotc.typer.Namer.typedAheadRhs$1$$anonfun$1(Namer.scala:1898)
-[error] dotty.tools.dotc.inlines.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:250)
-[error] dotty.tools.dotc.typer.Namer.typedAheadRhs$1(Namer.scala:1898)
-[error] dotty.tools.dotc.typer.Namer.rhsType$1(Namer.scala:1906)
-[error] dotty.tools.dotc.typer.Namer.cookedRhsType$1(Namer.scala:1924)
-[error] dotty.tools.dotc.typer.Namer.lhsType$1(Namer.scala:1925)
-[error] dotty.tools.dotc.typer.Namer.inferredResultType(Namer.scala:1936)
-[error] dotty.tools.dotc.typer.Namer.inferredType$1(Namer.scala:1683)
-[error] dotty.tools.dotc.typer.Namer.valOrDefDefSig(Namer.scala:1690)
-[error] dotty.tools.dotc.typer.Namer$Completer.typeSig(Namer.scala:787)
-[error] dotty.tools.dotc.typer.Namer$Completer.completeInCreationContext(Namer.scala:926)
-[error] dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:814)
-[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-[error] dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-[error] dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:393)
-[error] dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2976)
-[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3001)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] dotty.tools.dotc.typer.Typer.typedBlockStats(Typer.scala:1159)
-[error] dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1163)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3043)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.$anonfun$14(Typer.scala:1260)
-[error] dotty.tools.dotc.typer.Applications.harmonic(Applications.scala:2334)
-[error] dotty.tools.dotc.typer.Applications.harmonic$(Applications.scala:352)
-[error] dotty.tools.dotc.typer.Typer.harmonic(Typer.scala:116)
-[error] dotty.tools.dotc.typer.Typer.typedIf(Typer.scala:1263)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3044)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-[error] dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1166)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3043)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.$anonfun$14(Typer.scala:1261)
-[error] dotty.tools.dotc.typer.Applications.harmonic(Applications.scala:2334)
-[error] dotty.tools.dotc.typer.Applications.harmonic$(Applications.scala:352)
-[error] dotty.tools.dotc.typer.Typer.harmonic(Typer.scala:116)
-[error] dotty.tools.dotc.typer.Typer.typedIf(Typer.scala:1263)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3044)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-[error] dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1166)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3043)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-[error] dotty.tools.dotc.typer.Typer.$anonfun$57(Typer.scala:2473)
-[error] dotty.tools.dotc.inlines.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:250)
-[error] dotty.tools.dotc.typer.Typer.typedDefDef(Typer.scala:2473)
-[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3011)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
-[error] dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
-[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
-[error] dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
-[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
-[error] dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
-[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-[error] dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
-[error] dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
-[error] scala.Function0.apply$mcV$sp(Function0.scala:42)
-[error] dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
-[error] dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
-[error] dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] scala.collection.immutable.List.foreach(List.scala:333)
-[error] dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
-[error] dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
-[error] dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
-[error] dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
-[error] dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
-[error] dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
-[error] dotty.tools.dotc.Run.compileUnits(Run.scala:279)
-[error] dotty.tools.dotc.Run.compileSources(Run.scala:194)
-[error] dotty.tools.dotc.Run.compile(Run.scala:179)
-[error] dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
-[error] dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
-[error] dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
-[error] sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:192)
-[error] scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:247)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:182)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
-[error] sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:210)
-[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:528)
-[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:528)
-[error] sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:177)
-[error] sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:175)
-[error] sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:461)
-[error] sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
-[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
-[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
-[error] sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
-[error] sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:416)
-[error] sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:503)
-[error] sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:403)
-[error] sbt.internal.inc.Incremental$.apply(Incremental.scala:169)
-[error] sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:528)
-[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:482)
-[error] sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
-[error] sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)
-[error] sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
-[error] mill.scalalib.worker.ZincWorkerImpl.compileInternal(ZincWorkerImpl.scala:545)
-[error] mill.scalalib.worker.ZincWorkerImpl.$anonfun$compileMixed0$1(ZincWorkerImpl.scala:317)
-[error] mill.api.FixSizedCache.withCachedValue(FixSizedCache.scala:66)
-[error] mill.scalalib.worker.ZincWorkerImpl.withCompilers(ZincWorkerImpl.scala:399)
-[error] mill.scalalib.worker.ZincWorkerImpl.compileMixed0(ZincWorkerImpl.scala:316)
-[error] mill.scalalib.worker.ZincWorkerImpl.compileMixed(ZincWorkerImpl.scala:284)
-[error] mill.scalalib.ScalaModule.$anonfun$compile$2(ScalaModule.scala:195)
-[error] mill.define.Task$TraverseCtx.evaluate(Task.scala:380)
-[error] mill.eval.Evaluator.$anonfun$evaluateGroup$13(Evaluator.scala:627)
-[error] scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-[error] scala.Console$.withErr(Console.scala:193)
-[error] mill.eval.Evaluator.$anonfun$evaluateGroup$12(Evaluator.scala:627)
-[error] scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-[error] scala.Console$.withOut(Console.scala:164)
-[error] mill.eval.Evaluator.$anonfun$evaluateGroup$11(Evaluator.scala:626)
-[error] scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-[error] scala.Console$.withIn(Console.scala:227)
-[error] mill.eval.Evaluator.$anonfun$evaluateGroup$8(Evaluator.scala:625)
-[error] mill.eval.Evaluator.$anonfun$evaluateGroup$8$adapted(Evaluator.scala:586)
-[error] scala.collection.immutable.Vector.foreach(Vector.scala:1856)
-[error] mill.eval.Evaluator.evaluateGroup(Evaluator.scala:586)
-[error] mill.eval.Evaluator.$anonfun$evaluateGroupCached$21(Evaluator.scala:478)
-[error] scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-[error] mill.eval.Evaluator.evaluateGroupCached(Evaluator.scala:469)
-[error] mill.eval.Evaluator.$anonfun$sequentialEvaluate$2(Evaluator.scala:202)
-[error] scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
-[error] scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
-[error] scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
-[error] mill.eval.Evaluator.sequentialEvaluate(Evaluator.scala:177)
-[error] mill.eval.Evaluator.evaluate(Evaluator.scala:162)
-[error] mill.main.RunScript$.evaluateNamed(RunScript.scala:364)
-[error] mill.main.RunScript$.evaluate(RunScript.scala:349)
-[error] mill.main.RunScript$.$anonfun$evaluateTasks$1(RunScript.scala:314)
-[error] scala.util.Either.map(Either.scala:382)
-[error] mill.main.RunScript$.evaluateTasks(RunScript.scala:312)
-[error] mill.main.RunScript$.$anonfun$runScript$8(RunScript.scala:105)
-[error] ammonite.util.Res$Success.flatMap(Res.scala:62)
-[error] mill.main.RunScript$.runScript(RunScript.scala:104)
-[error] mill.main.MainRunner.$anonfun$runScript$1(MainRunner.scala:119)
-[error] mill.main.MainRunner.watchLoop2(MainRunner.scala:67)
-[error] mill.main.MainRunner.runScript(MainRunner.scala:92)
-[error] mill.MillMain$.main0(MillMain.scala:310)
-[error] mill.MillMain$.main(MillMain.scala:52)
-[error] mill.MillMain.main(MillMain.scala)
-[error] sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[error] sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[error] sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[error] java.lang.reflect.Method.invoke(Method.java:498)
-[error] mill.main.client.IsolatedMillMainLoader.runMain(IsolatedMillMainLoader.java:58)
-[error] mill.main.client.MillClientMain.main(MillClientMain.java:67)
-[error]            
-Exception in thread "main" java.lang.reflect.InvocationTargetException
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at mill.main.client.IsolatedMillMainLoader.runMain(IsolatedMillMainLoader.java:58)
-	at mill.main.client.MillClientMain.main(MillClientMain.java:67)
-Caused by: java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$
-	at dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:169)
-	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:522)
-	at dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:231)
-	at dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:234)
-	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:140)
-	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:242)
-	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
-	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
-	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:903)
-	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$2(Namer.scala:915)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-	at scala.collection.immutable.List.foreach(List.scala:333)
-	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:915)
-	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:815)
-	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-	at dotty.tools.dotc.core.Types$TermRef.underlying(Types.scala:2817)
-	at dotty.tools.dotc.core.Types$Type.widenSingleton(Types.scala:1241)
-	at dotty.tools.dotc.typer.ProtoTypes$Compatibility.normalizedCompatible(ProtoTypes.scala:61)
-	at dotty.tools.dotc.typer.ProtoTypes$Compatibility.normalizedCompatible$(ProtoTypes.scala:28)
-	at dotty.tools.dotc.typer.Typer.normalizedCompatible(Typer.scala:116)
-	at dotty.tools.dotc.typer.ProtoTypes$SelectionProto.qualifies$1(ProtoTypes.scala:211)
-	at dotty.tools.dotc.typer.ProtoTypes$SelectionProto.liftedTree1$1(ProtoTypes.scala:215)
-	at dotty.tools.dotc.typer.ProtoTypes$SelectionProto.isMatchedBy(ProtoTypes.scala:228)
-	at dotty.tools.dotc.core.TypeComparer.isMatchedByProto(TypeComparer.scala:2062)
-	at dotty.tools.dotc.core.TypeComparer.firstTry$1(TypeComparer.scala:339)
-	at dotty.tools.dotc.core.TypeComparer.recur(TypeComparer.scala:1476)
-	at dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:208)
-	at dotty.tools.dotc.core.TypeComparer.isSubType(TypeComparer.scala:218)
-	at dotty.tools.dotc.core.TypeComparer.topLevelSubType(TypeComparer.scala:128)
-	at dotty.tools.dotc.core.TypeComparer.testSubType(TypeComparer.scala:144)
-	at dotty.tools.dotc.core.TypeComparer$.testSubType(TypeComparer.scala:2982)
-	at dotty.tools.dotc.typer.Typer.adaptNoArgsOther$1(Typer.scala:3966)
-	at dotty.tools.dotc.typer.Typer.adaptNoArgs$1(Typer.scala:4048)
-	at dotty.tools.dotc.typer.Typer.adapt1(Typer.scala:4265)
-	at dotty.tools.dotc.typer.Typer.adapt(Typer.scala:3573)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-	at dotty.tools.dotc.typer.Typer.typeSelectOnTerm$1(Typer.scala:752)
-	at dotty.tools.dotc.typer.Typer.typedSelect(Typer.scala:790)
-	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3004)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-	at dotty.tools.dotc.typer.ProtoTypes$FunProto.$anonfun$7(ProtoTypes.scala:495)
-	at dotty.tools.dotc.typer.ProtoTypes$FunProto.cacheTypedArg(ProtoTypes.scala:418)
-	at dotty.tools.dotc.typer.ProtoTypes$FunProto.typedArg(ProtoTypes.scala:496)
-	at dotty.tools.dotc.typer.Applications$ApplyToUntyped.typedArg(Applications.scala:897)
-	at dotty.tools.dotc.typer.Applications$ApplyToUntyped.typedArg(Applications.scala:897)
-	at dotty.tools.dotc.typer.Applications$Application.addTyped$1(Applications.scala:589)
-	at dotty.tools.dotc.typer.Applications$Application.matchArgs(Applications.scala:653)
-	at dotty.tools.dotc.typer.Applications$Application.init(Applications.scala:492)
-	at dotty.tools.dotc.typer.Applications$TypedApply.<init>(Applications.scala:779)
-	at dotty.tools.dotc.typer.Applications$ApplyToUntyped.<init>(Applications.scala:896)
-	at dotty.tools.dotc.typer.Applications.ApplyTo(Applications.scala:1126)
-	at dotty.tools.dotc.typer.Applications.ApplyTo$(Applications.scala:352)
-	at dotty.tools.dotc.typer.Typer.ApplyTo(Typer.scala:116)
-	at dotty.tools.dotc.typer.Applications.simpleApply$1(Applications.scala:969)
-	at dotty.tools.dotc.typer.Applications.realApply$1$$anonfun$2(Applications.scala:1052)
-	at dotty.tools.dotc.typer.Typer.tryEither(Typer.scala:3310)
-	at dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:1063)
-	at dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1101)
-	at dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:352)
-	at dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:116)
-	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3035)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-	at dotty.tools.dotc.typer.ProtoTypes$FunProto.$anonfun$7(ProtoTypes.scala:495)
-	at dotty.tools.dotc.typer.ProtoTypes$FunProto.cacheTypedArg(ProtoTypes.scala:418)
-	at dotty.tools.dotc.typer.ProtoTypes$FunProto.typedArg(ProtoTypes.scala:496)
-	at dotty.tools.dotc.typer.Applications$ApplyToUntyped.typedArg(Applications.scala:897)
-	at dotty.tools.dotc.typer.Applications$ApplyToUntyped.typedArg(Applications.scala:897)
-	at dotty.tools.dotc.typer.Applications$Application.addTyped$1(Applications.scala:589)
-	at dotty.tools.dotc.typer.Applications$Application.matchArgs(Applications.scala:653)
-	at dotty.tools.dotc.typer.Applications$Application.init(Applications.scala:492)
-	at dotty.tools.dotc.typer.Applications$TypedApply.<init>(Applications.scala:779)
-	at dotty.tools.dotc.typer.Applications$ApplyToUntyped.<init>(Applications.scala:896)
-	at dotty.tools.dotc.typer.Applications.ApplyTo(Applications.scala:1126)
-	at dotty.tools.dotc.typer.Applications.ApplyTo$(Applications.scala:352)
-	at dotty.tools.dotc.typer.Typer.ApplyTo(Typer.scala:116)
-	at dotty.tools.dotc.typer.Applications.simpleApply$1(Applications.scala:969)
-	at dotty.tools.dotc.typer.Applications.realApply$1$$anonfun$2(Applications.scala:1052)
-	at dotty.tools.dotc.typer.Typer.tryEither(Typer.scala:3310)
-	at dotty.tools.dotc.typer.Applications.realApply$1(Applications.scala:1063)
-	at dotty.tools.dotc.typer.Applications.typedApply(Applications.scala:1101)
-	at dotty.tools.dotc.typer.Applications.typedApply$(Applications.scala:352)
-	at dotty.tools.dotc.typer.Typer.typedApply(Typer.scala:116)
-	at dotty.tools.dotc.typer.Typer.typedInfixOp(Typer.scala:2919)
-	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3074)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-	at dotty.tools.dotc.typer.Namer.typedAheadExpr$$anonfun$1(Namer.scala:1645)
-	at dotty.tools.dotc.typer.Namer.typedAhead(Namer.scala:1635)
-	at dotty.tools.dotc.typer.Namer.typedAheadExpr(Namer.scala:1645)
-	at dotty.tools.dotc.typer.Namer.typedAheadRhs$1$$anonfun$1(Namer.scala:1898)
-	at dotty.tools.dotc.inlines.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:250)
-	at dotty.tools.dotc.typer.Namer.typedAheadRhs$1(Namer.scala:1898)
-	at dotty.tools.dotc.typer.Namer.rhsType$1(Namer.scala:1906)
-	at dotty.tools.dotc.typer.Namer.cookedRhsType$1(Namer.scala:1924)
-	at dotty.tools.dotc.typer.Namer.lhsType$1(Namer.scala:1925)
-	at dotty.tools.dotc.typer.Namer.inferredResultType(Namer.scala:1936)
-	at dotty.tools.dotc.typer.Namer.inferredType$1(Namer.scala:1683)
-	at dotty.tools.dotc.typer.Namer.valOrDefDefSig(Namer.scala:1690)
-	at dotty.tools.dotc.typer.Namer$Completer.typeSig(Namer.scala:787)
-	at dotty.tools.dotc.typer.Namer$Completer.completeInCreationContext(Namer.scala:926)
-	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:814)
-	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:393)
-	at dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2976)
-	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3001)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-	at dotty.tools.dotc.typer.Typer.typedBlockStats(Typer.scala:1159)
-	at dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1163)
-	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3043)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.$anonfun$14(Typer.scala:1260)
-	at dotty.tools.dotc.typer.Applications.harmonic(Applications.scala:2334)
-	at dotty.tools.dotc.typer.Applications.harmonic$(Applications.scala:352)
-	at dotty.tools.dotc.typer.Typer.harmonic(Typer.scala:116)
-	at dotty.tools.dotc.typer.Typer.typedIf(Typer.scala:1263)
-	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3044)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-	at dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1166)
-	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3043)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.$anonfun$14(Typer.scala:1261)
-	at dotty.tools.dotc.typer.Applications.harmonic(Applications.scala:2334)
-	at dotty.tools.dotc.typer.Applications.harmonic$(Applications.scala:352)
-	at dotty.tools.dotc.typer.Typer.harmonic(Typer.scala:116)
-	at dotty.tools.dotc.typer.Typer.typedIf(Typer.scala:1263)
-	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3044)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-	at dotty.tools.dotc.typer.Typer.typedBlock(Typer.scala:1166)
-	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3043)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-	at dotty.tools.dotc.typer.Typer.$anonfun$57(Typer.scala:2473)
-	at dotty.tools.dotc.inlines.PrepareInlineable$.dropInlineIfError(PrepareInlineable.scala:250)
-	at dotty.tools.dotc.typer.Typer.typedDefDef(Typer.scala:2473)
-	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3011)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
-	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
-	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
-	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
-	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
-	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
-	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
-	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
-	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
-	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
-	at scala.Function0.apply$mcV$sp(Function0.scala:42)
-	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
-	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
-	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-	at scala.collection.immutable.List.foreach(List.scala:333)
-	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
-	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
-	at dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
-	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
-	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
-	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
-	at dotty.tools.dotc.Run.compileUnits(Run.scala:279)
-	at dotty.tools.dotc.Run.compileSources(Run.scala:194)
-	at dotty.tools.dotc.Run.compile(Run.scala:179)
-	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
-	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
-	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
-	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
-	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:192)
-	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
-	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:247)
-	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:182)
-	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
-	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
-	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
-	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:210)
-	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:528)
-	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:528)
-	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:177)
-	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:175)
-	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:461)
-	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
-	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
-	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
-	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
-	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:416)
-	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:503)
-	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:403)
-	at sbt.internal.inc.Incremental$.apply(Incremental.scala:169)
-	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:528)
-	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:482)
-	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
-	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:420)
-	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
-	at mill.scalalib.worker.ZincWorkerImpl.compileInternal(ZincWorkerImpl.scala:545)
-	at mill.scalalib.worker.ZincWorkerImpl.$anonfun$compileMixed0$1(ZincWorkerImpl.scala:317)
-	at mill.api.FixSizedCache.withCachedValue(FixSizedCache.scala:66)
-	at mill.scalalib.worker.ZincWorkerImpl.withCompilers(ZincWorkerImpl.scala:399)
-	at mill.scalalib.worker.ZincWorkerImpl.compileMixed0(ZincWorkerImpl.scala:316)
-	at mill.scalalib.worker.ZincWorkerImpl.compileMixed(ZincWorkerImpl.scala:284)
-	at mill.scalalib.ScalaModule.$anonfun$compile$2(ScalaModule.scala:195)
-	at mill.define.Task$TraverseCtx.evaluate(Task.scala:380)
-	at mill.eval.Evaluator.$anonfun$evaluateGroup$13(Evaluator.scala:627)
-	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-	at scala.Console$.withErr(Console.scala:193)
-	at mill.eval.Evaluator.$anonfun$evaluateGroup$12(Evaluator.scala:627)
-	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-	at scala.Console$.withOut(Console.scala:164)
-	at mill.eval.Evaluator.$anonfun$evaluateGroup$11(Evaluator.scala:626)
-	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-	at scala.Console$.withIn(Console.scala:227)
-	at mill.eval.Evaluator.$anonfun$evaluateGroup$8(Evaluator.scala:625)
-	at mill.eval.Evaluator.$anonfun$evaluateGroup$8$adapted(Evaluator.scala:586)
-	at scala.collection.immutable.Vector.foreach(Vector.scala:1856)
-	at mill.eval.Evaluator.evaluateGroup(Evaluator.scala:586)
-	at mill.eval.Evaluator.$anonfun$evaluateGroupCached$21(Evaluator.scala:478)
-	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:59)
-	at mill.eval.Evaluator.evaluateGroupCached(Evaluator.scala:469)
-	at mill.eval.Evaluator.$anonfun$sequentialEvaluate$2(Evaluator.scala:202)
-	at scala.collection.IterableOnceOps.foreach(IterableOnce.scala:563)
-	at scala.collection.IterableOnceOps.foreach$(IterableOnce.scala:561)
-	at scala.collection.AbstractIterator.foreach(Iterator.scala:1293)
-	at mill.eval.Evaluator.sequentialEvaluate(Evaluator.scala:177)
-	at mill.eval.Evaluator.evaluate(Evaluator.scala:162)
-	at mill.main.RunScript$.evaluateNamed(RunScript.scala:364)
-	at mill.main.RunScript$.evaluate(RunScript.scala:349)
-	at mill.main.RunScript$.$anonfun$evaluateTasks$1(RunScript.scala:314)
-	at scala.util.Either.map(Either.scala:382)
-	at mill.main.RunScript$.evaluateTasks(RunScript.scala:312)
-	at mill.main.RunScript$.$anonfun$runScript$8(RunScript.scala:105)
-	at ammonite.util.Res$Success.flatMap(Res.scala:62)
-	at mill.main.RunScript$.runScript(RunScript.scala:104)
-	at mill.main.MainRunner.$anonfun$runScript$1(MainRunner.scala:119)
-	at mill.main.MainRunner.watchLoop2(MainRunner.scala:67)
-	at mill.main.MainRunner.runScript(MainRunner.scala:92)
-	at mill.MillMain$.main0(MillMain.scala:310)
-	at mill.MillMain$.main(MillMain.scala:52)
-	at mill.MillMain.main(MillMain.scala)
-	... 6 more
-Caused by: java.lang.ClassNotFoundException: scala.runtime.Scala3RunTime$
-	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
-	at mill.api.ClassLoader$$anon$1.findClass(ClassLoader.scala:47)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
-	... 296 more
-[32mRerunning tests in scas because of a previous run failure.[0m
-[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT scas.application.test[0m
-[3/75] mill.scalalib.ZincWorkerModule.worker 
-[1A[2K[9999D[7/75] scas.sources 
-[1A[2K[9999D[12/75] scas.resources 
-[1A[2K[9999D[33/75] scas.compile 
-[info] compiling 96 Scala sources to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/out/scas/compile.dest/classes ...
-[warn] -- Warning: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/scas/src/scas/module/ArrayModule.scala:15:24 
-[warn] 15 |      if (x(i) <> y(i)) return false
-[warn]    |                        ^^^^^^^^^^^^
-[warn]    |Non local returns are no longer supported; use `boundary` and `boundary.break` in `scala.util` instead
-[warn] there were 3 deprecation warnings; re-run with -deprecation for details
-[warn] two warnings found
-[info] done compiling
-[34/75] scas.application.upstreamCompileOutput 
-[1A[2K[9999D[35/75] scas.application.sources 
-[1A[2K[9999D[36/75] scas.application.generatedSources 
-[1A[2K[9999D[37/75] scas.application.allSources 
-[1A[2K[9999D[38/75] scas.application.allSourceFiles 
-[1A[2K[9999D[39/75] scas.localClasspath 
-[1A[2K[9999D[40/75] scas.application.transitiveLocalClasspath 
-[1A[2K[9999D[41/75] scas.application.resources 
-[1A[2K[9999D[42/75] scas.application.unmanagedClasspath 
-[1A[2K[9999D[43/75] scas.application.platformSuffix 
-[1A[2K[9999D[44/75] scas.application.compileIvyDeps 
-[1A[2K[9999D[45/75] scas.application.transitiveCompileIvyDeps 
-[1A[2K[9999D[46/75] scas.application.ivyDeps 
-[1A[2K[9999D[47/75] scas.application.mandatoryIvyDeps.overridden.mill.scalalib.JavaModule.mandatoryIvyDeps 
-[1A[2K[9999D[48/75] scas.application.scalaOrganization 
-[1A[2K[9999D[49/75] scas.application.scalaLibraryIvyDeps 
-[1A[2K[9999D[50/75] scas.application.mandatoryIvyDeps 
-[1A[2K[9999D[51/75] scas.application.transitiveIvyDeps 
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps 
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [1/1] artifacts (~0/0 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [2/2] artifacts (~0/0 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [3/3] artifacts (~0/0 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [4/4] artifacts (~0/0 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [5/5] artifacts (~0/0 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~0/0 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~0/28697 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~0/34219 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~0/35336 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~0/58838 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~0/65461 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~0/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~1371/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~2742/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~4113/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~5484/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~6623/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~6623/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~7994/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~9365/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~10736/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~12107/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~13478/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~14849/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~16220/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~17591/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~18962/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~20333/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~21704/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~21742/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~23113/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~24484/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~25855/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~27226/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~28343/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~29714/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~31085/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~32456/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~33827/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~35198/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~36569/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~37940/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~39311/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~40682/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~40682/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~42053/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~42388/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~42388/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~43759/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~45130/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~46501/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~47872/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~49243/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~49243/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~50614/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~51985/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~53356/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~54727/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~55499/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~56870/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~58241/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~59612/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~60983/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~62354/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~63148/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~64519/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~65890/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~67261/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~67261/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~68632/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~70003/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~71374/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~72745/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~74116/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~75487/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~76858/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~78229/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~79506/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [6/6] artifacts (~79506/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [7/7] artifacts (~79506/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~79506/79506 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~79506/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~80877/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~82248/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~83619/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~84990/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~86361/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~87732/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~89103/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~90474/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~91845/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~93216/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~94587/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~95362/141481 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~95362/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~96733/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~98104/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~99475/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~100846/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~102217/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~103588/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~104959/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~106330/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~107701/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~109072/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~110443/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~111217/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~127601/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~143985/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~160369/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~173720/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~173720/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~190104/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~206488/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~210327/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [8/8] artifacts (~210327/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [9/9] artifacts (~210327/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [10/10] artifacts (~210327/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~210327/210327 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~210327/211769 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~211769/211769 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~211769/216230 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~216230/216230 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~216230/216230 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~216230/216230 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~216230/219907 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~217601/219907 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~218972/219907 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~219907/219907 bytes)
-[1A[2K[9999D[52/75] scas.application.resolvedIvyDeps | Downloading [11/11] artifacts (~219907/219907 bytes)
-[1A[2K[9999D[53/75] scas.application.compileClasspath 
-[1A[2K[9999D[54/75] scas.application.javacOptions 
-[1A[2K[9999D[55/75] scas.application.mandatoryScalacOptions 
-[1A[2K[9999D[56/75] scas.application.scalacPluginIvyDeps 
-[1A[2K[9999D[57/75] scas.application.enablePluginScalacOptions 
-[1A[2K[9999D[58/75] scas.application.scalacOptions 
-[1A[2K[9999D[59/75] scas.application.allScalacOptions 
-[1A[2K[9999D[60/75] scas.application.scalaCompilerClasspath 
-[1A[2K[9999D[61/75] scas.application.scalacPluginClasspath 
-[1A[2K[9999D[62/75] scas.application.compile 
-[info] compiling 21 Scala sources to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/out/scas/application/compile.dest/classes ...
-[warn] there was 1 deprecation warning; re-run with -deprecation for details
-[warn] one warning found
-[info] done compiling
-[63/75] scas.application.finalMainClassOpt 
-[1A[2K[9999D[64/75] scas.application.finalMainClass 
-[1A[2K[9999D[65/75] scas.application.localClasspath 
-[1A[2K[9999D[66/75] scas.application.runIvyDeps 
-[1A[2K[9999D[67/75] scas.application.resolvedRunIvyDeps 
-[1A[2K[9999D[68/75] scas.application.upstreamAssemblyClasspath 
-[1A[2K[9999D[69/75] scas.application.runClasspath 
-[1A[2K[9999D[70/75] scas.application.forkArgs 
-[1A[2K[9999D[71/75] scas.application.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
-[1A[2K[9999D[72/75] scas.application.forkEnv 
-[1A[2K[9999D[73/75] scas.application.forkWorkingDir 
-[1A[2K[9999D[74/75] scas.application.runUseArgsFile 
-[1A[2K[9999D[75/75] scas.application.run 
-polypower.txt
-p: z + y + x + 1 
-q: 1771
-q1: 1771
-q2: 12341
-t: 4392
-modint.txt
-mod_polynomial.txt
-index.txt
-rational_module.txt
-polynomial.txt
-math3.txt
-ringsbigint.txt
-poly_rings.txt
-#
-# A fatal error has been detected by the Java Runtime Environment:
-#
-#  SIGBUS (0xa) at pc=0x000000010288e9df, pid=71212, tid=0x0000000000001303
-#
-# JRE version: OpenJDK Runtime Environment (8.0_292-b10) (build 1.8.0_292-b10)
-# Java VM: OpenJDK 64-Bit Server VM (25.292-b10 mixed mode bsd-amd64 compressed oops)
-# Problematic frame:
-# C  [libzip.dylib+0x39df]  newEntry+0x5d
-#
-# Failed to write core dump. Core dumps have been disabled. To enable core dumping, try "ulimit -c unlimited" before starting Java again
-#
-# An error report file with more information is saved as:
-# /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scas/hs_err_pid71212.log
-#
-# If you would like to submit a bug report, please visit:
-#   https://github.com/AdoptOpenJDK/openjdk-support/issues
-# The crash happened outside the Java Virtual Machine in native code.
-# See problematic frame for where to report the bug.
-#
-1 targets failed
-scas.application.run subprocess failed
-[32mRerunning tests in scas because of a previous run failure.[0m
-[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT scas.application.test[0m
 [3/75] mill.scalalib.ZincWorkerModule.worker 
 [1A[2K[9999D[7/75] scas.sources 
 [1A[2K[9999D[12/75] scas.resources 
@@ -1054,93 +172,7 @@ p: z + y + x + 1
 q: 1771
 q1: 1771
 q2: 12341
-t: 4629
-modint.txt
-mod_polynomial.txt
-index.txt
-rational_module.txt
-polynomial.txt
-math3.txt
-ringsbigint.txt
-poly_rings.txt
-product.txt
-rational.txt
-bigint.txt
-rational_polynomial.txt
-pp2.txt
-Exception in thread "main" java.lang.NoClassDefFoundError: dotty/tools/dotc/reporting/Message$Seen
-	at dotty.tools.dotc.reporting.Message.inMessageContext(Message.scala:336)
-	at dotty.tools.dotc.reporting.Message.message(Message.scala:345)
-	at dotty.tools.dotc.reporting.Message.isNonSensical(Message.scala:322)
-	at dotty.tools.dotc.reporting.HideNonSensicalMessages.isHidden(HideNonSensicalMessages.scala:16)
-	at dotty.tools.dotc.reporting.HideNonSensicalMessages.isHidden$(HideNonSensicalMessages.scala:10)
-	at dotty.tools.repl.package$$anon$1.isHidden(package.scala:8)
-	at dotty.tools.dotc.reporting.Reporter.issueUnconfigured(Reporter.scala:156)
-	at dotty.tools.dotc.reporting.Reporter.go$1(Reporter.scala:181)
-	at dotty.tools.dotc.reporting.Reporter.issueIfNotSuppressed(Reporter.scala:200)
-	at dotty.tools.dotc.reporting.Reporter.report(Reporter.scala:203)
-	at dotty.tools.dotc.reporting.StoreReporter.report(StoreReporter.scala:50)
-	at dotty.tools.dotc.report$.error(report.scala:68)
-	at dotty.tools.dotc.parsing.Parsers$ParserCommon.syntaxError(Parsers.scala:150)
-	at dotty.tools.dotc.parsing.Parsers$ParserCommon.syntaxError(Parsers.scala:143)
-	at dotty.tools.dotc.parsing.Parsers$Parser.syntaxErrorOrIncomplete(Parsers.scala:281)
-	at dotty.tools.dotc.parsing.Parsers$Parser.accept(Parsers.scala:299)
-	at dotty.tools.dotc.parsing.Parsers$Parser.enclosed(Parsers.scala:556)
-	at dotty.tools.dotc.parsing.Parsers$Parser.inParens(Parsers.scala:558)
-	at dotty.tools.dotc.parsing.Parsers$Parser.parArgumentExprs(Parsers.scala:2603)
-	at dotty.tools.dotc.parsing.Parsers$Parser.parArgumentExprss(Parsers.scala:2650)
-	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$14(Parsers.scala:4026)
-	at dotty.tools.dotc.parsing.Parsers$Parser.constrApps(Parsers.scala:4031)
-	at dotty.tools.dotc.parsing.Parsers$Parser.newExpr(Parsers.scala:2566)
-	at dotty.tools.dotc.parsing.Parsers$Parser.simpleExpr(Parsers.scala:2505)
-	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$9(Parsers.scala:2446)
-	at dotty.tools.dotc.parsing.Parsers$Parser.postfixExpr(Parsers.scala:2423)
-	at dotty.tools.dotc.parsing.Parsers$Parser.expr1(Parsers.scala:2264)
-	at dotty.tools.dotc.parsing.Parsers$Parser.expr(Parsers.scala:2154)
-	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$8(Parsers.scala:2122)
-	at dotty.tools.dotc.parsing.Parsers$Parser.subPart(Parsers.scala:629)
-	at dotty.tools.dotc.parsing.Parsers$Parser.subExpr(Parsers.scala:2124)
-	at dotty.tools.dotc.parsing.Parsers$Parser.patDefOrDcl(Parsers.scala:3586)
-	at dotty.tools.dotc.parsing.Parsers$Parser.defOrDcl(Parsers.scala:3550)
-	at dotty.tools.dotc.parsing.Parsers$Parser.localDef(Parsers.scala:4288)
-	at dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq$$anonfun$1(Parsers.scala:4312)
-	at dotty.tools.dotc.parsing.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:500)
-	at dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq(Parsers.scala:4318)
-	at dotty.tools.repl.ParseResult$.parseStats(ParseResult.scala:125)
-	at dotty.tools.repl.ParseResult$.apply(ParseResult.scala:157)
-	at dotty.tools.repl.ParseResult$.maybeIncomplete(ParseResult.scala:177)
-	at dotty.tools.repl.ParseResult$.complete(ParseResult.scala:174)
-	at dotty.tools.repl.ReplDriver.run$$anonfun$1(ReplDriver.scala:177)
-	at dotty.tools.repl.ReplDriver.withRedirectedOutput(ReplDriver.scala:211)
-	at dotty.tools.repl.ReplDriver.runBody$$anonfun$1(ReplDriver.scala:185)
-	at dotty.tools.runner.ScalaClassLoader$.asContext(ScalaClassLoader.scala:80)
-	at dotty.tools.repl.ReplDriver.runBody(ReplDriver.scala:185)
-	at dotty.tools.repl.ReplDriver.run(ReplDriver.scala:178)
-	at dotty.tools.repl.ScriptEngine.eval(ScriptEngine.scala:40)
-	at javax.script.AbstractScriptEngine.eval(AbstractScriptEngine.java:264)
-	at scas.test.Main$package$.$anonfun$1(Main.scala:14)
-	at scala.collection.immutable.ArraySeq.map(ArraySeq.scala:75)
-	at scala.collection.immutable.ArraySeq.map(ArraySeq.scala:35)
-	at scas.test.Main$package$.Main(Main.scala:22)
-	at scas.test.Main.main(Main.scala:8)
-1 targets failed
-scas.application.run subprocess failed
-[32mRerunning tests in scas because of a previous run failure.[0m
-[32m./mill -i -D dottyVersion=3.3.1-RC1-bin-SNAPSHOT scas.application.test[0m
-[3/75] mill.scalalib.ZincWorkerModule.worker 
-[1A[2K[9999D[7/75] scas.sources 
-[1A[2K[9999D[12/75] scas.resources 
-[1A[2K[9999D[35/75] scas.application.sources 
-[1A[2K[9999D[41/75] scas.application.resources 
-[1A[2K[9999D[71/75] scas.application.forkEnv.overridden.mill.scalalib.JavaModule.forkEnv 
-[1A[2K[9999D[72/75] scas.application.forkEnv 
-[1A[2K[9999D[75/75] scas.application.run 
-polypower.txt
-p: z + y + x + 1 
-q: 1771
-q1: 1771
-q2: 12341
-t: 6419
+t: 1130
 modint.txt
 mod_polynomial.txt
 index.txt
@@ -1159,14 +191,14 @@ p: z+y+x+1
 q: 1771
 q1: 1771
 q2: 12341
-t: 6304
+t: 1317
 pp1.txt
 polypower_scas.txt
 p: 1+x+y+z
 q: 1771
 q1: 1771
 q2: 12341
-t: 5162
+t: 1335
 poly.txt
 module.txt
 pp_jas.txt
@@ -1176,13 +208,13 @@ p: 1+z+y+x
 q: 1771
 q1: 1771
 q2: 12341
-t: 2246
+t: 446
 solvable_polynomial.txt
 success : 23, failure : 0
 [32m[SUCCESS scas][0m
 [32m[scas DONE RUNNING][0m
-[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 342.381s
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 1 total, 25.826s
 [info] Test run dotty.communitybuild.CommunityBuildTestB started
 [info] Test run dotty.communitybuild.CommunityBuildTestB finished: 0 failed, 0 ignored, 0 total, 0.0s
 [info] Passed: Total 1, Failed 0, Errors 0, Passed 1
-[success] Total time: 424 s (07:04), completed Jun 28, 2023 10:42:35 PM
+[success] Total time: 60 s, completed Jun 29, 2023 10:23:36 AM
