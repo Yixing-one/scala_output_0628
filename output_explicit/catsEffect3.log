@@ -1,101 +1,105 @@
-[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
-[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] welcome to sbt 1.8.0 (AdoptOpenJDK Java 1.8.0_292)
+[info] loading global plugins from /Users/yixing/.sbt/1.0/plugins
 [info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
-[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project/project
+[info] loading project definition from /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/project/project
 [info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
-[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project
+[info] loading project definition from /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/project
 [info] loading settings for project scala3 from build.sbt ...
 [info] resolving key references (31394 settings) ...
-[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/)
+[info] set current project to scala3 (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/)
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
-SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Ignoring binding found at [jar:file:/Users/yixing/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:21:09 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 21 23:21:10 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
-[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
-[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
-[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
-[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
-[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
-[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
-[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:21:12 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
-[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
-[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
-[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:21:17 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
-[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
-[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
-[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
-[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
-[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:21:17 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
-[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
-[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
-[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:21:18 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
-[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
-[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
-[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:47:57 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Thu Jun 29 06:47:57 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:48:00 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:48:08 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:48:09 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:48:09 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:48:10 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
 [warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
 [warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
-[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
 [warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
 [warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
 [warn] Flag -project-logo set repeatedly
-[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
 [warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
-[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
 [warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
-[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
 [warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
-[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
 [warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
 [warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
 [warn] Flag -project-footer set repeatedly
 [warn] Flag -author set repeatedly
-[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
 [warn] Flag -groups set repeatedly
-[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
 [warn] Flag -default-template set repeatedly
-[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
 [warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
-[warn] bad option '-default-template static-site-main' was ignored
 [warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
-[warn] Flag -author set repeatedly
 [warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
-[warn] Flag -groups set repeatedly
 [warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
 [warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
 [warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
 [warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
 [warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
@@ -106,463 +110,833 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 [warn] bad option '-default-template static-site-main' was ignored
 [warn] Flag -author set repeatedly
 [warn] Flag -groups set repeatedly
+[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
 [info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
-[info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
-[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:21:20 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
-[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
-[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
-[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
 [warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
 [warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
 [warn] 21 |  def fromDigits(digits: String): T
 [warn]    |      ^
-[warn]    |      ^
 [warn]    |      No DRI found for query: MalformedNumber
-[warn]    |      No DRI found for query: MalformedNumber
-[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
-[error] 13 |object IArray:
-[error]    |       ^
-[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
-[error]    |(Note: this can be resolved by using another name)
-[warn] 14 warnings found
-[error] one error found
-[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] -- [E069] Naming Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
 [error] 13 |object IArray:
 [error]    |       ^
 [error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
 [error]    |(Note: this can be resolved by using another name)
 [warn] 28 warnings found
 [error] one error found
-[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:21:43 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
-[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
-[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
-[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:21:43 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
-[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
-[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
-[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[error] -- [E069] Naming Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
+[error]    |       ^
+[error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
+[error]    |(Note: this can be resolved by using another name)
+[warn] 14 warnings found
+[error] one error found
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:48:54 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:48:54 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
 [info] Test run dotty.communitybuild.CommunityBuildTestA started
 [info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.0s
 [info] Test run dotty.communitybuild.CommunityBuildTestC started
-[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 0 total, 0.001s
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 0 failed, 0 ignored, 0 total, 0.0s
 [info] Test run dotty.communitybuild.CommunityBuildTestB started
 [info] Test dotty.communitybuild.CommunityBuildTestB.catsEffect3 started
 [32m[STARTING cats-effect-3][0m
 [32mPublishing scalacheck[0m
-[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
-[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
-[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
-[info] waiting for lock on /Users/y3536zha/.ivy2/.sbt.ivy.lock to be available...
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; coreJVM/publishLocal;coreJS/publishLocal[0m
+[info] welcome to sbt 1.8.0 (AdoptOpenJDK Java 1.8.0_292)
+[info] loading global plugins from /Users/yixing/.sbt/1.0/plugins
 [info] loading settings for project scalacheck-build from plugin.sbt,sbt-injected-plugins ...
-[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/project
+[info] loading project definition from /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/project
 [info] loading settings for project root from build.sbt ...
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
-SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Ignoring binding found at [jar:file:/Users/yixing/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
-[success] Total time: 0 s, completed Jun 21, 2023, 11:22:04 PM
+[info] set current project to scalacheck (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[success] Total time: 0 s, completed Jun 29, 2023 6:49:23 AM
 [info] Defining Global / logLevel
 [info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 64 others.
 [info] 	Run `last` for details.
 [info] Reapplying settings...
-[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] set current project to scalacheck (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
 [info] Defining Global / updateOptions
 [info] The new value will be used by bench / dependencyTreeIgnoreMissingUpdate / updateOptions, bench / ivyConfiguration and 21 others.
 [info] 	Run `last` for details.
 [info] Reapplying settings...
-[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] set current project to scalacheck (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
 [info] Defining Global / scalacOptions
 [info] The new value will be used by bench / scalacOptions, coreJS / scalacOptions and 5 others.
 [info] 	Run `last` for details.
 [info] Reapplying settings...
-[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[info] set current project to scalacheck (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
 [info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
 [info] Reapplying settings...
-[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
-[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
-[info] set current project to scalacheck (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
-Exception while compiling /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeShrink.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalacheck/ArbitraryArities.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalacheck/CogenArities.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/target/scala-3.3.1-RC1-bin-SNAPSHOT/src_managed/main/org/scalacheck/GenArities.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala-2.13+/org/scalacheck/ScalaVersionSpecific.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala-2.13+/org/scalacheck/util/BuildableVersionSpecific.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Prop.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Properties.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/ScalaCheckFramework.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Shrink.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Test.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/commands/Commands.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/rng/Seed.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/util/Buildable.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/util/CmdLineParser.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/util/ConsoleReporter.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/util/FreqMap.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/util/Pretty.scala
-[error] ## Exception when compiling 25 sources to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/target/scala-3.3.1-RC1-bin-SNAPSHOT/classes
-[error] java.lang.NoClassDefFoundError: scala/util/FromDigits$
-[error] dotty.tools.dotc.parsing.Parsers$Parser.literalOf$1(Parsers.scala:1223)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.literal(Parsers.scala:1283)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.simpleExpr(Parsers.scala:2511)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$9(Parsers.scala:2446)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.postfixExpr(Parsers.scala:2423)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.expr1(Parsers.scala:2264)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.expr(Parsers.scala:2154)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$10(Parsers.scala:2616)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.commaSeparatedRest(Parsers.scala:590)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.commaSeparated(Parsers.scala:578)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.parArgumentExprs$$anonfun$1(Parsers.scala:2602)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.enclosed(Parsers.scala:556)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.inParens(Parsers.scala:558)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.parArgumentExprs(Parsers.scala:2603)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.argumentExprs(Parsers.scala:2609)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.simpleExprRest(Parsers.scala:2534)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.simpleExprRest(Parsers.scala:2529)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.simpleExpr(Parsers.scala:2521)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$9(Parsers.scala:2446)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.postfixExpr(Parsers.scala:2423)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.expr1(Parsers.scala:2264)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.expr(Parsers.scala:2154)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$8(Parsers.scala:2122)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.subPart(Parsers.scala:629)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.subExpr(Parsers.scala:2124)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.patDefOrDcl(Parsers.scala:3586)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.defOrDcl(Parsers.scala:3550)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.localDef(Parsers.scala:4288)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq$$anonfun$1(Parsers.scala:4312)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:500)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq(Parsers.scala:4318)
-[error] dotty.tools.dotc.printing.SyntaxHighlighting$.highlight(SyntaxHighlighting.scala:128)
-[error] dotty.tools.dotc.reporting.MessageRendering.sourceLines(MessageRendering.scala:66)
-[error] dotty.tools.dotc.reporting.MessageRendering.messageAndPos(MessageRendering.scala:245)
-[error] dotty.tools.dotc.reporting.MessageRendering.messageAndPos$(MessageRendering.scala:20)
-[error] dotty.tools.dotc.reporting.AbstractReporter.messageAndPos(AbstractReporter.scala:8)
-[error] dotty.tools.xsbt.DelegatingReporter.doReport(DelegatingReporter.java:40)
-[error] dotty.tools.dotc.reporting.Reporter.issueUnconfigured(Reporter.scala:158)
-[error] dotty.tools.dotc.reporting.Reporter.go$1(Reporter.scala:181)
-[error] dotty.tools.dotc.reporting.Reporter.issueIfNotSuppressed(Reporter.scala:200)
-[error] dotty.tools.dotc.reporting.Reporter.report(Reporter.scala:203)
-[error] dotty.tools.dotc.report$.error(report.scala:68)
-[error] dotty.tools.dotc.parsing.Parsers$ParserCommon.syntaxError(Parsers.scala:150)
-[error] dotty.tools.dotc.parsing.Parsers$ParserCommon.syntaxError(Parsers.scala:143)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.syntaxErrorOrIncomplete(Parsers.scala:281)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.accept(Parsers.scala:299)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.enclosed(Parsers.scala:556)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.inParens(Parsers.scala:558)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.parArgumentExprs(Parsers.scala:2603)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.argumentExprs(Parsers.scala:2609)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.simpleExprRest(Parsers.scala:2534)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.simpleExprRest(Parsers.scala:2529)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.simpleExpr(Parsers.scala:2521)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$9(Parsers.scala:2446)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.postfixExpr(Parsers.scala:2423)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.expr1(Parsers.scala:2264)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.expr(Parsers.scala:2154)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$8(Parsers.scala:2122)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.subPart(Parsers.scala:629)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.subExpr(Parsers.scala:2124)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.patDefOrDcl(Parsers.scala:3586)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.defOrDcl(Parsers.scala:3550)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.localDef(Parsers.scala:4288)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq$$anonfun$1(Parsers.scala:4312)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:500)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq(Parsers.scala:4318)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.block(Parsers.scala:2669)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.blockExpr$$anonfun$1(Parsers.scala:2661)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.enclosed(Parsers.scala:556)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.inBraces(Parsers.scala:559)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.inBracesOrIndented(Parsers.scala:570)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.inDefScopeBraces(Parsers.scala:573)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.blockExpr(Parsers.scala:2659)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.simpleExpr(Parsers.scala:2493)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$9(Parsers.scala:2446)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.postfixExpr(Parsers.scala:2423)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.expr1(Parsers.scala:2264)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.expr(Parsers.scala:2154)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$8(Parsers.scala:2122)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.subPart(Parsers.scala:629)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.subExpr(Parsers.scala:2124)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.patDefOrDcl(Parsers.scala:3586)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.defOrDcl(Parsers.scala:3550)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.templateStatSeq$$anonfun$1(Parsers.scala:4230)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:500)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.templateStatSeq(Parsers.scala:4238)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.$anonfun$38(Parsers.scala:4109)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.enclosed(Parsers.scala:556)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.inBraces(Parsers.scala:559)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.inBracesOrIndented(Parsers.scala:570)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.inDefScopeBraces(Parsers.scala:573)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.templateBody(Parsers.scala:4109)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.templateBodyOpt(Parsers.scala:4102)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.template(Parsers.scala:4079)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.templateOpt(Parsers.scala:4091)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.classDefRest(Parsers.scala:3810)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.classDef(Parsers.scala:3805)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.tmplDef(Parsers.scala:3779)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.defOrDcl(Parsers.scala:3562)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.topStatSeq(Parsers.scala:4166)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.topstats$1(Parsers.scala:4354)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.topstats$1(Parsers.scala:4348)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.compilationUnit$$anonfun$1(Parsers.scala:4359)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:500)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.compilationUnit(Parsers.scala:4364)
-[error] dotty.tools.dotc.parsing.Parsers$Parser.parse(Parsers.scala:181)
-[error] dotty.tools.dotc.parsing.Parser.parse$$anonfun$1(ParserPhase.scala:32)
-[error] dotty.tools.dotc.parsing.Parser.parse$$anonfun$adapted$1(ParserPhase.scala:39)
-[error] scala.Function0.apply$mcV$sp(Function0.scala:42)
-[error] dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
-[error] dotty.tools.dotc.parsing.Parser.parse(ParserPhase.scala:39)
-[error] dotty.tools.dotc.parsing.Parser.runOn$$anonfun$1(ParserPhase.scala:48)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] scala.collection.immutable.List.foreach(List.scala:333)
-[error] dotty.tools.dotc.parsing.Parser.runOn(ParserPhase.scala:48)
-[error] dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
-[error] dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
-[error] dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
-[error] dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
-[error] dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
-[error] dotty.tools.dotc.Run.compileUnits(Run.scala:279)
-[error] dotty.tools.dotc.Run.compileSources(Run.scala:194)
-[error] dotty.tools.dotc.Run.compile(Run.scala:179)
-[error] dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
-[error] dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
-[error] dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
-[error] sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
-[error] scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
-[error] sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
-[error] sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
-[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
-[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
-[error] sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
-[error] sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
-[error] sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
-[error] sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
-[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
-[error] sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
-[error] sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
-[error] sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
-[error] sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
-[error] sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
-[error] sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
-[error] sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
-[error] sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
-[error] sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
-[error] sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
-[error] sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
-[error] sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
-[error] sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
-[error] sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
-[error] sbt.internal.io.Retry$.apply(Retry.scala:46)
-[error] sbt.internal.io.Retry$.apply(Retry.scala:28)
-[error] sbt.internal.io.Retry$.apply(Retry.scala:23)
-[error] sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
-[error] sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
-[error] scala.Function1.$anonfun$compose$1(Function1.scala:49)
-[error] sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
-[error] sbt.std.Transform$$anon$4.work(Transform.scala:68)
-[error] sbt.Execute.$anonfun$submit$2(Execute.scala:282)
-[error] sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
-[error] sbt.Execute.work(Execute.scala:291)
-[error] sbt.Execute.$anonfun$submit$1(Execute.scala:282)
-[error] sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
-[error] sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
-[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[error] java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[error] java.base/java.lang.Thread.run(Unknown Source)
-[error]            
-[error] java.lang.NoClassDefFoundError: scala/util/FromDigits$
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.literalOf$1(Parsers.scala:1223)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.literal(Parsers.scala:1283)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.simpleExpr(Parsers.scala:2511)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$9(Parsers.scala:2446)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.postfixExpr(Parsers.scala:2423)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.expr1(Parsers.scala:2264)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.expr(Parsers.scala:2154)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$10(Parsers.scala:2616)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.commaSeparatedRest(Parsers.scala:590)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.commaSeparated(Parsers.scala:578)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.parArgumentExprs$$anonfun$1(Parsers.scala:2602)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.enclosed(Parsers.scala:556)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.inParens(Parsers.scala:558)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.parArgumentExprs(Parsers.scala:2603)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.argumentExprs(Parsers.scala:2609)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.simpleExprRest(Parsers.scala:2534)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.simpleExprRest(Parsers.scala:2529)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.simpleExpr(Parsers.scala:2521)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$9(Parsers.scala:2446)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.postfixExpr(Parsers.scala:2423)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.expr1(Parsers.scala:2264)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.expr(Parsers.scala:2154)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$8(Parsers.scala:2122)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.subPart(Parsers.scala:629)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.subExpr(Parsers.scala:2124)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.patDefOrDcl(Parsers.scala:3586)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.defOrDcl(Parsers.scala:3550)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.localDef(Parsers.scala:4288)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq$$anonfun$1(Parsers.scala:4312)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:500)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq(Parsers.scala:4318)
-[error] 	at dotty.tools.dotc.printing.SyntaxHighlighting$.highlight(SyntaxHighlighting.scala:128)
-[error] 	at dotty.tools.dotc.reporting.MessageRendering.sourceLines(MessageRendering.scala:66)
-[error] 	at dotty.tools.dotc.reporting.MessageRendering.messageAndPos(MessageRendering.scala:245)
-[error] 	at dotty.tools.dotc.reporting.MessageRendering.messageAndPos$(MessageRendering.scala:20)
-[error] 	at dotty.tools.dotc.reporting.AbstractReporter.messageAndPos(AbstractReporter.scala:8)
-[error] 	at dotty.tools.xsbt.DelegatingReporter.doReport(DelegatingReporter.java:40)
-[error] 	at dotty.tools.dotc.reporting.Reporter.issueUnconfigured(Reporter.scala:158)
-[error] 	at dotty.tools.dotc.reporting.Reporter.go$1(Reporter.scala:181)
-[error] 	at dotty.tools.dotc.reporting.Reporter.issueIfNotSuppressed(Reporter.scala:200)
-[error] 	at dotty.tools.dotc.reporting.Reporter.report(Reporter.scala:203)
-[error] 	at dotty.tools.dotc.report$.error(report.scala:68)
-[error] 	at dotty.tools.dotc.parsing.Parsers$ParserCommon.syntaxError(Parsers.scala:150)
-[error] 	at dotty.tools.dotc.parsing.Parsers$ParserCommon.syntaxError(Parsers.scala:143)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.syntaxErrorOrIncomplete(Parsers.scala:281)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.accept(Parsers.scala:299)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.enclosed(Parsers.scala:556)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.inParens(Parsers.scala:558)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.parArgumentExprs(Parsers.scala:2603)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.argumentExprs(Parsers.scala:2609)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.simpleExprRest(Parsers.scala:2534)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.simpleExprRest(Parsers.scala:2529)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.simpleExpr(Parsers.scala:2521)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$9(Parsers.scala:2446)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.postfixExpr(Parsers.scala:2423)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.expr1(Parsers.scala:2264)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.expr(Parsers.scala:2154)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$8(Parsers.scala:2122)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.subPart(Parsers.scala:629)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.subExpr(Parsers.scala:2124)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.patDefOrDcl(Parsers.scala:3586)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.defOrDcl(Parsers.scala:3550)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.localDef(Parsers.scala:4288)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq$$anonfun$1(Parsers.scala:4312)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:500)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.blockStatSeq(Parsers.scala:4318)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.block(Parsers.scala:2669)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.blockExpr$$anonfun$1(Parsers.scala:2661)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.enclosed(Parsers.scala:556)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.inBraces(Parsers.scala:559)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.inBracesOrIndented(Parsers.scala:570)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.inDefScopeBraces(Parsers.scala:573)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.blockExpr(Parsers.scala:2659)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.simpleExpr(Parsers.scala:2493)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$9(Parsers.scala:2446)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.postfixExpr(Parsers.scala:2423)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.expr1(Parsers.scala:2264)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.expr(Parsers.scala:2154)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.$init$$$anonfun$8(Parsers.scala:2122)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.subPart(Parsers.scala:629)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.subExpr(Parsers.scala:2124)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.patDefOrDcl(Parsers.scala:3586)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.defOrDcl(Parsers.scala:3550)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.templateStatSeq$$anonfun$1(Parsers.scala:4230)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:500)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.templateStatSeq(Parsers.scala:4238)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.$anonfun$38(Parsers.scala:4109)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.enclosed(Parsers.scala:556)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.inBraces(Parsers.scala:559)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.inBracesOrIndented(Parsers.scala:570)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.inDefScopeBraces(Parsers.scala:573)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.templateBody(Parsers.scala:4109)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.templateBodyOpt(Parsers.scala:4102)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.template(Parsers.scala:4079)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.templateOpt(Parsers.scala:4091)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.classDefRest(Parsers.scala:3810)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.classDef(Parsers.scala:3805)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.tmplDef(Parsers.scala:3779)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.defOrDcl(Parsers.scala:3562)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.topStatSeq(Parsers.scala:4166)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.topstats$1(Parsers.scala:4354)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.topstats$1(Parsers.scala:4348)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.compilationUnit$$anonfun$1(Parsers.scala:4359)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.checkNoEscapingPlaceholders(Parsers.scala:500)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.compilationUnit(Parsers.scala:4364)
-[error] 	at dotty.tools.dotc.parsing.Parsers$Parser.parse(Parsers.scala:181)
-[error] 	at dotty.tools.dotc.parsing.Parser.parse$$anonfun$1(ParserPhase.scala:32)
-[error] 	at dotty.tools.dotc.parsing.Parser.parse$$anonfun$adapted$1(ParserPhase.scala:39)
-[error] 	at scala.Function0.apply$mcV$sp(Function0.scala:42)
-[error] 	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
-[error] 	at dotty.tools.dotc.parsing.Parser.parse(ParserPhase.scala:39)
-[error] 	at dotty.tools.dotc.parsing.Parser.runOn$$anonfun$1(ParserPhase.scala:48)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] 	at scala.collection.immutable.List.foreach(List.scala:333)
-[error] 	at dotty.tools.dotc.parsing.Parser.runOn(ParserPhase.scala:48)
-[error] 	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] 	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
-[error] 	at dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
-[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
-[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
-[error] 	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
-[error] 	at dotty.tools.dotc.Run.compileUnits(Run.scala:279)
-[error] 	at dotty.tools.dotc.Run.compileSources(Run.scala:194)
-[error] 	at dotty.tools.dotc.Run.compile(Run.scala:179)
-[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
-[error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
-[error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
-[error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
-[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:193)
-[error] 	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
-[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:248)
-[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:183)
-[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:163)
-[error] 	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:239)
-[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:163)
-[error] 	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:211)
-[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:534)
-[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:534)
-[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:179)
-[error] 	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:177)
-[error] 	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:463)
-[error] 	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)
-[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)
-[error] 	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)
-[error] 	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:263)
-[error] 	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:418)
-[error] 	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:506)
-[error] 	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:405)
-[error] 	at sbt.internal.inc.Incremental$.apply(Incremental.scala:171)
-[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:534)
-[error] 	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:488)
-[error] 	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)
-[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:425)
-[error] 	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)
-[error] 	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2363)
-[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2313)
-[error] 	at sbt.internal.server.BspCompileTask$.$anonfun$compute$1(BspCompileTask.scala:30)
-[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:46)
-[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:28)
-[error] 	at sbt.internal.io.Retry$.apply(Retry.scala:23)
-[error] 	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:30)
-[error] 	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2311)
-[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
-[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
-[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
-[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
-[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
-[error] 	at sbt.Execute.work(Execute.scala:291)
-[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
-[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
-[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
-[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[error] 	at java.base/java.lang.Thread.run(Unknown Source)
-[error] (coreJVM / Compile / compileIncremental) java.lang.NoClassDefFoundError: scala/util/FromDigits$
-[error] Total time: 4 s, completed Jun 21, 2023, 11:22:12 PM
+[info] Loading dependency tracking file /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] set current project to scalacheck (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/)
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:44:80 
+[error] 44 |      implicit val ec: ExecutionContextExecutor = ExecutionContext.fromExecutor(tp)
+[error]    |                                                                                ^^
+[error]    |            Found:    (tp : java.util.concurrent.ExecutorService | Null)
+[error]    |            Required: java.util.concurrent.Executor
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:48:33 
+[error] 48 |            Thread.currentThread.setContextClassLoader(_)
+[error]    |            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value setContextClassLoader is not a member of Thread | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Thread | Null could be null at runtime.
+[error]    |If you want to select setContextClassLoader without checking for a null value,
+[error]    |insert a .nn before .setContextClassLoader or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:59:11 
+[error] 59 |        tp.shutdown()
+[error]    |        ^^^^^^^^^^^
+[error]    |value shutdown is not a member of java.util.concurrent.ExecutorService | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |java.util.concurrent.ExecutorService | Null could be null at runtime.
+[error]    |If you want to select shutdown without checking for a null value,
+[error]    |insert a .nn before .shutdown or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:66:43 
+[error] 66 |    else Class.forName(name, true, loader).getDeclaredConstructor().newInstance().asInstanceOf[AnyRef]
+[error]    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |value getDeclaredConstructor is not a member of Class[?] | Null.
+[error]    |Since explicit-nulls is enabled, the selection is rejected because
+[error]    |Class[?] | Null could be null at runtime.
+[error]    |If you want to select getDeclaredConstructor without checking for a null value,
+[error]    |insert a .nn before .getDeclaredConstructor or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/Platform.scala:69:44 
+[error] 69 |    Class.forName(name + "$", true, loader).getField("MODULE$").get(null)
+[error]    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    value getField is not a member of Class[?] | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    Class[?] | Null could be null at runtime.
+[error]    |    If you want to select getField without checking for a null value,
+[error]    |    insert a .nn before .getField or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:31:25 
+[error] 31 |    Arbitrary(Gen.choose(minJavaDuration, maxJavaDuration))
+[error]    |                         ^^^^^^^^^^^^^^^
+[error]    |                 Found:    (minJavaDuration : java.time.Duration | Null)
+[error]    |                 Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:31:42 
+[error] 31 |    Arbitrary(Gen.choose(minJavaDuration, maxJavaDuration))
+[error]    |                                          ^^^^^^^^^^^^^^^
+[error]    |                 Found:    (maxJavaDuration : java.time.Duration | Null)
+[error]    |                 Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:37:33 
+[error] 37 |    Arbitrary(Gen.choose(Instant.MIN, Instant.MAX))
+[error]    |                         ^^^^^^^^^^^
+[error]    |            Found:    (java.time.Instant.MIN : java.time.Instant | Null)
+[error]    |            Required: java.time.Instant
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:37:46 
+[error] 37 |    Arbitrary(Gen.choose(Instant.MIN, Instant.MAX))
+[error]    |                                      ^^^^^^^^^^^
+[error]    |            Found:    (java.time.Instant.MAX : java.time.Instant | Null)
+[error]    |            Required: java.time.Instant
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:42:32 
+[error] 42 |    Arbitrary(Gen.choose(Year.of(Year.MIN_VALUE), Year.of(Year.MAX_VALUE)))
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                         Found:    java.time.Year | Null
+[error]    |                         Required: java.time.Year
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:42:57 
+[error] 42 |    Arbitrary(Gen.choose(Year.of(Year.MIN_VALUE), Year.of(Year.MAX_VALUE)))
+[error]    |                                                  ^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                         Found:    java.time.Year | Null
+[error]    |                                         Required: java.time.Year
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:47:35 
+[error] 47 |    Arbitrary(Gen.choose(LocalDate.MIN, LocalDate.MAX))
+[error]    |                         ^^^^^^^^^^^^^
+[error]    |        Found:    (java.time.LocalDate.MIN : java.time.LocalDate | Null)
+[error]    |        Required: java.time.LocalDate
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:47:50 
+[error] 47 |    Arbitrary(Gen.choose(LocalDate.MIN, LocalDate.MAX))
+[error]    |                                        ^^^^^^^^^^^^^
+[error]    |        Found:    (java.time.LocalDate.MAX : java.time.LocalDate | Null)
+[error]    |        Required: java.time.LocalDate
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:52:35 
+[error] 52 |    Arbitrary(Gen.choose(LocalTime.MIN, LocalTime.MAX))
+[error]    |                         ^^^^^^^^^^^^^
+[error]    |        Found:    (java.time.LocalTime.MIN : java.time.LocalTime | Null)
+[error]    |        Required: java.time.LocalTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:52:50 
+[error] 52 |    Arbitrary(Gen.choose(LocalTime.MIN, LocalTime.MAX))
+[error]    |                                        ^^^^^^^^^^^^^
+[error]    |        Found:    (java.time.LocalTime.MAX : java.time.LocalTime | Null)
+[error]    |        Required: java.time.LocalTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:57:39 
+[error] 57 |    Arbitrary(Gen.choose(LocalDateTime.MIN, LocalDateTime.MAX))
+[error]    |                         ^^^^^^^^^^^^^^^^^
+[error]    |Found:    (java.time.LocalDateTime.MIN : java.time.LocalDateTime | Null)
+[error]    |Required: java.time.LocalDateTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:57:58 
+[error] 57 |    Arbitrary(Gen.choose(LocalDateTime.MIN, LocalDateTime.MAX))
+[error]    |                                            ^^^^^^^^^^^^^^^^^
+[error]    |Found:    (java.time.LocalDateTime.MAX : java.time.LocalDateTime | Null)
+[error]    |Required: java.time.LocalDateTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:62:36 
+[error] 62 |    Arbitrary(Gen.choose(MonthDay.of(Month.JANUARY, 1), MonthDay.of(Month.DECEMBER, 31)))
+[error]    |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                         Found:    java.time.MonthDay | Null
+[error]    |                         Required: java.time.MonthDay
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:62:67 
+[error] 62 |    Arbitrary(Gen.choose(MonthDay.of(Month.JANUARY, 1), MonthDay.of(Month.DECEMBER, 31)))
+[error]    |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                     Found:    java.time.MonthDay | Null
+[error]    |                                     Required: java.time.MonthDay
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:70:50 
+[error] 70 |        Gen.choose(ZoneOffset.MAX, ZoneOffset.MIN) // These look flipped, but they are not.
+[error]    |                                                  ^
+[error]    |No given instance of type org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null] was found for parameter c of method choose in object Gen
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:83:31 
+[error] 83 |    ZoneId.getAvailableZoneIds.toArray(Array.empty[String]).toSet.map((value: String) => ZoneId.of(value))
+[error]    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    value toArray is not a member of java.util.Set[String] | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    java.util.Set[String] | Null could be null at runtime.
+[error]    |    If you want to select toArray without checking for a null value,
+[error]    |    insert a .nn before .toArray or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:95:36 
+[error] 95 |    Arbitrary(Gen.choose(OffsetTime.MIN, OffsetTime.MAX))
+[error]    |                         ^^^^^^^^^^^^^^
+[error]    |      Found:    (java.time.OffsetTime.MIN : java.time.OffsetTime | Null)
+[error]    |      Required: java.time.OffsetTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:95:52 
+[error] 95 |    Arbitrary(Gen.choose(OffsetTime.MIN, OffsetTime.MAX))
+[error]    |                                         ^^^^^^^^^^^^^^
+[error]    |      Found:    (java.time.OffsetTime.MAX : java.time.OffsetTime | Null)
+[error]    |      Required: java.time.OffsetTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:100:40 
+[error] 100 |    Arbitrary(Gen.choose(OffsetDateTime.MIN, OffsetDateTime.MAX))
+[error]     |                         ^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (java.time.OffsetDateTime.MIN : java.time.OffsetDateTime | Null)
+[error]     |Required: java.time.OffsetDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:100:60 
+[error] 100 |    Arbitrary(Gen.choose(OffsetDateTime.MIN, OffsetDateTime.MAX))
+[error]     |                                             ^^^^^^^^^^^^^^^^^^
+[error]     |Found:    (java.time.OffsetDateTime.MAX : java.time.OffsetDateTime | Null)
+[error]     |Required: java.time.OffsetDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:110:23 
+[error] 110 |      } yield Period.of(years, months, days))
+[error]     |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |              Found:    java.time.Period | Null
+[error]     |              Required: java.time.Period
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:115:37 
+[error] 115 |    Arbitrary(Gen.choose(YearMonth.of(Year.MIN_VALUE, Month.JANUARY), YearMonth.of(Year.MAX_VALUE, Month.DECEMBER)))
+[error]     |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                         Found:    java.time.YearMonth | Null
+[error]     |                         Required: java.time.YearMonth
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:115:82 
+[error] 115 |    Arbitrary(Gen.choose(YearMonth.of(Year.MIN_VALUE, Month.JANUARY), YearMonth.of(Year.MAX_VALUE, Month.DECEMBER)))
+[error]     |                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                  Found:    java.time.YearMonth | Null
+[error]     |                                  Required: java.time.YearMonth
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:123:41 
+[error] 123 |    Arbitrary(Gen.choose(ZonedDateTime.of(LocalDateTime.MIN, ZoneOffset.MAX), ZonedDateTime.of(LocalDateTime.MAX, ZoneOffset.MIN)))
+[error]     |                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                         Found:    java.time.ZonedDateTime | Null
+[error]     |                         Required: java.time.ZonedDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeArbitrary.scala:123:94 
+[error] 123 |    Arbitrary(Gen.choose(ZonedDateTime.of(LocalDateTime.MIN, ZoneOffset.MAX), ZonedDateTime.of(LocalDateTime.MAX, ZoneOffset.MIN)))
+[error]     |                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    java.time.ZonedDateTime | Null
+[error]     |                              Required: java.time.ZonedDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:48:34 
+[error] 48 |                Duration.ofSeconds(seconds, nanos.toLong)
+[error]    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                Found:    java.time.Duration | Null
+[error]    |                Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:78:37 
+[error] 78 |                Instant.ofEpochSecond(epochSecond, nanos.toLong)
+[error]    |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                Found:    java.time.Instant | Null
+[error]    |                Required: java.time.Instant
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:88:23 
+[error] 88 |      value => Month.of((value % 12) + 1),
+[error]    |               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |               Found:    java.time.Month | Null
+[error]    |               Required: java.time.Month
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:101:71 
+[error] 101 |            Gen.choose(min.getValue, max.getValue).map(value => Year.of(value))
+[error]     |                                                                ^^^^^^^^^^^^^^
+[error]     |                                       Found:    java.time.Year | Null
+[error]     |                                       Required: java.time.Year
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:117:18 
+[error] 117 |                  min.getMonth
+[error]     |                  ^^^^^^^^^^^^
+[error]     |                  Found:    java.time.Month | Null
+[error]     |                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:123:18 
+[error] 123 |                  max.getMonth
+[error]     |                  ^^^^^^^^^^^^
+[error]     |                  Found:    java.time.Month | Null
+[error]     |                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:143:30 
+[error] 143 |                  LocalDate.of(year, month, day)
+[error]     |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                  Found:    java.time.LocalDate | Null
+[error]     |                  Required: java.time.LocalDate
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:156:31 
+[error] 156 |          LocalTime.ofNanoOfDay(nano)
+[error]     |          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |          Found:    java.time.LocalTime | Null
+[error]     |          Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:170:14 
+[error] 170 |              min.toLocalDate
+[error]     |              ^^^^^^^^^^^^^^^
+[error]     |              Found:    java.time.LocalDate | Null
+[error]     |              Required: java.time.LocalDate
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:172:14 
+[error] 172 |              max.toLocalDate
+[error]     |              ^^^^^^^^^^^^^^^
+[error]     |              Found:    java.time.LocalDate | Null
+[error]     |              Required: java.time.LocalDate
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:176:18 
+[error] 176 |                  min.toLocalTime
+[error]     |                  ^^^^^^^^^^^^^^^
+[error]     |                  Found:    java.time.LocalTime | Null
+[error]     |                  Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:178:28 
+[error] 178 |                  LocalTime.MIN
+[error]     |                  ^^^^^^^^^^^^^
+[error]     |      Found:    (java.time.LocalTime.MIN : java.time.LocalTime | Null)
+[error]     |      Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:182:18 
+[error] 182 |                  max.toLocalTime
+[error]     |                  ^^^^^^^^^^^^^^^
+[error]     |                  Found:    java.time.LocalTime | Null
+[error]     |                  Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:184:28 
+[error] 184 |                  LocalTime.MAX
+[error]     |                  ^^^^^^^^^^^^^
+[error]     |      Found:    (java.time.LocalTime.MAX : java.time.LocalTime | Null)
+[error]     |      Required: java.time.LocalTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:187:32 
+[error] 187 |                LocalDateTime.of(localDate, localTime)
+[error]     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                Found:    java.time.LocalDateTime | Null
+[error]     |                Required: java.time.LocalDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:203:34 
+[error] 203 |            val minMonth: Month = min.getMonth
+[error]     |                                  ^^^^^^^^^^^^
+[error]     |                                  Found:    java.time.Month | Null
+[error]     |                                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:204:34 
+[error] 204 |            val maxMonth: Month = max.getMonth
+[error]     |                                  ^^^^^^^^^^^^
+[error]     |                                  Found:    java.time.Month | Null
+[error]     |                                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:219:27 
+[error] 219 |                MonthDay.of(month, dayOfMonth)
+[error]     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                Found:    java.time.MonthDay | Null
+[error]     |                Required: java.time.MonthDay
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:264:103 
+[error] 264 |            Gen.choose(max.getTotalSeconds, min.getTotalSeconds).map(value => ZoneOffset.ofTotalSeconds(value))
+[error]     |                                                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                 Found:    java.time.ZoneOffset | Null
+[error]     |                                 Required: java.time.ZoneOffset
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:280:22 
+[error] 280 |    value.getOffset().getTotalSeconds()
+[error]     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |value getTotalSeconds is not a member of java.time.ZoneOffset | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |java.time.ZoneOffset | Null could be null at runtime.
+[error]     |If you want to select getTotalSeconds without checking for a null value,
+[error]     |insert a .nn before .getTotalSeconds or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:283:74 
+[error] 283 |    value.withOffsetSameLocal(ZoneOffset.ofTotalSeconds(value.getOffset().getTotalSeconds() - seconds))
+[error]     |                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |value getTotalSeconds is not a member of java.time.ZoneOffset | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |java.time.ZoneOffset | Null could be null at runtime.
+[error]     |If you want to select getTotalSeconds without checking for a null value,
+[error]     |insert a .nn before .getTotalSeconds or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:297:56 
+[error] 297 |        val durationFromMin: Duration = Duration.between(shifted, min)
+[error]     |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                   Found:    java.time.Duration | Null
+[error]     |                                   Required: java.time.Duration
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:298:62 
+[error] 298 |        val durationAfterMidnight: Duration = Duration.between(shifted.toLocalTime, LocalTime.MIN)
+[error]     |                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                   Found:    java.time.Duration | Null
+[error]     |                                   Required: java.time.Duration
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:310:56 
+[error] 310 |        val durationFromMax: Duration = Duration.between(shifted, max)
+[error]     |                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                   Found:    java.time.Duration | Null
+[error]     |                                   Required: java.time.Duration
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:311:61 
+[error] 311 |        val durationFromMidnight: Duration = Duration.between(shifted.toLocalTime, LocalTime.MAX)
+[error]     |                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                                   Found:    java.time.Duration | Null
+[error]     |                                   Required: java.time.Duration
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:319:20 
+[error] 319 |        shifted.plus(localShift)
+[error]     |        ^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |        Found:    java.time.OffsetTime | Null
+[error]     |        Required: java.time.OffsetTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:331:65 
+[error] 331 |            Gen.choose(Duration.ZERO, Duration.between(min, max)).flatMap{duration =>
+[error]     |                                                                 ^
+[error]     |No given instance of type org.scalacheck.Gen.Choose[java.time.Duration | Null] was found for parameter c of method choose in object Gen.
+[error]     |I found:
+[error]     |
+[error]     |    JavaTimeChoose.this.chooseJavaDuration
+[error]     |
+[error]     |But Found:    (JavaTimeChoose.this.chooseJavaDuration :
+[error]     |  org.scalacheck.Gen.Choose[java.time.Duration])
+[error]     |Required: org.scalacheck.Gen.Choose[java.time.Duration | Null].
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:346:52 
+[error] 346 |            Gen.choose(min.getOffset, max.getOffset).flatMap(offset =>
+[error]     |                                                    ^
+[error]     |No given instance of type org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null] was found for parameter c of method choose in object Gen.
+[error]     |I found:
+[error]     |
+[error]     |    JavaTimeChoose.this.chooseZoneOffset
+[error]     |
+[error]     |But Found:    (JavaTimeChoose.this.chooseZoneOffset :
+[error]     |  org.scalacheck.Gen.Choose[java.time.ZoneOffset])
+[error]     |Required: org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null].
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:363:39 
+[error] 363 |            val minYear: Year = Year.of(min.getYear)
+[error]     |                                ^^^^^^^^^^^^^^^^^^^^
+[error]     |                                Found:    java.time.Year | Null
+[error]     |                                Required: java.time.Year
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:364:39 
+[error] 364 |            val maxYear: Year = Year.of(max.getYear)
+[error]     |                                ^^^^^^^^^^^^^^^^^^^^
+[error]     |                                Found:    java.time.Year | Null
+[error]     |                                Required: java.time.Year
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:368:18 
+[error] 368 |                  min.getMonth
+[error]     |                  ^^^^^^^^^^^^
+[error]     |                  Found:    java.time.Month | Null
+[error]     |                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:374:18 
+[error] 374 |                  max.getMonth
+[error]     |                  ^^^^^^^^^^^^
+[error]     |                  Found:    java.time.Month | Null
+[error]     |                  Required: java.time.Month
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:379:28 
+[error] 379 |                YearMonth.of(year.getValue, month)
+[error]     |                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]     |                Found:    java.time.YearMonth | Null
+[error]     |                Required: java.time.YearMonth
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeChoose.scala:394:52 
+[error] 394 |            Gen.choose(min.getOffset, max.getOffset).flatMap(offset =>
+[error]     |                                                    ^
+[error]     |No given instance of type org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null] was found for parameter c of method choose in object Gen.
+[error]     |I found:
+[error]     |
+[error]     |    JavaTimeChoose.this.chooseZoneOffset
+[error]     |
+[error]     |But Found:    (JavaTimeChoose.this.chooseZoneOffset :
+[error]     |  org.scalacheck.Gen.Choose[java.time.ZoneOffset])
+[error]     |Required: org.scalacheck.Gen.Choose[java.time.ZoneOffset | Null].
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:57:54 
+[error] 57 |    Cogen[(LocalDate, LocalTime)].contramap(value => (value.toLocalDate, value.toLocalTime))
+[error]    |                                                      ^^^^^^^^^^^^^^^^^
+[error]    |                                    Found:    java.time.LocalDate | Null
+[error]    |                                    Required: java.time.LocalDate
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:57:73 
+[error] 57 |    Cogen[(LocalDate, LocalTime)].contramap(value => (value.toLocalDate, value.toLocalTime))
+[error]    |                                                                         ^^^^^^^^^^^^^^^^^
+[error]    |                                    Found:    java.time.LocalTime | Null
+[error]    |                                    Required: java.time.LocalTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:62:44 
+[error] 62 |    Cogen[(Month, Int)].contramap(value => (value.getMonth, value.getDayOfMonth))
+[error]    |                                            ^^^^^^^^^^^^^^
+[error]    |                                        Found:    java.time.Month | Null
+[error]    |                                        Required: java.time.Month
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:80:55 
+[error] 80 |    Cogen[(LocalTime, ZoneOffset)].contramap(value => (value.toLocalTime, value.getOffset))
+[error]    |                                                       ^^^^^^^^^^^^^^^^^
+[error]    |                                    Found:    java.time.LocalTime | Null
+[error]    |                                    Required: java.time.LocalTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:80:74 
+[error] 80 |    Cogen[(LocalTime, ZoneOffset)].contramap(value => (value.toLocalTime, value.getOffset))
+[error]    |                                                                          ^^^^^^^^^^^^^^^
+[error]    |                                   Found:    java.time.ZoneOffset | Null
+[error]    |                                   Required: java.time.ZoneOffset
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:85:59 
+[error] 85 |    Cogen[(LocalDateTime, ZoneOffset)].contramap(value => (value.toLocalDateTime, value.getOffset))
+[error]    |                                                           ^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                Found:    java.time.LocalDateTime | Null
+[error]    |                                Required: java.time.LocalDateTime
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:85:82 
+[error] 85 |    Cogen[(LocalDateTime, ZoneOffset)].contramap(value => (value.toLocalDateTime, value.getOffset))
+[error]    |                                                                                  ^^^^^^^^^^^^^^^
+[error]    |                                   Found:    java.time.ZoneOffset | Null
+[error]    |                                   Required: java.time.ZoneOffset
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:95:59 
+[error] 95 |    Cogen[(Int, Month)].contramap(value => (value.getYear, value.getMonth))
+[error]    |                                                           ^^^^^^^^^^^^^^
+[error]    |                                        Found:    java.time.Month | Null
+[error]    |                                        Required: java.time.Month
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:100:59 
+[error] 100 |    Cogen[(LocalDateTime, ZoneOffset)].contramap(value => (value.toLocalDateTime, value.getOffset))
+[error]     |                                                           ^^^^^^^^^^^^^^^^^^^^^
+[error]     |                              Found:    java.time.LocalDateTime | Null
+[error]     |                              Required: java.time.LocalDateTime
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeCogen.scala:100:82 
+[error] 100 |    Cogen[(LocalDateTime, ZoneOffset)].contramap(value => (value.toLocalDateTime, value.getOffset))
+[error]     |                                                                                  ^^^^^^^^^^^^^^^
+[error]     |                                 Found:    java.time.ZoneOffset | Null
+[error]     |                                 Required: java.time.ZoneOffset
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeShrink.scala:22:39 
+[error] 22 |      val q: Duration = value.dividedBy(2)
+[error]    |                        ^^^^^^^^^^^^^^^^^^
+[error]    |                        Found:    java.time.Duration | Null
+[error]    |                        Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeShrink.scala:24:24 
+[error] 24 |        Stream(Duration.ZERO)
+[error]    |               ^^^^^^^^^^^^^
+[error]    |         Found:    (java.time.Duration.ZERO : java.time.Duration | Null)
+[error]    |         Required: java.time.Duration
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeShrink.scala:26:8 
+[error] 26 |        q #:: q.negated #:: shrinkJavaDuration.shrink(q)
+[error]    |        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |        Found:    Stream[java.time.Duration | Null]
+[error]    |        Required: Stream[java.time.Duration]
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/jvm/src/main/scala/org/scalacheck/time/JavaTimeShrink.scala:35:35 
+[error] 35 |        case (y, m, d) => Period.of(y, m, d)
+[error]    |                          ^^^^^^^^^^^^^^^^^^
+[error]    |                          Found:    java.time.Period | Null
+[error]    |                          Required: java.time.Period
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:186:31 
+[error] 186 |    Arbitrary(Gen.calendar.map(_.getTime))
+[error]     |                               ^^^^^^^^^
+[error]     |                               Found:    java.util.Date | Null
+[error]     |                               Required: java.util.Date
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:238:12 
+[error] 238 |      oneOf(DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |            ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL32 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:238:23 
+[error] 238 |      oneOf(DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                       ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL64 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:238:34 
+[error] 238 |      oneOf(DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                                  ^^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL128 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:254:12 
+[error] 254 |      oneOf(UNLIMITED, DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |            ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.UNLIMITED : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:254:23 
+[error] 254 |      oneOf(UNLIMITED, DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                       ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL32 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:254:34 
+[error] 254 |      oneOf(UNLIMITED, DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                                  ^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL64 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:254:45 
+[error] 254 |      oneOf(UNLIMITED, DECIMAL32, DECIMAL64, DECIMAL128)
+[error]     |                                             ^^^^^^^^^^
+[error]     |Found:    (java.math.MathContext.DECIMAL128 : java.math.MathContext | Null)
+[error]     |Required: java.math.MathContext
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E134] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:266:10 
+[error] 266 |          BigDecimal(n, scale, UNLIMITED)
+[error]     |          ^^^^^^^^^^
+[error]     |None of the overloaded alternatives of method apply in object BigDecimal with types
+[error]     | (bd: java.math.BigDecimal): BigDecimal
+[error]     | (unscaledVal: BigInt, scale: Int, mc: java.math.MathContext): BigDecimal
+[error]     | (unscaledVal: BigInt, scale: Int): BigDecimal
+[error]     | (x: BigInt, mc: java.math.MathContext): BigDecimal
+[error]     | (x: BigInt): BigDecimal
+[error]     | (x: String, mc: java.math.MathContext): BigDecimal
+[error]     | (x: String): BigDecimal
+[error]     | (x: Array[Char], mc: java.math.MathContext): BigDecimal
+[error]     | (x: Array[Char]): BigDecimal
+[error]     | (d: Double, mc: java.math.MathContext): BigDecimal
+[error]     | (d: Double): BigDecimal
+[error]     | (unscaledVal: Long, scale: Int, mc: java.math.MathContext): BigDecimal
+[error]     | (unscaledVal: Long, scale: Int): BigDecimal
+[error]     | (l: Long, mc: java.math.MathContext): BigDecimal
+[error]     | (l: Long): BigDecimal
+[error]     | (i: Int, mc: java.math.MathContext): BigDecimal
+[error]     | (i: Int): BigDecimal
+[error]     |match arguments ((n : BigInt), (scale : Int), (java.math.MathContext.UNLIMITED : java.math.MathContext | Null))
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Arbitrary.scala:321:20 
+[error] 321 |      (1, exception(null))
+[error]     |                    ^^^^
+[error]     |Found:    Null
+[error]     |Required: org.scalacheck.Gen.Parameters
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than org.scalacheck.Gen.Parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:80:21 
+[error] 80 |      val quotient = divideAndRemainder(0)
+[error]    |                     ^^^^^^^^^^^^^^^^^^
+[error]    |                     value divideAndRemainder does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E050] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:81:22 
+[error] 81 |      val remainder = divideAndRemainder(1)
+[error]    |                      ^^^^^^^^^^^^^^^^^^
+[error]    |                      value divideAndRemainder does not take parameters
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:82:39 
+[error] 82 |      val canNormalize = (unscaled.abs.compareTo(BigInteger.TEN) >= 0) &&
+[error]    |                          ^^^^^^^^^^^^^^^^^^^^^^
+[error]    |    value compareTo is not a member of java.math.BigInteger | Null.
+[error]    |    Since explicit-nulls is enabled, the selection is rejected because
+[error]    |    java.math.BigInteger | Null could be null at runtime.
+[error]    |    If you want to select compareTo without checking for a null value,
+[error]    |    insert a .nn before .compareTo or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:94:42 
+[error] 94 |        val (unscaled, scale) = normalize(n.bigDecimal.unscaledValue, n.scale)
+[error]    |                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[error]    |                                   Found:    java.math.BigInteger | Null
+[error]    |                                   Required: java.math.BigInteger
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Cogen.scala:95:56 
+[error] 95 |        Cogen[(Int, Array[Byte])].perturb(seed, (scale, unscaled.toByteArray))
+[error]    |                                                        ^^^^^^^^^^^^^^^^^^^^
+[error]    |                                            Found:    Array[Byte] | Null
+[error]    |                                            Required: Array[Byte]
+[error]    |
+[error]    | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:659:22 
+[error] 659 |        r(Some(big.add(lower)), seed)
+[error]     |               ^^^^^^^^^^^^^^
+[error]     |               Found:    java.math.BigInteger | Null
+[error]     |               Required: java.math.BigInteger
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:715:42 
+[error] 715 |            val span = high.subtract(low).add(BigInteger.ONE)
+[error]     |                       ^^^^^^^^^^^^^^^^^^^^^^
+[error]     |    value add is not a member of java.math.BigInteger | Null.
+[error]     |    Since explicit-nulls is enabled, the selection is rejected because
+[error]     |    java.math.BigInteger | Null could be null at runtime.
+[error]     |    If you want to select add without checking for a null value,
+[error]     |    insert a .nn before .add or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:778:24 
+[error] 778 |              .choose(x.unscaledValue, y.unscaledValue)
+[error]     |                      ^^^^^^^^^^^^^^^
+[error]     |value unscaledValue is not a member of java.math.BigDecimal | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |java.math.BigDecimal | Null could be null at runtime.
+[error]     |If you want to select unscaledValue without checking for a null value,
+[error]     |insert a .nn before .unscaledValue or import scala.language.unsafeNulls.
+[error] -- [E008] Not Found Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:778:41 
+[error] 778 |              .choose(x.unscaledValue, y.unscaledValue)
+[error]     |                                       ^^^^^^^^^^^^^^^
+[error]     |value unscaledValue is not a member of java.math.BigDecimal | Null.
+[error]     |Since explicit-nulls is enabled, the selection is rejected because
+[error]     |java.math.BigDecimal | Null could be null at runtime.
+[error]     |If you want to select unscaledValue without checking for a null value,
+[error]     |insert a .nn before .unscaledValue or import scala.language.unsafeNulls.
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:1475:25 
+[error] 1475 |  } yield UUID.fromString(
+[error]      |          ^
+[error]      |          Found:    java.util.UUID | Null
+[error]      |          Required: java.util.UUID
+[error] 1476 |    new UUID(l1,l2).toString.updated(14, '4').updated(19, y)
+[error] 1477 |  )
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Gen.scala:1497:15 
+[error] 1497 |        adjust(Calendar.getInstance)(_.setTimeInMillis(t))
+[error]      |               ^^^^^^^^^^^^^^^^^^^^
+[error]      |               Found:    java.util.Calendar | Null
+[error]      |               Required: java.util.Calendar
+[error]      |
+[error]      | longer explanation available when compiling with `-explain`
+[error] -- [E007] Type Mismatch Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scalacheck/core/shared/src/main/scala/org/scalacheck/Prop.scala:392:39 
+[error] 392 |  lazy val exception: Prop = exception(null)
+[error]     |                                       ^^^^
+[error]     |Found:    Null
+[error]     |Required: org.scalacheck.Gen.Parameters
+[error]     |Note that implicit conversions were not tried because the result of an implicit conversion
+[error]     |must be more specific than org.scalacheck.Gen.Parameters
+[error]     |
+[error]     | longer explanation available when compiling with `-explain`
+[error] 118 errors found
+[error] (coreJVM / Compile / compileIncremental) Compilation failed
+[error] Total time: 34 s, completed Jun 29, 2023 6:50:03 AM
 [error] Test dotty.communitybuild.CommunityBuildTestB.catsEffect3 failed: java.lang.RuntimeException: Publish command exited with code 1 for project scalacheck. Project details:
-[error] SbtCommunityProject(scalacheck,coreJVM/test;coreJS/test,List(),List(),dotty.communitybuild.SbtCommunityProject$$$Lambda$51/660126642@37a7ad98,coreJVM/publishLocal;coreJS/publishLocal,null,List(-Xcheck-macros, -Ysafe-init, -Yexplicit-nulls),false), took 28.828 sec
+[error] SbtCommunityProject(scalacheck,coreJVM/test;coreJS/test,List(),List(),dotty.communitybuild.SbtCommunityProject$$$Lambda$20/184930525@55e723e2,coreJVM/publishLocal;coreJS/publishLocal,null,List(-Xcheck-macros, -Ysafe-init, -Yexplicit-nulls),false), took 68.535 sec
 [error]     at dotty.communitybuild.CommunityProject.publish(projects.scala:64)
 [error]     at dotty.communitybuild.CommunityProject.publish$(projects.scala:35)
 [error]     at dotty.communitybuild.SbtCommunityProject.publish(projects.scala:104)
@@ -592,12 +966,8 @@ Exception while compiling /Users/y3536zha/Desktop/scala_explicit/scala_flexible_
 [error]     at scala.collection.immutable.List.foreach(List.scala:333)
 [error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:24)
 [error]     at dotty.communitybuild.CommunityBuildTestB.catsEffect3(CommunityBuildTest.scala:40)
-[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[error]     at java.lang.reflect.Method.invoke(Unknown Source)
 [error]     ...
-[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 1 failed, 0 ignored, 1 total, 28.836s
+[info] Test run dotty.communitybuild.CommunityBuildTestB finished: 1 failed, 0 ignored, 1 total, 68.542s
 ********************************************************************************
 Failed projects:
  - dotty.communitybuild.CommunityBuildTestB.catsEffect3
@@ -606,4 +976,4 @@ Failed projects:
 [error] Failed tests:
 [error] 	dotty.communitybuild.CommunityBuildTestB
 [error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
-[error] Total time: 66 s (01:06), completed Jun 21, 2023, 11:22:13 PM
+[error] Total time: 133 s (02:13), completed Jun 29, 2023 6:50:04 AM

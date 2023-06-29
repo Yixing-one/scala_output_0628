@@ -1,50 +1,11 @@
-27 projects are successfully built:  
-	monocle
-	perspective
-	scodec
-	simulacrumScalafixAnnotations
-	betterfiles
-	cask
-	endpoints4s
-	fansi
-	fastparse
-	geny
-	intent
-	oslib
-	parboiled2
-	pprint
-	requests
-	scalaCollectionCompat
-	scalap
-	scalaParallelCollections
-	scalaParserCombinators
-	scas
-	sourcecode
-	specs2
-	ujson
-	upickle
-	utest
-	verify
-	xmlInterpolator
-
-20 projects fail to build:  
-	cats
-	catsEffect3
-	catsMtl
-	coop
-	discipline
-	disciplineMunit
-	disciplineSpecs2
-	munit
-	scodecBits
-	spire
-	effpi
-	minitest
-	scalacheck
-	scalaJava8Compat
-	scalaPB
-	scalaXml
-	scalaz
-	sconfig
-	shapeless
-	stdLib213
+7 projects are successfully built:  
+-e 	coop
+-e 	discipline
+-e 	disciplineSpecs2
+-e 	minitest
+-e 	munit
+-e 	scodecBits
+-e 	spire
+-e 
+1 projects fail to build:  
+-e 	scalacheck

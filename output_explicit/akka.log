@@ -1,103 +1,106 @@
-[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
-[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[info] welcome to sbt 1.8.0 (AdoptOpenJDK Java 1.8.0_292)
+[info] loading global plugins from /Users/yixing/.sbt/1.0/plugins
 [info] loading settings for project scala_flexible_type_with_test_script-build-build from build.sbt ...
-[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project/project
+[info] loading project definition from /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/project/project
 [info] loading settings for project scala_flexible_type_with_test_script-build from build.sbt,plugins.sbt ...
-[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/project
+[info] loading project definition from /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/project
 [info] loading settings for project scala3 from build.sbt ...
 [info] resolving key references (31394 settings) ...
-[info] set current project to scala3 (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/)
+[info] set current project to scala3 (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/)
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
-SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Ignoring binding found at [jar:file:/Users/yixing/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] Wrote /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
-[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Wed Jun 21 23:47:04 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
-[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
-[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
-[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
-[info] 	published sbt-community-build to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:47:04 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
-[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
-[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
-[info] 	published scala3-interfaces to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:47:05 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
-[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
-[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
-[info] 	published scala3-sbt-bridge to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:47:09 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
-[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
-[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
-[info] 	published tasty-core_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
-[info] Main Scala API documentation to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
-[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:47:09 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
-[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
-[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
-[info] 	published scala3-tasty-inspector_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:47:09 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
-[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
-[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
-[info] 	published scaladoc_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/sbt-community-build-0.1.0-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/scala3-interfaces-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-library_sjs1_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty/../out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/tasty-core_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/compiler/../out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-compiler_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/tasty-inspector/../out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scala3-tasty-inspector_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/scala3-sbt-bridge-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] Wrote /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/scaladoc/../out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/scaladoc_3-3.3.1-RC1-bin-SNAPSHOT.pom
+[info] :: delivering :: org.scala-lang#scala3-interfaces;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:44:34 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/interfaces/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-interfaces.pom
+[info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-interfaces.jar
+[info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-interfaces-sources.jar
+[info] 	published scala3-interfaces to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-interfaces-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-interfaces/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: ch.epfl.lamp#sbt-community-build;0.1.0-SNAPSHOT :: 0.1.0-SNAPSHOT :: integration :: Thu Jun 29 06:44:35 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-community-build/target/scala-2.12/sbt-1.0/ivy-0.1.0-SNAPSHOT.xml
+[info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/poms/sbt-community-build.pom
+[info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/jars/sbt-community-build.jar
+[info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/srcs/sbt-community-build-sources.jar
+[info] 	published sbt-community-build to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/docs/sbt-community-build-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/ch.epfl.lamp/sbt-community-build/scala_2.12/sbt_1.0/0.1.0-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-sbt-bridge;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:44:39 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/sbt-bridge/src/target/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-sbt-bridge.pom
+[info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-sbt-bridge.jar
+[info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-sbt-bridge-sources.jar
+[info] 	published scala3-sbt-bridge to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-sbt-bridge-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-sbt-bridge/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#tasty-core_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:44:51 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/tasty-core-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/poms/tasty-core_3.pom
+[info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/jars/tasty-core_3.jar
+[info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/srcs/tasty-core_3-sources.jar
+[info] 	published tasty-core_3 to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/docs/tasty-core_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/tasty-core_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] Main Scala API documentation to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library-js/../out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] Main Scala API documentation to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/../out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/api...
+[info] :: delivering :: org.scala-lang#scala3-tasty-inspector_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:44:52 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-tasty-inspector/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-tasty-inspector_3.pom
+[info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-tasty-inspector_3.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-tasty-inspector_3-sources.jar
+[info] 	published scala3-tasty-inspector_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-tasty-inspector_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-tasty-inspector_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scaladoc_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:44:52 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scaladoc/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/poms/scaladoc_3.pom
+[info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/jars/scaladoc_3.jar
+[info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scaladoc_3-sources.jar
+[info] 	published scaladoc_3 to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/docs/scaladoc_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scaladoc_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:44:54 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
 [warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
 [warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
-[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
 [warn] Flag -project-logo set repeatedly
-[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
 [warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
-[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
-[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
-[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
-[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
-[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
-[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
-[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
-[warn] Flag -project-footer set repeatedly
-[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
-[warn] Flag -author set repeatedly
-[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
-[warn] Flag -groups set repeatedly
-[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
-[warn] Flag -default-template set repeatedly
-[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
-[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
-[warn] bad option '-default-template static-site-main' was ignored
-[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
-[warn] Flag -author set repeatedly
 [warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] Flag -project-footer set repeatedly
+[warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
+[warn] Flag -author set repeatedly
+[warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
 [warn] Flag -groups set repeatedly
+[warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
+[warn] Flag -default-template set repeatedly
+[warn] Setting -social-links set to twitter::https://twitter.com/scala_lang redundantly
+[warn] Setting -external-mappings set to .*scala/.*::scaladoc3::https://dotty.epfl.ch/api/ redundantly
+[warn] bad option '-project-footer "Copyright (c) 2002-2023, LAMP/EPFL"' was ignored
+[warn] Setting -external-mappings set to .*java/.*::javadoc::https://docs.oracle.com/javase/8/docs/api/ redundantly
+[warn] bad option '-project-version 3.3.1-RC1-bin-SNAPSHOT' was ignored
 [warn] Setting -skip-by-regex set to .+\.internal($|\..+) redundantly
 [warn] Setting -skip-by-regex set to .+\.impl($|\..+) redundantly
 [warn] Setting -skip-by-id set to scala.runtime.stdLibPatches redundantly
 [warn] Setting -skip-by-id set to scala.runtime.MatchCase redundantly
+[warn] bad option '-default-template static-site-main' was ignored
+[warn] Flag -author set repeatedly
+[warn] Flag -groups set repeatedly
 [warn] bad option '-project-logo docs/_assets/images/logo.svg' was ignored
 [warn] Setting -social-links set to github::https://github.com/lampepfl/dotty redundantly
 [warn] Setting -social-links set to discord::https://discord.com/invite/scala redundantly
@@ -106,575 +109,141 @@ SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
 [warn] bad option '-default-template static-site-main' was ignored
 [warn] Flag -author set repeatedly
 [warn] Flag -groups set repeatedly
+[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
 [info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
 [info] Skipping unused scalacOptions: -Werror, -Yno-experimental, -Yexplicit-nulls
-[info] :: delivering :: org.scala-lang#scala3-compiler_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:47:12 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-compiler-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-compiler_3.pom
-[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-compiler_3.jar
-[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
-[info] 	published scala3-compiler_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
+[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-compiler_3-sources.jar
+[info] 	published scala3-compiler_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-compiler_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-compiler_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
 [warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
 [warn] 21 |  def fromDigits(digits: String): T
+[warn]    |      ^
+[warn]    |      No DRI found for query: MalformedNumber
+[warn] -- Warning: library/src/scala/util/FromDigits.scala:21:6 -----------------------
 [warn] 21 |  def fromDigits(digits: String): T
 [warn]    |      ^
-[warn]    |      ^
 [warn]    |      No DRI found for query: MalformedNumber
-[warn]    |      No DRI found for query: MalformedNumber
-[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
-[error] -- [E069] Naming Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
-[error] 13 |object IArray:
+[error] -- [E069] Naming Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
 [error] 13 |object IArray:
 [error]    |       ^
 [error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
 [error]    |(Note: this can be resolved by using another name)
+[error] -- [E069] Naming Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/library/src/scala/IArray.scala:13:7 
+[error] 13 |object IArray:
 [error]    |       ^
 [error]    |object IArray cannot have the same name as object IArray in package scala -- cannot define object member with the same name as a object member in self reference _.
 [error]    |(Note: this can be resolved by using another name)
 [warn] 14 warnings found
+[error] one error found
 [warn] 28 warnings found
 [error] one error found
-[error] one error found
-[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:47:33 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
-[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
-[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
-[info] 	published scala3-library_sjs1_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
-[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Wed Jun 21 23:47:33 EDT 2023
-[info] 	delivering ivy file to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
-[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
-[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
-[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
-[info] 	published scala3-library_3 to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
-[info] 	published ivy to /Users/y3536zha/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:46:01 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrapped/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_3.pom
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_3.jar
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_3-sources.jar
+[info] 	published scala3-library_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
+[info] :: delivering :: org.scala-lang#scala3-library_sjs1_3;3.3.1-RC1-bin-SNAPSHOT :: 3.3.1-RC1-bin-SNAPSHOT :: integration :: Thu Jun 29 06:46:01 EDT 2023
+[info] 	delivering ivy file to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/out/bootstrap/scala3-library-bootstrappedJS/scala-3.3.1-RC1-bin-SNAPSHOT-nonbootstrapped/ivy-3.3.1-RC1-bin-SNAPSHOT.xml
+[info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/poms/scala3-library_sjs1_3.pom
+[info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/jars/scala3-library_sjs1_3.jar
+[info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/srcs/scala3-library_sjs1_3-sources.jar
+[info] 	published scala3-library_sjs1_3 to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/docs/scala3-library_sjs1_3-javadoc.jar
+[info] 	published ivy to /Users/yixing/.ivy2/local/org.scala-lang/scala3-library_sjs1_3/3.3.1-RC1-bin-SNAPSHOT/ivys/ivy.xml
 [info] Test run dotty.communitybuild.CommunityBuildTestA started
 [info] Test run dotty.communitybuild.CommunityBuildTestA finished: 0 failed, 0 ignored, 0 total, 0.001s
 [info] Test run dotty.communitybuild.CommunityBuildTestC started
 [info] Test dotty.communitybuild.CommunityBuildTestC.akka started
 [32m[STARTING akka][0m
 [32mPublishing scala-xml[0m
-[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; xml/publishLocal[0m
-[info] welcome to sbt 1.8.0 (Oracle Corporation Java 9.0.4)
-[info] loading global plugins from /Users/y3536zha/.sbt/1.0/plugins
+[32msbt -sbt-version 1.8.0 -Dsbt.supershell=false -Ddotty.communitybuild.dir=/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build --addPluginSbtFile=/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/sbt-injected-plugins clean; set Global/logLevel := Level.Error; set Global/updateOptions ~= (_.withLatestSnapshots(false)); set Global/scalacOptions ++= List("-Xcheck-macros","-Ysafe-init","-Yexplicit-nulls");++3.3.1-RC1-bin-SNAPSHOT!; xml/publishLocal[0m
+[info] welcome to sbt 1.8.0 (AdoptOpenJDK Java 1.8.0_292)
+[info] loading global plugins from /Users/yixing/.sbt/1.0/plugins
 [info] loading settings for project scala-xml-build from plugins.sbt,sbt-injected-plugins ...
-[info] loading project definition from /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/project
+[info] loading project definition from /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/project
 [info] loading settings for project scala-xml from build.sbt ...
 SLF4J: No SLF4J providers were found.
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
 SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
-SLF4J: Ignoring binding found at [jar:file:/Users/y3536zha/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Ignoring binding found at [jar:file:/Users/yixing/.sbt/boot/scala-2.12.17/org.scala-sbt/sbt/1.8.0/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
 SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
-[info] set current project to scala-xml (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
-[success] Total time: 0 s, completed Jun 21, 2023, 11:47:51 PM
+[info] set current project to scala-xml (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
+[success] Total time: 0 s, completed Jun 29, 2023 6:46:44 AM
 [info] Defining Global / logLevel
 [info] The new value will be used by Test / test / testListeners, Test / testOnly / testListeners and 29 others.
 [info] 	Run `last` for details.
 [info] Reapplying settings...
-[info] set current project to scala-xml (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
+[info] set current project to scala-xml (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
 [info] Defining Global / updateOptions
 [info] The new value will be used by dependencyTreeIgnoreMissingUpdate / updateOptions, ivyConfiguration and 9 others.
 [info] 	Run `last` for details.
 [info] Reapplying settings...
-[info] set current project to scala-xml (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
+[info] set current project to scala-xml (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
 [info] Defining Global / scalacOptions
 [info] The new value will be used by Compile / scalacOptions, xml / scalacOptions and 1 others.
 [info] 	Run `last` for details.
 [info] Reapplying settings...
-[info] set current project to scala-xml (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
+[info] set current project to scala-xml (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
 [info] Forcing Scala version to 3.3.1-RC1-bin-SNAPSHOT on all projects.
 [info] Reapplying settings...
-[info] Loading dependency tracking file /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
-[info] Dependency tracking file /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
-[info] set current project to scala-xml (in build file:/Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
-[error] error while loading Typeable$package,
-[error] ZipFile invalid LOC header (bad signature)
-[error] error while loading $throws$package,
-[error] ZipFile invalid LOC header (bad signature)
-[error] error while loading language,
-[error] ZipFile invalid LOC header (bad signature)
-[error] error while loading package$package,
-[error] ZipFile invalid LOC header (bad signature)
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:20:0 
-[error] 20 |private[xml] object ScalaVersionSpecific {
-[error]    |^
-[error]    |package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:21:2 
-[error] 21 |  import NodeSeq.Coll
-[error]    |  ^
-[error]    |  package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:20:20 
-[error] 20 |private[xml] object ScalaVersionSpecific {
-[error]    |                    ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:22:28 
-[error] 22 |  type CBF[-From, -A, +C] = BuildFrom[From, A, C]
-[error]    |                            ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] error while loading Tuple$package,
-[error] ZipFile invalid LOC header (bad signature)
-[error] error while loading IArray$package,
-[error] ZipFile invalid LOC header (bad signature)
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/NodeSeq.scala:51:31 
-[error] 51 |abstract class NodeSeq extends AbstractSeq[Node] with immutable.Seq[Node] with ScalaVersionSpecificNodeSeq with Equality with Serializable {
-[error]    |                               ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/NodeSeq.scala:51:54 
-[error] 51 |abstract class NodeSeq extends AbstractSeq[Node] with immutable.Seq[Node] with ScalaVersionSpecificNodeSeq with Equality with Serializable {
-[error]    |                                                      ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:30:10 
-[error] 30 |  extends SeqOps[Node, immutable.Seq, NodeSeq]
-[error]    |          ^
-[error]    |          package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:31:9 
-[error] 31 |    with StrictOptimizedSeqOps[Node, immutable.Seq, NodeSeq] { self: NodeSeq =>
-[error]    |         ^
-[error]    |         package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:23:28 
-[error] 23 |  object NodeSeqCBF extends BuildFrom[Coll, Node, NodeSeq] {
-[error]    |                            ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:23:2 
-[error] 23 |  object NodeSeqCBF extends BuildFrom[Coll, Node, NodeSeq] {
-[error]    |  ^
-[error]    |  package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:24:32 
-[error] 24 |    def newBuilder(from: Coll): Builder[Node, NodeSeq] = NodeSeq.newBuilder
-[error]    |                                ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:24:8 
-[error] 24 |    def newBuilder(from: Coll): Builder[Node, NodeSeq] = NodeSeq.newBuilder
-[error]    |        ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:25:37 
-[error] 25 |    def fromSpecific(from: Coll)(it: IterableOnce[Node]): NodeSeq = (NodeSeq.newBuilder ++= from).result()
-[error]    |                                     ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:25:8 
-[error] 25 |    def fromSpecific(from: Coll)(it: IterableOnce[Node]): NodeSeq = (NodeSeq.newBuilder ++= from).result()
-[error]    |        ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:32:34 
-[error] 32 |  override def fromSpecific(coll: IterableOnce[Node]): NodeSeq = (NodeSeq.newBuilder ++= coll).result()
-[error]    |                                  ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:32:15 
-[error] 32 |  override def fromSpecific(coll: IterableOnce[Node]): NodeSeq = (NodeSeq.newBuilder ++= coll).result()
-[error]    |               ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:33:35 
-[error] 33 |  override def newSpecificBuilder: mutable.Builder[Node, NodeSeq] = NodeSeq.newBuilder
-[error]    |                                   ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:33:15 
-[error] 33 |  override def newSpecificBuilder: mutable.Builder[Node, NodeSeq] = NodeSeq.newBuilder
-[error]    |               ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:34:15 
-[error] 34 |  override def empty: NodeSeq = NodeSeq.Empty
-[error]    |               ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:35:21 
-[error] 35 |  def concat(suffix: IterableOnce[Node]): NodeSeq =
-[error]    |                     ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:35:6 
-[error] 35 |  def concat(suffix: IterableOnce[Node]): NodeSeq =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] error while loading Predef,
-[error] ZipFile invalid LOC header (bad signature)
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:37:32 
-[error] 37 |  @inline final def ++ (suffix: Seq[Node]): NodeSeq = concat(suffix)
-[error]    |                                ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:37:20 
-[error] 37 |  @inline final def ++ (suffix: Seq[Node]): NodeSeq = concat(suffix)
-[error]    |                    ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:38:6 
-[error] 38 |  def appended(base: Node): NodeSeq =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:40:26 
-[error] 40 |  def appendedAll(suffix: IterableOnce[Node]): NodeSeq =
-[error]    |                          ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:40:6 
-[error] 40 |  def appendedAll(suffix: IterableOnce[Node]): NodeSeq =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:42:6 
-[error] 42 |  def prepended(base: Node): NodeSeq =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:44:27 
-[error] 44 |  def prependedAll(prefix: IterableOnce[Node]): NodeSeq =
-[error]    |                           ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:44:6 
-[error] 44 |  def prependedAll(prefix: IterableOnce[Node]): NodeSeq =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:46:18 
-[error] 46 |  def map(f: Node => Node): NodeSeq =
-[error]    |                  ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:46:6 
-[error] 46 |  def map(f: Node => Node): NodeSeq =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:48:25 
-[error] 48 |  def flatMap(f: Node => IterableOnce[Node]): NodeSeq =
-[error]    |                         ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:48:22 
-[error] 48 |  def flatMap(f: Node => IterableOnce[Node]): NodeSeq =
-[error]    |                      ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:48:6 
-[error] 48 |  def flatMap(f: Node => IterableOnce[Node]): NodeSeq =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:52:52 
-[error] 52 |private[xml] trait ScalaVersionSpecificNodeBuffer { self: NodeBuffer =>
-[error]    |                                                    ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/NodeBuffer.scala:26:25 
-[error] 26 |class NodeBuffer extends scala.collection.mutable.ArrayBuffer[Node] with ScalaVersionSpecificNodeBuffer {
-[error]    |                         ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala:53:15 
-[error] 53 |  override def className: String = "NodeBuffer"
-[error]    |               ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:25:10 
-[error] 25 |class Atom[+A](val data: A) extends SpecialNode with Serializable {
-[error]    |          ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:25:36 
-[error] 25 |class Atom[+A](val data: A) extends SpecialNode with Serializable {
-[error]    |                                    ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:26:11 
-[error] 26 |  if (data == null)
-[error]    |           ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:27:59 
-[error] 27 |    throw new IllegalArgumentException("cannot construct " + getClass.getSimpleName + " with null")
-[error]    |                                                           ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:27:84 
-[error] 27 |    throw new IllegalArgumentException("cannot construct " + getClass.getSimpleName + " with null")
-[error]    |                                                                                    ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:29:43 
-[error] 29 |  override protected def basisForHashCode: Seq[Any] = Seq(data)
-[error]    |                                           ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:29:25 
-[error] 29 |  override protected def basisForHashCode: Seq[Any] = Seq(data)
-[error]    |                         ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:31:15 
-[error] 31 |  override def strict_==(other: Equality) = other match {
-[error]    |               ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:36:15 
-[error] 36 |  override def canEqual(other: Any) = other match {
-[error]    |               ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:41:21 
-[error] 41 |  final override def doCollectNamespaces = false
-[error]    |                     ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:42:21 
-[error] 42 |  final override def doTransform = false
-[error]    |                     ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:44:6 
-[error] 44 |  def label = "#PCDATA"
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:50:6 
-[error] 50 |  def buildString(sb: StringBuilder): StringBuilder =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala:53:15 
-[error] 53 |  override def text: String = data.toString
-[error]    |               ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:24:0 
-[error] 24 |object Attribute {
-[error]    |^
-[error]    |package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:25:2 
-[error] 25 |  def unapply(x: Attribute) = x match {
-[error]    |  ^
-[error]    |  package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:24:7 
-[error] 24 |object Attribute {
-[error]    |       ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/MetaData.scala:84:10 
-[error] 84 |  extends AbstractIterable[MetaData]
-[error]    |          ^
-[error]    |          package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/MetaData.scala:85:7 
-[error] 85 |  with Iterable[MetaData]
-[error]    |       ^
-[error]    |       package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/PrefixedAttribute.scala:29:13 
-[error] 29 |  val value: Seq[Node],
-[error]    |             ^
-[error]    |             package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/PrefixedAttribute.scala:67:42 
-[error] 67 |  def unapply(x: PrefixedAttribute) = Some((x.pre, x.key, x.value, x.next))
-[error]    |                                          ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- [E107] Syntax Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:26:26 
-[error] 26 |    case PrefixedAttribute(_, key, value, next) => Some((key, value, next))
-[error]    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[error]    |Wrong number of argument patterns for scala.xml.PrefixedAttribute; expected: ()
-[error]    |
-[error]    | longer explanation available when compiling with `-explain`
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:26:55 
-[error] 26 |    case PrefixedAttribute(_, key, value, next) => Some((key, value, next))
-[error]    |                                                       ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/UnprefixedAttribute.scala:25:13 
-[error] 25 |  val value: Seq[Node],
-[error]    |             ^
-[error]    |             package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/UnprefixedAttribute.scala:65:44 
-[error] 65 |  def unapply(x: UnprefixedAttribute) = Some((x.key, x.value, x.next))
-[error]    |                                            ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- [E107] Syntax Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:27:28 
-[error] 27 |    case UnprefixedAttribute(key, value, next)  => Some((key, value, next))
-[error]    |         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[error]    |Wrong number of argument patterns for scala.xml.UnprefixedAttribute; expected: ()
-[error]    |
-[error]    | longer explanation available when compiling with `-explain`
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:27:55 
-[error] 27 |    case UnprefixedAttribute(key, value, next)  => Some((key, value, next))
-[error]    |                                                       ^
-[error]    |      package scala.compiletime does not have a member method summonFrom
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:25:6 
-[error] 25 |  def unapply(x: Attribute) = x match {
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:32:32 
-[error] 32 |  def apply(key: String, value: Seq[Node], next: MetaData): Attribute =
-[error]    |                                ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:32:6 
-[error] 32 |  def apply(key: String, value: Seq[Node], next: MetaData): Attribute =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:35:6 
-[error] 35 |  def apply(pre: String, key: String, value: String, next: MetaData): Attribute =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:39:45 
-[error] 39 |  def apply(pre: String, key: String, value: Seq[Node], next: MetaData): Attribute =
-[error]    |                                             ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:39:6 
-[error] 39 |  def apply(pre: String, key: String, value: Seq[Node], next: MetaData): Attribute =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] error while loading Child,
-[error] ZipFile invalid LOC header (bad signature)
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:43:17 
-[error] 43 |  def apply(pre: Option[String], key: String, value: Seq[Node], next: MetaData): Attribute =
-[error]    |                 ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:43:53 
-[error] 43 |  def apply(pre: Option[String], key: String, value: Seq[Node], next: MetaData): Attribute =
-[error]    |                                                     ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:43:6 
-[error] 43 |  def apply(pre: Option[String], key: String, value: Seq[Node], next: MetaData): Attribute =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:56:33 
-[error] 56 |abstract trait Attribute extends MetaData {
-[error]    |                                 ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:57:6 
-[error] 57 |  def pre: String // will be null if unprefixed
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:59:13 
-[error] 59 |  val value: Seq[Node]
-[error]    |             ^
-[error]    |             package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:62:26 
-[error] 62 |  def apply(key: String): Seq[Node]
-[error]    |                          ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:62:6 
-[error] 62 |  def apply(key: String): Seq[Node]
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:63:70 
-[error] 63 |  def apply(namespace: String, scope: NamespaceBinding, key: String): Seq[Node]
-[error]    |                                                                      ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:63:6 
-[error] 63 |  def apply(namespace: String, scope: NamespaceBinding, key: String): Seq[Node]
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:64:6 
-[error] 64 |  def copy(next: MetaData): Attribute
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:66:6 
-[error] 66 |  def remove(key: String) =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:70:6 
-[error] 70 |  def remove(namespace: String, scope: NamespaceBinding, key: String) =
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:74:6 
+[info] Loading dependency tracking file /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps
+[info] Dependency tracking file /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/dotty-community-build-deps does not exist
+[info] set current project to scala-xml (in build file:/Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/)
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:36:8 
+[error] 36 |    if (pre == null || pre == "") new UnprefixedAttribute(key, value, next)
+[error]    |        ^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:40:8 
+[error] 40 |    if (pre == null || pre == "") new UnprefixedAttribute(key, value, next)
+[error]    |        ^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:74:28 
 [error] 74 |  def isPrefixed: Boolean = pre != null
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:76:6 
-[error] 76 |  def getNamespace(owner: Node): String
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:78:6 
-[error] 78 |  def wellformed(scope: NamespaceBinding): Boolean = {
-[error]    |      ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:84:25 
-[error] 84 |  override def iterator: Iterator[MetaData] = {
-[error]    |                         ^
-[error]    |               package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:84:15 
-[error] 84 |  override def iterator: Iterator[MetaData] = {
-[error]    |               ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:89:15 
-[error] 89 |  override def size: Int = {
-[error]    |               ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:97:16 
-[error] 97 |  protected def toString1(sb: StringBuilder): Unit = {
-[error]    |                ^
-[error]    |     package scala.compiletime does not have a member method erasedValue
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/MetaData.scala:116:68 
-[error] 116 |  final def apply(namespace_uri: String, owner: Node, key: String): Seq[Node] =
-[error]     |                                                                    ^
-[error]     |             package scala.runtime does not have a member type $throws
-[error] -- Error: /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/MetaData.scala:127:70 
-[error] 127 |  def apply(namespace_uri: String, scp: NamespaceBinding, k: String): Seq[Node]
-[error]     |                                                                      ^
-[error]     |             package scala.runtime does not have a member type $throws
-java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$ while typechecking /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Document.scala
-Exception while compiling /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala-2.13+/scala/xml/ScalaVersionSpecific.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Atom.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Comment.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Document.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Elem.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/EntityRef.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Equality.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Group.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/MalformedAttributeException.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/MetaData.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/NamespaceBinding.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Node.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/NodeBuffer.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/NodeSeq.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Null.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/PCData.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/PrefixedAttribute.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/PrettyPrinter.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/ProcInstr.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/QNode.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/SpecialNode.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Text.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/TextBuffer.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/TopScope.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/TypeSymbol.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Unparsed.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/UnprefixedAttribute.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Utility.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/XML.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Xhtml.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/ContentModel.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/DTD.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/Decl.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/DocType.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/ExternalID.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/Tokens.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/ValidationException.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/impl/Base.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/impl/BaseBerrySethi.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/impl/DetWordAutom.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/impl/Inclusion.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/impl/NondetWordAutom.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/impl/SubsetConstruction.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/impl/SyntaxError.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/impl/WordBerrySethi.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/dtd/impl/WordExp.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/factory/NodeFactory.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/factory/XMLLoader.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/include/CircularIncludeException.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/include/UnavailableResourceException.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/include/XIncludeException.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/include/sax/EncodingHeuristics.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/include/sax/XIncludeFilter.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/include/sax/XIncluder.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/package.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/ConstructingHandler.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/ConstructingParser.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/DefaultMarkupHandler.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/ExternalSources.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/FactoryAdapter.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/FatalError.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/MarkupHandler.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/MarkupParser.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/MarkupParserCommon.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/NoBindingFactoryAdapter.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/TokenTests.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/XhtmlEntities.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/parsing/XhtmlParser.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/transform/BasicTransformer.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/transform/NestingTransformer.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/transform/RewriteRule.scala, /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/transform/RuleTransformer.scala
-[error] ## Exception when compiling 73 sources to /Users/y3536zha/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/jvm/target/scala-3.3.1-RC1-bin-SNAPSHOT/classes
-[error] java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$
-[error] dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:169)
-[error] dotty.tools.dotc.ast.tpd$.New(tpd.scala:522)
-[error] dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:231)
-[error] dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:234)
-[error] dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:140)
-[error] dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:242)
-[error] dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
-[error] dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
-[error] dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:903)
-[error] dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:912)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] scala.collection.immutable.List.foreach(List.scala:333)
-[error] dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:912)
-[error] dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:815)
-[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-[error] dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-[error] dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-[error] dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2324)
-[error] dotty.tools.dotc.core.Types$Type.isRef(Types.scala:194)
-[error] dotty.tools.dotc.typer.Checking$.preCheckKind(Checking.scala:173)
-[error] dotty.tools.dotc.typer.Checking$.$anonfun$8(Checking.scala:179)
-[error] dotty.tools.dotc.core.Decorators$.zipWithConserve(Decorators.scala:155)
-[error] dotty.tools.dotc.typer.Checking$.preCheckKinds(Checking.scala:179)
-[error] dotty.tools.dotc.typer.Typer.typedAppliedTypeTree(Typer.scala:2199)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3061)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.typedType(Typer.scala:3289)
-[error] dotty.tools.dotc.typer.Namer.typedAheadType$$anonfun$1(Namer.scala:1642)
-[error] dotty.tools.dotc.typer.Namer.typedAhead(Namer.scala:1635)
-[error] dotty.tools.dotc.typer.Namer.typedAheadType(Namer.scala:1642)
-[error] dotty.tools.dotc.typer.Namer.valOrDefDefSig(Namer.scala:1730)
-[error] dotty.tools.dotc.typer.Namer.defDefSig(Namer.scala:1781)
-[error] dotty.tools.dotc.typer.Namer$Completer.typeSig(Namer.scala:791)
-[error] dotty.tools.dotc.typer.Namer$Completer.completeInCreationContext(Namer.scala:926)
-[error] dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:814)
-[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-[error] dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-[error] dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-[error] dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:393)
-[error] dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2976)
-[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3001)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
-[error] dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
-[error] dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3223)
-[error] dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
-[error] dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
-[error] dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-[error] dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
-[error] dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
-[error] scala.Function0.apply$mcV$sp(Function0.scala:42)
-[error] dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
-[error] dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
-[error] dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] scala.collection.immutable.List.foreach(List.scala:333)
-[error] dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
-[error] dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
-[error] dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
-[error] dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
-[error] dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
-[error] dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
-[error] dotty.tools.dotc.Run.compileUnits(Run.scala:279)
-[error] dotty.tools.dotc.Run.compileSources(Run.scala:194)
-[error] dotty.tools.dotc.Run.compile(Run.scala:179)
-[error] dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+[error]    |                            ^^^^^^^^^^^
+[error]    |        Values of types String and Null cannot be compared with == or !=
+[error] -- [E134] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:80:5 
+[error] 80 |    (next(arg, scope, key) == null) && (next wellformed scope)
+[error]    |     ^^^^
+[error]    |None of the overloaded alternatives of method apply in class MetaData with types
+[error]    | (namespace_uri: String, scp: scala.xml.NamespaceBinding, k: String):
+[error]    |  collection.Seq[scala.xml.Node]
+[error]    | (namespace_uri: String, owner: scala.xml.Node, key: String):
+[error]    |  collection.Seq[scala.xml.Node]
+[error]    | (key: String): collection.Seq[scala.xml.Node]
+[error]    |match arguments ((arg : String | Null), (scope : scala.xml.NamespaceBinding), (Attribute.this.key : String))
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:85:8 
+[error] 85 |    if (value == null) next.iterator
+[error]    |        ^^^^^^^^^^^^^
+[error]    |Values of types collection.Seq[scala.xml.Node] and Null cannot be compared with == or !=.
+[error]    |I found:
+[error]    |
+[error]    |    CanEqual.canEqualSeqs[T, U]
+[error]    |
+[error]    |But given instance canEqualSeqs in object CanEqual does not match type CanEqual[collection.Seq[scala.xml.Node], Null].
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:90:8 
+[error] 90 |    if (value == null) next.size
+[error]    |        ^^^^^^^^^^^^^
+[error]    |Values of types collection.Seq[scala.xml.Node] and Null cannot be compared with == or !=.
+[error]    |I found:
+[error]    |
+[error]    |    CanEqual.canEqualSeqs[T, U]
+[error]    |
+[error]    |But given instance canEqualSeqs in object CanEqual does not match type CanEqual[collection.Seq[scala.xml.Node], Null].
+[error] -- [E172] Type Error: /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala:98:8 
+[error] 98 |    if (value == null)
+[error]    |        ^^^^^^^^^^^^^
+[error]    |Values of types collection.Seq[scala.xml.Node] and Null cannot be compared with == or !=.
+[error]    |I found:
+[error]    |
+[error]    |    CanEqual.canEqualSeqs[T, U]
+[error]    |
+[error]    |But given instance canEqualSeqs in object CanEqual does not match type CanEqual[collection.Seq[scala.xml.Node], Null].
+java.lang.NoClassDefFoundError: dotty/tools/dotc/typer/NoLift$ while typechecking /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/shared/src/main/scala/scala/xml/Attribute.scala
+[error] ## Exception when compiling 73 sources to /Users/yixing/Desktop/scala_explicit/scala_flexible_type_with_test_script/community-build/community-projects/scala-xml/jvm/target/scala-3.3.1-RC1-bin-SNAPSHOT/classes
+[error] java.lang.NoClassDefFoundError: dotty/tools/dotc/Run$
+[error] dotty.tools.dotc.Driver.doCompile(Driver.scala:45)
 [error] dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
 [error] dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
 [error] sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
@@ -721,106 +290,15 @@ Exception while compiling /Users/y3536zha/Desktop/scala_explicit/scala_flexible_
 [error] sbt.Execute.$anonfun$submit$1(Execute.scala:282)
 [error] sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
 [error] sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
-[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-[error] java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[error] java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[error] java.base/java.lang.Thread.run(Unknown Source)
+[error] java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] java.lang.Thread.run(Thread.java:748)
 [error]            
-[error] java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$
-[error] 	at dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:169)
-[error] 	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:522)
-[error] 	at dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:231)
-[error] 	at dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:234)
-[error] 	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:140)
-[error] 	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:242)
-[error] 	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
-[error] 	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:903)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:912)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] 	at scala.collection.immutable.List.foreach(List.scala:333)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:912)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:815)
-[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-[error] 	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-[error] 	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-[error] 	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2324)
-[error] 	at dotty.tools.dotc.core.Types$Type.isRef(Types.scala:194)
-[error] 	at dotty.tools.dotc.typer.Checking$.preCheckKind(Checking.scala:173)
-[error] 	at dotty.tools.dotc.typer.Checking$.$anonfun$8(Checking.scala:179)
-[error] 	at dotty.tools.dotc.core.Decorators$.zipWithConserve(Decorators.scala:155)
-[error] 	at dotty.tools.dotc.typer.Checking$.preCheckKinds(Checking.scala:179)
-[error] 	at dotty.tools.dotc.typer.Typer.typedAppliedTypeTree(Typer.scala:2199)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3061)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.typedType(Typer.scala:3289)
-[error] 	at dotty.tools.dotc.typer.Namer.typedAheadType$$anonfun$1(Namer.scala:1642)
-[error] 	at dotty.tools.dotc.typer.Namer.typedAhead(Namer.scala:1635)
-[error] 	at dotty.tools.dotc.typer.Namer.typedAheadType(Namer.scala:1642)
-[error] 	at dotty.tools.dotc.typer.Namer.valOrDefDefSig(Namer.scala:1730)
-[error] 	at dotty.tools.dotc.typer.Namer.defDefSig(Namer.scala:1781)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.typeSig(Namer.scala:791)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.completeInCreationContext(Namer.scala:926)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:814)
-[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-[error] 	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-[error] 	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:393)
-[error] 	at dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2976)
-[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3001)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] 	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
-[error] 	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
-[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] 	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3223)
-[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] 	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
-[error] 	at scala.Function0.apply$mcV$sp(Function0.scala:42)
-[error] 	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] 	at scala.collection.immutable.List.foreach(List.scala:333)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
-[error] 	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] 	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
-[error] 	at dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
-[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
-[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
-[error] 	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
-[error] 	at dotty.tools.dotc.Run.compileUnits(Run.scala:279)
-[error] 	at dotty.tools.dotc.Run.compileSources(Run.scala:194)
-[error] 	at dotty.tools.dotc.Run.compile(Run.scala:179)
-[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+[error] java.lang.NoClassDefFoundError: dotty/tools/dotc/Run$
+[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:45)
 [error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
 [error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
 [error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
@@ -867,108 +345,17 @@ Exception while compiling /Users/y3536zha/Desktop/scala_explicit/scala_flexible_
 [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
 [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
 [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
-[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[error] 	at java.base/java.lang.Thread.run(Unknown Source)
-[error] Caused by: java.lang.ClassNotFoundException: scala.runtime.Scala3RunTime$
-[error] 	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
-[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-[error] 	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-[error] 	at dotty.tools.dotc.core.Symbols$Symbol.asTerm(Symbols.scala:169)
-[error] 	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:522)
-[error] 	at dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:231)
-[error] 	at dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:234)
-[error] 	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:140)
-[error] 	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:242)
-[error] 	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
-[error] 	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:903)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:912)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] 	at scala.collection.immutable.List.foreach(List.scala:333)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:912)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:815)
-[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-[error] 	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-[error] 	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-[error] 	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2324)
-[error] 	at dotty.tools.dotc.core.Types$Type.isRef(Types.scala:194)
-[error] 	at dotty.tools.dotc.typer.Checking$.preCheckKind(Checking.scala:173)
-[error] 	at dotty.tools.dotc.typer.Checking$.$anonfun$8(Checking.scala:179)
-[error] 	at dotty.tools.dotc.core.Decorators$.zipWithConserve(Decorators.scala:155)
-[error] 	at dotty.tools.dotc.typer.Checking$.preCheckKinds(Checking.scala:179)
-[error] 	at dotty.tools.dotc.typer.Typer.typedAppliedTypeTree(Typer.scala:2199)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3061)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.typedType(Typer.scala:3289)
-[error] 	at dotty.tools.dotc.typer.Namer.typedAheadType$$anonfun$1(Namer.scala:1642)
-[error] 	at dotty.tools.dotc.typer.Namer.typedAhead(Namer.scala:1635)
-[error] 	at dotty.tools.dotc.typer.Namer.typedAheadType(Namer.scala:1642)
-[error] 	at dotty.tools.dotc.typer.Namer.valOrDefDefSig(Namer.scala:1730)
-[error] 	at dotty.tools.dotc.typer.Namer.defDefSig(Namer.scala:1781)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.typeSig(Namer.scala:791)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.completeInCreationContext(Namer.scala:926)
-[error] 	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:814)
-[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:174)
-[error] 	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
-[error] 	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
-[error] 	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:393)
-[error] 	at dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2976)
-[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3001)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] 	at dotty.tools.dotc.typer.Typer.typedClassDef(Typer.scala:2656)
-[error] 	at dotty.tools.dotc.typer.Typer.typedTypeOrClassDef$1(Typer.scala:3023)
-[error] 	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:3027)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3097)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3196)
-[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] 	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3223)
-[error] 	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3242)
-[error] 	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2799)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:3068)
-[error] 	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:3098)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3170)
-[error] 	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3174)
-[error] 	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3286)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
-[error] 	at scala.Function0.apply$mcV$sp(Function0.scala:42)
-[error] 	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:437)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] 	at scala.collection.immutable.List.foreach(List.scala:333)
-[error] 	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
-[error] 	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:246)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
-[error] 	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
-[error] 	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
-[error] 	at dotty.tools.dotc.Run.runPhases$1(Run.scala:262)
-[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:270)
-[error] 	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:279)
-[error] 	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:67)
-[error] 	at dotty.tools.dotc.Run.compileUnits(Run.scala:279)
-[error] 	at dotty.tools.dotc.Run.compileSources(Run.scala:194)
-[error] 	at dotty.tools.dotc.Run.compile(Run.scala:179)
-[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:37)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] Caused by: java.lang.ClassNotFoundException: dotty.tools.dotc.Run$
+[error] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+[error] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+[error] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+[error] 	at dotty.tools.dotc.Driver.doCompile(Driver.scala:45)
 [error] 	at dotty.tools.xsbt.CompilerBridgeDriver.run(CompilerBridgeDriver.java:88)
 [error] 	at dotty.tools.xsbt.CompilerBridge.run(CompilerBridge.java:22)
 [error] 	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:91)
@@ -1015,16 +402,16 @@ Exception while compiling /Users/y3536zha/Desktop/scala_explicit/scala_flexible_
 [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
 [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
 [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
-[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
-[error] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-[error] 	at java.base/java.lang.Thread.run(Unknown Source)
-[error] (xml / Compile / compileIncremental) java.lang.NoClassDefFoundError: scala/runtime/Scala3RunTime$
-[error] Total time: 6 s, completed Jun 21, 2023, 11:48:01 PM
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[error] (xml / Compile / compileIncremental) java.lang.NoClassDefFoundError: dotty/tools/dotc/Run$
+[error] Total time: 23 s, completed Jun 29, 2023 6:47:15 AM
 [error] Test dotty.communitybuild.CommunityBuildTestC.akka failed: java.lang.RuntimeException: Publish command exited with code 1 for project scala-xml. Project details:
-[error] SbtCommunityProject(scala-xml,xml/test,List(),List(),dotty.communitybuild.SbtCommunityProject$$$Lambda$52/1331661612@52357662,xml/publishLocal,xml/doc,List(-Xcheck-macros, -Ysafe-init, -Yexplicit-nulls),false), took 26.836 sec
+[error] SbtCommunityProject(scala-xml,xml/test,List(),List(),dotty.communitybuild.SbtCommunityProject$$$Lambda$21/1382682713@16650dcc,xml/publishLocal,xml/doc,List(-Xcheck-macros, -Ysafe-init, -Yexplicit-nulls),false), took 72.478 sec
 [error]     at dotty.communitybuild.CommunityProject.publish(projects.scala:64)
 [error]     at dotty.communitybuild.CommunityProject.publish$(projects.scala:35)
 [error]     at dotty.communitybuild.SbtCommunityProject.publish(projects.scala:104)
@@ -1044,12 +431,8 @@ Exception while compiling /Users/y3536zha/Desktop/scala_explicit/scala_flexible_
 [error]     at scala.collection.immutable.List.foreach(List.scala:333)
 [error]     at dotty.communitybuild.CommunityBuildRunner$.run(CommunityBuildRunner.scala:24)
 [error]     at dotty.communitybuild.CommunityBuildTestC.akka(CommunityBuildTest.scala:61)
-[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[error]     at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[error]     at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[error]     at java.lang.reflect.Method.invoke(Unknown Source)
 [error]     ...
-[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 1 failed, 0 ignored, 1 total, 26.844s
+[info] Test run dotty.communitybuild.CommunityBuildTestC finished: 1 failed, 0 ignored, 1 total, 72.486s
 ********************************************************************************
 Failed projects:
  - dotty.communitybuild.CommunityBuildTestC.akka
@@ -1060,4 +443,4 @@ Failed projects:
 [error] Failed tests:
 [error] 	dotty.communitybuild.CommunityBuildTestC
 [error] (community-build / Test / testOnly) sbt.TestsFailedException: Tests unsuccessful
-[error] Total time: 60 s, completed Jun 21, 2023, 11:48:02 PM
+[error] Total time: 165 s (02:45), completed Jun 29, 2023 6:47:15 AM
